@@ -7,6 +7,6 @@ load('../eBiotic/Biotic/BioticData/MarineMammals/Data/Biotic/MarineMammalsSP.RDa
 save(mmSp, file = './Data/SpeciesList/MarineMammalsSP.RData')
 
 # Atlantic
-sp_atl <- read.csv("Data/SpeciesList/species_atlantic.csv")
+sp_atl <- read.csv("Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv")
 save(sp_atl, file = './Data/SpeciesList/SpeciesAtlantic.RData')
 
