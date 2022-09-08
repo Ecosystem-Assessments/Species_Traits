@@ -11,30 +11,24 @@
 "Agriopoma morrhuanum",11,594424,"Agriopoma morrhuanum","Animalia","Mollusca","Bivalvia","Venerida","Veneridae","Agriopoma","Agriopoma morrhuanum"
 "Alaria esculenta",2,145716,"Alaria esculenta","Chromista","Ochrophyta","Phaeophyceae","Laminariales","Alariaceae","Alaria","Alaria esculenta"
 "Alcyonium digitatum",24,125333,"Alcyonium digitatum","Animalia","Cnidaria","Anthozoa","Alcyonacea","Alcyoniidae","Alcyonium","Alcyonium digitatum"
-"Aldrovandia",3,125837,"Aldrovandia","Animalia","Chordata","Actinopteri","Notacanthiformes","Halosauridae","Aldrovandia",NA
-"Aldrovandia affinis",11,126637,"Aldrovandia affinis","Animalia","Chordata","Actinopteri","Notacanthiformes","Halosauridae","Aldrovandia","Aldrovandia affinis"
-"Aldrovandia phalacra",14,126638,"Aldrovandia phalacra","Animalia","Chordata","Actinopteri","Notacanthiformes","Halosauridae","Aldrovandia","Aldrovandia phalacra"
+"Aldrovandia",28,125837,"Aldrovandia","Animalia","Chordata","Actinopteri","Notacanthiformes","Halosauridae","Aldrovandia",NA
 "Alepisaurus brevirostris",1,126332,"Alepisaurus brevirostris","Animalia","Chordata","Actinopteri","Aulopiformes","Alepisauridae","Alepisaurus","Alepisaurus brevirostris"
 "Alepisaurus ferox",1,126333,"Alepisaurus ferox","Animalia","Chordata","Actinopteri","Aulopiformes","Alepisauridae","Alepisaurus","Alepisaurus ferox"
-"Alepocephalus",1,125868,"Alepocephalus","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Alepocephalus",NA
 "Alepocephalus agassizii",28,126681,"Alepocephalus agassizii","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Alepocephalus","Alepocephalus agassizii"
 "Alepocephalus bairdii",10,126682,"Alepocephalus bairdii","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Alepocephalus","Alepocephalus bairdii"
 "Alosa aestivalis",93,158667,"Alosa aestivalis","Animalia","Chordata","Actinopteri","Clupeiformes","Clupeidae","Alosa","Alosa aestivalis"
 "Alosa pseudoharengus",2305,158669,"Alosa pseudoharengus","Animalia","Chordata","Actinopteri","Clupeiformes","Clupeidae","Alosa","Alosa pseudoharengus"
 "Alosa sapidissima",880,158670,"Alosa sapidissima","Animalia","Chordata","Actinopteri","Clupeiformes","Clupeidae","Alosa","Alosa sapidissima"
-"Amauropsis islandica",4,140521,"Amauropsis islandica","Animalia","Mollusca","Gastropoda","Littorinimorpha","Naticidae","Amauropsis","Amauropsis islandica"
 "Amblyraja jenseni",2,105864,"Amblyraja jenseni","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Amblyraja","Amblyraja jenseni"
 "Amblyraja radiata",6643,105865,"Amblyraja radiata","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Amblyraja","Amblyraja radiata"
 "Ammodytes",1912,125909,"Ammodytes","Animalia","Chordata","Actinopteri","Perciformes","Ammodytidae","Ammodytes",NA
-"Ampelisca macrocephala",1,101908,"Ampelisca macrocephala","Animalia","Arthropoda","Malacostraca","Amphipoda","Ampeliscidae","Ampelisca","Ampelisca macrocephala"
+"Ampelisca",1,101445,"Ampelisca","Animalia","Arthropoda","Malacostraca","Amphipoda","Ampeliscidae","Ampelisca",NA
 "Anarhichas denticulatus",52,126757,"Anarhichas denticulatus","Animalia","Chordata","Actinopteri","Perciformes","Anarhichadidae","Anarhichas","Anarhichas denticulatus"
 "Anarhichas lupus",2323,126758,"Anarhichas lupus","Animalia","Chordata","Actinopteri","Perciformes","Anarhichadidae","Anarhichas","Anarhichas lupus"
 "Anarhichas minor",35,126759,"Anarhichas minor","Animalia","Chordata","Actinopteri","Perciformes","Anarhichadidae","Anarhichas","Anarhichas minor"
 "Anguilla rostrata",7,158562,"Anguilla rostrata","Animalia","Chordata","Actinopteri","Anguilliformes","Anguillidae","Anguilla","Anguilla rostrata"
-"Anomia",13,137650,"Anomia","Animalia","Mollusca","Bivalvia","Pectinida","Anomiidae","Anomia",NA
-"Anomia simplex",3,156737,"Anomia simplex","Animalia","Mollusca","Bivalvia","Pectinida","Anomiidae","Anomia","Anomia simplex"
-"Anonyx",12,101592,"Anonyx","Animalia","Arthropoda","Malacostraca","Amphipoda","Uristidae","Anonyx",NA
-"Anonyx sarsi",1,102516,"Anonyx sarsi","Animalia","Arthropoda","Malacostraca","Amphipoda","Uristidae","Anonyx","Anonyx sarsi"
+"Anomia",16,137650,"Anomia","Animalia","Mollusca","Bivalvia","Pectinida","Anomiidae","Anomia",NA
+"Anonyx",13,101592,"Anonyx","Animalia","Arthropoda","Malacostraca","Amphipoda","Uristidae","Anonyx",NA
 "Anoplogaster cornuta",10,126393,"Anoplogaster cornuta","Animalia","Chordata","Actinopteri","Trachichthyiformes","Anoplogastridae","Anoplogaster","Anoplogaster cornuta"
 "Anotopterus pharao",4,126334,"Anotopterus pharao","Animalia","Chordata","Actinopteri","Aulopiformes","Anotopteridae","Anotopterus","Anotopterus pharao"
 "Anthias nicholsi",5,159344,"Anthias nicholsi","Animalia","Chordata","Actinopteri","Perciformes","Serranidae","Anthias","Anthias nicholsi"
@@ -43,20 +37,14 @@
 "Antigonia capros",7,127418,"Antigonia capros","Animalia","Chordata","Actinopteri","Acanthuriformes","Caproidae","Antigonia","Antigonia capros"
 "Antimora rostrata",36,126486,"Antimora rostrata","Animalia","Chordata","Actinopteri","Gadiformes","Moridae","Antimora","Antimora rostrata"
 "Aphanopus carbo",3,127085,"Aphanopus carbo","Animalia","Chordata","Actinopteri","Scombriformes","Trichiuridae","Aphanopus","Aphanopus carbo"
-"Aphrodita",482,129194,"Aphrodita","Animalia","Annelida","Polychaeta","Phyllodocida","Aphroditidae","Aphrodita",NA
-"Aphrodita aculeata",1,129840,"Aphrodita aculeata","Animalia","Annelida","Polychaeta","Phyllodocida","Aphroditidae","Aphrodita","Aphrodita aculeata"
-"Aphrodita hastata",175,157181,"Aphrodita hastata","Animalia","Annelida","Polychaeta","Phyllodocida","Aphroditidae","Aphrodita","Aphrodita hastata"
-"Apristurus",19,105727,"Apristurus","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Pentanchidae","Apristurus",NA
-"Apristurus laurussoni",8,298467,"Apristurus laurussoni","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Pentanchidae","Apristurus","Apristurus laurussoni"
-"Apristurus manis",5,105808,"Apristurus manis","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Pentanchidae","Apristurus","Apristurus manis"
-"Apristurus profundorum",4,158513,"Apristurus profundorum","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Pentanchidae","Apristurus","Apristurus profundorum"
+"Aphrodita hastata",658,157181,"Aphrodita hastata","Animalia","Annelida","Polychaeta","Phyllodocida","Aphroditidae","Aphrodita","Aphrodita hastata"
+"Apristurus",36,105727,"Apristurus","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Pentanchidae","Apristurus",NA
 "Arbacia punctulata",9,158058,"Arbacia punctulata","Animalia","Echinodermata","Echinoidea","Arbacioida","Arbaciidae","Arbacia","Arbacia punctulata"
 "Arcoscalpellum michelottianum",2,106182,"Arcoscalpellum michelottianum","Animalia","Arthropoda","Thecostraca","Scalpellomorpha","Scalpellidae","Arcoscalpellum","Arcoscalpellum michelottianum"
 "Arctica islandica",82,138802,"Arctica islandica","Animalia","Mollusca","Bivalvia","Venerida","Arcticidae","Arctica","Arctica islandica"
 "Arenicola marina",1,129868,"Arenicola marina","Animalia","Annelida","Polychaeta",NA,"Arenicolidae","Arenicola","Arenicola marina"
 "Argentina silus",1461,126715,"Argentina silus","Animalia","Chordata","Actinopteri","Argentiniformes","Argentinidae","Argentina","Argentina silus"
 "Argis dentata",375,107550,"Argis dentata","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Argis","Argis dentata"
-"Argyropelecus",2,126196,"Argyropelecus","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Argyropelecus",NA
 "Argyropelecus aculeatus",36,127306,"Argyropelecus aculeatus","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Argyropelecus","Argyropelecus aculeatus"
 "Argyropelecus gigas",2,127308,"Argyropelecus gigas","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Argyropelecus","Argyropelecus gigas"
 "Ariomma bondi",1,159592,"Ariomma bondi","Animalia","Chordata","Actinopteri","Scombriformes","Ariommatidae","Ariomma","Ariomma bondi"
@@ -65,13 +53,12 @@
 "Arrhis phyllonyx",4,102870,"Arrhis phyllonyx","Animalia","Arthropoda","Malacostraca","Amphipoda","Oedicerotidae","Arrhis","Arrhis phyllonyx"
 "Arrhoges occidentalis",15,531617,"Arrhoges occidentalis","Animalia","Mollusca","Gastropoda","Littorinimorpha","Aporrhaidae","Arrhoges","Arrhoges occidentalis"
 "Artediellus",1083,126147,"Artediellus","Animalia","Chordata","Actinopteri","Perciformes","Cottidae","Artediellus",NA
-"Ascidiacea",1004,1839,"Ascidiacea","Animalia","Chordata","Ascidiacea",NA,NA,NA,NA
+"Ascidiacea",1027,1839,"Ascidiacea","Animalia","Chordata","Ascidiacea",NA,NA,NA,NA
 "Ascophyllum nodosum",64,145541,"Ascophyllum nodosum","Chromista","Ochrophyta","Phaeophyceae","Fucales","Fucaceae","Ascophyllum","Ascophyllum nodosum"
 "Aspidophoroides monopterygius",1665,159459,"Aspidophoroides monopterygius","Animalia","Chordata","Actinopteri","Perciformes","Agonidae","Aspidophoroides","Aspidophoroides monopterygius"
 "Aspidophoroides olriki",13,309267,"Aspidophoroides olriki","Animalia","Chordata","Actinopteri","Perciformes","Agonidae","Aspidophoroides","Aspidophoroides olriki"
 "Astarte",54,137683,"Astarte","Animalia","Mollusca","Bivalvia","Carditida","Astartidae","Astarte",NA
-"Asterias",1752,123219,"Asterias","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Asterias",NA
-"Asterias forbesi",218,158489,"Asterias forbesi","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Asterias","Asterias forbesi"
+"Asterias",1970,123219,"Asterias","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Asterias",NA
 "Astropecten americanus",68,158490,"Astropecten americanus","Animalia","Echinodermata","Asteroidea","Paxillosida","Astropectinidae","Astropecten","Astropecten americanus"
 "Astropecten duplicatus",1,178650,"Astropecten duplicatus","Animalia","Echinodermata","Asteroidea","Paxillosida","Astropectinidae","Astropecten","Astropecten duplicatus"
 "Atlantopandalus propinqvus",162,158351,"Atlantopandalus propinqvus","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Atlantopandalus","Atlantopandalus propinqvus"
@@ -79,35 +66,26 @@
 "Aurelia aurita",6,135306,"Aurelia aurita","Animalia","Cnidaria","Scyphozoa","Semaeostomeae","Ulmaridae","Aurelia","Aurelia aurita"
 "Axius serratus",23,158379,"Axius serratus","Animalia","Arthropoda","Malacostraca","Decapoda","Axiidae","Axius","Axius serratus"
 "Bajacalifornia megalops",3,126687,"Bajacalifornia megalops","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Bajacalifornia","Bajacalifornia megalops"
-"Balanidae",9,106057,"Balanidae","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae",NA,NA
+"Balanidae",26,106057,"Balanidae","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae",NA,NA
 "Balistes capriscus",1,154721,"Balistes capriscus","Animalia","Chordata","Actinopteri","Tetraodontiformes","Balistidae","Balistes","Balistes capriscus"
 "Bassogigas gilli",2,217793,"Bassogigas gilli","Animalia","Chordata","Actinopteri","Ophidiiformes","Ophidiidae","Bassogigas","Bassogigas gilli"
 "Bathygadus melanobranchus",1,126463,"Bathygadus melanobranchus","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Bathygadus","Bathygadus melanobranchus"
-"Bathylagus",1,125888,"Bathylagus","Animalia","Chordata","Actinopteri","Argentiniformes","Bathylagidae","Bathylagus",NA
 "Bathylagus bericoides",7,158720,"Bathylagus bericoides","Animalia","Chordata","Actinopteri","Argentiniformes","Bathylagidae","Bathylagus","Bathylagus bericoides"
 "Bathylagus euryops",32,126719,"Bathylagus euryops","Animalia","Chordata","Actinopteri","Argentiniformes","Bathylagidae","Bathylagus","Bathylagus euryops"
 "Bathynectes longispina",1,394995,"Bathynectes longispina","Animalia","Arthropoda","Malacostraca","Decapoda","Polybiidae","Bathynectes","Bathynectes longispina"
 "Bathynectes maravigna",4,107377,"Bathynectes maravigna","Animalia","Arthropoda","Malacostraca","Decapoda","Polybiidae","Bathynectes","Bathynectes maravigna"
 "Bathypolypus",1250,138265,"Bathypolypus","Animalia","Mollusca","Cephalopoda","Octopoda","Bathypolypodidae","Bathypolypus",NA
-"Bathypterois",1,125669,"Bathypterois","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois",NA
-"Bathypterois dubius",1,126342,"Bathypterois dubius","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois","Bathypterois dubius"
-"Bathypterois grallator",1,126343,"Bathypterois grallator","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois","Bathypterois grallator"
-"Bathypterois longipes",2,126344,"Bathypterois longipes","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois","Bathypterois longipes"
-"Bathypterois phenax",2,126345,"Bathypterois phenax","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois","Bathypterois phenax"
-"Bathypterois quadrifilis",4,158862,"Bathypterois quadrifilis","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois","Bathypterois quadrifilis"
-"Bathyraja",1,105761,"Bathyraja","Animalia","Chordata","Elasmobranchii","Rajiformes","Arhynchobatidae","Bathyraja",NA
+"Bathypterois",11,125669,"Bathypterois","Animalia","Chordata","Actinopteri","Aulopiformes","Ipnopidae","Bathypterois",NA
 "Bathyraja spinicauda",2,105868,"Bathyraja spinicauda","Animalia","Chordata","Elasmobranchii","Rajiformes","Arhynchobatidae","Bathyraja","Bathyraja spinicauda"
 "Bathysaurus ferox",8,126369,"Bathysaurus ferox","Animalia","Chordata","Actinopteri","Aulopiformes","Bathysauridae","Bathysaurus","Bathysaurus ferox"
 "Bathytroctes microlepis",1,126693,"Bathytroctes microlepis","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Bathytroctes","Bathytroctes microlepis"
 "Benthodesmus simonyi",20,127087,"Benthodesmus simonyi","Animalia","Chordata","Actinopteri","Scombriformes","Trichiuridae","Benthodesmus","Benthodesmus simonyi"
-"Benthosema",3,125815,"Benthosema","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Benthosema",NA
 "Beringius turtoni",4,138855,"Beringius turtoni","Animalia","Mollusca","Gastropoda","Neogastropoda","Buccinidae","Beringius","Beringius turtoni"
 "Beryx decadactylus",1,126394,"Beryx decadactylus","Animalia","Chordata","Actinopteri","Beryciformes","Berycidae","Beryx","Beryx decadactylus"
 "Bolocera",79,100698,"Bolocera","Animalia","Cnidaria","Anthozoa","Actiniaria","Actiniidae","Bolocera",NA
 "Boltenia ovifera",31,103815,"Boltenia ovifera","Animalia","Chordata","Ascidiacea","Stolidobranchia","Pyuridae","Boltenia","Boltenia ovifera"
 "Boreogadus saida",1,126433,"Boreogadus saida","Animalia","Chordata","Actinopteri","Gadiformes","Gadidae","Boreogadus","Boreogadus saida"
-"Borostomias",3,126204,"Borostomias","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Borostomias",NA
-"Borostomias antarcticus",18,127334,"Borostomias antarcticus","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Borostomias","Borostomias antarcticus"
+"Borostomias antarcticus",21,127334,"Borostomias antarcticus","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Borostomias","Borostomias antarcticus"
 "Bothus",1,126110,"Bothus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Bothidae","Bothus",NA
 "Brevoortia tyrannus",5,158691,"Brevoortia tyrannus","Animalia","Chordata","Actinopteri","Clupeiformes","Clupeidae","Brevoortia","Brevoortia tyrannus"
 "Brisaster fragilis",92,124404,"Brisaster fragilis","Animalia","Echinodermata","Echinoidea","Spatangoida","Schizasteridae","Brisaster","Brisaster fragilis"
@@ -116,13 +94,11 @@
 "Buccinum",950,137701,"Buccinum","Animalia","Mollusca","Gastropoda","Neogastropoda","Buccinidae","Buccinum",NA
 "Caelorinchus caelorinchus",3,154706,"Caelorinchus caelorinchus","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Caelorinchus","Caelorinchus caelorinchus"
 "Calathura brachiata",20,118497,"Calathura brachiata","Animalia","Arthropoda","Malacostraca","Isopoda","Leptanthuridae","Calathura","Calathura brachiata"
-"Callionymidae",8,125522,"Callionymidae","Animalia","Chordata","Actinopteri","Callionymiformes","Callionymidae",NA,NA
 "Callionymus",2,125930,"Callionymus","Animalia","Chordata","Actinopteri","Callionymiformes","Callionymidae","Callionymus",NA
 "Calliostoma occidentale",1,141765,"Calliostoma occidentale","Animalia","Mollusca","Gastropoda","Trochida","Calliostomatidae","Calliostoma","Calliostoma occidentale"
 "Cancer borealis",2090,158056,"Cancer borealis","Animalia","Arthropoda","Malacostraca","Decapoda","Cancridae","Cancer","Cancer borealis"
 "Cancer irroratus",1363,158057,"Cancer irroratus","Animalia","Arthropoda","Malacostraca","Decapoda","Cancridae","Cancer","Cancer irroratus"
 "Carcharias taurus",1,105843,"Carcharias taurus","Animalia","Chordata","Elasmobranchii","Lamniformes","Odontaspididae","Carcharias","Carcharias taurus"
-"Careproctus",2,126156,"Careproctus","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Careproctus",NA
 "Careproctus longipinnis",4,146774,"Careproctus longipinnis","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Careproctus","Careproctus longipinnis"
 "Careproctus ranula",5,159523,"Careproctus ranula","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Careproctus","Careproctus ranula"
 "Careproctus reinhardti",34,127212,"Careproctus reinhardti","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Careproctus","Careproctus reinhardti"
@@ -134,17 +110,12 @@
 "Ceramaster granularis",311,124020,"Ceramaster granularis","Animalia","Echinodermata","Asteroidea","Valvatida","Goniasteridae","Ceramaster","Ceramaster granularis"
 "Cerastoderma pinnulatum",4,156756,"Cerastoderma pinnulatum","Animalia","Mollusca","Bivalvia","Cardiida","Cardiidae","Cerastoderma","Cerastoderma pinnulatum"
 "Ceratias holboelli",1,126537,"Ceratias holboelli","Animalia","Chordata","Actinopteri","Lophiiformes","Ceratiidae","Ceratias","Ceratias holboelli"
-"Ceratoscopelus",4,125818,"Ceratoscopelus","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Ceratoscopelus",NA
-"Ceratoscopelus maderensis",25,126585,"Ceratoscopelus maderensis","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Ceratoscopelus","Ceratoscopelus maderensis"
 "Chaceon quinquedens",119,158407,"Chaceon quinquedens","Animalia","Arthropoda","Malacostraca","Decapoda","Geryonidae","Chaceon","Chaceon quinquedens"
 "Chauliodus sloani",74,127338,"Chauliodus sloani","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Chauliodus","Chauliodus sloani"
 "Chaunax",1,125796,"Chaunax","Animalia","Chordata","Actinopteri","Lophiiformes","Chaunacidae","Chaunax",NA
-"Chiasmodon",6,125956,"Chiasmodon","Animalia","Chordata","Actinopteri","Scombriformes","Chiasmodontidae","Chiasmodon",NA
-"Chiasmodon bolangeri",1,126839,"Chiasmodon bolangeri","Animalia","Chordata","Actinopteri","Scombriformes","Chiasmodontidae","Chiasmodon","Chiasmodon bolangeri"
-"Chiasmodon niger",17,126840,"Chiasmodon niger","Animalia","Chordata","Actinopteri","Scombriformes","Chiasmodontidae","Chiasmodon","Chiasmodon niger"
+"Chiasmodon",24,125956,"Chiasmodon","Animalia","Chordata","Actinopteri","Scombriformes","Chiasmodontidae","Chiasmodon",NA
 "Chionoecetes opilio",2304,107315,"Chionoecetes opilio","Animalia","Arthropoda","Malacostraca","Decapoda","Oregoniidae","Chionoecetes","Chionoecetes opilio"
 "Chiridota laevis",1,124434,"Chiridota laevis","Animalia","Echinodermata","Holothuroidea","Apodida","Chiridotidae","Chiridota","Chiridota laevis"
-"Chirona hameri",17,106207,"Chirona hameri","Animalia","Arthropoda","Thecostraca","Balanomorpha","Balanidae","Chirona","Chirona hameri"
 "Chlamys islandica",499,140692,"Chlamys islandica","Animalia","Mollusca","Bivalvia","Pectinida","Pectinidae","Chlamys","Chlamys islandica"
 "Chlorophthalmus agassizi",137,126336,"Chlorophthalmus agassizi","Animalia","Chordata","Actinopteri","Aulopiformes","Chlorophthalmidae","Chlorophthalmus","Chlorophthalmus agassizi"
 "Chrysogorgia agassizii",5,125351,"Chrysogorgia agassizii","Animalia","Cnidaria","Anthozoa","Alcyonacea","Chrysogorgiidae","Chrysogorgia","Chrysogorgia agassizii"
@@ -154,17 +125,14 @@
 "Clupea harengus",5942,126417,"Clupea harengus","Animalia","Chordata","Actinopteri","Clupeiformes","Clupeidae","Clupea","Clupea harengus"
 "Colossendeis",1,134586,"Colossendeis","Animalia","Arthropoda","Pycnogonida","Pantopoda","Colossendeidae","Colossendeis",NA
 "Colus",154,137704,"Colus","Animalia","Mollusca","Gastropoda","Neogastropoda","Colidae","Colus",NA
-"Conger",1,125624,"Conger","Animalia","Chordata","Actinopteri","Anguilliformes","Congridae","Conger",NA
-"Conger oceanicus",9,158566,"Conger oceanicus","Animalia","Chordata","Actinopteri","Anguilliformes","Congridae","Conger","Conger oceanicus"
+"Conger",10,125624,"Conger","Animalia","Chordata","Actinopteri","Anguilliformes","Congridae","Conger",NA
 "Conocara salmonea",3,301785,"Conocara salmonea","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Conocara","Conocara salmonea"
 "Cookeolus boops",1,218359,"Cookeolus boops","Animalia","Chordata","Actinopteri","Eupercaria incertae sedis","Priacanthidae","Cookeolus","Cookeolus boops"
-"Coryphaenoides",1,125748,"Coryphaenoides","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Coryphaenoides",NA
 "Coryphaenoides carapinus",1,158956,"Coryphaenoides carapinus","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Coryphaenoides","Coryphaenoides carapinus"
 "Coryphaenoides rupestris",87,158960,"Coryphaenoides rupestris","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Coryphaenoides","Coryphaenoides rupestris"
 "Cottunculus microps",73,127235,"Cottunculus microps","Animalia","Chordata","Actinopteri","Perciformes","Psychrolutidae","Cottunculus","Cottunculus microps"
 "Cottunculus thompsoni",27,183101,"Cottunculus thompsoni","Animalia","Chordata","Actinopteri","Perciformes","Psychrolutidae","Cottunculus","Cottunculus thompsoni"
-"Crangon",276,107007,"Crangon","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Crangon",NA
-"Crangon septemspinosa",336,158355,"Crangon septemspinosa","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Crangon","Crangon septemspinosa"
+"Crangon septemspinosa",612,158355,"Crangon septemspinosa","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Crangon","Crangon septemspinosa"
 "Crossaster papposus",1015,124154,"Crossaster papposus","Animalia","Echinodermata","Asteroidea","Valvatida","Solasteridae","Crossaster","Crossaster papposus"
 "Cryptacanthodes maculatus",208,159675,"Cryptacanthodes maculatus","Animalia","Chordata","Actinopteri","Perciformes","Cryptacanthodidae","Cryptacanthodes","Cryptacanthodes maculatus"
 "Ctenodiscus crispatus",526,123915,"Ctenodiscus crispatus","Animalia","Echinodermata","Asteroidea","Paxillosida","Ctenodiscidae","Ctenodiscus","Ctenodiscus crispatus"
@@ -173,20 +141,14 @@
 "Cucumaria frondosa",723,124612,"Cucumaria frondosa","Animalia","Echinodermata","Holothuroidea","Dendrochirotida","Cucumariidae","Cucumaria","Cucumaria frondosa"
 "Cyanea capillata",79,135301,"Cyanea capillata","Animalia","Cnidaria","Scyphozoa","Semaeostomeae","Cyaneidae","Cyanea","Cyanea capillata"
 "Cyclopterus lumpus",546,127214,"Cyclopterus lumpus","Animalia","Chordata","Actinopteri","Perciformes","Cyclopteridae","Cyclopterus","Cyclopterus lumpus"
-"Cyclothone",13,126187,"Cyclothone","Animalia","Chordata","Actinopteri","Stomiiformes","Gonostomatidae","Cyclothone",NA
 "Cyrtodaria siliqua",47,140102,"Cyrtodaria siliqua","Animalia","Mollusca","Bivalvia","Adapedonta","Hiatellidae","Cyrtodaria","Cyrtodaria siliqua"
 "Cyttopsis rosea",8,127425,"Cyttopsis rosea","Animalia","Chordata","Actinopteri","Zeiformes","Parazenidae","Cyttopsis","Cyttopsis rosea"
-"Dendrodoa",1,103531,"Dendrodoa","Animalia","Chordata","Ascidiacea","Stolidobranchia","Styelidae","Dendrodoa",NA
 "Dendronotus",12,137885,"Dendronotus","Animalia","Mollusca","Gastropoda","Nudibranchia","Dendronotidae","Dendronotus",NA
 "Derichthys serpentinus",8,126291,"Derichthys serpentinus","Animalia","Chordata","Actinopteri","Anguilliformes","Derichthyidae","Derichthys","Derichthys serpentinus"
 "Desmarestia aculeata",1,145307,"Desmarestia aculeata","Chromista","Ochrophyta","Phaeophyceae","Desmarestiales","Desmarestiaceae","Desmarestia","Desmarestia aculeata"
-"Diaphus dumerilii",16,126590,"Diaphus dumerilii","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Diaphus","Diaphus dumerilii"
-"Diaphus effulgens",1,126591,"Diaphus effulgens","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Diaphus","Diaphus effulgens"
 "Dibranchus atlanticus",44,126558,"Dibranchus atlanticus","Animalia","Chordata","Actinopteri","Lophiiformes","Ogcocephalidae","Dibranchus","Dibranchus atlanticus"
-"Dichelopandalus",2,107041,"Dichelopandalus","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Dichelopandalus",NA
-"Dichelopandalus leptocerus",250,158356,"Dichelopandalus leptocerus","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Dichelopandalus","Dichelopandalus leptocerus"
+"Dichelopandalus leptocerus",252,158356,"Dichelopandalus leptocerus","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Dichelopandalus","Dichelopandalus leptocerus"
 "Dicrolene introniger",12,275895,"Dicrolene introniger","Animalia","Chordata","Actinopteri","Ophidiiformes","Ophidiidae","Dicrolene","Dicrolene introniger"
-"Diplophos maderensis",1,127291,"Diplophos maderensis","Animalia","Chordata","Actinopteri","Stomiiformes","Gonostomatidae","Diplophos","Diplophos maderensis"
 "Diplopteraster multipes",67,124128,"Diplopteraster multipes","Animalia","Echinodermata","Asteroidea","Velatida","Pterasteridae","Diplopteraster","Diplopteraster multipes"
 "Dipturus laevis",628,158548,"Dipturus laevis","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Dipturus","Dipturus laevis"
 "Drifa glomerata",9,146941,"Drifa glomerata","Animalia","Cnidaria","Anthozoa","Alcyonacea","Nephtheidae","Drifa","Drifa glomerata"
@@ -196,9 +158,7 @@
 "Ectreposebastes imus",1,159566,"Ectreposebastes imus","Animalia","Chordata","Actinopteri","Perciformes","Setarchidae","Ectreposebastes","Ectreposebastes imus"
 "Enchelyopus cimbrius",1167,126450,"Enchelyopus cimbrius","Animalia","Chordata","Actinopteri","Gadiformes","Lotidae","Enchelyopus","Enchelyopus cimbrius"
 "Ensis directus",3,933783,"Ensis directus","Animalia","Mollusca","Bivalvia","Adapedonta","Pharidae","Ensis","Ensis directus"
-"Epigonus",1,125967,"Epigonus","Animalia","Chordata","Actinopteri","Acropomatiformes","Epigonidae","Epigonus",NA
-"Epigonus denticulatus",3,126857,"Epigonus denticulatus","Animalia","Chordata","Actinopteri","Acropomatiformes","Epigonidae","Epigonus","Epigonus denticulatus"
-"Epigonus pandionis",3,159706,"Epigonus pandionis","Animalia","Chordata","Actinopteri","Acropomatiformes","Epigonidae","Epigonus","Epigonus pandionis"
+"Epigonus",7,125967,"Epigonus","Animalia","Chordata","Actinopteri","Acropomatiformes","Epigonidae","Epigonus",NA
 "Epimeria loricata",3,102146,"Epimeria loricata","Animalia","Arthropoda","Malacostraca","Amphipoda","Epimeriidae","Epimeria","Epimeria loricata"
 "Epizoanthus erdmanni",69,101027,"Epizoanthus erdmanni","Animalia","Cnidaria","Anthozoa","Zoantharia","Epizoanthidae","Epizoanthus","Epizoanthus erdmanni"
 "Etmopterus princeps",18,105911,"Etmopterus princeps","Animalia","Chordata","Elasmobranchii","Squaliformes","Etmopteridae","Etmopterus","Etmopterus princeps"
@@ -210,6 +170,7 @@
 "Eumicrotremus spinosus",327,127217,"Eumicrotremus spinosus","Animalia","Chordata","Actinopteri","Perciformes","Cyclopteridae","Eumicrotremus","Eumicrotremus spinosus"
 "Euphausia",2,110673,"Euphausia","Animalia","Arthropoda","Malacostraca","Euphausiacea","Euphausiidae","Euphausia",NA
 "Eurypharynx pelecanoides",15,127165,"Eurypharynx pelecanoides","Animalia","Chordata","Actinopteri","Saccopharyngiformes","Eurypharyngidae","Eurypharynx","Eurypharynx pelecanoides"
+"Eusergestes arcticus",84,515738,"Eusergestes arcticus","Animalia","Arthropoda","Malacostraca","Decapoda","Sergestidae","Eusergestes","Eusergestes arcticus"
 "Eusirus cuspidatus",1,102199,"Eusirus cuspidatus","Animalia","Arthropoda","Malacostraca","Amphipoda","Eusiridae","Eusirus","Eusirus cuspidatus"
 "Evermannella indica",1,126339,"Evermannella indica","Animalia","Chordata","Actinopteri","Aulopiformes","Evermannellidae","Evermannella","Evermannella indica"
 "Flabellum",82,135114,"Flabellum","Animalia","Cnidaria","Anthozoa","Scleractinia","Flabellidae","Flabellum",NA
@@ -221,22 +182,17 @@
 "Gadus morhua",10065,126436,"Gadus morhua","Animalia","Chordata","Actinopteri","Gadiformes","Gadidae","Gadus","Gadus morhua"
 "Gadus ogac",8,158926,"Gadus ogac","Animalia","Chordata","Actinopteri","Gadiformes","Gadidae","Gadus","Gadus ogac"
 "Gaidropsarus",35,125743,"Gaidropsarus","Animalia","Chordata","Actinopteri","Gadiformes","Lotidae","Gaidropsarus",NA
-"Gasterosteus aculeatus",20,126505,"Gasterosteus aculeatus","Animalia","Chordata","Actinopteri","Perciformes","Gasterosteidae","Gasterosteus","Gasterosteus aculeatus"
+"Gasterosteus aculeatus aculeatus",20,236462,"Gasterosteus aculeatus aculeatus","Animalia","Chordata","Actinopteri","Perciformes","Gasterosteidae","Gasterosteus","Gasterosteus aculeatus"
 "Gennadas",11,106813,"Gennadas","Animalia","Arthropoda","Malacostraca","Decapoda","Benthesicymidae","Gennadas",NA
-"Geodia",30,132005,"Geodia","Animalia","Porifera","Demospongiae","Tetractinellida","Geodiidae","Geodia",NA
 "Gersemia fruticosa",4,156101,"Gersemia fruticosa","Animalia","Cnidaria","Anthozoa","Alcyonacea","Nephtheidae","Gersemia","Gersemia fruticosa"
 "Gersemia rubiformis",192,156103,"Gersemia rubiformis","Animalia","Cnidaria","Anthozoa","Alcyonacea","Nephtheidae","Gersemia","Gersemia rubiformis"
 "Glycera capitata",2,130118,"Glycera capitata","Animalia","Annelida","Polychaeta","Phyllodocida","Glyceridae","Glycera","Glycera capitata"
 "Glyptocephalus cynoglossus",6378,127136,"Glyptocephalus cynoglossus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Pleuronectidae","Glyptocephalus","Glyptocephalus cynoglossus"
 "Gnathophausia",20,119826,"Gnathophausia","Animalia","Arthropoda","Malacostraca","Lophogastrida","Gnathophausiidae","Gnathophausia",NA
-"Gonatus",4,138036,"Gonatus","Animalia","Mollusca","Cephalopoda","Oegopsida","Gonatidae","Gonatus",NA
 "Gonatus fabricii",2,153097,"Gonatus fabricii","Animalia","Mollusca","Cephalopoda","Oegopsida","Gonatidae","Gonatus","Gonatus fabricii"
 "Gonatus steenstrupi",2,140027,"Gonatus steenstrupi","Animalia","Mollusca","Cephalopoda","Oegopsida","Gonatidae","Gonatus","Gonatus steenstrupi"
-"Gonostoma bathyphilum",9,127294,"Gonostoma bathyphilum","Animalia","Chordata","Actinopteri","Stomiiformes","Gonostomatidae","Gonostoma","Gonostoma bathyphilum"
-"Gonostoma elongatum",25,127296,"Gonostoma elongatum","Animalia","Chordata","Actinopteri","Stomiiformes","Gonostomatidae","Gonostoma","Gonostoma elongatum"
-"Gonostomatidae",6,125601,"Gonostomatidae","Animalia","Chordata","Actinopteri","Stomiiformes","Gonostomatidae",NA,NA
-"Gorgonocephalus",409,123586,"Gorgonocephalus","Animalia","Echinodermata","Ophiuroidea","Euryalida","Gorgonocephalidae","Gorgonocephalus",NA
-"Gorgonocephalus lamarcki",1,416670,"Gorgonocephalus lamarcki","Animalia","Echinodermata","Ophiuroidea","Euryalida","Gorgonocephalidae","Gorgonocephalus","Gorgonocephalus lamarcki"
+"Gonostomatidae",54,125601,"Gonostomatidae","Animalia","Chordata","Actinopteri","Stomiiformes","Gonostomatidae",NA,NA
+"Gorgonocephalus",410,123586,"Gorgonocephalus","Animalia","Echinodermata","Ophiuroidea","Euryalida","Gorgonocephalidae","Gorgonocephalus",NA
 "Grammatostomias dentatus",1,158731,"Grammatostomias dentatus","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Grammatostomias","Grammatostomias dentatus"
 "Grammicolepis brachiusculus",8,127420,"Grammicolepis brachiusculus","Animalia","Chordata","Actinopteri","Zeiformes","Grammicolepididae","Grammicolepis","Grammicolepis brachiusculus"
 "Gymnelis viridis",14,298255,"Gymnelis viridis","Animalia","Chordata","Actinopteri","Perciformes","Zoarcidae","Gymnelis","Gymnelis viridis"
@@ -245,7 +201,6 @@
 "Halieutichthys aculeatus",3,159190,"Halieutichthys aculeatus","Animalia","Chordata","Actinopteri","Lophiiformes","Ogcocephalidae","Halieutichthys","Halieutichthys aculeatus"
 "Halosauropsis macrochir",7,126639,"Halosauropsis macrochir","Animalia","Chordata","Actinopteri","Notacanthiformes","Halosauridae","Halosauropsis","Halosauropsis macrochir"
 "Halosaurus guentheri",4,158557,"Halosaurus guentheri","Animalia","Chordata","Actinopteri","Notacanthiformes","Halosauridae","Halosaurus","Halosaurus guentheri"
-"Harmothoe extenuata",3,130762,"Harmothoe extenuata","Animalia","Annelida","Polychaeta","Phyllodocida","Polynoidae","Harmothoe","Harmothoe extenuata"
 "Harriotta raleighana",33,105829,"Harriotta raleighana","Animalia","Chordata","Holocephali","Chimaeriformes","Rhinochimaeridae","Harriotta","Harriotta raleighana"
 "Helicolenus dactylopterus",951,127251,"Helicolenus dactylopterus","Animalia","Chordata","Actinopteri","Perciformes","Sebastidae","Helicolenus","Helicolenus dactylopterus"
 "Heliometra glacialis",6,124223,"Heliometra glacialis","Animalia","Echinodermata","Crinoidea","Comatulida","Antedonidae","Heliometra","Heliometra glacialis"
@@ -258,9 +213,7 @@
 "Hippoglossina oblonga",607,158833,"Hippoglossina oblonga","Animalia","Chordata","Actinopteri","Pleuronectiformes","Paralichthyidae","Hippoglossina","Hippoglossina oblonga"
 "Hippoglossoides platessoides",10492,127137,"Hippoglossoides platessoides","Animalia","Chordata","Actinopteri","Pleuronectiformes","Pleuronectidae","Hippoglossoides","Hippoglossoides platessoides"
 "Hippoglossus hippoglossus",2696,127138,"Hippoglossus hippoglossus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Pleuronectidae","Hippoglossus","Hippoglossus hippoglossus"
-"Histioteuthidae",1,11749,"Histioteuthidae","Animalia","Mollusca","Cephalopoda","Oegopsida","Histioteuthidae",NA,NA
-"Histioteuthis",2,138074,"Histioteuthis","Animalia","Mollusca","Cephalopoda","Oegopsida","Histioteuthidae","Histioteuthis",NA
-"Histioteuthis reversa",7,181381,"Histioteuthis reversa","Animalia","Mollusca","Cephalopoda","Oegopsida","Histioteuthidae","Histioteuthis","Histioteuthis reversa"
+"Histioteuthis reversa",9,181381,"Histioteuthis reversa","Animalia","Mollusca","Cephalopoda","Oegopsida","Histioteuthidae","Histioteuthis","Histioteuthis reversa"
 "Holtbyrnia anomala",5,126739,"Holtbyrnia anomala","Animalia","Chordata","Actinopteri","Alepocephaliformes","Platytroctidae","Holtbyrnia","Holtbyrnia anomala"
 "Homarus americanus",2870,156134,"Homarus americanus","Animalia","Arthropoda","Malacostraca","Decapoda","Nephropidae","Homarus","Homarus americanus"
 "Homola minima",1,421895,"Homola minima","Animalia","Arthropoda","Malacostraca","Decapoda","Homolidae","Homola","Homola minima"
@@ -271,39 +224,27 @@
 "Hyas araneus",929,107322,"Hyas araneus","Animalia","Arthropoda","Malacostraca","Decapoda","Oregoniidae","Hyas","Hyas araneus"
 "Hyas coarctatus",1089,107323,"Hyas coarctatus","Animalia","Arthropoda","Malacostraca","Decapoda","Oregoniidae","Hyas","Hyas coarctatus"
 "Hydrolagus affinis",5,105825,"Hydrolagus affinis","Animalia","Chordata","Holocephali","Chimaeriformes","Chimaeridae","Hydrolagus","Hydrolagus affinis"
-"Hygophum hygomi",4,400440,"Hygophum hygomi","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Hygophum","Hygophum hygomi"
 "Hyperoglyphe perciformis",7,126832,"Hyperoglyphe perciformis","Animalia","Chordata","Actinopteri","Scombriformes","Centrolophidae","Hyperoglyphe","Hyperoglyphe perciformis"
 "Icelus",83,126150,"Icelus","Animalia","Chordata","Actinopteri","Perciformes","Cottidae","Icelus",NA
 "Ichnopus",3,101614,"Ichnopus","Animalia","Arthropoda","Malacostraca","Amphipoda","Uristidae","Ichnopus",NA
 "Idotea",1,118454,"Idotea","Animalia","Arthropoda","Malacostraca","Isopoda","Idoteidae","Idotea",NA
 "Illex illecebrosus",6340,153087,"Illex illecebrosus","Animalia","Mollusca","Cephalopoda","Oegopsida","Ommastrephidae","Illex","Illex illecebrosus"
-"Ilyophis",1,125654,"Ilyophis","Animalia","Chordata","Actinopteri","Anguilliformes","Synaphobranchidae","Ilyophis",NA
-"Ilyophis brunneus",3,126326,"Ilyophis brunneus","Animalia","Chordata","Actinopteri","Anguilliformes","Synaphobranchidae","Ilyophis","Ilyophis brunneus"
+"Ilyophis brunneus",4,126326,"Ilyophis brunneus","Animalia","Chordata","Actinopteri","Anguilliformes","Synaphobranchidae","Ilyophis","Ilyophis brunneus"
 "Keratoisis ornata",26,158285,"Keratoisis ornata","Animalia","Cnidaria","Anthozoa","Alcyonacea","Keratoisididae","Keratoisis","Keratoisis ornata"
-"Laemonema",1,125767,"Laemonema","Animalia","Chordata","Actinopteri","Gadiformes","Moridae","Laemonema",NA
-"Laemonema barbatulum",2,158979,"Laemonema barbatulum","Animalia","Chordata","Actinopteri","Gadiformes","Moridae","Laemonema","Laemonema barbatulum"
+"Laemonema barbatulum",3,158979,"Laemonema barbatulum","Animalia","Chordata","Actinopteri","Gadiformes","Moridae","Laemonema","Laemonema barbatulum"
 "Laminaria digitata",1,145724,"Laminaria digitata","Chromista","Ochrophyta","Phaeophyceae","Laminariales","Laminariaceae","Laminaria","Laminaria digitata"
 "Laminaria longicruris",8,157209,"Laminaria longicruris","Chromista","Ochrophyta","Phaeophyceae","Laminariales","Laminariaceae","Laminaria","Laminaria longicruris"
 "Lamna nasus",3,105841,"Lamna nasus","Animalia","Chordata","Elasmobranchii","Lamniformes","Lamnidae","Lamna","Lamna nasus"
-"Lampadena",1,125824,"Lampadena","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lampadena",NA
-"Lampanyctus",44,125825,"Lampanyctus","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lampanyctus",NA
-"Lampanyctus ater",5,126611,"Lampanyctus ater","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lampanyctus","Lampanyctus ater"
-"Lampanyctus photonotus",1,126618,"Lampanyctus photonotus","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lampanyctus","Lampanyctus photonotus"
-"Lampanyctus pusillus",1,126619,"Lampanyctus pusillus","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lampanyctus","Lampanyctus pusillus"
 "Leathesia difformis",1,144953,"Leathesia difformis","Chromista","Ochrophyta","Phaeophyceae","Ectocarpales","Chordariaceae","Leathesia","Leathesia difformis"
 "Lebbeus groenlandicus",58,107520,"Lebbeus groenlandicus","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Lebbeus","Lebbeus groenlandicus"
 "Lebbeus microceros",1,158362,"Lebbeus microceros","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Lebbeus","Lebbeus microceros"
 "Lebbeus polaris",273,107521,"Lebbeus polaris","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Lebbeus","Lebbeus polaris"
 "Lebbeus zebra",1,584798,"Lebbeus zebra","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Lebbeus","Lebbeus zebra"
 "Lepidion schmidti",1,126496,"Lepidion schmidti","Animalia","Chordata","Actinopteri","Gadiformes","Moridae","Lepidion","Lepidion schmidti"
-"Lepidonotus squamatus",43,130801,"Lepidonotus squamatus","Animalia","Annelida","Polychaeta","Phyllodocida","Polynoidae","Lepidonotus","Lepidonotus squamatus"
-"Lepidophanes guentheri",1,126621,"Lepidophanes guentheri","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lepidophanes","Lepidophanes guentheri"
 "Lepophidium profundorum",64,158762,"Lepophidium profundorum","Animalia","Chordata","Actinopteri","Ophidiiformes","Ophidiidae","Lepophidium","Lepophidium profundorum"
 "Leptagonus decagonus",495,127191,"Leptagonus decagonus","Animalia","Chordata","Actinopteri","Perciformes","Agonidae","Leptagonus","Leptagonus decagonus"
-"Leptasterias",566,123222,"Leptasterias","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Leptasterias",NA
-"Leptasterias tenera",7,158496,"Leptasterias tenera","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Leptasterias","Leptasterias tenera"
+"Leptasterias",573,123222,"Leptasterias","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Leptasterias",NA
 "Leptychaster arcticus",9,123896,"Leptychaster arcticus","Animalia","Echinodermata","Asteroidea","Paxillosida","Astropectinidae","Leptychaster","Leptychaster arcticus"
-"Leucoraja",482,105763,"Leucoraja","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Leucoraja",NA
 "Leucoraja erinacea",3014,158551,"Leucoraja erinacea","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Leucoraja","Leucoraja erinacea"
 "Leucoraja ocellata",4176,158553,"Leucoraja ocellata","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Leucoraja","Leucoraja ocellata"
 "Limacina",1,138122,"Limacina","Animalia","Mollusca","Gastropoda","Pteropoda","Limacinidae","Limacina",NA
@@ -314,13 +255,11 @@
 "Liparis fabricii",79,127218,"Liparis fabricii","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Liparis","Liparis fabricii"
 "Liparis gibbus",102,159526,"Liparis gibbus","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Liparis","Liparis gibbus"
 "Liparis inquilinus",19,159528,"Liparis inquilinus","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Liparis","Liparis inquilinus"
-"Liparis liparis",3,127219,"Liparis liparis","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Liparis","Liparis liparis"
+"Liparis liparis liparis",3,293624,"Liparis liparis liparis","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Liparis","Liparis liparis"
 "Liparis tunicatus",5,154825,"Liparis tunicatus","Animalia","Chordata","Actinopteri","Perciformes","Liparidae","Liparis","Liparis tunicatus"
 "Lipogenys gillii",2,158559,"Lipogenys gillii","Animalia","Chordata","Actinopteri","Notacanthiformes","Notacanthidae","Lipogenys","Lipogenys gillii"
 "Lithodes maja",779,107205,"Lithodes maja","Animalia","Arthropoda","Malacostraca","Decapoda","Lithodidae","Lithodes","Lithodes maja"
-"Lobianchia dofleini",3,158900,"Lobianchia dofleini","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Lobianchia","Lobianchia dofleini"
-"Loligo",14,138139,"Loligo","Animalia","Mollusca","Cephalopoda","Myopsida","Loliginidae","Loligo",NA
-"Loligo pealeii",392,157025,"Loligo pealeii","Animalia","Mollusca","Cephalopoda","Myopsida","Loliginidae","Loligo","Loligo pealeii"
+"Loligo pealeii",406,157025,"Loligo pealeii","Animalia","Mollusca","Cephalopoda","Myopsida","Loliginidae","Loligo","Loligo pealeii"
 "Lophaster furcifer",11,124156,"Lophaster furcifer","Animalia","Echinodermata","Asteroidea","Valvatida","Solasteridae","Lophaster","Lophaster furcifer"
 "Lophelia pertusa",4,135161,"Lophelia pertusa","Animalia","Cnidaria","Anthozoa","Scleractinia","Caryophylliidae","Lophelia","Lophelia pertusa"
 "Lophius americanus",3218,159184,"Lophius americanus","Animalia","Chordata","Actinopteri","Lophiiformes","Lophiidae","Lophius","Lophius americanus"
@@ -348,8 +287,7 @@
 "Malacoraja senta",2994,158554,"Malacoraja senta","Animalia","Chordata","Elasmobranchii","Rajiformes","Rajidae","Malacoraja","Malacoraja senta"
 "Malacosteus niger",4,127358,"Malacosteus niger","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Malacosteus","Malacosteus niger"
 "Mallotus villosus",1083,126735,"Mallotus villosus","Animalia","Chordata","Actinopteri","Osmeriformes","Osmeridae","Mallotus","Mallotus villosus"
-"Margarites",3,138592,"Margarites","Animalia","Mollusca","Gastropoda","Trochida","Margaritidae","Margarites",NA
-"Margarites groenlandica",1,1597130,"Margarites groenlandica","Animalia","Mollusca","Gastropoda","Trochida","Margaritidae","Margarites","Margarites groenlandica"
+"Margarites",4,138592,"Margarites","Animalia","Mollusca","Gastropoda","Trochida","Margaritidae","Margarites",NA
 "Mastigoteuthis",5,138168,"Mastigoteuthis","Animalia","Mollusca","Cephalopoda","Oegopsida","Mastigoteuthidae","Mastigoteuthis",NA
 "Maurolicus muelleri",109,127312,"Maurolicus muelleri","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Maurolicus","Maurolicus muelleri"
 "Mediaster bairdi",10,124045,"Mediaster bairdi","Animalia","Echinodermata","Asteroidea","Valvatida","Goniasteridae","Mediaster","Mediaster bairdi"
@@ -366,12 +304,9 @@
 "Micromesistius poutassou",3,126439,"Micromesistius poutassou","Animalia","Chordata","Actinopteri","Gadiformes","Gadidae","Micromesistius","Micromesistius poutassou"
 "Modiolus modiolus",76,140467,"Modiolus modiolus","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Modiolus","Modiolus modiolus"
 "Mola mola",1,127405,"Mola mola","Animalia","Chordata","Actinopteri","Tetraodontiformes","Molidae","Mola","Mola mola"
-"Molgula manhattensis",12,103788,"Molgula manhattensis","Animalia","Chordata","Ascidiacea","Stolidobranchia","Molgulidae","Molgula","Molgula manhattensis"
-"Molgulidae",10,103448,"Molgulidae","Animalia","Chordata","Ascidiacea","Stolidobranchia","Molgulidae",NA,NA
 "Molpadia",7,123540,"Molpadia","Animalia","Echinodermata","Holothuroidea","Molpadida","Molpadiidae","Molpadia",NA
 "Monolene sessilicauda",3,159213,"Monolene sessilicauda","Animalia","Chordata","Actinopteri","Pleuronectiformes","Bothidae","Monolene","Monolene sessilicauda"
 "Monstrilla",6,119780,"Monstrilla","Animalia","Arthropoda","Copepoda","Monstrilloida","Monstrillidae","Monstrilla",NA
-"Moridae",3,125474,"Moridae","Animalia","Chordata","Actinopteri","Gadiformes","Moridae",NA,NA
 "Munida iris",43,158398,"Munida iris","Animalia","Arthropoda","Malacostraca","Decapoda","Munididae","Munida","Munida iris"
 "Munida valida",33,158399,"Munida valida","Animalia","Arthropoda","Malacostraca","Decapoda","Munididae","Munida","Munida valida"
 "Munidopsis curvirostra",39,107175,"Munidopsis curvirostra","Animalia","Arthropoda","Malacostraca","Decapoda","Munidopsidae","Munidopsis","Munidopsis curvirostra"
@@ -379,11 +314,11 @@
 "Mustelus canis",1,158518,"Mustelus canis","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Triakidae","Mustelus","Mustelus canis"
 "Mya arenaria",5,140430,"Mya arenaria","Animalia","Mollusca","Bivalvia","Myida","Myidae","Mya","Mya arenaria"
 "Mycteroperca",3,126069,"Mycteroperca","Animalia","Chordata","Actinopteri","Perciformes","Serranidae","Mycteroperca",NA
-"Myctophidae",574,125498,"Myctophidae","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae",NA,NA
+"Myctophidae",715,125498,"Myctophidae","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae",NA,NA
 "Myoxocephalus",7535,126152,"Myoxocephalus","Animalia","Chordata","Actinopteri","Perciformes","Cottidae","Myoxocephalus",NA
 "Mytilus",98,138228,"Mytilus","Animalia","Mollusca","Bivalvia","Mytilida","Mytilidae","Mytilus",NA
 "Myxine glutinosa",1171,101170,"Myxine glutinosa","Animalia","Chordata","Myxini","Myxiniformes","Myxinidae","Myxine","Myxine glutinosa"
-"Naticidae",508,145,"Naticidae","Animalia","Mollusca","Gastropoda","Littorinimorpha","Naticidae",NA,NA
+"Naticidae",512,145,"Naticidae","Animalia","Mollusca","Gastropoda","Littorinimorpha","Naticidae",NA,NA
 "Naucrates ductor",1,126811,"Naucrates ductor","Animalia","Chordata","Actinopteri","Carangiformes","Carangidae","Naucrates","Naucrates ductor"
 "Nealotus tripes",3,126864,"Nealotus tripes","Animalia","Chordata","Actinopteri","Scombriformes","Gempylidae","Nealotus","Nealotus tripes"
 "Nemichthys scolopaceus",131,126306,"Nemichthys scolopaceus","Animalia","Chordata","Actinopteri","Anguilliformes","Nemichthyidae","Nemichthys","Nemichthys scolopaceus"
@@ -391,15 +326,10 @@
 "Neolithodes grimaldii",22,107206,"Neolithodes grimaldii","Animalia","Arthropoda","Malacostraca","Decapoda","Lithodidae","Neolithodes","Neolithodes grimaldii"
 "Neptunea",258,137710,"Neptunea","Animalia","Mollusca","Gastropoda","Neogastropoda","Buccinidae","Neptunea",NA
 "Nessorhamphus ingolfianus",13,126292,"Nessorhamphus ingolfianus","Animalia","Chordata","Actinopteri","Anguilliformes","Derichthyidae","Nessorhamphus","Nessorhamphus ingolfianus"
-"Nezumia",5,125754,"Nezumia","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Nezumia",NA
 "Nezumia aequalis",2,126473,"Nezumia aequalis","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Nezumia","Nezumia aequalis"
 "Nezumia bairdii",1075,183289,"Nezumia bairdii","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Nezumia","Nezumia bairdii"
 "Notacanthus chemnitzii",29,126643,"Notacanthus chemnitzii","Animalia","Chordata","Actinopteri","Notacanthiformes","Notacanthidae","Notacanthus","Notacanthus chemnitzii"
 "Notolepis rissoi",438,147037,"Notolepis rissoi","Animalia","Chordata","Actinopteri","Aulopiformes","Paralepididae","Notolepis","Notolepis rissoi"
-"Notoscopelus bolini",2,158913,"Notoscopelus bolini","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Notoscopelus","Notoscopelus bolini"
-"Notoscopelus caudispinosus",2,158914,"Notoscopelus caudispinosus","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Notoscopelus","Notoscopelus caudispinosus"
-"Notoscopelus elongatus kroyeri",20,584805,"Notoscopelus elongatus kroyeri","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Notoscopelus","Notoscopelus elongatus"
-"Notoscopelus resplendens",5,158916,"Notoscopelus resplendens","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Notoscopelus","Notoscopelus resplendens"
 "Nucella lapillus",1,140403,"Nucella lapillus","Animalia","Mollusca","Gastropoda","Neogastropoda","Muricidae","Nucella","Nucella lapillus"
 "Nucula",1,138262,"Nucula","Animalia","Mollusca","Bivalvia","Nuculida","Nuculidae","Nucula",NA
 "Nymphon",34,134591,"Nymphon","Animalia","Arthropoda","Pycnogonida","Pantopoda","Nymphonidae","Nymphon",NA
@@ -420,17 +350,13 @@
 "Osmerus mordax mordax",110,293649,"Osmerus mordax mordax","Animalia","Chordata","Actinopteri","Osmeriformes","Osmeridae","Osmerus","Osmerus mordax"
 "Ovalipes ocellatus",3,158434,"Ovalipes ocellatus","Animalia","Arthropoda","Malacostraca","Decapoda","Ovalipidae","Ovalipes","Ovalipes ocellatus"
 "Pachycerianthus borealis",12,283816,"Pachycerianthus borealis","Animalia","Cnidaria","Anthozoa","Spirularia","Cerianthidae","Pachycerianthus","Pachycerianthus borealis"
-"Pagurus",189,106854,"Pagurus","Animalia","Arthropoda","Malacostraca","Decapoda","Paguridae","Pagurus",NA
-"Pagurus acadianus",110,158400,"Pagurus acadianus","Animalia","Arthropoda","Malacostraca","Decapoda","Paguridae","Pagurus","Pagurus acadianus"
-"Pagurus arcuatus",18,158402,"Pagurus arcuatus","Animalia","Arthropoda","Malacostraca","Decapoda","Paguridae","Pagurus","Pagurus arcuatus"
-"Pagurus politus",3,158404,"Pagurus politus","Animalia","Arthropoda","Malacostraca","Decapoda","Paguridae","Pagurus","Pagurus politus"
+"Pagurus",320,106854,"Pagurus","Animalia","Arthropoda","Malacostraca","Decapoda","Paguridae","Pagurus",NA
 "Palmaria palmata",7,145771,"Palmaria palmata","Plantae",NA,"Florideophyceae","Palmariales","Palmariaceae","Palmaria","Palmaria palmata"
 "Pandalus borealis",1149,107649,"Pandalus borealis","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Pandalus","Pandalus borealis"
 "Pandalus montagui",2740,107651,"Pandalus montagui","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Pandalus","Pandalus montagui"
 "Pandora gouldiana",2,156932,"Pandora gouldiana","Animalia","Mollusca","Bivalvia",NA,"Pandoridae","Pandora","Pandora gouldiana"
 "Parablennius marmoreus",1,159609,"Parablennius marmoreus","Animalia","Chordata","Actinopteri","Blenniiformes","Blenniidae","Parablennius","Parablennius marmoreus"
 "Paragorgia arborea",51,125418,"Paragorgia arborea","Animalia","Cnidaria","Anthozoa","Alcyonacea","Paragorgiidae","Paragorgia","Paragorgia arborea"
-"Paralepis",5,125678,"Paralepis","Animalia","Chordata","Actinopteri","Aulopiformes","Paralepididae","Paralepis",NA
 "Paralepis atlantica",23,299959,"Paralepis atlantica","Animalia","Chordata","Actinopteri","Aulopiformes","Paralepididae","Paralepis","Paralepis atlantica"
 "Paralepis elongata",2,158874,"Paralepis elongata","Animalia","Chordata","Actinopteri","Aulopiformes","Paralepididae","Paralepis","Paralepis elongata"
 "Paralichthys dentatus",96,158826,"Paralichthys dentatus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Paralichthyidae","Paralichthys","Paralichthys dentatus"
@@ -454,32 +380,26 @@
 "Pholis gunnellus",30,126996,"Pholis gunnellus","Animalia","Chordata","Actinopteri","Perciformes","Pholidae","Pholis","Pholis gunnellus"
 "Photostomias guernei",1,127372,"Photostomias guernei","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Photostomias","Photostomias guernei"
 "Phronima",13,101804,"Phronima","Animalia","Arthropoda","Malacostraca","Amphipoda","Phronimidae","Phronima",NA
-"Plesionika",2,107046,"Plesionika","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Plesionika",NA
-"Plesionika martia",2,107661,"Plesionika martia","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Plesionika","Plesionika martia"
+"Plesionika martia",4,107661,"Plesionika martia","Animalia","Arthropoda","Malacostraca","Decapoda","Pandalidae","Plesionika","Plesionika martia"
 "Plutonaster agassizi",5,123639,"Plutonaster agassizi","Animalia","Echinodermata","Asteroidea","Paxillosida","Astropectinidae","Plutonaster","Plutonaster agassizi"
 "Pollachius virens",4591,126441,"Pollachius virens","Animalia","Chordata","Actinopteri","Gadiformes","Gadidae","Pollachius","Pollachius virens"
 "Polyacanthonotus rissoanus",3,126645,"Polyacanthonotus rissoanus","Animalia","Chordata","Actinopteri","Notacanthiformes","Notacanthidae","Polyacanthonotus","Polyacanthonotus rissoanus"
 "Polycheles sculptus",10,183356,"Polycheles sculptus","Animalia","Arthropoda","Malacostraca","Decapoda","Polychelidae","Polycheles","Polycheles sculptus"
-"Polyipnus",14,126198,"Polyipnus","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Polyipnus",NA
-"Polyipnus clarus",18,158840,"Polyipnus clarus","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Polyipnus","Polyipnus clarus"
-"Polymastia andrica",11,157415,"Polymastia andrica","Animalia","Porifera","Demospongiae","Polymastiida","Polymastiidae","Polymastia","Polymastia andrica"
-"Polymastia hemisphaerica",2,134200,"Polymastia hemisphaerica","Animalia","Porifera","Demospongiae","Polymastiida","Polymastiidae","Polymastia","Polymastia hemisphaerica"
-"Polymastia mammilaris",6,221468,"Polymastia mammilaris","Animalia","Porifera","Demospongiae","Polymastiida","Polymastiidae","Polymastia","Polymastia mammilaris"
+"Polyipnus clarus",32,158840,"Polyipnus clarus","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Polyipnus","Polyipnus clarus"
 "Polymetme corythaeola",1,127300,"Polymetme corythaeola","Animalia","Chordata","Actinopteri","Stomiiformes","Phosichthyidae","Polymetme","Polymetme corythaeola"
 "Polymixia lowei",31,158923,"Polymixia lowei","Animalia","Chordata","Actinopteri","Polymixiiformes","Polymixiidae","Polymixia","Polymixia lowei"
 "Polymixia nobilis",11,127163,"Polymixia nobilis","Animalia","Chordata","Actinopteri","Polymixiiformes","Polymixiidae","Polymixia","Polymixia nobilis"
-"Polynoidae",61,939,"Polynoidae","Animalia","Annelida","Polychaeta","Phyllodocida","Polynoidae",NA,NA
+"Polynoidae",107,939,"Polynoidae","Animalia","Annelida","Polychaeta","Phyllodocida","Polynoidae",NA,NA
 "Pontaster",30,123244,"Pontaster","Animalia","Echinodermata","Asteroidea","Notomyotida","Benthopectinidae","Pontaster",NA
 "Pontophilus norvegicus",207,107563,"Pontophilus norvegicus","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Pontophilus","Pontophilus norvegicus"
 "Porania pulvillus",312,125166,"Porania (Porania) pulvillus","Animalia","Echinodermata","Asteroidea","Valvatida","Poraniidae","Porania","Porania (Porania) pulvillus"
 "Poraniomorpha",171,123321,"Poraniomorpha","Animalia","Echinodermata","Asteroidea","Valvatida","Poraniidae","Poraniomorpha",NA
-"Porifera",2438,558,"Porifera","Animalia","Porifera",NA,NA,NA,NA,NA
+"Porifera",2495,558,"Porifera","Animalia","Porifera",NA,NA,NA,NA,NA
 "Poromitra crassiceps",1,127273,"Poromitra crassiceps","Animalia","Chordata","Actinopteri","Beryciformes","Melamphaidae","Poromitra","Poromitra crassiceps"
 "Potamilla neglecta",1,130954,"Potamilla neglecta","Animalia","Annelida","Polychaeta","Sabellida","Sabellidae","Potamilla","Potamilla neglecta"
 "Primnoa resedaeformis",17,125411,"Primnoa resedaeformis","Animalia","Cnidaria","Anthozoa","Alcyonacea","Primnoidae","Primnoa","Primnoa resedaeformis"
 "Prionotus carolinus",51,159571,"Prionotus carolinus","Animalia","Chordata","Actinopteri","Perciformes","Triglidae","Prionotus","Prionotus carolinus"
-"Pseudarchaster",121,123304,"Pseudarchaster","Animalia","Echinodermata","Asteroidea","Paxillosida","Pseudarchasteridae","Pseudarchaster",NA
-"Pseudarchaster parelii",131,124085,"Pseudarchaster parelii","Animalia","Echinodermata","Asteroidea","Paxillosida","Pseudarchasteridae","Pseudarchaster","Pseudarchaster parelii"
+"Pseudarchaster parelii",252,124085,"Pseudarchaster parelii","Animalia","Echinodermata","Asteroidea","Paxillosida","Pseudarchasteridae","Pseudarchaster","Pseudarchaster parelii"
 "Pseudopleuronectes americanus",3155,158885,"Pseudopleuronectes americanus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Pleuronectidae","Pseudopleuronectes","Pseudopleuronectes americanus"
 "Pseudoscopelus",1,125958,"Pseudoscopelus","Animalia","Chordata","Actinopteri","Scombriformes","Chiasmodontidae","Pseudoscopelus",NA
 "Psilaster andromeda",323,123908,"Psilaster andromeda","Animalia","Echinodermata","Asteroidea","Paxillosida","Astropectinidae","Psilaster","Psilaster andromeda"
@@ -499,10 +419,8 @@
 "Remora brachyptera",1,126851,"Remora brachyptera","Animalia","Chordata","Actinopteri","Carangiformes","Echeneidae","Remora","Remora brachyptera"
 "Rhachotropis aculeata",13,102224,"Rhachotropis aculeata","Animalia","Arthropoda","Malacostraca","Amphipoda","Eusiridae","Rhachotropis","Rhachotropis aculeata"
 "Rhinochimaera atlantica",26,105830,"Rhinochimaera atlantica","Animalia","Chordata","Holocephali","Chimaeriformes","Rhinochimaeridae","Rhinochimaera","Rhinochimaera atlantica"
-"Rhizaxinella",8,132071,"Rhizaxinella","Animalia","Porifera","Demospongiae","Suberitida","Suberitidae","Rhizaxinella",NA
 "Rondeletia loricata",4,126412,"Rondeletia loricata","Animalia","Chordata","Actinopteri","Beryciformes","Rondeletiidae","Rondeletia","Rondeletia loricata"
 "Rossia",7,602300,"Rossia","Chromista","Ochrophyta","Bacillariophyceae","Naviculales","Sellaphoraceae","Rossia",NA
-"Rouleina",1,125882,"Rouleina","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Rouleina",NA
 "Rouleina attrita",4,126709,"Rouleina attrita","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Rouleina","Rouleina attrita"
 "Rouleina maderensis",1,126710,"Rouleina maderensis","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Rouleina","Rouleina maderensis"
 "Sabinea sarsii",36,107566,"Sabinea sarsii","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Sabinea","Sabinea sarsii"
@@ -512,38 +430,28 @@
 "Saurida brasiliensis",2,158756,"Saurida brasiliensis","Animalia","Chordata","Actinopteri","Aulopiformes","Synodontidae","Saurida","Saurida brasiliensis"
 "Scaphander punctostriatus",16,139490,"Scaphander punctostriatus","Animalia","Mollusca","Gastropoda","Cephalaspidea","Scaphandridae","Scaphander","Scaphander punctostriatus"
 "Sclerasterias tanneri",58,178806,"Sclerasterias tanneri","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Sclerasterias","Sclerasterias tanneri"
-"Sclerocrangon",1,107013,"Sclerocrangon","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Sclerocrangon",NA
-"Sclerocrangon boreas",80,107568,"Sclerocrangon boreas","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Sclerocrangon","Sclerocrangon boreas"
+"Sclerocrangon boreas",81,107568,"Sclerocrangon boreas","Animalia","Arthropoda","Malacostraca","Decapoda","Crangonidae","Sclerocrangon","Sclerocrangon boreas"
 "Scomber scombrus",1738,127023,"Scomber scombrus","Animalia","Chordata","Actinopteri","Scombriformes","Scombridae","Scomber","Scomber scombrus"
-"Scomberesox saurus",57,126392,"Scomberesox saurus","Animalia","Chordata","Actinopteri","Beloniformes","Scomberesocidae","Scomberesox","Scomberesox saurus"
+"Scomberesox saurus saurus",57,236461,"Scomberesox saurus saurus","Animalia","Chordata","Actinopteri","Beloniformes","Scomberesocidae","Scomberesox","Scomberesox saurus"
 "Scopelarchus analis",1,126367,"Scopelarchus analis","Animalia","Chordata","Actinopteri","Aulopiformes","Scopelarchidae","Scopelarchus","Scopelarchus analis"
 "Scopeloberyx robustus",1,127276,"Scopeloberyx robustus","Animalia","Chordata","Actinopteri","Beryciformes","Melamphaidae","Scopeloberyx","Scopeloberyx robustus"
-"Scopelogadus",1,126184,"Scopelogadus","Animalia","Chordata","Actinopteri","Beryciformes","Melamphaidae","Scopelogadus",NA
-"Scopelogadus beanii",24,127278,"Scopelogadus beanii","Animalia","Chordata","Actinopteri","Beryciformes","Melamphaidae","Scopelogadus","Scopelogadus beanii"
+"Scopelogadus beanii",25,127278,"Scopelogadus beanii","Animalia","Chordata","Actinopteri","Beryciformes","Melamphaidae","Scopelogadus","Scopelogadus beanii"
 "Scopelosaurus lepidus",10,126349,"Scopelosaurus lepidus","Animalia","Chordata","Actinopteri","Aulopiformes","Notosudidae","Scopelosaurus","Scopelosaurus lepidus"
 "Scophthalmus aquosus",1771,158907,"Scophthalmus aquosus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Scophthalmidae","Scophthalmus","Scophthalmus aquosus"
 "Scyliorhinus retifer",2,158516,"Scyliorhinus retifer","Animalia","Chordata","Elasmobranchii","Carcharhiniformes","Scyliorhinidae","Scyliorhinus","Scyliorhinus retifer"
 "Sebastes",6227,126175,"Sebastes","Animalia","Chordata","Actinopteri","Perciformes","Sebastidae","Sebastes",NA
 "Selar crumenophthalmus",1,159646,"Selar crumenophthalmus","Animalia","Chordata","Actinopteri","Carangiformes","Carangidae","Selar","Selar crumenophthalmus"
-"Sergestes",1,106829,"Sergestes","Animalia","Arthropoda","Malacostraca","Decapoda","Sergestidae","Sergestes",NA
-"Sergestes arcticus",83,107125,"Sergestes arcticus","Animalia","Arthropoda","Malacostraca","Decapoda","Sergestidae","Sergestes","Sergestes arcticus"
-"Sergia",19,106830,"Sergia","Animalia","Arthropoda","Malacostraca","Decapoda","Sergestidae","Sergia",NA
-"Sergia robusta",11,107136,"Sergia robusta","Animalia","Arthropoda","Malacostraca","Decapoda","Sergestidae","Sergia","Sergia robusta"
+"Sergia robusta",30,107136,"Sergia robusta","Animalia","Arthropoda","Malacostraca","Decapoda","Sergestidae","Sergia","Sergia robusta"
 "Seriola dumerili",1,126816,"Seriola dumerili","Animalia","Chordata","Actinopteri","Carangiformes","Carangidae","Seriola","Seriola dumerili"
 "Serripes groenlandicus",8,582749,"Serripes groenlandicus","Animalia","Mollusca","Bivalvia","Cardiida","Cardiidae","Serripes","Serripes groenlandicus"
-"Serrivomer",1,125650,"Serrivomer","Animalia","Chordata","Actinopteri","Anguilliformes","Serrivomeridae","Serrivomer",NA
-"Serrivomer beani",41,183420,"Serrivomer beani","Animalia","Chordata","Actinopteri","Anguilliformes","Serrivomeridae","Serrivomer","Serrivomer beani"
-"Sertularia",7,117234,"Sertularia","Animalia","Cnidaria","Hydrozoa","Leptothecata","Sertulariidae","Sertularia",NA
-"Sertularia polyzonias",6,152089,"Sertularia polyzonias","Animalia","Cnidaria","Hydrozoa","Leptothecata","Sertulariidae","Sertularia","Sertularia polyzonias"
+"Serrivomer beanii",42,126319,"Serrivomer beanii","Animalia","Chordata","Actinopteri","Anguilliformes","Serrivomeridae","Serrivomer","Serrivomer beanii"
+"Sertularia polyzonias",13,152089,"Sertularia polyzonias","Animalia","Cnidaria","Hydrozoa","Leptothecata","Sertulariidae","Sertularia","Sertularia polyzonias"
 "Setarches guentheri",2,127258,"Setarches guentheri","Animalia","Chordata","Actinopteri","Perciformes","Setarchidae","Setarches","Setarches guentheri"
 "Siliqua",1,159997,"Siliqua","Animalia","Mollusca","Bivalvia","Adapedonta","Pharidae","Siliqua",NA
 "Simenchelys parasitica",35,126327,"Simenchelys parasitica","Animalia","Chordata","Actinopteri","Anguilliformes","Synaphobranchidae","Simenchelys","Simenchelys parasitica"
-"Solaster",6,123338,"Solaster","Animalia","Echinodermata","Asteroidea","Valvatida","Solasteridae","Solaster",NA
-"Solaster endeca",559,124160,"Solaster endeca","Animalia","Echinodermata","Asteroidea","Valvatida","Solasteridae","Solaster","Solaster endeca"
-"Solaster syrtensis",1,124167,"Solaster syrtensis","Animalia","Echinodermata","Asteroidea","Valvatida","Solasteridae","Solaster","Solaster syrtensis"
+"Solaster endeca",566,124160,"Solaster endeca","Animalia","Echinodermata","Asteroidea","Valvatida","Solasteridae","Solaster","Solaster endeca"
 "Solemya borealis",1,156992,"Solemya borealis","Animalia","Mollusca","Bivalvia","Solemyida","Solemyidae","Solemya","Solemya borealis"
-"Sphoeroides",2,126241,"Sphoeroides","Animalia","Chordata","Actinopteri","Tetraodontiformes","Tetraodontidae","Sphoeroides",NA
-"Sphoeroides maculatus",2,158934,"Sphoeroides maculatus","Animalia","Chordata","Actinopteri","Tetraodontiformes","Tetraodontidae","Sphoeroides","Sphoeroides maculatus"
+"Sphoeroides maculatus",4,158934,"Sphoeroides maculatus","Animalia","Chordata","Actinopteri","Tetraodontiformes","Tetraodontidae","Sphoeroides","Sphoeroides maculatus"
 "Spinolambrus pourtalesii",4,442342,"Spinolambrus pourtalesii","Animalia","Arthropoda","Malacostraca","Decapoda","Parthenopidae","Spinolambrus","Spinolambrus pourtalesii"
 "Spirontocaris fabricii",1,579998,"Spirontocaris fabricii","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Spirontocaris","Spirontocaris fabricii"
 "Spirontocaris liljeborgii",157,107531,"Spirontocaris liljeborgii","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Spirontocaris","Spirontocaris liljeborgii"
@@ -551,7 +459,6 @@
 "Spirontocaris spinus",102,107533,"Spirontocaris spinus","Animalia","Arthropoda","Malacostraca","Decapoda","Thoridae","Spirontocaris","Spirontocaris spinus"
 "Spisula solidissima",17,156996,"Spisula solidissima","Animalia","Mollusca","Bivalvia","Venerida","Mactridae","Spisula","Spisula solidissima"
 "Squalus acanthias",3709,105923,"Squalus acanthias","Animalia","Chordata","Elasmobranchii","Squaliformes","Squalidae","Squalus","Squalus acanthias"
-"Staurozoa",3,265044,"Staurozoa","Animalia","Cnidaria","Staurozoa",NA,NA,NA,NA
 "Stegocephalus inflatus",3,103105,"Stegocephalus inflatus","Animalia","Arthropoda","Malacostraca","Amphipoda","Stegocephalidae","Stegocephalus","Stegocephalus inflatus"
 "Stenotomus chrysops",7,159811,"Stenotomus chrysops","Animalia","Chordata","Actinopteri","Eupercaria incertae sedis","Sparidae","Stenotomus","Stenotomus chrysops"
 "Stephanasterias albula",1,123808,"Stephanasterias albula","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Stephanasterias","Stephanasterias albula"
@@ -560,19 +467,14 @@
 "Stereomastis sculpta",4,107700,"Stereomastis sculpta","Animalia","Arthropoda","Malacostraca","Decapoda","Polychelidae","Stereomastis","Stereomastis sculpta"
 "Sternoptyx diaphana",9,127314,"Sternoptyx diaphana","Animalia","Chordata","Actinopteri","Stomiiformes","Sternoptychidae","Sternoptyx","Sternoptyx diaphana"
 "Stichaeus punctatus",2,159819,"Stichaeus punctatus","Animalia","Chordata","Actinopteri","Perciformes","Stichaeidae","Stichaeus","Stichaeus punctatus"
-"Stomias",2,126220,"Stomias","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Stomias",NA
-"Stomias boa ferox",142,158737,"Stomias boa ferox","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Stomias","Stomias boa"
+"Stomias boa ferox",144,158737,"Stomias boa ferox","Animalia","Chordata","Actinopteri","Stomiiformes","Stomiidae","Stomias","Stomias boa"
 "Stomphia coccinea",5,100854,"Stomphia coccinea","Animalia","Cnidaria","Anthozoa","Actiniaria","Actinostolidae","Stomphia","Stomphia coccinea"
 "Strongylocentrotus",2114,123390,"Strongylocentrotus","Animalia","Echinodermata","Echinoidea","Camarodonta","Strongylocentrotidae","Strongylocentrotus",NA
-"Symbolophorus veranyi",2,126630,"Symbolophorus veranyi","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Symbolophorus","Symbolophorus veranyi"
-"Symphurus",32,126113,"Symphurus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Cynoglossidae","Symphurus",NA
-"Symphurus diomedeanus",48,159358,"Symphurus diomedeanus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Cynoglossidae","Symphurus","Symphurus diomedeanus"
+"Symphurus diomedeanus",80,159358,"Symphurus diomedeanus","Animalia","Chordata","Actinopteri","Pleuronectiformes","Cynoglossidae","Symphurus","Symphurus diomedeanus"
 "Synagrops bella",4,401231,"Synagrops bella","Animalia","Chordata","Actinopteri","Acropomatiformes","Acropomatidae","Synagrops","Synagrops bella"
 "Synaphobranchus kaupi",136,158666,"Synaphobranchus kaupi","Animalia","Chordata","Actinopteri","Anguilliformes","Synaphobranchidae","Synaphobranchus","Synaphobranchus kaupi"
-"Syngnathus",26,126227,"Syngnathus","Animalia","Chordata","Actinopteri","Syngnathiformes","Syngnathidae","Syngnathus",NA
-"Syngnathus fuscus",23,159451,"Syngnathus fuscus","Animalia","Chordata","Actinopteri","Syngnathiformes","Syngnathidae","Syngnathus","Syngnathus fuscus"
+"Syngnathus fuscus",49,159451,"Syngnathus fuscus","Animalia","Chordata","Actinopteri","Syngnathiformes","Syngnathidae","Syngnathus","Syngnathus fuscus"
 "Syscenus infelix",5,156446,"Syscenus infelix","Animalia","Arthropoda","Malacostraca","Isopoda","Aegidae","Syscenus","Syscenus infelix"
-"Taaningichthys minimus",1,126632,"Taaningichthys minimus","Animalia","Chordata","Actinopteri","Myctophiformes","Myctophidae","Taaningichthys","Taaningichthys minimus"
 "Tautogolabrus adspersus",370,159785,"Tautogolabrus adspersus","Animalia","Chordata","Actinopteri","Eupercaria incertae sedis","Labridae","Tautogolabrus","Tautogolabrus adspersus"
 "Tealia felina",11,100798,"Tealia felina","Animalia","Cnidaria","Anthozoa","Actiniaria","Actiniidae","Tealia","Tealia felina"
 "Terebratulina septentrionalis",18,104056,"Terebratulina septentrionalis","Animalia","Brachiopoda","Rhynchonellata","Terebratulida","Cancellothyrididae","Terebratulina","Terebratulina septentrionalis"
@@ -582,8 +484,7 @@
 "Torpedo nobiliana",18,157868,"Torpedo nobiliana","Animalia","Chordata","Elasmobranchii","Torpediniformes","Torpedinidae","Torpedo","Torpedo nobiliana"
 "Trachyrincus murrayi",27,126481,"Trachyrincus murrayi","Animalia","Chordata","Actinopteri","Gadiformes","Macrouridae","Trachyrincus","Trachyrincus murrayi"
 "Tremaster mirabilis",2,124002,"Tremaster mirabilis","Animalia","Echinodermata","Asteroidea","Valvatida","Asterinidae","Tremaster","Tremaster mirabilis"
-"Triglops",2122,126154,"Triglops","Animalia","Chordata","Actinopteri","Perciformes","Cottidae","Triglops",NA
-"Triglops pingeli",12,401178,"Triglops pingeli","Animalia","Chordata","Actinopteri","Perciformes","Cottidae","Triglops","Triglops pingeli"
+"Triglops",2134,126154,"Triglops","Animalia","Chordata","Actinopteri","Perciformes","Cottidae","Triglops",NA
 "Ulva",5,144296,"Ulva","Plantae",NA,"Ulvophyceae","Ulvales","Ulvaceae","Ulva",NA
 "Ulvaria subbifurcata",225,159821,"Ulvaria subbifurcata","Animalia","Chordata","Actinopteri","Perciformes","Stichaeidae","Ulvaria","Ulvaria subbifurcata"
 "Urasterias lincki",53,123815,"Urasterias lincki","Animalia","Echinodermata","Asteroidea","Forcipulatida","Asteriidae","Urasterias","Urasterias lincki"
@@ -601,7 +502,7 @@
 "Xenodermichthys copei",6,126714,"Xenodermichthys copei","Animalia","Chordata","Actinopteri","Alepocephaliformes","Alepocephalidae","Xenodermichthys","Xenodermichthys copei"
 "Xenolepidichthys dalgleishi",5,159432,"Xenolepidichthys dalgleishi","Animalia","Chordata","Actinopteri","Zeiformes","Grammicolepididae","Xenolepidichthys","Xenolepidichthys dalgleishi"
 "Xiphias gladius",2,127094,"Xiphias gladius","Animalia","Chordata","Actinopteri","Carangiformes","Xiphiidae","Xiphias","Xiphias gladius"
-"Yoldia sapotilla",1,157007,"Yoldia sapotilla","Animalia","Mollusca","Bivalvia","Nuculanida","Yoldiidae","Yoldia","Yoldia sapotilla"
+"Yoldia",1,138672,"Yoldia","Animalia","Mollusca","Bivalvia","Nuculanida","Yoldiidae","Yoldia",NA
 "Zenopsis ocellata",65,307180,"Zenopsis ocellata","Animalia","Chordata","Actinopteri","Zeiformes","Zeidae","Zenopsis","Zenopsis ocellata"
 "Zoarces americanus",3132,159267,"Zoarces americanus","Animalia","Chordata","Actinopteri","Perciformes","Zoarcidae","Zoarces","Zoarces americanus"
 "Zostera marina",1,495077,"Zostera marina","Plantae",NA,"Magnoliopsida","Alismatales","Zosteraceae","Zostera","Zostera marina"
