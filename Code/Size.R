@@ -89,6 +89,7 @@ for(i in rownames(sizegn)) size[i, ] <- sizegn[i, ]
 # Missing taxa
 uid <- rowSums(size, na.rm = TRUE) > 0
 nm <- rownames(size)[!uid]
+nm <- append(nm, "Cardium sp.")
 
 # Manual entries
 tr <- matrix(NA, nrow = length(nm), ncol = 1, dimnames = list(nm, 'Length'))
@@ -166,7 +167,7 @@ tr['Caberea ellisii','Length'] <- 2.5
 tr['Calocaris templemani','Length'] <- 1.7
 
 # From image, Cardium costatum: https://www.marinespecies.org/carms/aphia.php?p=image&tid=224543&pic=65649
-#tr['Cardium sp.','Length'] <- 8
+tr['Cardium sp.','Length'] <- 8
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=139000&pic=39148
 #tr['Ciliatocardium ciliatum','Length'] <- 5
