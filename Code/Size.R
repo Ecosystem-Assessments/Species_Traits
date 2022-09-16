@@ -43,7 +43,7 @@ for(i in 1:nrow(size)) {
 # =-=-=-=-=-=-=-=-=-=- Size from genus -=-=-=-=-=-=-=-=-=-= #
 # Missing taxa
 uid <- rowSums(size, na.rm = TRUE) > 0
-nm <- rownames(size)[!uid]
+nm <- rownames(size)[!uid] #species for which size is missing
 
 # Select only genus
 gn <- gsub('\\s(.*)', '', nm)
@@ -165,11 +165,14 @@ tr['Caberea ellisii','Length'] <- 2.5
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=158383&pic=31981
 tr['Calocaris templemani','Length'] <- 1.7
 
+# From image, Cardium costatum: https://www.marinespecies.org/carms/aphia.php?p=image&tid=224543&pic=65649
+#tr['Cardium sp.','Length'] <- 8
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=139000&pic=39148
-tr['Ciliatocardium ciliatum','Length'] <- 5
+#tr['Ciliatocardium ciliatum','Length'] <- 5
 
 # From image: http://www.marinespecies.org/carms/photogallery.php?album=2125&pic=30498
-tr['Colga villosa','Length'] <- 3
+#tr['Colga villosa','Length'] <- 3
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=123915&pic=31932
 tr['Ctenodiscus crispatus','Length'] <- 7
@@ -177,7 +180,7 @@ tr['Ctenodiscus crispatus','Length'] <- 7
 # From images:
 # ~8cm; http://www.marinespecies.org/carms/aphia.php?p=image&tid=140102&pic=31970
 # ~6cm; http://www.marinespecies.org/carms/aphia.php?p=image&tid=140102&pic=29957
-tr['Cyrtodaria siliqua','Length'] <- 7
+#tr['Cyrtodaria siliqua','Length'] <- 7
 
 # From images:
 # http://www.marinespecies.org/carms/aphia.php?p=image&tid=146941&pic=49623
@@ -208,7 +211,7 @@ tr['Eualus gaimardii','Length'] <- 10
 tr['Eualus macilentus','Length'] <- 7
 
 # From image: http://www.marinespecies.org/aphia.php?p=image&tid=107125&pic=31829
-tr['Eusergestes arcticus','Length'] <- 7
+#tr['Eusergestes arcticus','Length'] <- 7
 
 # From image: './Data/TaxaImages/Eusirus_cuspidatus.jpg'
 tr['Eusirus cuspidatus','Length'] <- 2.5
@@ -291,9 +294,8 @@ tr['Pennatula grandis','Length'] <- 20
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=1057563#attributes
 tr['Polynoidae','Length'] <- 9
-
 # https://eol.org/pages/46514709
-tr['Pontophilus norvegicus','Length'] <- 7.5
+#tr['Pontophilus norvegicus','Length'] <- 7.5
 
 # From image description: http://www.marinespecies.org/aphia.php?p=image&tid=125170&pic=78863
 tr['Poraniomorpha sp.','Length'] <- 8
@@ -333,7 +335,7 @@ tr['Sergia robusta','Length'] <- 7
 # From images:
 # https://eol.org/pages/46468246
 # http://www.marinespecies.org/aphia.php?p=image&tid=254617&pic=39151
-tr['Similipecten greenlandicus','Length'] <- 2
+#tr['Similipecten greenlandicus','Length'] <- 2
 
 # c(60,40,74) https://eol.org/pages/343975/data
 tr['Spirontocaris liljeborgii','Length'] <- 5.8
@@ -382,13 +384,15 @@ tr['Velutinidae','Length'] <- 4
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102793&pic=31974
 tr['Wimvadocus torelli','Length'] <- 4
 
-
 # Add to dataset
 for(i in rownames(tr)) size[i, "Length"] <- tr[i, "Length"]
 
 # Keep only length
 size <- as.matrix(size[, 1])
 colnames(size) <- 'Size'
+
+#Verify if the dataset is complete
+which(is.na(size), arr.ind=TRUE)
 
 # Export
 save(size, file = './Data/SpeciesTraits/Size.RData')
