@@ -2,7 +2,7 @@
 library(magrittr)
 # Species
 load('./Data/SpeciesList/SpeciesList.RData')
-nSp <- nrow(sp)
+nSp <- nrow(spList)
 
 # =-=-=-=-=-=-=-=-=-=- Feeding types considered -=-=-=-=-=-=-=-=-=-= #
 # suspension: particulate matter suspension/filter feeders
@@ -21,10 +21,10 @@ feedType <- c('suspension','deposit','predator','scavenger','grazer','parasite',
 # =-=-=-=-=-=-=-=-=-=-  Get data from fishbase and sealifebase -=-=-=-=-=-=-=-=-=-= #
 library(rfishbase)
 cl <- 'FeedingType'
-fb <- sb <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(sp$species, cl))
+fb <- sb <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(spList$species, cl))
 for(i in 1:nSp) {
   # Fishbase
-  dat <- ecology(sp$species[i], server = 'fishbase', fields = cl)
+  dat <- ecology(spList$species[i], server = 'fishbase', fields = cl)
   if (nrow(dat) > 1) {
     fb[i,] <- unlist(as.data.frame(dat[1, ]))
   } else {
@@ -32,7 +32,7 @@ for(i in 1:nSp) {
   }
 
   # Sealifebase
-  dat <- ecology(sp$species[i], server = 'sealifebase', fields = cl)
+  dat <- ecology(spList$species[i], server = 'sealifebase', fields = cl)
   if (nrow(dat) > 1) {
     sb[i,] <- unlist(as.data.frame(dat[1, ]))
   } else {
@@ -41,7 +41,7 @@ for(i in 1:nSp) {
 }
 
 # Merge datasets
-feed <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(sp$species, cl))
+feed <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(spList$species, cl))
 for(i in 1:nrow(feed)) {
   if (any(!is.na(fb[i, ]))) {
     feed[i, ] <- as.matrix(fb[i, ])
@@ -131,9 +131,6 @@ feed[feed %in% 'other', ] <- NA
 feed[feed %in% 'variable', ] <- NA
 feed[feed %in% 'NA', ] <- NA
 
-
-
-
 # =-=-=-=-=-=-=-=-=-=- Trophic Mode from invertebrates dataset -=-=-=-=-=-=-=-=-=-= #
 # Invertebrate traits DB
 inv <- read.delim('./Data/InvertebratesTraits/BD_traits_20200416.csv', stringsAsFactors = F)
@@ -177,7 +174,7 @@ feed[datid, ] <- feedinv[datid, ]
 uid <- is.na(feed)
 nm <- rownames(feed)[uid]
 tr <- matrix(data = '', nrow = length(nm), ncol = 1, dimnames = list(nm, colnames(feed)))
-
+tr
 # CaRNS St. Lawrence species check list :
 # http://www.marinespecies.org/carms/aphia.php?p=checklist&action=search&gu_id=10178&tRank=220&inc_sub=1&status=pv
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=118827#notes
@@ -196,7 +193,7 @@ tr['Arctica islandica', 1] <- 'suspension'
 tr['Argis dentata', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Aristaeopsis%20edwardsiana
-tr['Aristaeopsis edwardsiana', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Aristaeopsis edwardsiana', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # From pandalus borealis diet: https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Pandalus%20borealis
 tr['Atlantopandalus propinqvus', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -211,7 +208,7 @@ tr['Balaena mysticetus', 1] <- 'predator | filter'
 tr['Balanidae', 1] <- 'suspension'
 
 # Bivalvia: https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Bathyarca%20glacialis
-tr['Bathyarca sp.', 1] <- 'deposit'
+#tr['Bathyarca sp.', 1] <- 'deposit'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=138855#attributes
 tr['Beringius turtoni', 1] <- 'predator | scavenger'
@@ -235,10 +232,10 @@ tr['Ceratias holboelli', 1] <- 'predator'
 tr['Chiridota laevis', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=139000#attributes
-tr['Ciliatocardium ciliatum', 1] <- 'suspension'
+#tr['Ciliatocardium ciliatum', 1] <- 'suspension'
 
 # Bivalvia: from Mytilus sp.
-tr['Crenella faba', 1] <- 'suspension'
+#tr['Crenella faba', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Cryptopsaras%20couesii
 tr['Cryptopsaras couesii', 1] <- 'predator'
@@ -247,7 +244,7 @@ tr['Cryptopsaras couesii', 1] <- 'predator'
 tr['Cyclocardia borealis', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=140102#attributes
-tr['Cyrtodaria siliqua', 1] <- 'suspension'
+#tr['Cyrtodaria siliqua', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=101027#attributes
 tr['Epizoanthus erdmanni', 1] <- 'suspension'
@@ -264,8 +261,7 @@ tr['Eualus gaimardii', 1] <- 'scavenger | deposit | plankton | grazer'
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Eualus%20gaimardii
 tr['Eualus macilentus', 1] <- 'scavenger | deposit | plankton | grazer'
 
-#
-tr['Eudistoma vitreum', 1] <- 'suspension'
+#tr['Eudistoma vitreum', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=159817#notes
 tr['Eumesogrammus praecisus', 1] <- 'predator'
@@ -314,7 +310,7 @@ tr['Melanostigma atlanticum', 1] <- 'plankton | predator'
 tr['Mentodus rostratus', 1] <- 'plankton | predator'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Mesodesma
-tr['Mesodesma sp.', 1] <- 'suspension'
+#tr['Mesodesma sp.', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=100982#notes
 tr['Metridium senile', 1] <- 'suspension | predator'
@@ -323,10 +319,10 @@ tr['Metridium senile', 1] <- 'suspension | predator'
 tr['Molpadia sp.', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Morus%20bassanus
-tr['Morus bassanus', 1] <- 'predator'
+#tr['Morus bassanus', 1] <- 'predator'
 
 # Decapoda
-tr['Munida valida', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Munida valida', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Myctophidae
 tr['Myctophidae', 1] <- 'plankton | predator'
@@ -335,7 +331,7 @@ tr['Myctophidae', 1] <- 'plankton | predator'
 tr['Naucrates ductor', 1] <- 'predator | scavenger'
 
 # crabe, as decapoda
-tr['Neolithodes grimaldii', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Neolithodes grimaldii', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # From other sea stars
 tr['Novodinia americana', 1] <- 'predator'
@@ -347,10 +343,10 @@ tr['Oediceros saginatus', 1] <- 'predator'
 tr['Palio dubia', 1] <- 'predator'
 
 # Decapoda
-tr['Pandalus borealis', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Pandalus borealis', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # Decapoda
-tr['Pandalus montagui', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Pandalus montagui', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=140105#attributes       -> bivalvia
 tr['Panomya norvegica', 1] <- 'suspension'
@@ -359,16 +355,16 @@ tr['Panomya norvegica', 1] <- 'suspension'
 tr['Parvicardium pinnulatum', 1] <- 'suspension'
 
 # Decapoda
-tr['Pasiphaea multidentata', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Pasiphaea multidentata', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # Decapoda
-tr['Pasiphaea tarda', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Pasiphaea tarda', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # From: Aphroditella hastata
 tr['Polynoidae', 1] <- 'predator'
 
 # Decapoda
-tr['Pontophilus norvegicus', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Pontophilus norvegicus', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # From Cucumaria frondosa
 tr['Psolus fabricii', 1] <- 'suspension'
@@ -392,10 +388,10 @@ tr['Sclerocrangon boreas', 1] <- 'scavenger | deposit | plankton | grazer'
 tr['Securiflustra securifrons', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Sepiida
-tr['Sepioloidea sp.', 1] <- 'predator'
+#tr['Sepioloidea sp.', 1] <- 'predator'
 
 # Decapoda
-tr['Sergia robusta', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Sergia robusta', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # Decapoda
 tr['Spirontocaris liljeborgii', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -416,10 +412,10 @@ tr['Syscenus infelix', 1] <- 'parasite'
 tr['Tachyrhynchus erosus', 1] <- 'deposit | predator'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=141607#attributes
-tr['Teredo navalis', 1] <- 'xylophagous'
+#tr['Teredo navalis', 1] <- 'xylophagous'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Thysanoessa%20longicaudata
-tr['Thysanoessa longicaudata', 1] <- 'scavenger | deposit | plankton | grazer'
+#tr['Thysanoessa longicaudata', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # From other sea stars
 tr['Tremaster mirabilis', 1] <- 'predator'
@@ -441,7 +437,7 @@ tr['Xenodermichthys copei', 1] <- 'plankton | predator'
 tr['Xylophaga atlantica', 1] <- 'xylophagous'
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=141988#attributes
-tr['Yoldia sp.', 1] <- 'deposit'
+#tr['Yoldia sp.', 1] <- 'deposit'
 
 # Insert to feed DB
 for(i in nm) feed[i, ] <- tr[i, ]
@@ -449,9 +445,13 @@ for(i in nm) feed[i, ] <- tr[i, ]
 # =-=-=-=-=-=-=-=-=-=- Format db -=-=-=-=-=-=-=-=-=-= #
 # DB
 feeding <- matrix(data = 0, nrow = nSp, ncol = length(feedType),
-                      dimnames = list(sp$species, feedType))
+                      dimnames = list(spList$species, feedType))
 
 for(i in feedType) feeding[, i] <- stringr::str_detect(feed[,1], i)
+
+#Verify if the dataset is complete
+row_sub = apply(feeding, 1, function(row) all(row !=1 ))
+see_missingsp=feeding[row_sub,]
 
 
 # Export

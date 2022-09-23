@@ -268,6 +268,9 @@ tr['Gnathophausia','Length'] <- 7
 # Cyclothone microdon: 7.6; https://eol.org/pages/46563201
 tr['Gonostomatidae','Length'] <- 7.6
 
+#From attributes:https://www.marinespecies.org/aphia.php?p=taxdetails&id=127096#attributes
+tr['Gymnelis viridis','Length'] <- 56
+
 # From image: ~40cm; http://www.marinespecies.org/carms/aphia.php?p=image&tid=128509&pic=41899
 tr['Halipteris finmarchica','Length'] <- 40
 
@@ -280,9 +283,14 @@ tr['Heliometra glacialis','Length'] <- 6
 # c(25,26,16) https://eol.org/pages/46555727/data
 tr['Hemithiris psittacea','Length'] <-22.3
 
+#Heteropolypus insolitus - 2cm- From image: https://www.marinespecies.org/aphia.php?p=taxdetails&id=345447#images
+tr['Heteropolypus','Length'] <-2
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=100954&pic=44488
 tr['Hormathia nodosa','Length'] <- 10
+
+# From attributes c(21.5,12,15)https://www.marinespecies.org/aphia.php?p=taxdetails&id=130464#attributes
+tr['Hyalinoecia tubicola','Length'] <- 16.2
 
 # c(105,105,83,50) https://eol.org/pages/46508041/data
 tr['Hyas araneus','Length'] <- 8.6
@@ -292,6 +300,19 @@ tr['Hyas coarctatus','Length'] <- 6.1
 
 # https://eol.org/pages/46521640
 tr['Hyperia galba','Length'] <- 1.2
+
+#Ichnopus spinicornis 1.7 cm From attributes: https://www.marinespecies.org/aphia.php?p=taxdetails&id=102589#attributes
+tr['Ichnopus','Length'] <- 1.7
+
+#Idotea pelagica 0.4 cm - https://eol.org/pages/46520254
+#Idotea linearis  0.4 cm https://eol.org/pages/46520250
+tr['Idotea','Length'] <- 0.4
+
+#0.1cm From images: https://www.marinespecies.org/aphia.php?p=taxdetails&id=158285#images
+tr['Keratoisis ornata','Length'] <- 0.1
+
+#From attributes 150cm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=145724#attributes
+tr['Laminaria digitata','Length'] <- 150
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=593072&pic=65169
 tr['Liponema multicorne','Length'] <- 9
