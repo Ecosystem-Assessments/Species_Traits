@@ -1,17 +1,17 @@
 # source('./Code/Traits/Size.R')
 # Load species
 load('./Data/SpeciesList/SpeciesList.RData')
-nSp <- nrow(sp)
-
+nSp <- nrow(spList)
+nSp
 # =-=-=-=-=-=-=-=-=-=- Size from species -=-=-=-=-=-=-=-=-=-= #
 library(rfishbase)
 cl <- c("Length","CommonLength","Weight")
 
 # Fishbase
-fb <- sb <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(sp$species, cl))
+fb <- sb <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(spList$species, cl))
 for(i in 1:nSp) {
   # Fishbase
-  dat <- species(sp$species[i], server = 'fishbase', fields = cl)
+  dat <- species(spList$species[i], server = 'fishbase', fields = cl)
   if (nrow(dat) > 1) {
     fb[i,] <- colMeans(dat, na.rm = T)
   } else {
@@ -19,7 +19,7 @@ for(i in 1:nSp) {
   }
 
   # Sealifebase
-  dat <- species(sp$species[i], server = 'sealifebase', fields = cl)
+  dat <- species(spList$species[i], server = 'sealifebase', fields = cl)
   if (nrow(dat) > 1) {
     sb[i,] <- colMeans(dat, na.rm = T)
   } else {
@@ -28,7 +28,7 @@ for(i in 1:nSp) {
 }
 
 # Merge datasets
-size <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(sp$species, cl))
+size <- matrix(nrow = nSp, ncol = length(cl), dimnames = list(spList$species, cl))
 for(i in 1:nrow(size)) {
   if (any(!is.na(fb[i, ]))) {
     size[i, ] <- as.matrix(fb[i, ])
@@ -39,11 +39,10 @@ for(i in 1:nrow(size)) {
   }
 }
 
-
 # =-=-=-=-=-=-=-=-=-=- Size from genus -=-=-=-=-=-=-=-=-=-= #
 # Missing taxa
 uid <- rowSums(size, na.rm = TRUE) > 0
-nm <- rownames(size)[!uid] #species for which size is missing
+nm <- rownames(size)[!uid]
 
 # Select only genus
 gn <- gsub('\\s(.*)', '', nm)
@@ -99,33 +98,57 @@ tr <- matrix(NA, nrow = length(nm), ncol = 1, dimnames = list(nm, 'Length'))
 # Teleost picture, Actinauge cristata, http://www.marinespecies.org/aphia.php?p=image&pic=44491
 tr['Actinauge sp.','Length'] <- 8
 
+#From 0.2-20cm - https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=100653#attributes
+tr['Actiniidae','Length'] <- 9.9
+
 # From image: './Data/TaxaImages/Actinostola_callosa.jpg'
-tr["Actinostola sp.", 'Length'] <- 10
+tr["Actinostola", 'Length'] <- 10
+
+#Alaria esculenta 150 cm https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=145716#attributes
+tr['Alaria esculenta','Length'] <- 150
 
 # From image: './Data/TaxaImages/Alcyonidium.jpg'
 tr['Alcyonidium sp.','Length'] <- 30
 
+#https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=125333#attributes
+tr['Alcyonium digitatum','Length'] <- 20
+
 # Ampelisca eschrichtii: 25mm; https://eol.org/pages/46521913
 # Ampelisca macrocephala; 14mm; https://eol.org/pages/46521922
-tr['Ampelisca sp.','Length'] <- 1.95
+tr['Ampelisca','Length'] <- 1.95
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125100&pic=49609
 tr['Amphiura sp.','Length'] <- 5
 
 # Anonyx sarsi: 30mm; https://eol.org/pages/46525653
-tr['Anonyx sp.','Length'] <- 3
+tr['Anonyx','Length'] <- 3
+
+# Anthomastus grandiflorus 10cm From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=125335&pic=41873
+tr['Anthomastus grandiflorus','Length'] <- 10
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=128504&pic=41358
 tr['Anthoptilum grandiflorum','Length'] <- 46
 
+# From image:https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=157181#images
+tr['Aphrodita hastata','Length'] <- 7
+
 # From image: https://eol.org/pages/464119
 tr['Aphroditella hastata','Length'] <- 8
+
+#From attributes: c(2.8,2.3,3.3,5,10) https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=158058#attributes
+tr['Arbacia punctulata','Length'] <- 4.7
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=106182&pic=39250
 tr['Arcoscalpellum michelottianum','Length'] <- 10
 
+#From attributes: c(20,0.25,10,1,2,5,8):https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=129868#attributes
+tr['Arenicola marina','Length'] <- 6.6
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=107550&pic=39070
 tr['Argis dentata','Length'] <- 9
+
+# From attributes: c(1.5,2): https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=102870#attributes
+tr['Arrhis phyllonyx','Length'] <- 1.75
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=160164&pic=29974
 tr['Arrhoges occidentalis','Length'] <- 4.5
@@ -134,6 +157,10 @@ tr['Arrhoges occidentalis','Length'] <- 4.5
 # Ascidia prunu: 6; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=103714#attributes
 tr['Ascidiacea','Length'] <- 7
 
+# From attributes: https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=145541#attributes
+# Max = c(150,150)cm
+tr['Ascophyllum nodosum','Length'] <- 150
+
 # From attributes: http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=158351#attributes
 # Max = c(100,150) mm
 tr['Atlantopandalus propinqvus','Length'] <- 12.5
@@ -141,12 +168,18 @@ tr['Atlantopandalus propinqvus','Length'] <- 12.5
 # From image: http://www.marinespecies.org/aphia.php?p=image&tid=254475&pic=48705
 tr['Aulacofusus brevicauda','Length'] <- 4
 
+# From image: https://www.gbif.org/species/2222014
+tr['Axius serratus','Length'] <- 1
+
 # Balanus balanus: c(50,20,30); http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=106213#attributes
 # Balanus crenatus: c(25,35,15,20); http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=106215#attributes
 tr['Balanidae','Length'] <- 2.5
 
+#Individuals can grow to 70 mm - https://eol.org/pages/46508875
+tr['Bathynectes maravigna','Length'] <- 7
+
 # Diameter to radius: https://eol.org/pages/49109568
-tr['Bolocera sp.','Length'] <- 12.5
+tr['Bolocera','Length'] <- 12.5
 
 # Boreomysis arctica: 28mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119962#attributes
 # Boreomysis tridens: c(26,30)mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119974#attributes
@@ -162,6 +195,12 @@ tr['Bryozoa','Length'] <- 20
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=111230#attributes
 tr['Caberea ellisii','Length'] <- 2.5
+
+# From attributes c(48,30):  https://www.fishbase.se/summary/1726
+tr['Caelorinchus caelorinchus','Length'] <- 39
+
+# From image: 1.5cm - https://www.gbif.org/occurrence/350581839
+tr['Calathura brachiata','Length'] <- 1.5
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=158383&pic=31981
 tr['Calocaris templemani','Length'] <- 1.7
@@ -182,6 +221,9 @@ tr['Ctenodiscus crispatus','Length'] <- 7
 # ~8cm; http://www.marinespecies.org/carms/aphia.php?p=image&tid=140102&pic=31970
 # ~6cm; http://www.marinespecies.org/carms/aphia.php?p=image&tid=140102&pic=29957
 #tr['Cyrtodaria siliqua','Length'] <- 7
+
+#From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=158356&pic=148627
+tr['Dichelopandalus leptocerus','Length'] <- 7
 
 # From images:
 # http://www.marinespecies.org/carms/aphia.php?p=image&tid=146941&pic=49623
@@ -217,6 +259,12 @@ tr['Eualus macilentus','Length'] <- 7
 # From image: './Data/TaxaImages/Eusirus_cuspidatus.jpg'
 tr['Eusirus cuspidatus','Length'] <- 2.5
 
+#From attributes - 210cm https://www.marinespecies.org/aphia.php?p=taxdetails&id=128506#attributes
+tr['Funiculina quadrangularis','Length'] <- 210
+
+#Gnathophausia zoea from image ~7cm: https://www.marinespecies.org/carms/aphia.php?p=image&tid=119930&pic=110539
+tr['Gnathophausia','Length'] <- 7
+
 # Cyclothone microdon: 7.6; https://eol.org/pages/46563201
 tr['Gonostomatidae','Length'] <- 7.6
 
@@ -231,6 +279,7 @@ tr['Heliometra glacialis','Length'] <- 6
 
 # c(25,26,16) https://eol.org/pages/46555727/data
 tr['Hemithiris psittacea','Length'] <-22.3
+
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=100954&pic=44488
 tr['Hormathia nodosa','Length'] <- 10
@@ -295,6 +344,7 @@ tr['Pennatula grandis','Length'] <- 20
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=1057563#attributes
 tr['Polynoidae','Length'] <- 9
+
 # https://eol.org/pages/46514709
 #tr['Pontophilus norvegicus','Length'] <- 7.5
 
@@ -385,15 +435,16 @@ tr['Velutinidae','Length'] <- 4
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102793&pic=31974
 tr['Wimvadocus torelli','Length'] <- 4
 
+
 # Add to dataset
 for(i in rownames(tr)) size[i, "Length"] <- tr[i, "Length"]
 
 # Keep only length
-size <- as.matrix(size[, 1])
-colnames(size) <- 'Size'
+size_df <- as.matrix(size[, 1])
+colnames(size_df) <- 'Size'
 
 #Verify if the dataset is complete
-which(is.na(size), arr.ind=TRUE)
+which(is.na(size_df), arr.ind=TRUE)
 
 # Export
-save(size, file = './Data/SpeciesTraits/Size.RData')
+save(size_df, file = './Data/SpeciesTraits/Size.RData')
