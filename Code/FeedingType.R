@@ -138,10 +138,10 @@ invSp <- inv$Species
 
 # Data frame
 ft <- c('suspension','deposit','predator','scavenger')
-feedinv <- matrix(nrow = nSp, ncol = length(ft), dimnames = list(sp$species, ft))
+feedinv <- matrix(nrow = nSp, ncol = length(ft), dimnames = list(spList$species, ft))
 
 # Insert invertebrate traits DB
-for(i in sp$species) {
+for(i in spList$species) {
   if (i %in% inv$Species) {
     uid <- which(inv$Species == i)
     feedinv[i, ] <- unlist(inv[uid, c('SF','DF','PRE','SCA')])
@@ -174,7 +174,7 @@ feed[datid, ] <- feedinv[datid, ]
 uid <- is.na(feed)
 nm <- rownames(feed)[uid]
 tr <- matrix(data = '', nrow = length(nm), ncol = 1, dimnames = list(nm, colnames(feed)))
-tr
+feed
 # CaRNS St. Lawrence species check list :
 # http://www.marinespecies.org/carms/aphia.php?p=checklist&action=search&gu_id=10178&tRank=220&inc_sub=1&status=pv
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=118827#notes
@@ -452,7 +452,8 @@ for(i in feedType) feeding[, i] <- stringr::str_detect(feed[,1], i)
 #Verify if the dataset is complete
 row_sub = apply(feeding, 1, function(row) all(row !=1 ))
 see_missingsp=feeding[row_sub,]
-
+see_missingsp
+#write.csv(see_missingsp,file="FeedingType_ManualEntry.csv")
 
 # Export
 save(feeding, file = './Data/SpeciesTraits/FeedingType.RData')

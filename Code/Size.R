@@ -314,14 +314,29 @@ tr['Keratoisis ornata','Length'] <- 0.1
 #From attributes 150cm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=145724#attributes
 tr['Laminaria digitata','Length'] <- 150
 
+#tr['Laminaria longicruris','Length'] <-
+
+#From attributes - 5cm - https://www.marinespecies.org/aphia.php?p=taxdetails&id=144953#attributes
+tr['Leathesia difformis','Length'] <- 5
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=593072&pic=65169
 tr['Liponema multicorne','Length'] <- 9
+
+# From attributes: 1.2cm - https://www.marinespecies.org/aphia.php?p=taxdetails&id=135161#attributes
+tr['Lophelia pertusa','Length'] <- 1.2
+
+#https://eol.org/pages/46567475
+tr['Macrorhamphosus scolopax','Length'] <- 20
 
 # https://eol.org/pages/46530499
 tr['Maera loveni','Length'] <- 2.5
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=102837#attributes
 tr['Melita dentata','Length'] <- 2.2
+
+# From images - ~0.4 cm https://www.marinespecies.org/aphia.php?p=taxdetails&id=119780#images
+tr['Monstrilla','Length'] <- 0.4
+
 
 # Lampadena speculigera: 15.3; https://eol.org/pages/46564157
 # Notoscopelus kroyeri: 14.3; https://eol.org/pages/46564223
@@ -342,8 +357,14 @@ tr['Novodinia americana','Length'] <- 15
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102908&pic=44497
 tr['Oediceros saginatus','Length'] <- 2
 
+# From images - ~ 2.5 cm https://eol.org/pages/46505067/media
+tr['Oncopagurus','Length'] <- 2.5
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=124978&pic=29928
 tr['Ophiacantha bidentata','Length'] <- 10
+
+#From images ~4cm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=245559#images
+tr['Ophiomusa lymani','Length'] <- 4
 
 # c(15,20,80) https://eol.org/pages/598273/data
 tr['Ophiopholis aculeata','Length'] <- 3.8
