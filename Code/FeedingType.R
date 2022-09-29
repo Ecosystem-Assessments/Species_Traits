@@ -454,6 +454,6 @@ row_sub = apply(feeding, 1, function(row) all(row !=1 ))
 see_missingsp=feeding[row_sub,]
 see_missingsp
 #write.csv(see_missingsp,file="FeedingType_ManualEntry.csv")
-
+feeding
 # Export
 save(feeding, file = './Data/SpeciesTraits/FeedingType.RData')

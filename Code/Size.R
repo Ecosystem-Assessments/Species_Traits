@@ -94,6 +94,10 @@ nm <- append(nm, "Cardium sp.")
 tr <- matrix(NA, nrow = length(nm), ncol = 1, dimnames = list(nm, 'Length'))
 
 # CaRNS St. Lawrence species check list :
+
+#From image gbif - https://www.gbif.org/tools/zoom/simple.html?src=//api.gbif.org/v1/image/unsafe/https%3A%2F%2Finaturalist-open-data.s3.amazonaws.com%2Fphotos%2F226467101%2Foriginal.jpg
+tr['Acanella arbuscula','Length'] <- 20
+
 # http://www.marinespecies.org/carms/aphia.php?p=checklist&action=search&gu_id=10178&tRank=220&inc_sub=1&status=pv
 # Teleost picture, Actinauge cristata, http://www.marinespecies.org/aphia.php?p=image&pic=44491
 tr['Actinauge sp.','Length'] <- 8
@@ -102,7 +106,7 @@ tr['Actinauge sp.','Length'] <- 8
 tr['Actiniidae','Length'] <- 9.9
 
 # From image: './Data/TaxaImages/Actinostola_callosa.jpg'
-tr["Actinostola", 'Length'] <- 10
+tr["Actinostola sp.", 'Length'] <- 10
 
 #Alaria esculenta 150 cm https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=145716#attributes
 tr['Alaria esculenta','Length'] <- 150
@@ -115,13 +119,13 @@ tr['Alcyonium digitatum','Length'] <- 20
 
 # Ampelisca eschrichtii: 25mm; https://eol.org/pages/46521913
 # Ampelisca macrocephala; 14mm; https://eol.org/pages/46521922
-tr['Ampelisca','Length'] <- 1.95
+tr['Ampelisca sp.','Length'] <- 1.95
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125100&pic=49609
 tr['Amphiura sp.','Length'] <- 5
 
 # Anonyx sarsi: 30mm; https://eol.org/pages/46525653
-tr['Anonyx','Length'] <- 3
+tr['Anonyx sp.','Length'] <- 3
 
 # Anthomastus grandiflorus 10cm From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=125335&pic=41873
 tr['Anthomastus grandiflorus','Length'] <- 10
@@ -179,7 +183,7 @@ tr['Balanidae','Length'] <- 2.5
 tr['Bathynectes maravigna','Length'] <- 7
 
 # Diameter to radius: https://eol.org/pages/49109568
-tr['Bolocera','Length'] <- 12.5
+tr['Bolocera sp.','Length'] <- 12.5
 
 # Boreomysis arctica: 28mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119962#attributes
 # Boreomysis tridens: c(26,30)mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119974#attributes
@@ -372,6 +376,12 @@ tr['Ophiopholis aculeata','Length'] <- 3.8
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125147&pic=78860
 tr['Ophioscolex glacialis','Length'] <- 8
 
+#From images: ~3cm http://v3.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=89932
+tr['Oplophorus spinosus','Length'] <- 3
+
+#From images: ~40cm https://collections.peabody.yale.edu/search/Record/YPM-IZ-004750.CN
+tr['Paragorgia arborea','Length'] <- 40
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102152&pic=30190
 tr['Paramphithoe hystrix','Length'] <- 2
 
@@ -383,6 +393,12 @@ tr['Pennatula aculeata','Length'] <- 10
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=128516&pic=41360
 tr['Pennatula grandis','Length'] <- 20
+
+# From image: https://www.marinespecies.org/aphia.php?p=image&tid=124655&pic=47572
+tr['Pentamera calcigera','Length'] <- 10
+
+# From image: Phronima sedentaria 2.5 cm https://collections.peabody.yale.edu/search/Record/YPM-IZ-075000
+tr['Phronima','Length'] <- 2.5
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=1057563#attributes
 tr['Polynoidae','Length'] <- 9
@@ -401,6 +417,24 @@ tr['Poraniomorpha sp.','Length'] <- 8
 message('WARNING: Size for Porifera is the median of taxa size in this list, and thus uninformative. If size is ever considered to evaluate the vulnerability of benthic taxa to stressors, we should reevaluate this decision to properly evaluate the vulnerability of this taxa.')
 tr['Porifera','Length'] <- 20
 
+# From images: https://eol.org/media/13254984
+tr['Plutonaster agassizi','Length'] <- 2.5
+
+#Pontaster tenuispinus up to 6.8 cm https://eol.org/pages/45327507
+tr['Pontaster','Length'] <- 6.8
+
+# From attributes: https://eol.org/pages/598513
+tr['Porania pulvillus','Length'] <- 10
+
+# From image: ~7cm https://www.marinespecies.org/aphia.php?p=image&tid=123321&pic=148081
+#https://www.marinespecies.org/aphia.php?p=image&tid=123321&pic=148080
+tr['Poraniomorpha','Length'] <- 7
+
+# From attributes: https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=130954#attributes
+tr['Potamilla neglecta','Length'] <- 4.5
+
+# From image: ~1.5mm https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=125411#images
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=123908&pic=32027
 tr['Psilaster andromeda','Length'] <- 10
 
@@ -416,6 +450,9 @@ tr['Sabinea sarsii','Length'] <- 8
 # From image: './Data/TaxaImages/Sabinea_septemcarinata.png'
 tr['Sabinea septemcarinata','Length'] <- 9
 
+# From images: ~ 50cm- http://v3.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=55715
+tr['Saccorhiza dermatodea','Length'] <- 50
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=107568&pic=31898
 tr['Sclerocrangon boreas','Length'] <- 6
 
@@ -424,6 +461,9 @@ tr['Securiflustra securifrons','Length'] <- 10
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=107136&pic=39122
 tr['Sergia robusta','Length'] <- 7
+
+# From attributes: https://eol.org/pages/46552473
+tr['Sertularia polyzonias','Length'] <- 5
 
 # From images:
 # https://eol.org/pages/46468246
@@ -462,6 +502,9 @@ tr['Syscenus infelix','Length'] <- 3
 # c(50,250) https://eol.org/pages/46552783/data
 tr['Thuiaria thuja','Length'] <- 15
 
+# From attributes:https://www.marinespecies.org/aphia.php?p=taxdetails&id=422527#attributes
+tr['Thyonella pervicax','Length'] <- 8
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=124002&pic=30202
 tr['Tremaster mirabilis','Length'] <- 15
 
@@ -474,9 +517,14 @@ tr['Urasterias lincki','Length'] <- 25
 # Onchidoris bilamellata: 4; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=150457#attributes
 tr['Velutinidae','Length'] <- 4
 
+#From image: https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=546035#images
+tr['Venericardia borealis','Length'] <- 1
+
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102793&pic=31974
 tr['Wimvadocus torelli','Length'] <- 4
 
+# From description: https://marine.ucsc.edu/target/target-species-zostera.html
+tr['Zostera marina','Length'] <- 300
 
 # Add to dataset
 for(i in rownames(tr)) size[i, "Length"] <- tr[i, "Length"]
@@ -487,6 +535,6 @@ colnames(size_df) <- 'Size'
 
 #Verify if the dataset is complete
 which(is.na(size_df), arr.ind=TRUE)
-
+size_df
 # Export
 save(size_df, file = './Data/SpeciesTraits/Size.RData')

@@ -3,7 +3,7 @@ library(tidyverse)
 library(stringr)
 # Load species
 load('./Data/SpeciesList/SpeciesList.RData')
-nSp <- nrow(sp)
+nSp <- nrow(spList)
 
 # load taxonomy
 load('./Data/Taxonomy/Taxonomy.RData')
@@ -12,7 +12,7 @@ load('./Data/Taxonomy/Taxonomy.RData')
 taxonomy <- str_split(taxonomy$taxonomy, pattern = ' | ', simplify = T)
 
 # Extract Phylum per taxa
-phylum <- data.frame(taxa = sp$species, phylum = taxonomy[,3],
+phylum <- data.frame(taxa = spList$species, phylum = taxonomy[,3],
                      stringsAsFactors = F)
 
 # Spread data
