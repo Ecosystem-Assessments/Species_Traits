@@ -176,9 +176,22 @@ nm <- rownames(feed)[uid]
 tr <- matrix(data = '', nrow = length(nm), ncol = 1, dimnames = list(nm, colnames(feed)))
 feed
 # CaRNS St. Lawrence species check list :
+
+#https://eol.org/pages/51548193
+tr['Actiniidae', 1] <- 'predator'
+
+#https://www.sealifebase.ca/summary/Actinostola-callosa.html
+tr['Actinostola', 1] <- 'predator'
+
 # http://www.marinespecies.org/carms/aphia.php?p=checklist&action=search&gu_id=10178&tRank=220&inc_sub=1&status=pv
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=118827#notes
 tr['Aega psora', 1] <- 'parasite'
+
+#algea
+tr['Agarum cribrosum', 1] <- 'NA'
+
+#photosynthetic
+tr['Alaria esculenta', 1] <- 'NA'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Alcyonidium
 tr['Alcyonidium sp.', 1] <- 'suspension'
@@ -186,14 +199,32 @@ tr['Alcyonidium sp.', 1] <- 'suspension'
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=159928#attributes
 tr['Amicula vestita', 1] <- 'grazer'
 
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Anonyx
+tr['Anonyx', 1] <- 'deposit'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Anthias%20nicholsi
+tr['Anthias nicholsi', 1] <- 'predator'
+
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Arctica%20islandica
 tr['Arctica islandica', 1] <- 'suspension'
+
+#https://eol.org/pages/464119
+tr['Aphrodita hastata', 1] <- 'predator'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Arenicola%20marina
+tr['Arenicola marina', 1] <- 'deposit | grazer'
 
 # From pandalus borealis diet: https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Pandalus%20borealis
 tr['Argis dentata', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Aristaeopsis%20edwardsiana
 #tr['Aristaeopsis edwardsiana', 1] <- 'scavenger | deposit | plankton | grazer'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Arrhis%20phyllonyx
+tr['Arrhis phyllonyx', 1] <- 'deposit'
+
+#algea
+tr['Ascophyllum nodosum', 1] <- 'NA'
 
 # From pandalus borealis diet: https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Pandalus%20borealis
 tr['Atlantopandalus propinqvus', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -213,6 +244,9 @@ tr['Balanidae', 1] <- 'suspension'
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=138855#attributes
 tr['Beringius turtoni', 1] <- 'predator | scavenger'
 
+#https://eol.org/pages/52236201
+tr['Bolocera', 1] <- 'predator'
+
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Boreomysis
 tr['Boreomysis sp.', 1] <- 'scavenger | deposit | plankton | grazer'
 
@@ -221,6 +255,12 @@ tr['Bryozoa', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=111230#notes
 tr['Caberea ellisii', 1] <- 'suspension'
+
+#https://www.fishbase.se/summary/1726
+tr['Caelorinchus caelorinchus', 1] <- 'predator'
+
+#https://www.marinespecies.org/aphia.php?p=taxdetails&id=118497#attributes
+tr['Calathura brachiata', 1] <- 'parasite'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=137734#attributes
 tr['Cardium sp.', 1] <- 'suspension'
@@ -234,6 +274,9 @@ tr['Chiridota laevis', 1] <- 'suspension'
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=139000#attributes
 #tr['Ciliatocardium ciliatum', 1] <- 'suspension'
 
+# https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Colossendeis
+tr['Colossendeis', 1] <- 'predator'
+
 # Bivalvia: from Mytilus sp.
 #tr['Crenella faba', 1] <- 'suspension'
 
@@ -245,6 +288,12 @@ tr['Cyclocardia borealis', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=140102#attributes
 #tr['Cyrtodaria siliqua', 1] <- 'suspension'
+
+#https://www.marinespecies.org/aphia.php?p=taxdetails&id=139523#attributes
+tr['Dendronotus', 1] <- 'predator'
+
+#algea
+tr['Desmarestia aculeata', 1] <- 'NA'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=101027#attributes
 tr['Epizoanthus erdmanni', 1] <- 'suspension'
@@ -269,11 +318,35 @@ tr['Eumesogrammus praecisus', 1] <- 'predator'
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=eusergestes%20arcticus
 tr['Eusergestes arcticus', 1] <- 'scavenger | deposit | plankton | grazer'
 
+#https://eol.org/pages/200235
+tr['Flabellum', 1] <- 'suspension'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Foetorepus%20agassizii
+tr['Foetorepus agassizi', 1] <- 'predator'
+
+#photosynthetic
+tr['Fucus distichus', 1] <- 'NA'
+
+#photosynthetic
+tr['Fucus vesiculosus', 1] <- 'NA'
+
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=127286#notes
 tr['Gonostomatidae', 1] <- 'plankton'
 
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Gorgonocephalus
+tr['Gorgonocephalus', 1] <- 'predator'
+
+#https://eol.org/pages/46574733
+tr['Gymnelis viridis', 1] <- 'predator'
+
+#https://eol.org/pages/46566160
+tr['Halieutichthys aculeatus', 1] <- 'predator'
+
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=110364#attributes
 tr['Hamingia arctica', 1] <- 'suspension | deposit'
+
+# https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Homola%20minima
+tr['Homola minima', 1] <- 'predatpr'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Howella%20sherborni
 tr['Howella sherborni', 1] <- 'predator'
@@ -283,6 +356,19 @@ tr['Hymenopenaeus debilis', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=103251#attributes
 tr['Hyperia galba', 1] <- 'parasite'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Ichnopus
+tr['Ichnopus', 1] <- 'predator | deposit'
+
+#algea
+tr['Laminaria digitata', 1] <- 'NA'
+
+#algea
+tr['Laminaria longicruris', 1] <- 'NA'
+
+#algea
+tr['Leathesia difformis', 1] <- 'NA'
+
 
 # Decapoda
 tr['Lebbeus groenlandicus', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -296,11 +382,23 @@ tr['Lebbeus polaris', 1] <- 'scavenger | deposit | plankton | grazer'
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=127191#notes
 tr['Leptagonus decagonus', 1] <- 'predator'
 
+#tr['Leptasterias', 1] <- ''
+
+#https://eol.org/pages/1244469
+tr['Lophelia pertusa', 1] <- 'suspension'
+
+#https://www.fishbase.se/summary/333
+tr['Macrorhamphosus scolopax', 1] <- 'predator'
+
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Mactromeris
 tr['Mactromeris polynyma', 1] <- 'deposit'
 
 # Amphipoda: From Neohela monstrosa
 tr['Maera loveni', 1] <- 'deposit'
+
+#https://eol.org/search?utf8=%E2%9C%93&q=Mediaster+bairdi
+tr['Mediaster bairdi', 1] <- 'grazer | predator'
+
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Melanostigma%20atlanticum
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=127120#notes
@@ -314,6 +412,12 @@ tr['Mentodus rostratus', 1] <- 'plankton | predator'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=100982#notes
 tr['Metridium senile', 1] <- 'suspension | predator'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Monolene%20sessilicauda
+tr['Monolene sessilicauda', 1] <- 'predator'
+
+#https://www.marinespecies.org/aphia.php?p=taxdetails&id=119780#attributes
+tr['Monstrilla', 1] <- 'parasite'
 
 # From Cucumaria frondosa
 tr['Molpadia sp.', 1] <- 'suspension'
@@ -333,14 +437,27 @@ tr['Naucrates ductor', 1] <- 'predator | scavenger'
 # crabe, as decapoda
 #tr['Neolithodes grimaldii', 1] <- 'scavenger | deposit | plankton | grazer'
 
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Neptunea
+#https://eol.org/pages/46460077
+tr['Neptunea', 1] <- 'scavenger | predator'
+
 # From other sea stars
 tr['Novodinia americana', 1] <- 'predator'
 
 # From Epimeria loricata
 tr['Oediceros saginatus', 1] <- 'predator'
 
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Oplophorus%20spinosus
+tr['Oplophorus spinosus', 1] <- 'predator'
+
+#https://eol.org/pages/46549709
+tr['Pachycerianthus borealis', 1] <- 'suspension'
+
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=182807#attributes
 tr['Palio dubia', 1] <- 'predator'
+
+#algea
+tr['Palmaria palmata', 1] <- 'NA'
 
 # Decapoda
 #tr['Pandalus borealis', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -351,6 +468,9 @@ tr['Palio dubia', 1] <- 'predator'
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=140105#attributes       -> bivalvia
 tr['Panomya norvegica', 1] <- 'suspension'
 
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Parathemisto
+tr['Parathemisto', 1] <- 'predator | deposit'
+
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=181343#attributes       -> bivalvia
 tr['Parvicardium pinnulatum', 1] <- 'suspension'
 
@@ -360,8 +480,19 @@ tr['Parvicardium pinnulatum', 1] <- 'suspension'
 # Decapoda
 #tr['Pasiphaea tarda', 1] <- 'scavenger | deposit | plankton | grazer'
 
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Polymetme%20corythaeola
+tr['Polymetme corythaeola', 1] <- 'predator'
+
 # From: Aphroditella hastata
 tr['Polynoidae', 1] <- 'predator'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Pontaster
+tr['Pontaster', 1] <- 'deposit'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Porania%20pulvillus
+tr['Porania pulvillus', 1] <- 'predator'
+
+#tr['Poraniomorpha', 1] <- ''
 
 # Decapoda
 #tr['Pontophilus norvegicus', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -381,6 +512,9 @@ tr['Sabinea sarsii', 1] <- 'scavenger | deposit | plankton | grazer'
 # Decapoda
 tr['Sabinea septemcarinata', 1] <- 'scavenger | deposit | plankton | grazer'
 
+#algea
+tr['Saccorhiza dermatodea', 1] <- 'NA'
+
 # Decapoda
 tr['Sclerocrangon boreas', 1] <- 'scavenger | deposit | plankton | grazer'
 
@@ -392,6 +526,13 @@ tr['Securiflustra securifrons', 1] <- 'suspension'
 
 # Decapoda
 #tr['Sergia robusta', 1] <- 'scavenger | deposit | plankton | grazer'
+
+#https://www.marinespecies.org/aphia.php?p=taxdetails&id=158664#notes
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Simenchelys%20parasitica
+tr['Simenchelys parasitica', 1] <- 'parasite | predator'
+
+# Decapoda
+tr['Spirontocaris fabricii', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # Decapoda
 tr['Spirontocaris liljeborgii', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -423,8 +564,17 @@ tr['Tremaster mirabilis', 1] <- 'predator'
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=737284#attributes
 tr['Tritia sp.', 1] <- 'predator | scavenger'
 
+#algea
+tr['Ulva', 1] <- 'NA'
+
 # From other sea stars
 tr['Urasterias lincki', 1] <- 'predator'
+
+#https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Venefica%20procera
+tr['Venefica procera', 1] <- 'predator'
+
+#https://eol.org/pages/46578013
+tr['Vomer setapinnis', 1] <- 'predator'
 
 # Amphipoda From Neohela monstrosa
 tr['Wimvadocus torelli', 1] <- 'deposit'
@@ -438,6 +588,9 @@ tr['Xylophaga atlantica', 1] <- 'xylophagous'
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=141988#attributes
 #tr['Yoldia sp.', 1] <- 'deposit'
+
+#algea
+tr['Zostera marina', 1] <- ''
 
 # Insert to feed DB
 for(i in nm) feed[i, ] <- tr[i, ]
