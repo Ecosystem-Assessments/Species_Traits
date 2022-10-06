@@ -2,7 +2,7 @@
 # Invertebrate traits DB
 inv <- read.delim('./Data/InvertebratesTraits/BD_traits_20200416.csv', stringsAsFactors = F)
 invSp <- inv$Species
-
+head(inv)
 # Fish traits DB
 fish <- readRDS('./Data/FishTraits/Data_trait_fb_3OCC_bathyend_TL_CML.RDS')
 fishSp <- paste(fish$Genus, fish$Species)
@@ -206,10 +206,18 @@ uid <- mobility[, 'crawler_swimmer'] == 1
 mobility[uid, c('crawler','swimmer')] <- 1
 mobility <- mobility[, colnames(mobility) != 'crawler_swimmer']
 
+
+mobility_manual_entry <- read.csv('./Data/SpeciesTraits/Mobility_ManualEntry.csv', sep=",", row.names = NULL)
+mobility_manual_entry <- mobility_manual_entry[,1:6] #remove comment for integration in db
+mobility_manual_entry <- as.matrix( mobility_manual_entry)
+mobility_manual_entry2 <- mobility_manual_entry[,-1]
+rownames(mobility_manual_entry2) <- mobility_manual_entry[,1]
+
+warning("Need to combine manual entry (mobility_manual_entry2 matrix) from csv file into DB")
+
 #Verify if the dataset is complete
 row_sub = apply(mobility, 1, function(row) all(row !=1 ))
 see_missingsp=mobility[row_sub,]
-
 #write.csv(see_missingsp,file="Mobility_ManualEntry.csv")
 
 # Export

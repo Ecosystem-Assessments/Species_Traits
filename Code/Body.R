@@ -2,19 +2,19 @@ library(magrittr)
 library(tidyverse)
 # Load species
 load('./Data/SpeciesList/SpeciesList.RData')
-nSp <- nrow(sp)
+nSp <- nrow(spList)
 
 # =-=-=-=-=-=-=-=-=-=- Species attributes from worms -=-=-=-=-=-=-=-=-=-= #
 library(worrms)
 # Get AphiaIDs
 aphiaid <- vector('list', nSp)
-names(aphiaid) <- sp$species
-for(i in 1:nSp) aphiaid[[i]] <- try(wm_records_taxamatch(sp$species[i]))
+names(aphiaid) <- spList$species
+for(i in 1:nSp) aphiaid[[i]] <- try(wm_records_taxamatch(spList$species[i]))
 
 # Identify missing taxa ids
 id0 <- logical(nSp)
 for(i in 1:nSp) id0[i] <- class(aphiaid[[i]]) == 'try-error'
-nm <- sp$species[id0]
+nm <- spList$species[id0]
 
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Not reproducible
 # Staurostoma mertensii: 346
@@ -28,7 +28,7 @@ for(i in 1:nSp) aid[i] <- aphiaid[[i]][[1]]$AphiaID[1]
 # Get attributes from worms
 spAttr <- vector('list', nSp)
 for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
-names(spAttr) <- sp$species
+names(spAttr) <- spList$species
 
 # For now, export aphiaid & attributes, just to avoid loading querying averything again
 # save(aphiaid, file = './Data/Temp/aphiaid.RData')
@@ -39,7 +39,7 @@ names(spAttr) <- sp$species
 # =-=-=-=-=-=-=-=-=-=- Check all for body composition -=-=-=-=-=-=-=-=-=-= #
 # Empty list
 comp <- vector('list', nSp)
-names(comp) <- sp$species
+names(comp) <- spList$species
 
 # Go through all species data to get body composition, if available
 for(i in 1:nSp) {
@@ -54,7 +54,7 @@ for(i in 1:nSp) {
       uid <- which(uid)
 
       # Data.frame to store composition
-      comp[[i]] <- data.frame(taxa = sp$species[i],
+      comp[[i]] <- data.frame(taxa = spList$species[i],
                               structure = character(length(uid)),
                               composition = character(length(uid)),
                               stringsAsFactors = F)
@@ -74,7 +74,7 @@ for(i in 1:nSp) {
       if (any(uid)) {
         uid <- which(uid)[1]
         # Data.frame to store composition
-        comp[[i]] <- data.frame(taxa = sp$species[i],
+        comp[[i]] <- data.frame(taxa = spList$species[i],
                                 structure = character(1),
                                 composition = character(1),
                                 stringsAsFactors = F)
@@ -100,7 +100,7 @@ for(i in mmSp$species) {
 }
 
 # =-=-=-=-=-=-=-=-=-=- Missing species -=-=-=-=-=-=-=-=-=-= #
-nm <- sp$species[unlist(lapply(comp, is.null))]
+nm <- spList$species[unlist(lapply(comp, is.null))]
 options(stringsAsFactors = FALSE)
 
 # https://eol.org/pages/420985

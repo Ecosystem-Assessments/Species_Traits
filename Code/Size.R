@@ -2,7 +2,7 @@
 # Load species
 load('./Data/SpeciesList/SpeciesList.RData')
 nSp <- nrow(spList)
-nSp
+
 # =-=-=-=-=-=-=-=-=-=- Size from species -=-=-=-=-=-=-=-=-=-= #
 library(rfishbase)
 cl <- c("Length","CommonLength","Weight")
@@ -535,6 +535,6 @@ colnames(size_df) <- 'Size'
 
 #Verify if the dataset is complete
 which(is.na(size_df), arr.ind=TRUE)
-size_df
+
 # Export
 save(size_df, file = './Data/SpeciesTraits/Size.RData')
