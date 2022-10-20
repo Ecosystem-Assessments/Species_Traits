@@ -2,7 +2,7 @@
 # Load species
 load('./Data/SpeciesList/SpeciesList.RData')
 nSp <- nrow(spList)
-
+nSp
 # =-=-=-=-=-=-=-=-=-=- Size from species -=-=-=-=-=-=-=-=-=-= #
 library(rfishbase)
 cl <- c("Length","CommonLength","Weight")
@@ -106,7 +106,7 @@ tr['Actinauge sp.','Length'] <- 8
 tr['Actiniidae','Length'] <- 9.9
 
 # From image: './Data/TaxaImages/Actinostola_callosa.jpg'
-tr["Actinostola sp.", 'Length'] <- 10
+tr["Actinostola", 'Length'] <- 10
 
 #Alaria esculenta 150 cm https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=145716#attributes
 tr['Alaria esculenta','Length'] <- 150
@@ -119,13 +119,13 @@ tr['Alcyonium digitatum','Length'] <- 20
 
 # Ampelisca eschrichtii: 25mm; https://eol.org/pages/46521913
 # Ampelisca macrocephala; 14mm; https://eol.org/pages/46521922
-tr['Ampelisca sp.','Length'] <- 1.95
+tr['Ampelisca','Length'] <- 1.95
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125100&pic=49609
 tr['Amphiura sp.','Length'] <- 5
 
 # Anonyx sarsi: 30mm; https://eol.org/pages/46525653
-tr['Anonyx sp.','Length'] <- 3
+tr['Anonyx','Length'] <- 3
 
 # Anthomastus grandiflorus 10cm From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=125335&pic=41873
 tr['Anthomastus grandiflorus','Length'] <- 10
