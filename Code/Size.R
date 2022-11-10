@@ -2,7 +2,7 @@
 # Load species
 load('./Data/SpeciesList/SpeciesList.RData')
 nSp <- nrow(spList)
-nSp
+
 # =-=-=-=-=-=-=-=-=-=- Size from species -=-=-=-=-=-=-=-=-=-= #
 library(rfishbase)
 cl <- c("Length","CommonLength","Weight")
@@ -98,6 +98,9 @@ tr <- matrix(NA, nrow = length(nm), ncol = 1, dimnames = list(nm, 'Length'))
 #From image gbif - https://www.gbif.org/tools/zoom/simple.html?src=//api.gbif.org/v1/image/unsafe/https%3A%2F%2Finaturalist-open-data.s3.amazonaws.com%2Fphotos%2F226467101%2Foriginal.jpg
 tr['Acanella arbuscula','Length'] <- 20
 
+#https://www.invertebase.org/portal/taxa/index.php?taxon=29773
+tr['Acanthogorgia armata','Length'] <- 25
+
 # http://www.marinespecies.org/carms/aphia.php?p=checklist&action=search&gu_id=10178&tRank=220&inc_sub=1&status=pv
 # Teleost picture, Actinauge cristata, http://www.marinespecies.org/aphia.php?p=image&pic=44491
 tr['Actinauge sp.','Length'] <- 8
@@ -106,7 +109,10 @@ tr['Actinauge sp.','Length'] <- 8
 tr['Actiniidae','Length'] <- 9.9
 
 # From image: './Data/TaxaImages/Actinostola_callosa.jpg'
-tr["Actinostola", 'Length'] <- 10
+tr["Actinostola sp.", 'Length'] <- 10
+
+# From images if the genus Agarum: https://onlinelibrary.wiley.com/doi/10.1002/tax.603015
+tr["Agarum cribrosum", 'Length'] <- 50
 
 #Alaria esculenta 150 cm https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=145716#attributes
 tr['Alaria esculenta','Length'] <- 150
@@ -119,13 +125,13 @@ tr['Alcyonium digitatum','Length'] <- 20
 
 # Ampelisca eschrichtii: 25mm; https://eol.org/pages/46521913
 # Ampelisca macrocephala; 14mm; https://eol.org/pages/46521922
-tr['Ampelisca','Length'] <- 1.95
+tr['Ampelisca sp.','Length'] <- 1.95
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125100&pic=49609
 tr['Amphiura sp.','Length'] <- 5
 
 # Anonyx sarsi: 30mm; https://eol.org/pages/46525653
-tr['Anonyx','Length'] <- 3
+tr['Anonyx sp.','Length'] <- 3
 
 # Anthomastus grandiflorus 10cm From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=125335&pic=41873
 tr['Anthomastus grandiflorus','Length'] <- 10
@@ -179,11 +185,14 @@ tr['Axius serratus','Length'] <- 1
 # Balanus crenatus: c(25,35,15,20); http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=106215#attributes
 tr['Balanidae','Length'] <- 2.5
 
+# from image:https://www.mindat.org/paleoimg.php?id=542940
+tr["Bathynectes longispina", 'Length'] <- 23
+
 #Individuals can grow to 70 mm - https://eol.org/pages/46508875
 tr['Bathynectes maravigna','Length'] <- 7
 
 # Diameter to radius: https://eol.org/pages/49109568
-tr['Bolocera sp.','Length'] <- 12.5
+tr['Bolocera','Length'] <- 12.5
 
 # Boreomysis arctica: 28mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119962#attributes
 # Boreomysis tridens: c(26,30)mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119974#attributes
@@ -211,6 +220,10 @@ tr['Calocaris templemani','Length'] <- 1.7
 
 # From image, Cardium costatum: https://www.marinespecies.org/carms/aphia.php?p=image&tid=224543&pic=65649
 tr['Cardium sp.','Length'] <- 8
+
+
+# From the genus and from images: https://www.gbif.org/fr/species/8174/treatments
+tr["Chrysogorgia agassizii", 'Length'] <- 11
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=139000&pic=39148
 #tr['Ciliatocardium ciliatum','Length'] <- 5
@@ -266,6 +279,9 @@ tr['Eusirus cuspidatus','Length'] <- 2.5
 #From attributes - 210cm https://www.marinespecies.org/aphia.php?p=taxdetails&id=128506#attributes
 tr['Funiculina quadrangularis','Length'] <- 210
 
+# https://www.marinespecies.org/aphia.php?p=taxdetails&id=241272#images
+tr["Gennadas", 'Length'] <-4
+
 #Gnathophausia zoea from image ~7cm: https://www.marinespecies.org/carms/aphia.php?p=image&tid=119930&pic=110539
 tr['Gnathophausia','Length'] <- 7
 
@@ -318,7 +334,8 @@ tr['Keratoisis ornata','Length'] <- 0.1
 #From attributes 150cm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=145724#attributes
 tr['Laminaria digitata','Length'] <- 150
 
-#tr['Laminaria longicruris','Length'] <-
+#From the species Laminaria digitata (From attributes): https://www.marinespecies.org/aphia.php?p=taxdetails&id=145724#attributes
+tr['Laminaria longicruris','Length'] <- 150
 
 #From attributes - 5cm - https://www.marinespecies.org/aphia.php?p=taxdetails&id=144953#attributes
 tr['Leathesia difformis','Length'] <- 5
@@ -332,6 +349,9 @@ tr['Lophelia pertusa','Length'] <- 1.2
 #https://eol.org/pages/46567475
 tr['Macrorhamphosus scolopax','Length'] <- 20
 
+# https://eol.org/pages/46563367
+tr["Macrostomias longibarbatus", 'Length'] <- 43
+
 # https://eol.org/pages/46530499
 tr['Maera loveni','Length'] <- 2.5
 
@@ -340,7 +360,6 @@ tr['Melita dentata','Length'] <- 2.2
 
 # From images - ~0.4 cm https://www.marinespecies.org/aphia.php?p=taxdetails&id=119780#images
 tr['Monstrilla','Length'] <- 0.4
-
 
 # Lampadena speculigera: 15.3; https://eol.org/pages/46564157
 # Notoscopelus kroyeri: 14.3; https://eol.org/pages/46564223
@@ -361,8 +380,14 @@ tr['Novodinia americana','Length'] <- 15
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102908&pic=44497
 tr['Oediceros saginatus','Length'] <- 2
 
+# From the family Oithonidae 0.2-2mm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=106422#attributes
+tr["Oithona spinirostris", 'Length'] <- 0.2
+
 # From images - ~ 2.5 cm https://eol.org/pages/46505067/media
 tr['Oncopagurus','Length'] <- 2.5
+
+#From attributes 2-200mm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=124973#attributes
+tr['Ophiacantha abyssicola','Length'] <- 10
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=124978&pic=29928
 tr['Ophiacantha bidentata','Length'] <- 10
@@ -384,6 +409,9 @@ tr['Paragorgia arborea','Length'] <- 40
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102152&pic=30190
 tr['Paramphithoe hystrix','Length'] <- 2
+
+# From the family Hyperiidae and from image: https://eol.org/pages/46521658
+tr["Parathemisto", 'Length'] <- 0.8
 
 # https://eol.org/pages/46473768/data
 tr['Parvicardium pinnulatum','Length'] <- 1.3
@@ -433,10 +461,14 @@ tr['Poraniomorpha','Length'] <- 7
 # From attributes: https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=130954#attributes
 tr['Potamilla neglecta','Length'] <- 4.5
 
-# From image: ~1.5mm https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=125411#images
+# From image (in TaxaImages)
+tr['Primnoa resedaeformis','Length'] <- 25
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=123908&pic=32027
 tr['Psilaster andromeda','Length'] <- 10
+
+# From the genus and from images: https://www.gbif.org/fr/species/8174/treatments
+tr["Radicipes gracilis", 'Length'] <- 11
 
 # From identification catalog, but I think it may be much bigger
 tr['Reteporella grimaldii','Length'] <- 4
@@ -452,6 +484,9 @@ tr['Sabinea septemcarinata','Length'] <- 9
 
 # From images: ~ 50cm- http://v3.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=55715
 tr['Saccorhiza dermatodea','Length'] <- 50
+
+# From another species in the same genus, Sclerasterias contorta: https://www.marinespecies.org/aphia.php?p=taxdetails&id=178804#images
+tr["Sclerasterias tanneri", 'Length'] <- 10
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=107568&pic=31898
 tr['Sclerocrangon boreas','Length'] <- 6
@@ -469,6 +504,12 @@ tr['Sertularia polyzonias','Length'] <- 5
 # https://eol.org/pages/46468246
 # http://www.marinespecies.org/aphia.php?p=image&tid=254617&pic=39151
 #tr['Similipecten greenlandicus','Length'] <- 2
+
+# From 2-200mm https://www.marinespecies.org/aphia.php?p=taxdetails&id=442342#attributes
+tr["Spinolambrus pourtalesii", 'Length'] <- 10
+
+# From attributes of the genus (7.4; 4; 6): https://www.marinespecies.org/aphia.php?p=taxdetails&id=106994#attributes
+tr["Spirontocaris fabricii", 'Length'] <- 5.8
 
 # c(60,40,74) https://eol.org/pages/343975/data
 tr['Spirontocaris liljeborgii','Length'] <- 5.8
@@ -499,6 +540,9 @@ tr['Stylocordyla borealis','Length'] <- 7
 # 3
 tr['Syscenus infelix','Length'] <- 3
 
+# https://eol.org/pages/51258428
+tr["Tealia felina", 'Length'] <- 10
+
 # c(50,250) https://eol.org/pages/46552783/data
 tr['Thuiaria thuja','Length'] <- 15
 
@@ -514,11 +558,17 @@ tr['Tritia sp.','Length'] <- 2
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=123815&pic=30204
 tr['Urasterias lincki','Length'] <- 25
 
+# From 2-200mm: https://www.marinespecies.org/aphia.php?p=taxdetails&id=172121#attributes
+tr["Vazella pourtalesi", 'Length'] <- 10
+
 # Onchidoris bilamellata: 4; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=150457#attributes
 tr['Velutinidae','Length'] <- 4
 
 #From image: https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=546035#images
 tr['Venericardia borealis','Length'] <- 1
+
+# https://eol.org/pages/46578013
+tr["Vomer setapinnis", 'Length'] <- 25
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=102793&pic=31974
 tr['Wimvadocus torelli','Length'] <- 4
