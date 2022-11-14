@@ -4,13 +4,15 @@ library(tidyverse)
 spList <- read.csv('./Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv', sep=",", row.names = NULL)
 head(spList)
 nSp <- nrow(spList)
-nSp
+
 
 # Vector of ids
 aid <- numeric(nSp)
 for(i in 1:nSp) aid[i] <- spList$aphiaID[i]
 
 # Get attributes from worms
+library(worrms)
+
 spAttr <- vector('list', nSp)
 for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
 names(spAttr) <- spList$SPEC
@@ -23,6 +25,7 @@ names(spAttr) <- spList$SPEC
 
 # =-=-=-=-=-=-=-=-=-=- Check all for body composition -=-=-=-=-=-=-=-=-=-= #
 # Empty list
+
 comp <- vector('list', nSp)
 names(comp) <- spList$SPEC
 
@@ -87,13 +90,26 @@ for(i in mmSp$species) {
 # =-=-=-=-=-=-=-=-=-=- Missing species -=-=-=-=-=-=-=-=-=-= #
 nm <- spList$SPEC[unlist(lapply(comp, is.null))]
 options(stringsAsFactors = FALSE)
+nm
+
+#https://eol.org/pages/46561171
+comp[['Acipenser oxyrhynchus']] <- data.frame(taxa = 'Acipenser oxyrhynchus',
+structure = 'skeleton', composition = 'Bone')
 
 # https://eol.org/pages/420985
 comp[['Actinauge sp.']] <- data.frame(taxa = 'Actinauge sp.',
 structure = 'tissue', composition = 'non-calcifying')
 
+#https://eol.org/pages/51548193
+comp[['Actiniidae']] <- data.frame(taxa = 'Actiniidae',
+structure = 'tissue', composition = 'non_calcifying')
+
 # https://eol.org/pages/421113
 comp[['Actinostola']] <- data.frame(taxa = 'Actinostola sp.',
+structure = 'tissue', composition = 'non-calcifying')
+
+#From genus: https://eol.org/pages/963560
+comp[['Agarum cribrosum']] <- data.frame(taxa = 'Agarum cribrosum',
 structure = 'tissue', composition = 'non-calcifying')
 
 # From Securiflustra securifrons; https://eol.org/pages/600560
@@ -121,6 +137,10 @@ structure = 'skeleton', composition = 'calcium carbonate')
 comp[['Ascidiacea']] <- data.frame(taxa = 'Ascidiacea',
 structure = 'tissue', composition = 'non-calcifying')
 
+#https://eol.org/pages/46568876
+comp[['Aspidophoroides olriki']] <- data.frame(taxa = 'Aspidophoroides olriki',
+structure = 'skeleton', composition = 'Bone')
+
 # meduse: https://eol.org/pages/46554120
 comp[['Atolla wyvillei']] <- data.frame(taxa = 'Atolla wyvillei',
 structure = 'tissue', composition = 'calcium sulfate hemihydrate')
@@ -132,6 +152,14 @@ structure = 'skeleton', composition = 'calcium carbonate')
 # meduse: https://eol.org/pages/46554351
 comp[['Aurelia aurita']] <- data.frame(taxa = 'Aurelia aurita',
 structure = 'tissue', composition = 'calcium sulfate hemihydrate')
+
+#https://eol.org/pages/46565645
+comp[['Bassogigas gilli']] <- data.frame(taxa = 'Bassogigas gilli',
+structure = 'skeleton', composition = 'Bone')
+
+#https://eol.org/pages/46562934
+comp[['Bathylagus bericoides']] <- data.frame(taxa = 'Bathylagus bericoides',
+structure = 'skeleton', composition = 'Bone')
 
 # pieuvre: https://eol.org/pages/492279
 comp[['Bathypolypus']] <- data.frame(taxa = 'Bathypolypus sp.',
@@ -166,6 +194,26 @@ structure = 'skeleton', composition = 'calcium carbonate')
 comp[['Caberea ellisii']] <- data.frame(taxa = 'Caberea ellisii',
 structure = 'skeleton', composition = 'calcium carbonate')
 
+#https://eol.org/pages/46564880
+comp[['Caelorinchus caelorinchus']] <- data.frame(taxa = 'Caelorinchus caelorinchus',
+structure = 'skeleton', composition = 'Bone')
+
+#From the family Calliostomatidae: https://eol.org/pages/2376
+comp[['Calliostoma occidentale']] <- data.frame(taxa = 'Calliostoma occidentale',
+structure = 'tissue', composition = 'calcium carbonate')
+
+#From the family: https://eol.org/pages/46473459
+comp[['Cerastoderma pinnulatum']] <- data.frame(taxa = 'Cerastoderma pinnulatum',
+structure = 'solid', composition = 'aragonite')
+
+#https://eol.org/pages/62756
+comp[['Cirroteuthis']] <- data.frame(taxa = 'Cirroteuthis',
+structure = 'tissue', composition = 'aragonite')
+
+#https://eol.org/pages/1547
+comp[['Colossendeis']] <- data.frame(taxa = 'Colossendeis',
+structure = 'solid', composition = 'chitinous')
+
 # https://eol.org/pages/46450434
 comp[['Colga villosa']] <- data.frame(taxa = 'Colga villosa',
 structure = 'tissue', composition = 'non-calcifying')
@@ -173,6 +221,18 @@ structure = 'tissue', composition = 'non-calcifying')
 # https://eol.org/pages/46459938
 comp[['Colus']] <- data.frame(taxa = 'Colus sp.',
 structure = 'skeleton', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46562824
+comp[['Conocara salmonea']] <- data.frame(taxa = 'Conocara salmonea',
+structure = 'skeleton', composition = 'Bone')
+
+#https://eol.org/pages/46578893
+comp[['Cookeolus boops']] <- data.frame(taxa = 'Cookeolus boops',
+structure = 'skeleton', composition = 'Bone')
+
+#https://eol.org/pages/46569227
+comp[['Cottunculus thompsoni']] <- data.frame(taxa = 'Cottunculus thompsoni',
+structure = 'skeleton', composition = 'Bone')
 
 # meduse: https://eol.org/pages/46554310/data
 comp[['Cyanea capillata']] <- data.frame(taxa = 'Cyanea capillata',
@@ -202,6 +262,14 @@ structure = 'tissue', composition = 'non-calcifying')
 comp[['Eudistoma vitreum']] <- data.frame(taxa = 'Eudistoma vitreum',
 structure = 'tissue', composition = 'non-calcifying')
 
+#https://eol.org/pages/2090
+comp[['Flustra foliacea']] <- data.frame(taxa = 'Flustra foliacea',
+structure = 'tissue', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46571413
+comp[['Foetorepus agassizi']] <- data.frame(taxa = 'Foetorepus agassizi',
+structure = 'skeleton', composition = 'Bone')
+
 #
 comp[['Gadus ogac']] <- data.frame(taxa = 'Gadus ogac',
 structure = 'solid', composition = 'cartilaginous')
@@ -209,6 +277,14 @@ structure = 'solid', composition = 'cartilaginous')
 # https://eol.org/pages/439714
 comp[['Gonatus fabricii']] <- data.frame(taxa = 'Gonatus fabricii',
 structure = 'tissue', composition = 'aragonite')
+
+#https://eol.org/pages/586034
+comp[['Gonatus steenstrupi']] <- data.frame(taxa = 'Gonatus steenstrupi',
+structure = 'tissue', composition = 'aragonite')
+
+#https://eol.org/pages/46574735
+comp[['Gymnelis viridis']] <- data.frame(taxa = 'Gymnelis viridis',
+structure = 'skeleton', composition = 'Bone')
 
 # https://eol.org/pages/1163432
 comp[['Halichondria panicea']] <- data.frame(taxa = 'Halichondria panicea',
@@ -222,25 +298,98 @@ structure = 'hydroskeleton', composition = 'non-calcifying')
 comp[['Hemithiris psittacea']] <- data.frame(taxa = 'Hemithiris psittacea',
 structure = 'tissue', composition = 'calcite')
 
+#https://eol.org/pages/439709
+comp[['Histioteuthis reversa']] <- data.frame(taxa = 'Histioteuthis reversa',
+structure = 'tissue', composition = 'aragonite')
+
 # https://eol.org/pages/704318
 comp[['Hormathia nodosa']] <- data.frame(taxa = 'Hormathia nodosa',
 structure = 'tissue', composition = 'non-calcifying')
+
+#https://eol.org/pages/473520
+comp[['Hyalinoecia tubicola']] <- data.frame(taxa = 'Hyalinoecia tubicola',
+structure = 'tissue', composition = 'aragonite')
 
 # https://eol.org/pages/451352
 comp[['Illex illecebrosus']] <- data.frame(taxa = 'Illex illecebrosus',
 structure = 'tissue', composition = 'aragonite')
 
+#https://eol.org/pages/46548784
+comp[['Keratoisis ornata']] <- data.frame(taxa = 'Keratoisis ornata',
+structure = 'tissue', composition = 'calcite')
+
+#https://eol.org/pages/3570
+comp[['Laminaria longicruris']] <- data.frame(taxa = 'Laminaria longicruris',
+structure = 'tissue', composition = 'non_calcifying')
+
 # bird
 comp[['Larus sp.']] <- data.frame(taxa = 'Larus sp.',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/52252393
+comp[['Leathesia difformis']] <- data.frame(taxa = 'Leathesia difformis',
+structure = 'tissue', composition = 'non_calcifying')
+
+#https://eol.org/pages/46514301
+comp[['Lebbeus zhttps://eol.org/pages/46514301
+ebra']] <- data.frame(taxa = 'Lebbeus zebra',
+structure = 'solid', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46451507
+comp[['Limacina']] <- data.frame(taxa = 'Limacina',
+structure = 'solid', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46570120
+comp[['Liopsetta putnami']] <- data.frame(taxa = 'Liopsetta putnami',
 structure = 'skeleton', composition = 'bone')
 
 # https://eol.org/pages/2550449
 comp[['Liponema multicorne']] <- data.frame(taxa = 'Liponema multicorne',
 structure = 'tissue', composition = 'non-calcifying')
 
+#From the family: https://eol.org/pages/2351
+comp[['Loligo pealeii']] <- data.frame(taxa = 'Loligo pealeii',
+structure = 'tissue', composition = 'aragonite')
+
+#https://eol.org/pages/45275204
+comp[['Lophelia pertusa']] <- data.frame(taxa = 'Lophelia pertusa',
+structure = 'solid', composition = 'aragonite')
+
+#https://eol.org/pages/46574696
+comp[['Lumpenus lumpretaeformis']] <- data.frame(taxa = 'Lumpenus lumpretaeformis',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46574693
+comp[['Lumpenus maculatus']] <- data.frame(taxa = 'Lumpenus maculatus',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46574695
+comp[['Lumpenus medius']] <- data.frame(taxa = 'Lumpenus medius',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46574804
+comp[['Lycenchelys verrilli']] <- data.frame(taxa = 'Lycenchelys verrilli',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46574862
+comp[['Lycodes esmarki']] <- data.frame(taxa = 'Lycodes esmarki',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46567475
+comp[['Macrorhamphosus scolopax']] <- data.frame(taxa = 'Macrorhamphosus scolopax',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46563367
+comp[['Macrostomias longibarbatus']] <- data.frame(taxa = 'Macrostomias longibarbatus',
+structure = 'skeleton', composition = 'bone')
+
 # https://eol.org/pages/401186
 comp[['Margarites']] <- data.frame(taxa = 'Margarites sp.',
 structure = 'skeleton', composition = 'calcium carbonate')
+
+#https://eol.org/pages/51426
+comp[['Mastigoteuthis']] <- data.frame(taxa = 'Mastigoteuthis',
+structure = 'tissue', composition = 'aragonite')
 
 # https://eol.org/pages/46530090
 comp[['Melita dentata']] <- data.frame(taxa = 'Melita dentata',
@@ -254,6 +403,10 @@ structure = 'tissue', composition = 'non-calcifying')
 comp[['Morus bassanus']] <- data.frame(taxa = 'Morus bassanus',
 structure = 'skeleton', composition = 'bone')
 
+#https://eol.org/pages/46503340
+comp[['Munida valida']] <- data.frame(taxa = 'Munida valida',
+structure = 'solid', composition = 'calcium carbonate')
+
 # https://eol.org/pages/590174
 # https://eol.org/pages/47012942
 comp[['Naticidae']] <- data.frame(taxa = 'Naticidae',
@@ -262,6 +415,10 @@ structure = 'skeleton', composition = 'calcium carbonate')
 # https://eol.org/pages/46460933
 comp[['Neptunea']] <- data.frame(taxa = 'Neptunea sp.',
 structure = 'skeleton', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46563818
+comp[['Notolepis rissoi']] <- data.frame(taxa = 'Notolepis rissoi',
+structure = 'skeleton', composition = 'bone')
 
 # https://eol.org/pages/502990
 comp[['Nucella lapillus']] <- data.frame(taxa = 'Nucella lapillus',
@@ -275,13 +432,37 @@ structure = 'tissue', composition = 'non-calcifying')
 comp[['Oceanites sp.']] <- data.frame(taxa = 'Oceanites sp.',
 structure = 'skeleton', composition = 'bone')
 
-# https://eol.org/pages/453373
-comp[['Ommastrephes sp.']] <- data.frame(taxa = 'Ommastrephes sp.',
+#https://eol.org/pages/586032
+comp[['Octopoteuthis']] <- data.frame(taxa = 'Octopoteuthis',
 structure = 'tissue', composition = 'aragonite')
+
+#From the genus:https://www.marinespecies.org/aphia.php?p=taxdetails&id=106485#attributes
+comp[['Oithona spinirostris']] <- data.frame(taxa = 'Oithona spinirostris',
+structure = 'solid', composition = 'chitinous')
+
+# https://eol.org/pages/453373
+comp[['Ommastrephes']] <- data.frame(taxa = 'Ommastrephes',
+structure = 'tissue', composition = 'aragonite')
+
+#https://eol.org/pages/46549709
+comp[['Pachycerianthus borealis']] <- data.frame(taxa = 'Pachycerianthus borealis',
+structure = 'tissue', composition = 'non_calcifying')
 
 # https://eol.org/pages/46450364
 comp[['Palio dubia']] <- data.frame(taxa = 'Palio dubia',
 structure = 'tissue', composition = 'non-calcifying')
+
+#https://eol.org/pages/46563845
+comp[['Paralepis atlantica']] <- data.frame(taxa = 'Paralepis atlantica',
+structure = 'skeleton', composition = 'bone')
+
+#https://eol.org/pages/46521658
+comp[['Parathemisto']] <- data.frame(taxa = 'Parathemisto',
+structure = 'solid', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46554343
+comp[['Pelagia noctiluca']] <- data.frame(taxa = 'Pelagia noctiluca',
+structure = 'tissue', composition = 'calcium_sulfate')
 
 # https://eol.org/pages/46549373
 comp[['Pennatula grandis']] <- data.frame(taxa = 'Pennatula grandis',
@@ -300,6 +481,10 @@ comp[['Pleurobrachia pileus']] <- data.frame(taxa = 'Pleurobrachia pileus',
 structure = 'tissue', composition = 'non-calcifying')
 
 #
+comp[['Polycheles sculptus']] <- data.frame(taxa = 'Polycheles sculptus',
+structure = 'solid', composition = 'calcium carbonate')
+
+#https://eol.org/pages/46516677
 comp[['Polynoidae']] <- data.frame(taxa = 'Polynoidae',
 structure = 'hydroskeleton', composition = 'non-calcifying')
 
@@ -307,6 +492,10 @@ structure = 'hydroskeleton', composition = 'non-calcifying')
 # https://eol.org/pages/46477078
 comp[['Porifera']] <- data.frame(taxa = 'Porifera',
 structure = 'skeleton', composition = 'biogenic silica')
+
+#https://eol.org/pages/38586
+comp[['Pterygioteuthis']] <- data.frame(taxa = 'Pterygioteuthis',
+structure = 'tissue', composition = 'aragonite')
 
 # https://eol.org/pages/46552246
 comp[['Ptychogena lactea']] <- data.frame(taxa = 'Ptychogena lactea',
@@ -561,13 +750,6 @@ body <- body %>%
         distinct() %>%
         mutate(value = 1) %>%
         spread(body, value, fill = 0)
-body
-
-bodym =as.matrix(body)
-bodym
-row_sub = apply(bodym, 1, function(row) all(row ==0 ))
-see_missingsp=bodym[row_sub,]
-see_missingsp
 
 # As matrix with rownames as species
 if (!all(body$taxa == spList$SPEC)) stop('Species are not the same between body dataset and species list')
@@ -575,7 +757,10 @@ rownames(body) <- body$taxa
 body <- body %>%
         select(-taxa) %>%
         as.matrix()
-body
+
+#row_sub = apply(body, 1, function(row) all(row !=0 ))
+#see_missingsp=body[row_sub,]
+#see_missingsp
 
 # Export
 save(body, file = './Data/SpeciesTraits/BodyComposition.RData')
