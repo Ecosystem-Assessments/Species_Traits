@@ -752,8 +752,8 @@ for(i in feedType) feeding[, i] <- stringr::str_detect(feed[,1], i)
 #Verify if the dataset is complete
 row_sub = apply(feeding, 1, function(row) all(row !=1 ))
 see_missingsp=feeding[row_sub,]
-#write.csv(see_missingsp,file="FeedingType_ManualEntry.csv")
+# write.csv(see_missingsp,file="FeedingType_ManualEntry.csv")
 
-feeding
 # Export
 save(feeding, file = './Data/SpeciesTraits/FeedingType.RData')
+write.csv(feeding ,file='./Data/SpeciesTraits/FeedingType.csv')
