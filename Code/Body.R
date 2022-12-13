@@ -172,7 +172,7 @@ structure = 'hydroskeleton', composition = 'non-calcifying')
 
 #TBD
 comp[['Arenicola marina']] <- data.frame(taxa = 'Arenicola marina',
-structure = 'NA', composition = 'NA')
+structure = 'tissue', composition = 'non_calcifying')
 
 # https://eol.org/pages/455235
 comp[['Arrhoges occidentalis']] <- data.frame(taxa = 'Arrhoges occidentalis',
@@ -322,7 +322,7 @@ structure = 'solid', composition = 'cartilaginous')
 
 #TBD
 comp[['Glycera capitata']] <- data.frame(taxa = 'Glycera capitata',
-structure = 'NA', composition = 'NA')
+structure = 'tissue', composition = 'non-calcifying')
 
 # https://eol.org/pages/439714
 comp[['Gonatus fabricii']] <- data.frame(taxa = 'Gonatus fabricii',
@@ -495,7 +495,7 @@ structure = 'tissue', composition = 'aragonite')
 
 #TBD
 comp[['Ophelia']] <- data.frame(taxa = 'Ophelia',
-structure = 'NA', composition = 'NA')
+structure = 'tissue', composition = 'non-calcifying')
 
 #https://eol.org/pages/46549709
 comp[['Pachycerianthus borealis']] <- data.frame(taxa = 'Pachycerianthus borealis',

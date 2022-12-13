@@ -1,14 +1,18 @@
 # Not reproducible
-load('../../NCEA_StLawrence/eBiotic/Biotic/BioticData/SpeciesList/Data/SpeciesList.RData')
-save(sp, file = './Data/SpeciesList/SpeciesStLawrence.RData')
+# load('../../NCEA_StLawrence/eBiotic/Biotic/BioticData/SpeciesList/Data/SpeciesList.RData')
+# save(sp, file = './Data/SpeciesList/SpeciesStLawrence.RData')
+load('./Data/SpeciesList/SpeciesStLawrence.RData')
 
 # Marine mammamls
-load('../../NCEA_StLawrence/eBiotic/Biotic/BioticData/MarineMammals/Data/Biotic/MarineMammalsSP.RData')
-save(mmSp, file = './Data/SpeciesList/MarineMammalsSP.RData')
+# load('../../NCEA_StLawrence/eBiotic/Biotic/BioticData/MarineMammals/Data/Biotic/MarineMammalsSP.RData')
+# save(mmSp, file = './Data/SpeciesList/MarineMammalsSP.RData')
+load('./Data/SpeciesList/MarineMammalsSP.RData')
 
 # Atlantic
-sp_atl <- read.csv("Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv")
-save(sp_atl, file = './Data/SpeciesList/SpeciesAtlantic.RData')
+# sp_atl <- read.csv("Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv")
+# save(sp_atl, file = './Data/SpeciesList/SpeciesAtlantic.RData')
+load('./Data/SpeciesList/SpeciesAtlantic.RData')
+
 
 # Single list 
 sp_atl <- dplyr::select(sp_atl, species = SPEC, Count = Freq)
