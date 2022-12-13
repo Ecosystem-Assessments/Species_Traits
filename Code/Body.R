@@ -1,76 +1,119 @@
 library(magrittr)
 library(tidyverse)
-# Load species
-spList <- read.csv('./Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv', sep=",", row.names = NULL)
-head(spList)
-nSp <- nrow(spList)
+load('./Data/SpeciesList/SpeciesStLawrence.RData')
+nSp <- nrow(sp)
+# =-=-=-=-=-=-=-=-=-=- Species aphia ID from worms -=-=-=-=-=-=-=-=-=-= #
+# library(worrms)
+# Get AphiaIDs
+# aphiaid <- vector('list', nSp)
+# names(aphiaid) <- sp$species
+# for(i in 1:nSp) aphiaid[[i]] <- try(wm_records_taxamatch(sp$species[i]))
 
+# # Identify missing taxa ids
+# id0 <- logical(nSp)
+# for(i in 1:nSp) id0[i] <- class(aphiaid[[i]]) == 'try-error'
+# nm <- sp$species[id0]
+# 
+# # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Not reproducible
+# # Staurostoma mertensii: 346
+# aphiaid[["Staurostoma mertensii"]] <- list(data.frame(AphiaID = 594013))
+# # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# 
+# Vector of ids
+# aid <- numeric(nSp)
+# for(i in 1:nSp) aid[i] <- aphiaid[[i]][[1]]$AphiaID[1]
 
+# # Get attributes from worms
+# spAttr <- vector('list', nSp)
+# for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
+# names(spAttr) <- sp$species
+# For now, export aphiaid & attributes, just to avoid loading querying averything again
+# save(aphiaid, file = './Data/SpAttributes/aphiaid.RData')
+# save(spAttr, file = './Data/SpAttributes/spAttr.RData')
+load('./Data/SpAttributes/aphiaid.RData')
 # Vector of ids
 aid <- numeric(nSp)
-for(i in 1:nSp) aid[i] <- spList$aphiaID[i]
+for(i in 1:nSp) aid[i] <- aphiaid[[i]][[1]]$AphiaID[1]
+sp$aphiaID <- aid
+sp <- dplyr::select(sp, species, aphiaID)
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+spList <- read.csv(
+  './Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv', 
+  sep=",", 
+  row.names = NULL
+) |>
+dplyr::select(species=SPEC, aphiaID)
 
-# Get attributes from worms
-library(worrms)
+# ---Combine
+sp <- dplyr::bind_rows(sp, spList) |>
+      unique()
 
-spAttr <- vector('list', nSp)
-#for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
-#names(spAttr) <- spList$SPEC
+# Add to species list 
+load("Data/SpeciesList/SpeciesList.RData")
+spList <- dplyr::left_join(spList, sp, by = "species")
+nSp <- nrow(spList)
+
+# # Get attributes from worms
+# aid <- spList$aphiaID
+# library(worrms)
+# spAttr <- vector('list', nSp)
+# for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
+# names(spAttr) <- spList$species
 
 # For now, export aphiaid & attributes, just to avoid loading querying averything again
-# save(aphiaid, file = './Data/Temp/aphiaid.RData')
-# save(spAttr, file = './Data/Temp/spAttr.RData')
-# load('./Data/Temp/aphiaid.RData')
-# load('./Data/Temp/spAttr.RData')
+# save(spAttr, file = './Data/SpAttributes/spAttr2.RData')
+load('./Data/SpAttributes/spAttr2.RData')
 
 # =-=-=-=-=-=-=-=-=-=- Check all for body composition -=-=-=-=-=-=-=-=-=-= #
 # Empty list
-
 comp <- vector('list', nSp)
-names(comp) <- spList$SPEC
+names(comp) <- spList$species
+
 
 # Go through all species data to get body composition, if available
-for(i in 1:nSp) {
-  # Object with data for "simpler" code
-  dat <- spAttr[[i]]
+for(i in names(comp)) {
+  if (i %in% names(spAttr)) {
+    # Object with data for "simpler" code
+    dat <- spAttr[[i]]
 
-  # Check if data is available
-  if (any(class(dat) == "data.frame")) {
-    # Check if body composition is available
-    uid <- dat$measurementTypeID == 47
-    if (any(uid)) {
-      uid <- which(uid)
-
-      # Data.frame to store composition
-      comp[[i]] <- data.frame(taxa = spList$SPEC[i],
-                              structure = character(length(uid)),
-                              composition = character(length(uid)),
-                              stringsAsFactors = F)
-
-      # Extract composition information
-      for(j in 1:length(uid)) {
-        # Structure
-        comp[[i]]$structure[j] <- dat$children[[uid[j]]]$measurementValue
-
-        # Composition
-        comp[[i]]$composition[j] <- dat$children[[uid[j]]]$children[[1]]$measurementValue
-      }
-    # else check if it's fish and put as cartilaginous
-    # TODO: check for bony fish manually afterwards
-    } else {
-      uid <- dat$measurementTypeID == 13
+    # Check if data is available
+    if (any(class(dat) == "data.frame")) {
+      # Check if body composition is available
+      uid <- dat$measurementTypeID == 47
       if (any(uid)) {
-        uid <- which(uid)[1]
+        uid <- which(uid)
+
         # Data.frame to store composition
-        comp[[i]] <- data.frame(taxa = spList$SPEC[i],
-                                structure = character(1),
-                                composition = character(1),
+        comp[[i]] <- data.frame(taxa = spList$species[i],
+                                structure = character(length(uid)),
+                                composition = character(length(uid)),
                                 stringsAsFactors = F)
 
-        comp[[i]]$structure <- 'Solid'
-        comp[[i]]$composition <- 'Cartilaginous'
+        # Extract composition information
+        for(j in 1:length(uid)) {
+          # Structure
+          comp[[i]]$structure[j] <- dat$children[[uid[j]]]$measurementValue
+
+          # Composition
+          comp[[i]]$composition[j] <- dat$children[[uid[j]]]$children[[1]]$measurementValue
+        }
+      # else check if it's fish and put as cartilaginous
+      # TODO: check for bony fish manually afterwards
+      } else {
+        uid <- dat$measurementTypeID == 13
+        if (any(uid)) {
+          uid <- which(uid)[1]
+          # Data.frame to store composition
+          comp[[i]] <- data.frame(taxa = spList$species[i],
+                                  structure = character(1),
+                                  composition = character(1),
+                                  stringsAsFactors = F)
+
+          comp[[i]]$structure <- 'Solid'
+          comp[[i]]$composition <- 'Cartilaginous'
+        }
       }
-    }
+    }  
   }
 }
 
@@ -88,7 +131,7 @@ for(i in mmSp$species) {
 }
 
 # =-=-=-=-=-=-=-=-=-=- Missing species -=-=-=-=-=-=-=-=-=-= #
-nm <- spList$SPEC[unlist(lapply(comp, is.null))]
+nm <- spList$species[unlist(lapply(comp, is.null))]
 options(stringsAsFactors = FALSE)
 
 #https://eol.org/pages/46561171
@@ -112,7 +155,7 @@ comp[['Agarum cribrosum']] <- data.frame(taxa = 'Agarum cribrosum',
 structure = 'tissue', composition = 'non-calcifying')
 
 # From Securiflustra securifrons; https://eol.org/pages/600560
-comp[['Alcyonidium']] <- data.frame(taxa = 'Alcyonidium sp.',
+comp[['Alcyonidium sp.']] <- data.frame(taxa = 'Alcyonidium sp.',
 structure = 'skeleton', composition = 'calcium carbonate')
 
 # https://eol.org/pages/450281
@@ -338,8 +381,7 @@ comp[['Leathesia difformis']] <- data.frame(taxa = 'Leathesia difformis',
 structure = 'tissue', composition = 'non_calcifying')
 
 #https://eol.org/pages/46514301
-comp[['Lebbeus zhttps://eol.org/pages/46514301
-ebra']] <- data.frame(taxa = 'Lebbeus zebra',
+comp[['Lebbeus zebra']] <- data.frame(taxa = 'Lebbeus zebra',
 structure = 'solid', composition = 'calcium carbonate')
 
 #https://eol.org/pages/46451507
@@ -789,7 +831,8 @@ structure = 'soft', composition = 'calcite')
 
 
 # =-=-=-=-=-=-=-=-=-=- All data in single data.frame and format categories -=-=-=-=-=-=-=-=-=-= #
-# Single data.frme
+for(i in 1:length(comp)) comp[[i]]$taxa <- names(comp)[i]
+# Single data.frame
 body <- bind_rows(comp)
 
 # Format structure categories
@@ -842,7 +885,7 @@ body <- body %>%
         spread(body, value, fill = 0)
 
 # As matrix with rownames as species
-if (!all(body$taxa == spList$SPEC)) stop('Species are not the same between body dataset and species list')
+if (!all(body$taxa == spList$species)) stop('Species are not the same between body dataset and species list')
 rownames(body) <- body$taxa
 body <- body %>%
         select(-taxa) %>%
@@ -850,3 +893,4 @@ body <- body %>%
 
 # Export
 save(body, file = './Data/SpeciesTraits/BodyComposition.RData')
+write.csv(body, file = './Data/SpeciesTraits/BodyComposition.csv')
