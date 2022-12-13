@@ -110,6 +110,7 @@ tr['Actiniidae','Length'] <- 9.9
 
 # From image: './Data/TaxaImages/Actinostola_callosa.jpg'
 tr["Actinostola sp.", 'Length'] <- 10
+tr["Actinostola", 'Length'] <- 10
 
 # From images if the genus Agarum: https://onlinelibrary.wiley.com/doi/10.1002/tax.603015
 tr["Agarum cribrosum", 'Length'] <- 50
@@ -126,12 +127,14 @@ tr['Alcyonium digitatum','Length'] <- 20
 # Ampelisca eschrichtii: 25mm; https://eol.org/pages/46521913
 # Ampelisca macrocephala; 14mm; https://eol.org/pages/46521922
 tr['Ampelisca sp.','Length'] <- 1.95
+tr['Ampelisca','Length'] <- 1.95
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125100&pic=49609
 tr['Amphiura sp.','Length'] <- 5
 
 # Anonyx sarsi: 30mm; https://eol.org/pages/46525653
 tr['Anonyx sp.','Length'] <- 3
+tr['Anonyx','Length'] <- 3
 
 # Anthomastus grandiflorus 10cm From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=125335&pic=41873
 tr['Anthomastus grandiflorus','Length'] <- 10
@@ -193,6 +196,7 @@ tr['Bathynectes maravigna','Length'] <- 7
 
 # Diameter to radius: https://eol.org/pages/49109568
 tr['Bolocera','Length'] <- 12.5
+tr['Bolocera sp.','Length'] <- 12.5
 
 # Boreomysis arctica: 28mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119962#attributes
 # Boreomysis tridens: c(26,30)mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119974#attributes
@@ -588,3 +592,4 @@ which(is.na(size_df), arr.ind=TRUE)
 
 # Export
 save(size_df, file = './Data/SpeciesTraits/Size.RData')
+write.csv(size_df, file = './Data/SpeciesTraits/Size.csv')
