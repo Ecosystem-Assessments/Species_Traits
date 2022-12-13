@@ -132,7 +132,7 @@ tr["Gymnelis viridis", 1] <- 'benthic'
 tr["Heteropolypus", 1] <- 'benthic'
 tr["Lophelia pertusa", 1] <- 'benthic'
 tr["Macrorhamphosus scolopax", 1] <- 'benthopelagic'
-tr["Macrostomias longibarbatus", 1] <- 'NA'
+tr["Macrostomias longibarbatus", 1] <- 'bathydemersal | demersal'
 tr["Monstrilla", 1] <- 'pelagic'
 tr["Myctophidae", 1] <- 'bathypelagic'
 tr["Naticidae", 1] <- 'benthic'
@@ -143,7 +143,7 @@ tr["Radicipes gracilis", 1] <- 'benthic'
 tr["Staurostoma mertensii", 1] <- 'benthopelagic'
 #tr["Tritia sp.", 1] <- 'benthic'
 tr["Velutinidae", 1] <- 'benthic'
-tr["Vomer setapinnis", 1] <- 'NA'
+tr["Vomer setapinnis", 1] <- 'benthopelagic'
 tr["Wimvadocus torelli", 1] <- 'benthic'
 
 # Insert to environment DB
@@ -177,16 +177,18 @@ env_df7 <- env_df6 %>% mutate(pelagic = ifelse(grepl("1",`pelagic-neritic`),"1",
 env_dff <- env_df7 %>% mutate(pelagic = ifelse(grepl("1",`pelagic-oceanic`),"1",pelagic))
 
 #select relevant columns
-environment_final <- env_dff %>% select('bathydemersal','bathypelagic','benthic','benthopelagic','demersal','pelagic','NA')
+environment_final <- env_dff %>% select('bathydemersal','bathypelagic','benthic','benthopelagic','demersal','pelagic')
 
 #Verify if the dataset is complete
-table(environment_final$'NA')
-row_sub = apply(environment_final, 1, function(row) all(row !=1 ))
-see_missingsp=environment_final[row_sub,]
+# table(environment_final$'NA')
+# row_sub = apply(environment_final, 1, function(row) all(row !=1 ))
+# see_missingsp=environment_final[row_sub,]
 #write.csv(env_manual_entry,file="Environment_ManualEntry.csv")
 
-environment_final <- as.matrix(environment_final)
+# environment_final <- as.matrix(environment_final)
+
 
 warning("duplicates present in the list (eg. Yoldia and Yoldia sp.)")
 # Export
 save(environment_final, file = './Data/SpeciesTraits/Environment.RData')
+write.csv(environment_final, file = './Data/SpeciesTraits/Environment.csv')
