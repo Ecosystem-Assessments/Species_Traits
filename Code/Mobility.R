@@ -2,14 +2,14 @@
 # Invertebrate traits DB
 inv <- read.delim('./Data/InvertebratesTraits/BD_traits_20200416.csv', stringsAsFactors = F)
 invSp <- inv$Species
-
+head(inv)
 # Fish traits DB
 fish <- readRDS('./Data/FishTraits/Data_trait_fb_3OCC_bathyend_TL_CML.RDS')
 fishSp <- paste(fish$Genus, fish$Species)
 
 # Check species
 load('./Data/SpeciesList/SpeciesList.RData')
-nSp <- nrow(sp)
+nSp <- nrow(spList)
 
 # Species for which traits are available
 spTraits <- c(fishSp, invSp)
@@ -17,10 +17,10 @@ spTraits <- c(fishSp, invSp)
 # =-=-=-=-=-=-=-=-=-=- Mobility -=-=-=-=-=-=-=-=-=-= #
 # Data frame
 mob <- c('sessile', 'crawler', 'swimmer', 'burrower', 'crawler_swimmer', 'mobile')
-mobility <- matrix(nrow = nSp, ncol = length(mob), dimnames = list(sp$species, mob))
+mobility <- matrix(nrow = nSp, ncol = length(mob), dimnames = list(spList$species, mob))
 
 # Insert invertebrate traits DB
-for(i in sp$species) {
+for(i in spList$species) {
   if (i %in% inv$Species) {
     uid <- which(inv$Species == i)
     mobility[i, ] <- unlist(c(inv[uid, c('SESS','CRA','SWI','BURR','CS')], 0))
@@ -30,7 +30,7 @@ for(i in sp$species) {
 # Insert fish traits DB
 # The information is not present for mobility, so we will assume that all fish
 # species are mobile
-for(i in sp$species) {
+for(i in spList$species) {
   if (i %in% fishSp) {
     uid <- which(fishSp == i)
     mobility[i, ] <- 0
@@ -205,6 +205,27 @@ for(i in nm) mobility[i, ] <- tr[i, ]
 uid <- mobility[, 'crawler_swimmer'] == 1
 mobility[uid, c('crawler','swimmer')] <- 1
 mobility <- mobility[, colnames(mobility) != 'crawler_swimmer']
+nm <- rownames(mobility)
+mobility <- data.frame(mobility) |>
+            dplyr::mutate(species = nm) |>
+            tibble::remove_rownames()
+mobility_manual_entry <- read.csv('./Data/ManualEntries/Mobility_ManualEntry.csv', sep=",")
+
+# Remove species in manual entry from mobility 
+uid <- mobility$species %in% mobility_manual_entry$species
+mobility <- mobility[!uid, ]
+mobility <- rbind(mobility, mobility_manual_entry)
+
+
+# Create final mobility dataset 
+mob <- data.frame(species = nm) |>
+       dplyr::left_join(mobility, by = "species")
+
+#Verify if the dataset is complete
+# row_sub = apply(mobility, 1, function(row) all(row !=1 ))
+# see_missingsp=mobility[row_sub,]
+#write.csv(see_missingsp,file="Mobility_ManualEntry.csv")
 
 # Export
 save(mobility, file = './Data/SpeciesTraits/Mobility.RData')
+write.csv(mobility, file = './Data/SpeciesTraits/Mobility.csv')
