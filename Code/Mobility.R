@@ -205,20 +205,27 @@ for(i in nm) mobility[i, ] <- tr[i, ]
 uid <- mobility[, 'crawler_swimmer'] == 1
 mobility[uid, c('crawler','swimmer')] <- 1
 mobility <- mobility[, colnames(mobility) != 'crawler_swimmer']
+nm <- rownames(mobility)
+mobility <- data.frame(mobility) |>
+            dplyr::mutate(species = nm) |>
+            tibble::remove_rownames()
+mobility_manual_entry <- read.csv('./Data/ManualEntries/Mobility_ManualEntry.csv', sep=",")
+
+# Remove species in manual entry from mobility 
+uid <- mobility$species %in% mobility_manual_entry$species
+mobility <- mobility[!uid, ]
+mobility <- rbind(mobility, mobility_manual_entry)
 
 
-mobility_manual_entry <- read.csv('./Data/SpeciesTraits/Mobility_ManualEntry.csv', sep=",", row.names = NULL)
-mobility_manual_entry <- mobility_manual_entry[,1:6] #remove comment for integration in db
-mobility_manual_entry <- as.matrix( mobility_manual_entry)
-mobility_manual_entry2 <- mobility_manual_entry[,-1]
-rownames(mobility_manual_entry2) <- mobility_manual_entry[,1]
-
-warning("Need to combine manual entry (mobility_manual_entry2 matrix) from csv file into DB")
+# Create final mobility dataset 
+mob <- data.frame(species = nm) |>
+       dplyr::left_join(mobility, by = "species")
 
 #Verify if the dataset is complete
-row_sub = apply(mobility, 1, function(row) all(row !=1 ))
-see_missingsp=mobility[row_sub,]
+# row_sub = apply(mobility, 1, function(row) all(row !=1 ))
+# see_missingsp=mobility[row_sub,]
 #write.csv(see_missingsp,file="Mobility_ManualEntry.csv")
 
 # Export
 save(mobility, file = './Data/SpeciesTraits/Mobility.RData')
+write.csv(mobility, file = './Data/SpeciesTraits/Mobility.csv')
