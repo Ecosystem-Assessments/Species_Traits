@@ -1,0 +1,909 @@
+"","species","Count"
+"1","Acanella arbuscula",17
+"2","Acanthephyra eximia",1
+"3","Acanthephyra purpurea",10
+"4","Acanthogorgia armata",11
+"5","Accipiter cooperii",NA
+"6","Accipiter gentilis",NA
+"7","Accipiter striatus",NA
+"8","Acipenser oxyrhynchus",6
+"9","Acipenser oxyrinchus",7
+"10","Actinauge sp.",253
+"11","Actiniidae",37
+"12","Actinostola",48
+"13","Actinostola sp.",301
+"14","Actitis macularius",NA
+"15","Aega psora",51
+"16","Agarum cribrosum",8
+"17","Agelaius phoeniceus",NA
+"18","Agriopoma morrhuanum",11
+"19","Aix sponsa",NA
+"20","Alaria esculenta",2
+"21","Alca torda",NA
+"22","Alcyonidium sp.",13
+"23","Alcyonium digitatum",24
+"24","Aldrovandia",28
+"25","Alepisaurus brevirostris",1
+"26","Alepisaurus ferox",1
+"27","Alepocephalus agassizii",28
+"28","Alepocephalus bairdii",15
+"29","Alle alle",NA
+"30","Alosa aestivalis",94
+"31","Alosa pseudoharengus",2460
+"32","Alosa sapidissima",899
+"33","Aluterus schoepfii",4
+"34","Amblyraja hyperborea",1
+"35","Amblyraja jenseni",2
+"36","Amblyraja radiata",12748
+"37","Amicula vestita",3
+"38","Ammodramus caudacutus",NA
+"39","Ammodramus maritimus",NA
+"40","Ammodytes",1912
+"41","Ammodytes sp.",521
+"42","Ampelisca",1
+"43","Ampelisca sp.",3
+"44","Amphiura sp.",19
+"45","Anarhichas denticulatus",69
+"46","Anarhichas lupus",3472
+"47","Anarhichas minor",448
+"48","Anas acuta",NA
+"49","Anas americana",NA
+"50","Anas clypeata",NA
+"51","Anas crecca",NA
+"52","Anas crecca carolinensis",NA
+"53","Anas discors",NA
+"54","Anas penelope",NA
+"55","Anas platyrhynchos",NA
+"56","Anas querquedula",NA
+"57","Anas rubripes",NA
+"58","Anas strepera",NA
+"59","Anguilla rostrata",23
+"60","Anisarchus medius",127
+"61","Anomia",16
+"62","Anomia sp.",7
+"63","Anonyx",13
+"64","Anonyx sp.",88
+"65","Anoplogaster cornuta",10
+"66","Anotopterus pharao",4
+"67","Anser albifrons",NA
+"68","Antalis sp.",1
+"69","Anthias nicholsi",5
+"70","Anthomastus grandiflorus",6
+"71","Anthoptilum grandiflorum",308
+"72","Antigonia capros",7
+"73","Antimora rostrata",36
+"74","Aphanopus carbo",3
+"75","Aphrodita hastata",658
+"76","Aphroditella hastata",129
+"77","Apristurus",36
+"78","Aquila chrysaetos",NA
+"79","Arbacia punctulata",9
+"80","Arcoscalpellum michelottianum",18
+"81","Arctica islandica",102
+"82","Arctozenus risso",1403
+"83","Ardea alba",NA
+"84","Ardea herodias",NA
+"85","Arenaria interpres",NA
+"86","Arenicola marina",1
+"87","Argentina silus",1503
+"88","Argis dentata",604
+"89","Argyropelecus aculeatus",73
+"90","Argyropelecus gigas",23
+"91","Ariomma bondi",1
+"92","Aristaeopsis edwardsiana",13
+"93","Aristostomias",3
+"94","Arrhis phyllonyx",4
+"95","Arrhoges occidentalis",119
+"96","Artediellus",1083
+"97","Artediellus sp.",623
+"98","Ascidiacea",2166
+"99","Ascophyllum nodosum",64
+"100","Aspidophoroides monopterygius",2413
+"101","Aspidophoroides olriki",13
+"102","Aspidophoroides olrikii",110
+"103","Astarte",54
+"104","Astarte sp.",210
+"105","Asterias",1970
+"106","Asterias sp.",137
+"107","Astropecten americanus",68
+"108","Astropecten duplicatus",12
+"109","Atlantopandalus propinqvus",217
+"110","Atolla wyvillei",23
+"111","Aulacofusus brevicauda",1
+"112","Aurelia aurita",149
+"113","Axius serratus",23
+"114","Aythya affinis",NA
+"115","Aythya americana",NA
+"116","Aythya collaris",NA
+"117","Aythya fuligula",NA
+"118","Aythya marila",NA
+"119","Aythya valisineria",NA
+"120","Bajacalifornia megalops",3
+"121","Balaena mysticetus",NA
+"122","Balaenoptera acutorostrata",NA
+"123","Balaenoptera borealis",NA
+"124","Balaenoptera edeni",NA
+"125","Balaenoptera musculus",NA
+"126","Balaenoptera physalus",NA
+"127","Balanidae",50
+"128","Balistes capriscus",1
+"129","Balistes vetula",1
+"130","Bartramia longicauda",NA
+"131","Bassogigas gilli",2
+"132","Bathyarca sp.",1
+"133","Bathygadus melanobranchus",1
+"134","Bathylagus bericoides",7
+"135","Bathylagus euryops",36
+"136","Bathynectes longispina",1
+"137","Bathynectes maravigna",4
+"138","Bathypolypus",1250
+"139","Bathypolypus sp.",421
+"140","Bathypterois",11
+"141","Bathyraja spinicauda",576
+"142","Bathysaurus ferox",8
+"143","Bathytroctes microlepis",1
+"144","Benthodesmus elongatus",1
+"145","Benthodesmus simonyi",20
+"146","Beringius turtoni",6
+"147","Beryx decadactylus",1
+"148","Bolocera",79
+"149","Bolocera sp.",392
+"150","Boltenia ovifera",103
+"151","Boreogadus saida",439
+"152","Boreomysis sp.",1
+"153","Boreotrophon sp.",47
+"154","Borostomias antarcticus",22
+"155","Botaurus lentiginosus",NA
+"156","Bothus",1
+"157","Bothus ocellatus",4
+"158","Branta bernicla",NA
+"159","Branta canadensis",NA
+"160","Branta leucopsis",NA
+"161","Brevoortia tyrannus",5
+"162","Brisaster fragilis",549
+"163","Brosme brosme",1124
+"164","Bryozoa",482
+"165","Bubulcus ibis",NA
+"166","Buccinum",950
+"167","Buccinum sp.",11288
+"168","Bucephala albeola",NA
+"169","Bucephala clangula",NA
+"170","Bucephala islandica",NA
+"171","Bulweria bulwerii",NA
+"172","Buteo jamaicensis",NA
+"173","Buteo lagopus",NA
+"174","Buteo lineatus",NA
+"175","Buteo platypterus",NA
+"176","Butorides virescens",NA
+"177","Caberea ellisii",18
+"178","Caelorinchus caelorinchus",3
+"179","Calathura brachiata",20
+"180","Calidris alba",NA
+"181","Calidris alpina",NA
+"182","Calidris bairdii",NA
+"183","Calidris canutus",NA
+"184","Calidris ferruginea",NA
+"185","Calidris fuscicollis",NA
+"186","Calidris himantopus",NA
+"187","Calidris maritima",NA
+"188","Calidris melanotos",NA
+"189","Calidris minutilla",NA
+"190","Calidris pusilla",NA
+"191","Callionymus",2
+"192","Calliostoma occidentale",1
+"193","Calocaris templemani",19
+"194","Calonectris diomedea",NA
+"195","Camptorhynchus labradorius",NA
+"196","Cancer borealis",2096
+"197","Cancer irroratus",25186
+"198","Carcharias taurus",1
+"199","Cardium sp.",1
+"200","Careproctus longipinnis",4
+"201","Careproctus ranula",5
+"202","Careproctus reinhardti",191
+"203","Cataetyx laticeps",1
+"204","Catharacta maccormicki",NA
+"205","Catharacta skua",NA
+"206","Cathartes aura",NA
+"207","Catoptrophorus semipalmatus",NA
+"208","Caudina arenata",1
+"209","Centropristis striata",4
+"210","Centroscyllium fabricii",805
+"211","Centroscymnus coelolepis",28
+"212","Cepphus grylle",NA
+"213","Ceramaster granularis",394
+"214","Cerastoderma pinnulatum",4
+"215","Ceratias holboelli",3
+"216","Ceryle alcyon",NA
+"217","Cetorhinus maximus",3
+"218","Chaceon quinquedens",119
+"219","Charadrius melodus",NA
+"220","Charadrius semipalmatus",NA
+"221","Charadrius vociferus",NA
+"222","Chauliodus sloani",80
+"223","Chaunax",1
+"224","Chen caerulescens",NA
+"225","Chen rossii",NA
+"226","Chiasmodon",24
+"227","Chionoecetes opilio",70595
+"228","Chiridota laevis",2
+"229","Chirona hameri",15
+"230","Chlamys islandica",11320
+"231","Chlidonias niger",NA
+"232","Chlorophthalmus agassizi",137
+"233","Chrysogorgia agassizii",5
+"234","Ciliatocardium ciliatum",100
+"235","Circus cyaneus",NA
+"236","Cirroteuthis",1
+"237","Citharichthys arctifrons",807
+"238","Clangula hyemalis",NA
+"239","Clupea harengus",21600
+"240","Colga villosa",34
+"241","Colossendeis",1
+"242","Colus",154
+"243","Colus sp.",84
+"244","Conger",10
+"245","Conocara salmonea",3
+"246","Cookeolus boops",1
+"247","Coragyps atratus",NA
+"248","Coregonus clupeaformis",1
+"249","Corvus brachyrhynchos",NA
+"250","Corvus corax",NA
+"251","Coryphaena hippurus",2
+"252","Coryphaenoides carapinus",1
+"253","Coryphaenoides rupestris",407
+"254","Cottunculus microps",83
+"255","Cottunculus thompsoni",27
+"256","Cottunculus thomsonii",1
+"257","Coturnicops noveboracensis",NA
+"258","Crangon septemspinosa",616
+"259","Crenella faba",3
+"260","Crossaster papposus",1712
+"261","Cryptacanthodes maculatus",602
+"262","Cryptopsaras couesii",3
+"263","Ctenodiscus crispatus",1242
+"264","Cubiceps gracilis",1
+"265","Cubiceps pauciradiatus",1
+"266","Cucumaria frondosa",1711
+"267","Cuspidaria sp.",174
+"268","Cyanea capillata",329
+"269","Cyclocardia borealis",8
+"270","Cyclopterus lumpus",1153
+"271","Cygnus columbianus",NA
+"272","Cygnus cygnus",NA
+"273","Cygnus olor",NA
+"274","Cyrtodaria siliqua",77
+"275","Cystophora cristata",NA
+"276","Cyttopsis rosea",8
+"277","Delphinapterus leucas",NA
+"278","Delphinus capensis",NA
+"279","Delphinus delphis",NA
+"280","Dendronotus",12
+"281","Dendronotus sp.",33
+"282","Derichthys serpentinus",8
+"283","Desmarestia aculeata",1
+"284","Dibranchus atlanticus",44
+"285","Dichelopandalus leptocerus",252
+"286","Dicrolene introniger",12
+"287","Diplopteraster multipes",76
+"288","Dipturus laevis",632
+"289","Dipturus linteus",27
+"290","Doridoxa ingolfiana",10
+"291","Drifa glomerata",74
+"292","Duva florida",96
+"293","Echinarachnius parma",824
+"294","Echinus",1
+"295","Echiodon dawsoni",1
+"296","Ectreposebastes imus",1
+"297","Egretta caerulea",NA
+"298","Egretta garzetta",NA
+"299","Egretta thula",NA
+"300","Egretta tricolor",NA
+"301","Enchelyopus cimbrius",3148
+"302","Ensis directus",3
+"303","Ensis leei",128
+"304","Epigonus",7
+"305","Epimeria loricata",35
+"306","Epizoanthus erdmanni",187
+"307","Epizoanthus incrustatus",1
+"308","Erignathus barbatus",NA
+"309","Eschrichtius robustus",NA
+"310","Etmopterus princeps",18
+"311","Etropus microstomus",3
+"312","Eualus fabricii",109
+"313","Eualus gaimardii",104
+"314","Eualus macilentus",154
+"315","Eubalaena glacialis",NA
+"316","Eudistoma vitreum",35
+"317","Eudocimus albus",NA
+"318","Eumesogrammus praecisus",408
+"319","Eumicrotremus derjugini",1
+"320","Eumicrotremus spinosus",644
+"321","Euphausia",2
+"322","Eurypharynx pelecanoides",15
+"323","Eusergestes arcticus",153
+"324","Eusirus cuspidatus",36
+"325","Evermannella indica",1
+"326","Falco columbarius",NA
+"327","Falco peregrinus",NA
+"328","Falco rusticolus",NA
+"329","Falco sparverius",NA
+"330","Feresa attenuata",NA
+"331","Flabellum",82
+"332","Flabellum sp.",29
+"333","Flustra foliacea",116
+"334","Foetorepus agassizi",34
+"335","Fratercula arctica",NA
+"336","Fucus distichus",2
+"337","Fucus vesiculosus",10
+"338","Fulica americana",NA
+"339","Fulmarus glacialis",NA
+"340","Funiculina quadrangularis",8
+"341","Gadus morhua",32604
+"342","Gadus ogac",626
+"343","Gaidropsarus",35
+"344","Gaidropsarus sp.",103
+"345","Gallinago gallinago",NA
+"346","Gallinula chloropus",NA
+"347","Gasterosteus aculeatus aculeatus",135
+"348","Gavia immer",NA
+"349","Gavia stellata",NA
+"350","Gennadas",11
+"351","Gersemia fruticosa",4
+"352","Gersemia rubiformis",628
+"353","Globicephala macrorhynchus",NA
+"354","Globicephala melas",NA
+"355","Glycera capitata",2
+"356","Glyptocephalus cynoglossus",15238
+"357","Gnathophausia",20
+"358","Gonatus fabricii",3
+"359","Gonatus steenstrupi",2
+"360","Gonostomatidae",113
+"361","Gorgonocephalus",410
+"362","Gorgonocephalus sp.",622
+"363","Grammatostomias dentatus",1
+"364","Grammicolepis brachiusculus",8
+"365","Grampus griseus",NA
+"366","Gymnelis viridis",14
+"367","Gymnelus viridis",67
+"368","Gymnocanthus tricuspis",398
+"369","Haematopus palliatus",NA
+"370","Halargyreus johnsonii",3
+"371","Haliaeetus leucocephalus",NA
+"372","Halichoerus grypus",NA
+"373","Halichondria panicea",78
+"374","Halieutichthys aculeatus",3
+"375","Halipteris finmarchica",92
+"376","Halosauropsis macrochir",7
+"377","Halosaurus guentheri",4
+"378","Hamingia arctica",2
+"379","Harriotta raleighana",33
+"380","Helicolenus dactylopterus",958
+"381","Heliometra glacialis",13
+"382","Hemithiris psittacea",30
+"383","Hemitripterus americanus",5169
+"384","Henricia",1555
+"385","Henricia sp.",627
+"386","Heteropolypus",1
+"387","Hiatella arctica",34
+"388","Himantopus mexicanus",NA
+"389","Hippasteria phrygiana",1441
+"390","Hippocampus erectus",1
+"391","Hippoglossina oblonga",609
+"392","Hippoglossoides platessoides",29169
+"393","Hippoglossus hippoglossus",23782
+"394","Histioteuthis reversa",9
+"395","Histrionicus histrionicus",NA
+"396","Holtbyrnia anomala",5
+"397","Homarus americanus",13541
+"398","Homola minima",1
+"399","Hoplostethus atlanticus",2
+"400","Hormathia nodosa",108
+"401","Howella brodiei",1
+"402","Howella sherborni",2
+"403","Hyalinoecia tubicola",13
+"404","Hyas araneus",2617
+"405","Hyas coarctatus",1887
+"406","Hydrobates pelagicus",NA
+"407","Hydrolagus affinis",5
+"408","Hymenopenaeus debilis",4
+"409","Hyperia galba",30
+"410","Hyperoglyphe perciformis",7
+"411","Hyperoodon (Hyperoodon) ampullatus",NA
+"412","Hyperoodon ampullatus",NA
+"413","Icelus",83
+"414","Icelus sp.",208
+"415","Ichnopus",3
+"416","Idotea",1
+"417","Illex illecebrosus",6700
+"418","Ilyophis brunneus",4
+"419","Isurus oxyrinchus",19
+"420","Ixobrychus exilis",NA
+"421","Kajikia albida",1
+"422","Keratoisis ornata",26
+"423","Kogia breviceps",NA
+"424","Kogia sima",NA
+"425","Laemonema barbatulum",3
+"426","Lagenodelphis hosei",NA
+"427","Lagenorhynchus acutus",NA
+"428","Lagenorhynchus albirostris",NA
+"429","Laminaria digitata",1
+"430","Laminaria longicruris",8
+"431","Lamna nasus",37
+"432","Lampanyctus sp.",17
+"433","Larus argentatus",NA
+"434","Larus atricilla",NA
+"435","Larus canus",NA
+"436","Larus delawarensis",NA
+"437","Larus fuscus",NA
+"438","Larus glaucoides",NA
+"439","Larus glaucoides glaucoides",NA
+"440","Larus hyperboreus",NA
+"441","Larus marinus",NA
+"442","Larus minutus",NA
+"443","Larus philadelphia",NA
+"444","Larus pipixcan",NA
+"445","Larus sp.",3
+"446","Larus tridactyla",NA
+"447","Leathesia difformis",1
+"448","Lebbeus groenlandicus",116
+"449","Lebbeus microceros",12
+"450","Lebbeus polaris",516
+"451","Lebbeus zebra",1
+"452","Lepidion schmidti",1
+"453","Lepophidium profundorum",64
+"454","Leptagonus decagonus",1168
+"455","Leptasterias",573
+"456","Leptasterias sp.",410
+"457","Leptoclinus maculatus",869
+"458","Leptychaster arcticus",17
+"459","Leucoraja erinacea",3051
+"460","Leucoraja ocellata",4507
+"461","Limacina",1
+"462","Limanda ferruginea",13935
+"463","Limnodromus griseus",NA
+"464","Limnodromus scolopaceus",NA
+"465","Limosa fedoa",NA
+"466","Limosa haemastica",NA
+"467","Limosa lapponica",NA
+"468","Limosa limosa",NA
+"469","Liopsetta putnami",1
+"470","Liparis atlanticus",134
+"471","Liparis coheni",5
+"472","Liparis fabricii",107
+"473","Liparis gibbus",370
+"474","Liparis inquilinus",19
+"475","Liparis liparis liparis",4
+"476","Liparis tunicatus",5
+"477","Lipogenys gillii",2
+"478","Liponema multicorne",27
+"479","Lithodes maja",3371
+"480","Loligo pealeii",406
+"481","Lontra canadensis",NA
+"482","Lophaster furcifer",11
+"483","Lophelia pertusa",4
+"484","Lophius americanus",4768
+"485","Lophodytes cucullatus",NA
+"486","Lopholatilus chamaeleonticeps",3
+"487","Lumpenus fabricii",15
+"488","Lumpenus lampretaeformis",645
+"489","Lumpenus lumpretaeformis",665
+"490","Lumpenus maculatus",656
+"491","Lumpenus medius",7
+"492","Lycenchelys paxillus",158
+"493","Lycenchelys verrilli",55
+"494","Lycenchelys verrillii",69
+"495","Lycodes esmarki",8
+"496","Lycodes eudipleurostictus",4
+"497","Lycodes lavalaei",453
+"498","Lycodes pallidus",499
+"499","Lycodes polaris",25
+"500","Lycodes reticulatus",117
+"501","Lycodes terraenova",84
+"502","Lycodes terraenovae",129
+"503","Lycodes turneri",2
+"504","Lycodes vahlii",1491
+"505","Macoma sp.",18
+"506","Macrorhamphosus scolopax",1
+"507","Macrostomias longibarbatus",1
+"508","Macrourus berglax",68
+"509","Mactromeris polynyma",973
+"510","Maera loveni",3
+"511","Magnisudis atlantica",13
+"512","Malacocephalus occidentalis",5
+"513","Malacoraja senta",4759
+"514","Malacosteus niger",5
+"515","Mallotus villosus",8849
+"516","Margarites",4
+"517","Margarites sp.",125
+"518","Mastigoteuthis",5
+"519","Maurolicus muelleri",110
+"520","Mediaster bairdi",10
+"521","Megaceryle alcyon",NA
+"522","Megaptera novaeangliae",NA
+"523","Megayoldia thraciaeformis",92
+"524","Melamphaes microps",1
+"525","Melamphaes suborbitalis",1
+"526","Melanitta fusca",NA
+"527","Melanitta nigra",NA
+"528","Melanitta perspicillata",NA
+"529","Melanogrammus aeglefinus",10632
+"530","Melanostigma atlanticum",1146
+"531","Melita dentata",2
+"532","Menidia menidia",12
+"533","Mentodus rostratus",1
+"534","Mercenaria mercenaria",17
+"535","Mergus merganser",NA
+"536","Mergus serrator",NA
+"537","Merluccius albidus",328
+"538","Merluccius bilinearis",9534
+"539","Mesodesma sp.",19
+"540","Mesoplodon bidens",NA
+"541","Mesoplodon densirostris",NA
+"542","Mesoplodon europaeus",NA
+"543","Mesoplodon grayi",NA
+"544","Mesoplodon hectori",NA
+"545","Mesoplodon mirus",NA
+"546","Metridium senile",17
+"547","Microgadus tomcod",110
+"548","Micromesistius poutassou",21
+"549","Modiolus modiolus",81
+"550","Mola mola",1
+"551","Molpadia",7
+"552","Molpadia sp.",10
+"553","Molva dypterygia",1
+"554","Monodon monoceros",0
+"555","Monolene sessilicauda",3
+"556","Monstrilla",6
+"557","Morone saxatilis",3
+"558","Morus bassanus",NA
+"559","Mugil cephalus",1
+"560","Munida iris",43
+"561","Munida valida",34
+"562","Munidopsis curvirostra",161
+"563","Musculus",5
+"564","Musculus sp.",20
+"565","Mustelus canis",2
+"566","Mya arenaria",7
+"567","Mya truncata",9
+"568","Mycteria americana",NA
+"569","Mycteroperca",3
+"570","Myctophidae",985
+"571","Myoxocephalus",7535
+"572","Myoxocephalus sp.",1681
+"573","Mytilus",98
+"574","Mytilus sp.",79
+"575","Myxine glutinosa",4583
+"576","Naticidae",785
+"577","Naucrates ductor",2
+"578","Nealotus tripes",4
+"579","Nemichthys scolopaceus",152
+"580","Neocyttus helgae",1
+"581","Neohela monstrosa",19
+"582","Neolithodes grimaldii",42
+"583","Neoscopelus macrolepidotus",9
+"584","Neptunea",258
+"585","Neptunea sp.",114
+"586","Nessorhamphus ingolfianus",13
+"587","Nezumia aequalis",2
+"588","Nezumia bairdii",2913
+"589","Notacanthus chemnitzii",29
+"590","Notolepis rissoi",438
+"591","Novodinia americana",1
+"592","Nucella lapillus",2
+"593","Nucula",1
+"594","Nuculana sp.",39
+"595","Numenius arquata",NA
+"596","Numenius borealis",NA
+"597","Numenius phaeopus",NA
+"598","Nyctanassa violacea",NA
+"599","Nycticorax nycticorax",NA
+"600","Nymphon",34
+"601","Nymphon sp.",50
+"602","Oceanites oceanicus",NA
+"603","Oceanites sp.",1
+"604","Oceanodroma leucorhoa",NA
+"605","Octopoteuthis",6
+"606","Odobenus rosmarus",NA
+"607","Oediceros saginatus",1
+"608","Oithona spinirostris",1
+"609","Ommastrephes",16
+"610","Ommastrephes sp.",1
+"611","Omosudis lowii",6
+"612","Oncopagurus",1
+"613","Oneirodes",1
+"614","Ophelia",1
+"615","Ophiacantha abyssicola",20
+"616","Ophiacantha bidentata",152
+"617","Ophichthus cruentifer",4
+"618","Ophiomusa lymani",1
+"619","Ophiopholis aculeata",456
+"620","Ophioscolex glacialis",18
+"621","Ophiura",191
+"622","Ophiura sp.",276
+"623","Oplophorus spinosus",3
+"624","Orcinus orca",NA
+"625","Osmerus mordax mordax",258
+"626","Ovalipes ocellatus",3
+"627","Oxyura jamaicensis",NA
+"628","Pachycerianthus borealis",12
+"629","Pagophila eburnea",NA
+"630","Pagophilus groenlandicus",NA
+"631","Pagurus",320
+"632","Pagurus sp.",512
+"633","Palio dubia",1
+"634","Palmaria palmata",7
+"635","Pandalus borealis",49328
+"636","Pandalus montagui",3208
+"637","Pandion haliaetus",NA
+"638","Pandora gouldiana",2
+"639","Panomya norvegica",3
+"640","Parablennius marmoreus",1
+"641","Paragorgia arborea",51
+"642","Paralepis atlantica",23
+"643","Paralepis elongata",2
+"644","Paralichthys dentatus",97
+"645","Paraliparis calidus",46
+"646","Paraliparis copei",43
+"647","Paraliparis copei copei",29
+"648","Paraliparis garmani",2
+"649","Paramphithoe hystrix",26
+"650","Parapasiphae sulcatifrons",12
+"651","Parasudis truculenta",66
+"652","Parathemisto",6
+"653","Parvicardium pinnulatum",1
+"654","Pasiphaea multidentata",1633
+"655","Pasiphaea tarda",41
+"656","Pelagia noctiluca",13
+"657","Pelecanus erythrorhynchos",NA
+"658","Pennatula aculeata",468
+"659","Pennatula grandis",510
+"660","Pentamera calcigera",1
+"661","Peponocephala electra",NA
+"662","Peprilus triacanthus",985
+"663","Periphylla periphylla",193
+"664","Peristedion miniatum",22
+"665","Petromyzon marinus",141
+"666","Phaethon aethereus",NA
+"667","Phalacrocorax auritus",NA
+"668","Phalacrocorax carbo",NA
+"669","Phalaropus fulicaria",NA
+"670","Phalaropus fulicarius",NA
+"671","Phalaropus lobatus",NA
+"672","Phalaropus tricolor",NA
+"673","Phascolion strombus strombus",9
+"674","Philomachus pugnax",NA
+"675","Phoca vitulina",NA
+"676","Phocoena phocoena",NA
+"677","Pholis fasciata",7
+"678","Pholis gunnellus",31
+"679","Photostomias guernei",1
+"680","Phronima",13
+"681","Phycis chesteri",399
+"682","Physeter catodon",NA
+"683","Physeter macrocephalus",NA
+"684","Pinguinus impennis",NA
+"685","Plegadis falcinellus",NA
+"686","Plesionika martia",7
+"687","Pleurobrachia pileus",94
+"688","Plutonaster agassizi",5
+"689","Pluvialis apricaria",NA
+"690","Pluvialis dominica",NA
+"691","Pluvialis squatarola",NA
+"692","Podiceps auritus",NA
+"693","Podiceps cristatus",NA
+"694","Podiceps grisegena",NA
+"695","Podilymbus podiceps",NA
+"696","Pollachius virens",4841
+"697","Polyacanthonotus rissoanus",3
+"698","Polycheles sculptus",10
+"699","Polyipnus clarus",77
+"700","Polymetme corythaeola",1
+"701","Polymixia lowei",31
+"702","Polymixia nobilis",11
+"703","Polynoidae",194
+"704","Pomatomus saltatrix",1
+"705","Pontaster",30
+"706","Pontophilus norvegicus",541
+"707","Porania pulvillus",312
+"708","Poraniomorpha",171
+"709","Poraniomorpha sp.",22
+"710","Porifera",3667
+"711","Poromitra crassiceps",1
+"712","Porphyrula martinica",NA
+"713","Porzana carolina",NA
+"714","Potamilla neglecta",1
+"715","Primnoa resedaeformis",17
+"716","Prionace glauca",12
+"717","Prionotus carolinus",51
+"718","Pseudarchaster parelii",312
+"719","Pseudopleuronectes americanus",14044
+"720","Pseudorca crassidens",NA
+"721","Pseudoscopelus",1
+"722","Psilaster andromeda",402
+"723","Psolus fabricii",139
+"724","Psolus phantapus",71
+"725","Pteraster militaris",484
+"726","Pteraster obscurus",3
+"727","Pteraster pulvillus",140
+"728","Pterodroma arminjoniana",NA
+"729","Pterygioteuthis",1
+"730","Ptychogena lactea",189
+"731","Puffinus gravis",NA
+"732","Puffinus griseus",NA
+"733","Puffinus puffinus",NA
+"734","Pusa hispida",NA
+"735","Pycnogonum litorale",8
+"736","Pycnogonum littorale",19
+"737","Radicipes gracilis",22
+"738","Raja bathyphila",1
+"739","Raja eglanteria",4
+"740","Raja garmani",3
+"741","Rajella fyllae",50
+"742","Rallus elegans",NA
+"743","Rallus limicola",NA
+"744","Rallus longirostris",NA
+"745","Recurvirostra americana",NA
+"746","Reinhardtius hippoglossoides",29040
+"747","Remora brachyptera",1
+"748","Remora remora",1
+"749","Reteporella grimaldii",1
+"750","Rhachotropis aculeata",106
+"751","Rhinochimaera atlantica",26
+"752","Rhodostethia rosea",NA
+"753","Rissa tridactyla",NA
+"754","Rondeletia loricata",4
+"755","Rossia",7
+"756","Rossia sp.",341
+"757","Rouleina attrita",4
+"758","Rouleina maderensis",1
+"759","Rynchops niger",NA
+"760","Sabinea sarsii",94
+"761","Sabinea septemcarinata",158
+"762","Saccorhiza dermatodea",1
+"763","Salmo salar",21
+"764","Saurida brasiliensis",2
+"765","Scaphander punctostriatus",122
+"766","Sclerasterias tanneri",58
+"767","Sclerocrangon boreas",176
+"768","Scolopax minor",NA
+"769","Scolopax rusticola",NA
+"770","Scomber scombrus",11261
+"771","Scomberesox saurus saurus",63
+"772","Scopelarchus analis",1
+"773","Scopeloberyx robustus",1
+"774","Scopelogadus beanii",25
+"775","Scopelosaurus lepidus",10
+"776","Scophthalmus aquosus",7383
+"777","Scyliorhinus retifer",2
+"778","Sebastes",6227
+"779","Sebastes sp.",15084
+"780","Securiflustra securifrons",37
+"781","Selar crumenophthalmus",1
+"782","Sepioloidea sp.",2
+"783","Sergia robusta",38
+"784","Seriola dumerili",1
+"785","Serripes groenlandicus",26
+"786","Serrivomer beanii",52
+"787","Sertularia polyzonias",13
+"788","Setarches guentheri",2
+"789","Siliqua",1
+"790","Simenchelys parasitica",35
+"791","Similipecten greenlandicus",29
+"792","Solaster endeca",820
+"793","Solemya borealis",1
+"794","Somateria mollissima",NA
+"795","Somateria spectabilis",NA
+"796","Somniosus microcephalus",2
+"797","Sphoeroides maculatus",4
+"798","Spinolambrus pourtalesii",4
+"799","Spirontocaris fabricii",1
+"800","Spirontocaris liljeborgii",301
+"801","Spirontocaris phippsii",29
+"802","Spirontocaris spinus",221
+"803","Spisula solidissima",332
+"804","Squalus acanthias",3858
+"805","Staurostoma mertensii",59
+"806","Stauroteuthis syrtensis",2
+"807","Stegocephalus inflatus",113
+"808","Stenella attenuata",NA
+"809","Stenella clymene",NA
+"810","Stenella coeruleoalba",NA
+"811","Stenella frontalis",NA
+"812","Stenella longirostris",NA
+"813","Steno bredanensis",NA
+"814","Stenotomus chrysops",7
+"815","Stephanasterias albula",14
+"816","Stephanauge sp.",75
+"817","Stephanolepis hispidus",4
+"818","Stercorarius longicaudus",NA
+"819","Stercorarius parasiticus",NA
+"820","Stercorarius pomarinus",NA
+"821","Stereoderma unisemita",6
+"822","Stereomastis sculpta",4
+"823","Sterna antillarum",NA
+"824","Sterna caspia",NA
+"825","Sterna dougallii",NA
+"826","Sterna forsteri",NA
+"827","Sterna fuscata",NA
+"828","Sterna hirundo",NA
+"829","Sterna nilotica",NA
+"830","Sterna paradisaea",NA
+"831","Sternoptyx diaphana",9
+"832","Stichaeus punctatus",2
+"833","Stichaeus punctatus punctatus",14
+"834","Stomias boa ferox",151
+"835","Stomphia coccinea",184
+"836","Strongylocentrotus",2114
+"837","Strongylocentrotus sp.",2929
+"838","Stylocordyla borealis",75
+"839","Symbolophorus veranyi",20
+"840","Symphurus diomedeanus",80
+"841","Synagrops bella",4
+"842","Synaphobranchus kaupi",136
+"843","Synaphobranchus kaupii",3
+"844","Syngnathus fuscus",49
+"845","Syscenus infelix",269
+"846","Tachyrhynchus erosus",2
+"847","Tautogolabrus adspersus",406
+"848","Tealia felina",11
+"849","Tellina sp.",1
+"850","Terebratulina septentrionalis",79
+"851","Teredo navalis",3
+"852","Teuthowenia megalops",3
+"853","Thalassarche chlororhynchos",NA
+"854","Thuiaria thuja",43
+"855","Thunnus alalunga",1
+"856","Thunnus obesus",1
+"857","Thunnus thynnus",3941
+"858","Thyonella pervicax",3
+"859","Thysanoessa longicaudata",2
+"860","Thysanoessa raschii",4
+"861","Tonicella sp.",6
+"862","Torpedo nobiliana",18
+"863","Trachyrincus murrayi",34
+"864","Tremaster mirabilis",3
+"865","Trichechus manatus",NA
+"866","Triglops",2134
+"867","Triglops sp.",420
+"868","Trigonolampa miriceps",2
+"869","Tringa erythropus",NA
+"870","Tringa flavipes",NA
+"871","Tringa melanoleuca",NA
+"872","Tringa nebularia",NA
+"873","Tringa solitaria",NA
+"874","Tringa totanus",NA
+"875","Tritia sp.",2
+"876","Tryngites subruficollis",NA
+"877","Tursiops truncatus",NA
+"878","Ulva",5
+"879","Ulvaria subbifurcata",245
+"880","Urasterias lincki",54
+"881","Uria aalge",NA
+"882","Uria lomvia",NA
+"883","Urophycis chesteri",1466
+"884","Urophycis chuss",3871
+"885","Urophycis regia",35
+"886","Urophycis tenuis",11765
+"887","Ursus maritimus",NA
+"888","Urticina felina",89
+"889","Vanellus vanellus",NA
+"890","Vazella pourtalesi",141
+"891","Velutinidae",9
+"892","Venefica procera",2
+"893","Venericardia borealis",4
+"894","Venus mercenaria",6
+"895","Vinciguerria nimbaria",1
+"896","Vomer setapinnis",3
+"897","Wimvadocus torelli",2
+"898","Xema sabini",NA
+"899","Xenodermichthys copei",20
+"900","Xenolepidichthys dalgleishi",5
+"901","Xiphias gladius",3
+"902","Xylophaga atlantica",3
+"903","Yoldia",1
+"904","Yoldia sp.",7
+"905","Zenopsis ocellata",65
+"906","Ziphius cavirostris",NA
+"907","Zoarces americanus",3194
+"908","Zostera marina",1

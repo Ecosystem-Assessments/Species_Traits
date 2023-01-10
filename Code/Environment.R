@@ -186,9 +186,9 @@ environment_final <- env_dff %>% select('bathydemersal','bathypelagic','benthic'
 #write.csv(env_manual_entry,file="Environment_ManualEntry.csv")
 
 # environment_final <- as.matrix(environment_final)
-
+environment <- environment_final
 
 warning("duplicates present in the list (eg. Yoldia and Yoldia sp.)")
 # Export
-save(environment_final, file = './Data/SpeciesTraits/Environment.RData')
-write.csv(environment_final, file = './Data/SpeciesTraits/Environment.csv')
+save(environment, file = './Data/SpeciesTraits/Environment.RData')
+write.csv(environment, file = './Data/SpeciesTraits/Environment.csv')

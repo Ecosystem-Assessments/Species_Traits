@@ -1,688 +1,909 @@
-"","sessile","crawler","swimmer","burrower","mobile","species"
-"6",0,0,0,0,1,"Acipenser oxyrinchus"
-"7",1,0,0,0,0,"Actinauge sp."
-"10",1,0,0,0,0,"Actinostola sp."
-"11",0,0,0,0,1,"Aega psora"
-"15",1,0,0,0,0,"Alcyonidium sp."
-"18",0,0,0,0,1,"Alepisaurus brevirostris"
-"19",0,0,0,0,1,"Alepisaurus ferox"
-"20",0,0,0,0,1,"Alepocephalus agassizii"
-"21",0,0,0,0,1,"Alepocephalus bairdii"
-"22",0,0,0,0,1,"Alosa aestivalis"
-"23",0,0,0,0,1,"Alosa pseudoharengus"
-"24",0,0,0,0,1,"Alosa sapidissima"
-"25",0,0,0,0,1,"Aluterus schoepfii"
-"26",0,0,0,0,1,"Amblyraja hyperborea"
-"27",0,0,0,0,1,"Amblyraja jenseni"
-"28",0,0,0,0,1,"Amblyraja radiata"
-"29",0,1,0,0,0,"Amicula vestita"
-"31",0,0,0,0,1,"Ammodytes sp."
-"33",0,0,1,0,0,"Ampelisca sp."
-"34",0,1,0,0,0,"Amphiura sp."
-"35",0,0,0,0,1,"Anarhichas denticulatus"
-"36",0,0,0,0,1,"Anarhichas lupus"
-"37",0,0,0,0,1,"Anarhichas minor"
-"38",0,0,0,0,1,"Anguilla rostrata"
-"39",0,0,0,0,1,"Anisarchus medius"
-"41",1,0,0,0,0,"Anomia sp."
-"43",0,0,1,0,0,"Anonyx sp."
-"44",0,0,0,0,1,"Anoplogaster cornuta"
-"45",0,0,0,0,1,"Anotopterus pharao"
-"46",0,0,0,1,0,"Antalis sp."
-"47",0,0,0,0,1,"Anthias nicholsi"
-"49",1,0,0,0,0,"Anthoptilum grandiflorum"
-"50",0,0,0,0,1,"Antigonia capros"
-"51",0,0,0,0,1,"Antimora rostrata"
-"52",0,0,0,0,1,"Aphanopus carbo"
-"54",0,1,0,0,0,"Aphroditella hastata"
-"57",1,0,0,0,0,"Arcoscalpellum michelottianum"
-"58",0,0,0,1,0,"Arctica islandica"
-"59",0,0,0,0,1,"Arctozenus risso"
-"61",0,0,0,0,1,"Argentina silus"
-"62",0,0,0,0,1,"Argis dentata"
-"63",0,0,0,0,1,"Argyropelecus aculeatus"
-"64",0,0,0,0,1,"Argyropelecus gigas"
-"65",0,0,0,0,1,"Ariomma bondi"
-"66",0,0,0,0,1,"Aristaeopsis edwardsiana"
-"69",0,0,0,1,0,"Arrhoges occidentalis"
-"71",0,0,0,0,1,"Artediellus sp."
-"72",1,0,0,0,0,"Ascidiacea"
-"74",0,0,0,0,1,"Aspidophoroides monopterygius"
-"76",0,0,0,0,1,"Aspidophoroides olrikii"
-"78",0,0,1,1,0,"Astarte sp."
-"80",0,1,0,0,0,"Asterias sp."
-"82",0,1,0,0,0,"Astropecten duplicatus"
-"83",0,0,0,0,1,"Atlantopandalus propinqvus"
-"84",0,0,1,0,0,"Atolla wyvillei"
-"85",0,1,0,1,0,"Aulacofusus brevicauda"
-"86",1,0,1,0,0,"Aurelia aurita"
-"88",0,0,0,0,1,"Bajacalifornia megalops"
-"89",0,0,0,0,1,"Balaena mysticetus"
-"90",0,0,0,0,1,"Balaenoptera acutorostrata"
-"91",0,0,0,0,1,"Balaenoptera borealis"
-"92",0,0,0,0,1,"Balaenoptera musculus"
-"93",0,0,0,0,1,"Balaenoptera physalus"
-"94",1,0,0,0,0,"Balanidae"
-"95",0,0,0,0,1,"Balistes capriscus"
-"96",0,0,0,0,1,"Balistes vetula"
-"98",0,0,1,0,0,"Bathyarca sp."
-"99",0,0,0,0,1,"Bathygadus melanobranchus"
-"101",0,0,0,0,1,"Bathylagus euryops"
-"105",0,0,0,0,1,"Bathypolypus sp."
-"107",0,0,0,0,1,"Bathyraja spinicauda"
-"108",0,0,0,0,1,"Bathysaurus ferox"
-"109",0,0,0,0,1,"Bathytroctes microlepis"
-"110",0,0,0,0,1,"Benthodesmus elongatus"
-"111",0,0,0,0,1,"Benthodesmus simonyi"
-"112",0,1,0,1,0,"Beringius turtoni"
-"113",0,0,0,0,1,"Beryx decadactylus"
-"115",1,0,0,0,0,"Bolocera sp."
-"116",0,0,1,0,0,"Boltenia ovifera"
-"117",0,0,0,0,1,"Boreogadus saida"
-"118",0,0,0,0,1,"Boreomysis sp."
-"119",0,1,0,0,0,"Boreotrophon sp."
-"120",0,0,0,0,1,"Borostomias antarcticus"
-"122",0,0,0,0,1,"Bothus ocellatus"
-"123",0,0,0,0,1,"Brevoortia tyrannus"
-"124",0,1,0,0,0,"Brisaster fragilis"
-"125",0,0,0,0,1,"Brosme brosme"
-"126",1,0,0,0,0,"Bryozoa"
-"128",0,1,0,1,0,"Buccinum sp."
-"129",1,0,0,0,0,"Caberea ellisii"
-"134",0,0,0,1,0,"Calocaris templemani"
-"135",0,0,0,0,1,"Cancer borealis"
-"136",0,0,0,0,1,"Cancer irroratus"
-"137",0,0,0,0,1,"Carcharias taurus"
-"138",0,0,1,0,0,"Cardium sp."
-"139",0,0,0,0,1,"Careproctus longipinnis"
-"140",0,0,0,0,1,"Careproctus ranula"
-"141",0,0,0,0,1,"Careproctus reinhardti"
-"142",0,0,0,0,1,"Cataetyx laticeps"
-"145",0,0,0,0,1,"Centroscyllium fabricii"
-"146",0,0,0,0,1,"Centroscymnus coelolepis"
-"147",0,1,0,0,0,"Ceramaster granularis"
-"149",0,0,0,0,1,"Ceratias holboelli"
-"150",0,0,0,0,1,"Cetorhinus maximus"
-"152",0,0,0,0,1,"Chauliodus sloani"
-"155",0,1,0,0,0,"Chionoecetes opilio"
-"156",0,1,0,0,0,"Chiridota laevis"
-"157",0,0,1,0,0,"Chirona hameri"
-"158",0,0,1,0,0,"Chlamys islandica"
-"159",0,0,0,0,1,"Chlorophthalmus agassizi"
-"161",0,0,1,0,0,"Ciliatocardium ciliatum"
-"163",0,0,0,0,1,"Citharichthys arctifrons"
-"164",0,0,0,0,1,"Clupea harengus"
-"165",0,1,0,0,0,"Colga villosa"
-"168",0,1,0,0,0,"Colus sp."
-"172",0,0,0,0,1,"Coregonus clupeaformis"
-"173",0,0,0,0,1,"Coryphaena hippurus"
-"174",0,0,0,0,1,"Coryphaenoides carapinus"
-"175",0,0,0,0,1,"Coryphaenoides rupestris"
-"176",0,0,0,0,1,"Cottunculus microps"
-"178",0,0,0,0,1,"Cottunculus thomsonii"
-"179",0,0,0,0,1,"Crangon septemspinosa"
-"180",0,0,1,0,0,"Crenella faba"
-"181",0,1,0,0,0,"Crossaster papposus"
-"182",0,0,0,0,1,"Cryptacanthodes maculatus"
-"183",0,0,0,0,1,"Cryptopsaras couesii"
-"184",0,1,0,0,0,"Ctenodiscus crispatus"
-"185",0,0,0,0,1,"Cubiceps gracilis"
-"186",0,0,0,0,1,"Cubiceps pauciradiatus"
-"187",0,1,0,0,0,"Cucumaria frondosa"
-"188",1,0,0,0,0,"Cuspidaria sp."
-"189",0,0,1,0,0,"Cyanea capillata"
-"190",0,0,1,0,0,"Cyclocardia borealis"
-"191",0,0,0,0,1,"Cyclopterus lumpus"
-"192",0,0,0,1,0,"Cyrtodaria siliqua"
-"193",0,0,0,0,1,"Cystophora cristata"
-"194",0,0,0,0,1,"Cyttopsis rosea"
-"195",0,0,0,0,1,"Delphinapterus leucas"
-"196",0,0,0,0,1,"Delphinus delphis"
-"198",0,1,1,0,0,"Dendronotus sp."
-"199",0,0,0,0,1,"Derichthys serpentinus"
-"201",0,0,0,0,1,"Dibranchus atlanticus"
-"203",0,0,0,0,1,"Dicrolene introniger"
-"204",0,1,0,0,0,"Diplopteraster multipes"
-"205",0,0,0,0,1,"Dipturus laevis"
-"206",0,0,0,0,1,"Dipturus linteus"
-"207",0,1,0,0,0,"Doridoxa ingolfiana"
-"208",1,0,0,0,0,"Drifa glomerata"
-"209",1,0,0,0,0,"Duva florida"
-"210",0,1,0,0,0,"Echinarachnius parma"
-"212",0,0,0,0,1,"Echiodon dawsoni"
-"213",0,0,0,0,1,"Ectreposebastes imus"
-"214",0,0,0,0,1,"Enchelyopus cimbrius"
-"216",0,0,1,0,0,"Ensis leei"
-"218",0,0,1,0,0,"Epimeria loricata"
-"219",1,0,0,0,0,"Epizoanthus erdmanni"
-"220",1,0,0,0,0,"Epizoanthus incrustatus"
-"221",0,0,0,0,1,"Erignathus barbatus"
-"222",0,0,0,0,1,"Etmopterus princeps"
-"223",0,0,0,0,1,"Etropus microstomus"
-"224",0,0,0,0,1,"Eualus fabricii"
-"225",0,0,0,0,1,"Eualus gaimardii"
-"226",0,0,0,0,1,"Eualus macilentus"
-"227",0,0,0,0,1,"Eubalaena glacialis"
-"228",1,0,0,0,0,"Eudistoma vitreum"
-"229",0,0,0,0,1,"Eumesogrammus praecisus"
-"230",0,0,0,0,1,"Eumicrotremus derjugini"
-"231",0,0,0,0,1,"Eumicrotremus spinosus"
-"233",0,0,0,0,1,"Eurypharynx pelecanoides"
-"234",0,0,0,0,1,"Eusergestes arcticus"
-"235",0,0,1,0,0,"Eusirus cuspidatus"
-"236",0,0,0,0,1,"Evermannella indica"
-"238",1,0,0,0,0,"Flabellum sp."
-"244",0,0,0,0,1,"Gadus morhua"
-"245",0,0,0,0,1,"Gadus ogac"
-"247",0,0,0,0,1,"Gaidropsarus sp."
-"248",0,0,0,0,1,"Gasterosteus aculeatus aculeatus"
-"251",1,0,0,0,0,"Gersemia rubiformis"
-"252",0,0,0,0,1,"Globicephala melas"
-"254",0,0,0,0,1,"Glyptocephalus cynoglossus"
-"256",0,0,0,0,1,"Gonatus fabricii"
-"258",0,0,0,0,1,"Gonostomatidae"
-"260",0,1,0,0,0,"Gorgonocephalus sp."
-"261",0,0,0,0,1,"Grammatostomias dentatus"
-"262",0,0,0,0,1,"Grammicolepis brachiusculus"
-"263",0,0,0,0,1,"Grampus griseus"
-"265",0,0,0,0,1,"Gymnelus viridis"
-"266",0,0,0,0,1,"Gymnocanthus tricuspis"
-"267",0,0,0,0,1,"Halargyreus johnsonii"
-"268",0,0,0,0,1,"Halichoerus grypus"
-"269",1,0,0,0,0,"Halichondria panicea"
-"270",0,0,0,0,1,"Halieutichthys aculeatus"
-"271",1,0,0,0,0,"Halipteris finmarchica"
-"272",0,0,0,0,1,"Halosauropsis macrochir"
-"273",0,0,0,0,1,"Halosaurus guentheri"
-"274",0,1,0,0,0,"Hamingia arctica"
-"275",0,0,0,0,1,"Harriotta raleighana"
-"276",0,0,0,0,1,"Helicolenus dactylopterus"
-"277",1,0,1,0,0,"Heliometra glacialis"
-"278",0,0,1,0,0,"Hemithiris psittacea"
-"279",0,0,0,0,1,"Hemitripterus americanus"
-"281",0,1,0,0,0,"Henricia sp."
-"283",0,0,1,0,0,"Hiatella arctica"
-"284",0,1,0,0,0,"Hippasteria phrygiana"
-"285",0,0,0,0,1,"Hippocampus erectus"
-"286",0,0,0,0,1,"Hippoglossina oblonga"
-"287",0,0,0,0,1,"Hippoglossoides platessoides"
-"288",0,0,0,0,1,"Hippoglossus hippoglossus"
-"290",0,0,0,0,1,"Holtbyrnia anomala"
-"291",0,0,0,0,1,"Homarus americanus"
-"293",0,0,0,0,1,"Hoplostethus atlanticus"
-"294",1,0,0,0,0,"Hormathia nodosa"
-"295",0,0,0,0,1,"Howella brodiei"
-"296",0,0,0,0,1,"Howella sherborni"
-"298",0,1,0,0,0,"Hyas araneus"
-"299",0,1,0,0,0,"Hyas coarctatus"
-"300",0,0,0,0,1,"Hydrolagus affinis"
-"301",0,0,0,0,1,"Hymenopenaeus debilis"
-"302",0,0,1,0,0,"Hyperia galba"
-"303",0,0,0,0,1,"Hyperoglyphe perciformis"
-"304",0,0,0,0,1,"Hyperoodon ampullatus"
-"306",0,0,0,0,1,"Icelus sp."
-"309",0,0,0,0,1,"Illex illecebrosus"
-"310",0,0,0,0,1,"Ilyophis brunneus"
-"311",0,0,0,0,1,"Isurus oxyrinchus"
-"312",0,0,0,0,1,"Kajikia albida"
-"314",0,0,0,0,1,"Kogia breviceps"
-"315",0,0,0,0,1,"Laemonema barbatulum"
-"316",0,0,0,0,1,"Lagenorhynchus acutus"
-"317",0,0,0,0,1,"Lagenorhynchus albirostris"
-"320",0,0,0,0,1,"Lamna nasus"
-"321",0,0,0,0,1,"Lampanyctus sp."
-"322",0,0,0,0,1,"Larus sp."
-"324",0,0,0,0,1,"Lebbeus groenlandicus"
-"325",0,0,0,0,1,"Lebbeus microceros"
-"326",0,0,0,0,1,"Lebbeus polaris"
-"328",0,0,0,0,1,"Lepidion schmidti"
-"329",0,0,0,0,1,"Lepophidium profundorum"
-"330",0,0,0,0,1,"Leptagonus decagonus"
-"332",0,1,0,0,0,"Leptasterias sp."
-"333",0,0,0,0,1,"Leptoclinus maculatus"
-"334",0,1,0,0,0,"Leptychaster arcticus"
-"335",0,0,0,0,1,"Leucoraja erinacea"
-"336",0,0,0,0,1,"Leucoraja ocellata"
-"338",0,0,0,0,1,"Limanda ferruginea"
-"340",0,0,0,0,1,"Liparis atlanticus"
-"341",0,0,0,0,1,"Liparis coheni"
-"342",0,0,0,0,1,"Liparis fabricii"
-"343",0,0,0,0,1,"Liparis gibbus"
-"344",0,0,0,0,1,"Liparis inquilinus"
-"345",0,0,0,0,1,"Liparis liparis liparis"
-"346",0,0,0,0,1,"Liparis tunicatus"
-"347",0,0,0,0,1,"Lipogenys gillii"
-"348",1,0,0,1,0,"Liponema multicorne"
-"349",0,1,0,0,0,"Lithodes maja"
-"353",0,0,0,0,1,"Lophius americanus"
-"354",0,0,0,0,1,"Lopholatilus chamaeleonticeps"
-"355",0,0,0,0,1,"Lumpenus fabricii"
-"356",0,0,0,0,1,"Lumpenus lampretaeformis"
-"360",0,0,0,0,1,"Lycenchelys paxillus"
-"362",0,0,0,0,1,"Lycenchelys verrillii"
-"364",0,0,0,0,1,"Lycodes eudipleurostictus"
-"365",0,0,0,0,1,"Lycodes lavalaei"
-"366",0,0,0,0,1,"Lycodes pallidus"
-"367",0,0,0,0,1,"Lycodes polaris"
-"368",0,0,0,0,1,"Lycodes reticulatus"
-"370",0,0,0,0,1,"Lycodes terraenovae"
-"371",0,0,0,0,1,"Lycodes turneri"
-"372",0,0,0,0,1,"Lycodes vahlii"
-"373",0,0,1,0,0,"Macoma sp."
-"376",0,0,0,0,1,"Macrourus berglax"
-"377",0,0,0,1,0,"Mactromeris polynyma"
-"378",0,0,1,0,0,"Maera loveni"
-"379",0,0,0,0,1,"Magnisudis atlantica"
-"380",0,0,0,0,1,"Malacocephalus occidentalis"
-"381",0,0,0,0,1,"Malacoraja senta"
-"382",0,0,0,0,1,"Malacosteus niger"
-"383",0,0,0,0,1,"Mallotus villosus"
-"385",0,1,0,0,0,"Margarites sp."
-"387",0,0,0,0,1,"Maurolicus muelleri"
-"389",0,0,0,0,1,"Megaptera novaeangliae"
-"390",0,0,1,0,0,"Megayoldia thraciaeformis"
-"391",0,0,0,0,1,"Melamphaes microps"
-"392",0,0,0,0,1,"Melamphaes suborbitalis"
-"393",0,0,0,0,1,"Melanogrammus aeglefinus"
-"394",0,0,0,0,1,"Melanostigma atlanticum"
-"395",0,0,1,0,0,"Melita dentata"
-"396",0,0,0,0,1,"Menidia menidia"
-"397",0,0,0,0,1,"Mentodus rostratus"
-"398",0,0,0,1,0,"Mercenaria mercenaria"
-"399",0,0,0,0,1,"Merluccius albidus"
-"400",0,0,0,0,1,"Merluccius bilinearis"
-"401",0,0,0,1,0,"Mesodesma sp."
-"402",1,0,0,0,0,"Metridium senile"
-"403",0,0,0,0,1,"Microgadus tomcod"
-"404",0,0,0,0,1,"Micromesistius poutassou"
-"405",0,0,1,0,0,"Modiolus modiolus"
-"406",0,0,0,0,1,"Mola mola"
-"407",0,1,0,0,0,"Molpadia"
-"408",0,1,0,0,0,"Molpadia sp."
-"409",0,0,0,0,1,"Molva dypterygia"
-"410",0,0,0,0,1,"Monodon monoceros"
-"411",0,0,0,0,1,"Monolene sessilicauda"
-"413",0,0,0,0,1,"Morone saxatilis"
-"414",0,0,0,0,1,"Morus bassanus"
-"415",0,0,0,0,1,"Mugil cephalus"
-"417",0,0,0,0,1,"Munida valida"
-"418",0,0,1,0,0,"Munidopsis curvirostra"
-"420",0,0,1,0,0,"Musculus sp."
-"421",0,0,0,0,1,"Mustelus canis"
-"422",0,0,0,1,0,"Mya arenaria"
-"423",0,0,0,1,0,"Mya truncata"
-"425",0,0,0,0,1,"Myctophidae"
-"427",0,0,0,0,1,"Myoxocephalus sp."
-"429",0,0,1,0,0,"Mytilus sp."
-"430",0,0,0,0,1,"Myxine glutinosa"
-"431",0,1,0,1,0,"Naticidae"
-"432",0,0,0,0,1,"Naucrates ductor"
-"433",0,0,0,0,1,"Nealotus tripes"
-"434",0,0,0,0,1,"Nemichthys scolopaceus"
-"435",0,0,0,0,1,"Neocyttus helgae"
-"436",0,0,1,0,0,"Neohela monstrosa"
-"437",0,0,0,0,1,"Neolithodes grimaldii"
-"438",0,0,0,0,1,"Neoscopelus macrolepidotus"
-"440",0,1,0,0,0,"Neptunea sp."
-"441",0,0,0,0,1,"Nessorhamphus ingolfianus"
-"442",0,0,0,0,1,"Nezumia aequalis"
-"443",0,0,0,0,1,"Nezumia bairdii"
-"444",0,0,0,0,1,"Notacanthus chemnitzii"
-"446",0,1,0,0,0,"Novodinia americana"
-"447",0,1,0,0,0,"Nucella lapillus"
-"449",0,0,1,0,0,"Nuculana sp."
-"451",0,1,0,1,0,"Nymphon sp."
-"452",0,0,0,0,1,"Oceanites sp."
-"454",0,0,0,0,1,"Odobenus rosmarus"
-"455",0,0,1,0,0,"Oediceros saginatus"
-"458",0,0,0,0,1,"Ommastrephes sp."
-"459",0,0,0,0,1,"Omosudis lowii"
-"464",0,1,0,0,0,"Ophiacantha bidentata"
-"465",0,0,0,0,1,"Ophichthus cruentifer"
-"467",0,1,0,0,0,"Ophiopholis aculeata"
-"468",0,1,0,0,0,"Ophioscolex glacialis"
-"470",0,1,1,1,0,"Ophiura sp."
-"472",0,0,0,0,1,"Orcinus orca"
-"473",0,0,0,0,1,"Osmerus mordax mordax"
-"476",0,0,0,0,1,"Pagophilus groenlandicus"
-"478",0,1,0,0,0,"Pagurus sp."
-"479",0,1,0,0,0,"Palio dubia"
-"481",0,0,0,0,1,"Pandalus borealis"
-"482",0,0,0,0,1,"Pandalus montagui"
-"484",0,0,0,1,0,"Panomya norvegica"
-"485",0,0,0,0,1,"Parablennius marmoreus"
-"488",0,0,0,0,1,"Paralepis elongata"
-"489",0,0,0,0,1,"Paralichthys dentatus"
-"490",0,0,0,0,1,"Paraliparis calidus"
-"492",0,0,0,0,1,"Paraliparis copei copei"
-"493",0,0,0,0,1,"Paraliparis garmani"
-"494",0,0,1,0,0,"Paramphithoe hystrix"
-"496",0,0,0,0,1,"Parasudis truculenta"
-"498",0,0,1,0,0,"Parvicardium pinnulatum"
-"499",0,0,0,0,1,"Pasiphaea multidentata"
-"500",0,0,0,0,1,"Pasiphaea tarda"
-"502",1,0,0,0,0,"Pennatula aculeata"
-"503",1,0,0,0,0,"Pennatula grandis"
-"505",0,0,0,0,1,"Peprilus triacanthus"
-"506",0,0,1,0,0,"Periphylla periphylla"
-"507",0,0,0,0,1,"Peristedion miniatum"
-"508",0,0,0,0,1,"Petromyzon marinus"
-"509",0,0,1,1,0,"Phascolion strombus strombus"
-"510",0,0,0,0,1,"Phoca vitulina"
-"511",0,0,0,0,1,"Phocoena phocoena"
-"512",0,0,0,0,1,"Pholis fasciata"
-"513",0,0,0,0,1,"Pholis gunnellus"
-"514",0,0,0,0,1,"Photostomias guernei"
-"516",0,0,0,0,1,"Phycis chesteri"
-"517",0,0,0,0,1,"Physeter macrocephalus"
-"518",0,0,0,0,1,"Plesionika martia"
-"519",0,0,0,0,1,"Pleurobrachia pileus"
-"521",0,0,0,0,1,"Pollachius virens"
-"522",0,0,0,0,1,"Polyacanthonotus rissoanus"
-"524",0,0,0,0,1,"Polyipnus clarus"
-"525",0,0,0,0,1,"Polymetme corythaeola"
-"526",0,0,0,0,1,"Polymixia lowei"
-"527",0,0,0,0,1,"Polymixia nobilis"
-"528",0,1,0,0,0,"Polynoidae"
-"529",0,0,0,0,1,"Pomatomus saltatrix"
-"531",0,0,0,0,1,"Pontophilus norvegicus"
-"534",0,1,0,0,0,"Poraniomorpha sp."
-"535",1,0,0,0,0,"Porifera"
-"536",0,0,0,0,1,"Poromitra crassiceps"
-"539",0,0,0,0,1,"Prionace glauca"
-"540",0,0,0,0,1,"Prionotus carolinus"
-"541",0,1,0,0,0,"Pseudarchaster parelii"
-"542",0,0,0,0,1,"Pseudopleuronectes americanus"
-"544",0,1,0,0,0,"Psilaster andromeda"
-"545",1,0,0,0,0,"Psolus fabricii"
-"546",0,1,0,0,0,"Psolus phantapus"
-"547",0,1,0,0,0,"Pteraster militaris"
-"548",0,1,0,0,0,"Pteraster obscurus"
-"549",0,1,0,0,0,"Pteraster pulvillus"
-"551",1,0,1,0,0,"Ptychogena lactea"
-"553",0,0,0,0,1,"Pusa hispida"
-"554",0,1,0,0,0,"Pycnogonum litorale"
-"558",0,0,0,0,1,"Raja eglanteria"
-"560",0,0,0,0,1,"Rajella fyllae"
-"561",0,0,0,0,1,"Reinhardtius hippoglossoides"
-"562",0,0,0,0,1,"Remora brachyptera"
-"563",0,0,0,0,1,"Remora remora"
-"564",1,0,0,0,0,"Reteporella grimaldii"
-"565",0,0,1,0,0,"Rhachotropis aculeata"
-"566",0,0,0,0,1,"Rhinochimaera atlantica"
-"567",0,0,0,0,1,"Rondeletia loricata"
-"569",0,0,1,1,0,"Rossia sp."
-"570",0,0,0,0,1,"Rouleina attrita"
-"571",0,0,0,0,1,"Rouleina maderensis"
-"572",0,0,0,0,1,"Sabinea sarsii"
-"573",0,0,0,0,1,"Sabinea septemcarinata"
-"575",0,0,0,0,1,"Salmo salar"
-"576",0,0,0,0,1,"Saurida brasiliensis"
-"577",0,1,0,1,0,"Scaphander punctostriatus"
-"579",0,0,0,0,1,"Sclerocrangon boreas"
-"580",0,0,0,0,1,"Scomber scombrus"
-"581",0,0,0,0,1,"Scomberesox saurus saurus"
-"582",0,0,0,0,1,"Scopelarchus analis"
-"583",0,0,0,0,1,"Scopeloberyx robustus"
-"584",0,0,0,0,1,"Scopelogadus beanii"
-"585",0,0,0,0,1,"Scopelosaurus lepidus"
-"586",0,0,0,0,1,"Scophthalmus aquosus"
-"587",0,0,0,0,1,"Scyliorhinus retifer"
-"589",0,0,0,0,1,"Sebastes sp."
-"590",1,0,0,0,0,"Securiflustra securifrons"
-"591",0,0,0,0,1,"Selar crumenophthalmus"
-"592",0,0,0,0,1,"Sepioloidea sp."
-"593",0,0,0,0,1,"Sergia robusta"
-"594",0,0,0,0,1,"Seriola dumerili"
-"595",0,0,1,0,0,"Serripes groenlandicus"
-"596",0,0,0,0,1,"Serrivomer beanii"
-"598",0,0,0,0,1,"Setarches guentheri"
-"601",1,0,0,0,0,"Similipecten greenlandicus"
-"602",0,1,0,0,0,"Solaster endeca"
-"604",0,0,0,0,1,"Somniosus microcephalus"
-"605",0,0,0,0,1,"Sphoeroides maculatus"
-"608",0,0,0,0,1,"Spirontocaris liljeborgii"
-"609",0,0,0,0,1,"Spirontocaris phippsii"
-"610",0,0,0,0,1,"Spirontocaris spinus"
-"611",0,0,0,1,0,"Spisula solidissima"
-"612",0,0,0,0,1,"Squalus acanthias"
-"613",1,0,0,0,0,"Staurostoma mertensii"
-"614",0,0,1,0,0,"Stauroteuthis syrtensis"
-"615",0,0,1,0,0,"Stegocephalus inflatus"
-"616",0,0,0,0,1,"Stenella coeruleoalba"
-"617",0,0,0,0,1,"Stenella frontalis"
-"618",0,0,0,0,1,"Stenotomus chrysops"
-"619",0,1,0,0,0,"Stephanasterias albula"
-"620",1,0,0,0,0,"Stephanauge sp."
-"624",0,0,0,0,1,"Sternoptyx diaphana"
-"626",0,0,0,0,1,"Stichaeus punctatus punctatus"
-"627",0,0,0,0,1,"Stomias boa ferox"
-"628",1,0,1,0,0,"Stomphia coccinea"
-"630",0,1,0,0,0,"Strongylocentrotus sp."
-"631",0,0,1,0,0,"Stylocordyla borealis"
-"632",0,0,0,0,1,"Symbolophorus veranyi"
-"633",0,0,0,0,1,"Symphurus diomedeanus"
-"636",0,0,0,0,1,"Synaphobranchus kaupii"
-"637",0,0,0,0,1,"Syngnathus fuscus"
-"638",0,0,0,0,1,"Syscenus infelix"
-"639",0,0,1,0,0,"Tachyrhynchus erosus"
-"640",0,0,0,0,1,"Tautogolabrus adspersus"
-"642",0,0,1,0,0,"Tellina sp."
-"643",0,0,1,0,0,"Terebratulina septentrionalis"
-"644",0,0,0,1,0,"Teredo navalis"
-"646",1,0,1,0,0,"Thuiaria thuja"
-"647",0,0,0,0,1,"Thunnus alalunga"
-"648",0,0,0,0,1,"Thunnus obesus"
-"649",0,0,0,0,1,"Thunnus thynnus"
-"651",0,0,1,0,0,"Thysanoessa longicaudata"
-"653",0,1,0,0,0,"Tonicella sp."
-"654",0,0,0,0,1,"Torpedo nobiliana"
-"655",0,0,0,0,1,"Trachyrincus murrayi"
-"656",0,1,0,0,0,"Tremaster mirabilis"
-"658",0,0,0,0,1,"Triglops sp."
-"659",0,0,0,0,1,"Trigonolampa miriceps"
-"660",0,0,1,0,0,"Tritia sp."
-"661",0,0,0,0,1,"Tursiops truncatus"
-"663",0,0,0,0,1,"Ulvaria subbifurcata"
-"664",0,1,0,1,0,"Urasterias lincki"
-"666",0,0,0,0,1,"Urophycis chuss"
-"667",0,0,0,0,1,"Urophycis regia"
-"668",0,0,0,0,1,"Urophycis tenuis"
-"669",1,0,0,0,0,"Urticina felina"
-"671",0,1,0,0,0,"Velutinidae"
-"672",0,0,0,0,1,"Venefica procera"
-"675",0,0,0,0,1,"Vinciguerria nimbaria"
-"677",0,0,1,0,0,"Wimvadocus torelli"
-"678",0,0,0,0,1,"Xenodermichthys copei"
-"679",0,0,0,0,1,"Xenolepidichthys dalgleishi"
-"680",0,0,0,0,1,"Xiphias gladius"
-"681",0,0,1,0,0,"Xylophaga atlantica"
-"683",0,0,1,0,0,"Yoldia sp."
-"685",0,0,0,0,1,"Ziphius cavirostris"
-"686",0,0,0,0,1,"Zoarces americanus"
-"1",1,0,0,0,0,"Acanella arbuscula"
-"2",0,1,0,0,0,"Acanthephyra eximia"
-"3",0,1,0,0,0,"Acanthephyra purpurea"
-"4",1,0,0,0,0,"Acanthogorgia armata"
-"5",0,0,0,0,1,"Acipenser oxyrhynchus"
-"621",1,0,0,0,0,"Actiniidae"
-"710",1,0,0,0,0,"Actinostola"
-"8",1,0,0,0,0,"Agarum cribrosum"
-"9",1,0,0,0,0,"Agriopoma morrhuanum"
-"1010",1,0,0,0,0,"Alaria esculenta"
-"1110",1,0,0,0,0,"Alcyonium digitatum"
-"12",0,0,0,0,1,"Aldrovandia"
-"13",0,0,0,0,1,"Ammodytes"
-"14",0,0,1,0,0,"Ampelisca"
-"1510",1,0,0,0,0,"Anomia"
-"16",0,0,1,0,0,"Anonyx"
-"17",1,0,0,0,0,"Anthomastus grandiflorus"
-"1810",0,0,0,1,0,"Aphrodita hastata"
-"197",0,0,0,0,1,"Apristurus"
-"202",0,1,0,0,0,"Arbacia punctulata"
-"211",0,0,0,1,0,"Arenicola marina"
-"2210",0,0,0,0,1,"Aristostomias"
-"232",0,0,1,0,0,"Arrhis phyllonyx"
-"241",0,0,0,0,1,"Artediellus"
-"253",1,0,0,0,0,"Ascophyllum nodosum"
-"264",0,0,0,0,1,"Aspidophoroides olriki"
-"2710",1,0,0,0,0,"Astarte"
-"282",0,1,0,0,0,"Asterias"
-"292",0,1,0,0,0,"Astropecten americanus"
-"30",0,0,1,0,0,"Axius serratus"
-"313",0,0,0,0,1,"Bassogigas gilli"
-"32",0,0,0,0,1,"Bathylagus bericoides"
-"331",0,1,0,0,0,"Bathynectes longispina"
-"3410",0,1,0,0,0,"Bathynectes maravigna"
-"351",0,0,0,0,1,"Bathypolypus"
-"361",0,0,0,0,1,"Bathypterois"
-"374",1,0,0,0,0,"Bolocera"
-"384",0,0,0,0,1,"Bothus"
-"3910",0,1,0,0,0,"Buccinum"
-"40",0,0,0,0,1,"Caelorinchus caelorinchus"
-"412",0,0,1,0,0,"Calathura brachiata"
-"42",0,0,0,0,1,"Callionymus"
-"439",0,1,0,0,0,"Calliostoma occidentale"
-"445",0,1,0,0,0,"Caudina arenata"
-"453",0,0,0,0,1,"Centropristis striata"
-"461",1,0,0,0,0,"Cerastoderma pinnulatum"
-"471",0,1,0,0,0,"Chaceon quinquedens"
-"48",0,0,0,0,1,"Chaunax"
-"491",0,0,0,0,1,"Chiasmodon"
-"501",1,0,0,0,0,"Chrysogorgia agassizii"
-"515",0,0,0,0,1,"Cirroteuthis"
-"523",0,0,0,0,1,"Colossendeis"
-"53",0,1,0,0,0,"Colus"
-"543",0,0,0,0,1,"Conger"
-"55",0,0,0,0,1,"Conocara salmonea"
-"56",0,0,0,0,1,"Cookeolus boops"
-"574",0,0,0,0,1,"Cottunculus thompsoni"
-"588",0,1,0,0,0,"Dendronotus"
-"597",1,0,0,0,0,"Desmarestia aculeata"
-"60",0,0,1,0,0,"Dichelopandalus leptocerus"
-"6110",0,1,0,0,0,"Echinus"
-"622",1,0,0,0,0,"Ensis directus"
-"634",0,0,0,0,1,"Epigonus"
-"641",0,0,1,0,0,"Euphausia"
-"652",1,0,0,0,0,"Flabellum"
-"662",1,0,0,0,0,"Flustra foliacea"
-"67",0,0,0,0,1,"Foetorepus agassizi"
-"68",1,0,0,0,0,"Fucus distichus"
-"691",1,0,0,0,0,"Fucus vesiculosus"
-"70",1,0,0,0,0,"Funiculina quadrangularis"
-"711",0,0,0,0,1,"Gaidropsarus"
-"721",0,0,1,0,0,"Gennadas"
-"73",1,0,0,0,0,"Gersemia fruticosa"
-"741",0,0,0,1,0,"Glycera capitata"
-"75",0,0,1,0,0,"Gnathophausia"
-"761",0,0,0,0,1,"Gonatus steenstrupi"
-"77",0,1,0,0,0,"Gorgonocephalus"
-"781",0,0,0,0,1,"Gymnelis viridis"
-"79",0,1,0,0,0,"Henricia"
-"801",1,0,0,0,0,"Heteropolypus"
-"81",0,0,0,0,1,"Histioteuthis reversa"
-"821",0,1,0,0,0,"Homola minima"
-"831",0,1,0,0,0,"Hyalinoecia tubicola"
-"841",0,0,0,0,1,"Icelus"
-"851",0,0,1,0,0,"Ichnopus"
-"861",0,0,1,1,0,"Idotea"
-"87",1,0,0,0,0,"Keratoisis ornata"
-"881",1,0,0,0,0,"Laminaria digitata"
-"891",1,0,0,0,0,"Laminaria longicruris"
-"901",1,0,0,0,0,"Leathesia difformis"
-"911",0,0,1,0,0,"Lebbeus zebra"
-"921",0,1,0,0,0,"Leptasterias"
-"931",0,0,0,0,1,"Limacina"
-"941",0,0,0,0,1,"Liopsetta putnami"
-"951",0,0,0,0,1,"Loligo pealeii"
-"961",0,1,0,0,0,"Lophaster furcifer"
-"97",1,0,0,0,0,"Lophelia pertusa"
-"981",0,0,0,0,1,"Lumpenus lumpretaeformis"
-"991",0,0,0,0,1,"Lumpenus maculatus"
-"100",0,0,0,0,1,"Lumpenus medius"
-"1011",0,0,0,0,1,"Lycenchelys verrilli"
-"102",0,0,0,0,1,"Lycodes esmarki"
-"103",0,0,0,0,1,"Lycodes terraenova"
-"104",0,0,0,0,1,"Macrorhamphosus scolopax"
-"1051",0,0,0,0,1,"Macrostomias longibarbatus"
-"106",0,1,0,0,0,"Margarites"
-"1071",0,0,0,0,1,"Mastigoteuthis"
-"1081",0,1,0,0,0,"Mediaster bairdi"
-"1091",0,0,1,0,0,"Monstrilla"
-"1101",0,0,1,0,0,"Munida iris"
-"1111",1,0,0,0,0,"Musculus"
-"1121",0,0,0,0,1,"Mycteroperca"
-"1131",0,0,0,0,1,"Myoxocephalus"
-"114",1,0,0,0,0,"Mytilus"
-"1151",0,1,0,0,0,"Neptunea"
-"1161",0,0,0,0,1,"Notolepis rissoi"
-"1171",1,0,0,0,0,"Nucula"
-"1181",0,1,0,0,0,"Nymphon"
-"1191",0,0,0,0,1,"Octopoteuthis"
-"1201",0,0,1,0,0,"Oithona spinirostris"
-"121",0,0,0,0,1,"Ommastrephes"
-"1221",0,0,1,0,0,"Oncopagurus"
-"1231",0,0,0,0,1,"Oneirodes"
-"1241",0,0,0,1,0,"Ophelia"
-"1251",0,1,0,0,0,"Ophiacantha abyssicola"
-"1261",0,1,0,0,0,"Ophiomusa lymani"
-"127",0,1,0,0,0,"Ophiura"
-"1281",0,0,1,0,0,"Oplophorus spinosus"
-"1291",0,1,0,0,0,"Ovalipes ocellatus"
-"130",1,0,0,0,0,"Pachycerianthus borealis"
-"131",0,0,1,0,0,"Pagurus"
-"132",1,0,0,0,0,"Palmaria palmata"
-"133",1,0,0,0,0,"Pandora gouldiana"
-"1341",1,0,0,0,0,"Paragorgia arborea"
-"1351",0,0,0,0,1,"Paralepis atlantica"
-"1361",0,0,0,0,1,"Paraliparis copei"
-"1371",0,0,1,0,0,"Parapasiphae sulcatifrons"
-"1381",0,0,1,0,0,"Parathemisto"
-"1391",0,0,0,0,1,"Pelagia noctiluca"
-"1401",1,0,0,0,0,"Pentamera calcigera"
-"1411",0,0,1,0,0,"Phronima"
-"1421",0,1,0,0,0,"Plutonaster agassizi"
-"143",0,0,0,0,1,"Polycheles sculptus"
-"144",0,1,0,0,0,"Pontaster"
-"1451",0,1,0,0,0,"Porania pulvillus"
-"1461",0,1,0,0,0,"Poraniomorpha"
-"1471",1,0,0,0,0,"Potamilla neglecta"
-"148",1,0,0,0,0,"Primnoa resedaeformis"
-"1491",0,0,0,0,1,"Pseudoscopelus"
-"1501",0,0,0,0,1,"Pterygioteuthis"
-"151",0,0,0,0,1,"Puffinus gravis"
-"1521",0,1,0,0,0,"Pycnogonum littorale"
-"153",1,0,0,0,0,"Radicipes gracilis"
-"154",0,0,0,0,1,"Raja bathyphila"
-"1551",0,0,0,0,1,"Raja garmani"
-"1561",0,0,0,0,1,"Rossia"
-"1571",1,0,0,0,0,"Saccorhiza dermatodea"
-"1581",0,1,0,0,0,"Sclerasterias tanneri"
-"1591",0,0,0,0,1,"Sebastes"
-"160",1,0,0,0,0,"Sertularia polyzonias"
-"1611",1,0,0,0,0,"Siliqua"
-"162",0,0,0,0,1,"Simenchelys parasitica"
-"1631",1,0,0,0,0,"Solemya borealis"
-"1641",0,1,0,0,0,"Spinolambrus pourtalesii"
-"1651",0,0,1,0,0,"Spirontocaris fabricii"
-"166",0,0,0,0,1,"Stephanolepis hispidus"
-"167",0,1,0,0,0,"Stereoderma unisemita"
-"1681",0,0,1,0,0,"Stereomastis sculpta"
-"169",0,0,0,0,1,"Stichaeus punctatus"
-"170",0,1,0,0,0,"Strongylocentrotus"
-"171",0,0,0,0,1,"Synagrops bella"
-"1721",0,0,0,0,1,"Synaphobranchus kaupi"
-"1731",1,0,0,0,0,"Tealia felina"
-"1741",0,0,0,0,1,"Teuthowenia megalops"
-"1751",0,1,0,0,0,"Thyonella pervicax"
-"1761",0,0,1,0,0,"Thysanoessa raschii"
-"177",0,0,0,0,1,"Triglops"
-"1781",1,0,0,0,0,"Ulva"
-"1791",0,0,0,0,1,"Urophycis chesteri"
-"1801",1,0,0,0,0,"Vazella pourtalesi"
-"1811",1,0,0,0,0,"Venericardia borealis"
-"1821",0,0,0,1,0,"Venus mercenaria"
-"1831",0,0,0,0,1,"Vomer setapinnis"
-"1841",0,0,0,1,0,"Yoldia"
-"1851",0,0,0,0,1,"Zenopsis ocellata"
-"1861",1,0,0,0,0,"Zostera marina"
+"","sessile","crawler","swimmer","burrower","mobile"
+"Acanella arbuscula",1,0,0,0,0
+"Acanthephyra eximia",0,1,0,0,0
+"Acanthephyra purpurea",0,1,0,0,0
+"Acanthogorgia armata",1,0,0,0,0
+"Accipiter cooperii",0,0,0,0,0
+"Accipiter gentilis",0,0,0,0,0
+"Accipiter striatus",0,0,0,0,0
+"Acipenser oxyrhynchus",0,0,0,0,1
+"Acipenser oxyrinchus",0,0,0,0,1
+"Actinauge sp.",1,0,0,0,0
+"Actiniidae",1,0,0,0,0
+"Actinostola",1,0,0,0,0
+"Actinostola sp.",1,0,0,0,0
+"Actitis macularius",0,0,0,0,0
+"Aega psora",0,0,0,0,1
+"Agarum cribrosum",1,0,0,0,0
+"Agelaius phoeniceus",0,0,0,0,0
+"Agriopoma morrhuanum",1,0,0,0,0
+"Aix sponsa",0,0,0,0,0
+"Alaria esculenta",1,0,0,0,0
+"Alca torda",0,0,0,0,0
+"Alcyonidium sp.",1,0,0,0,0
+"Alcyonium digitatum",1,0,0,0,0
+"Aldrovandia",0,0,0,0,1
+"Alepisaurus brevirostris",0,0,0,0,1
+"Alepisaurus ferox",0,0,0,0,1
+"Alepocephalus agassizii",0,0,0,0,1
+"Alepocephalus bairdii",0,0,0,0,1
+"Alle alle",0,0,0,0,0
+"Alosa aestivalis",0,0,0,0,1
+"Alosa pseudoharengus",0,0,0,0,1
+"Alosa sapidissima",0,0,0,0,1
+"Aluterus schoepfii",0,0,0,0,1
+"Amblyraja hyperborea",0,0,0,0,1
+"Amblyraja jenseni",0,0,0,0,1
+"Amblyraja radiata",0,0,0,0,1
+"Amicula vestita",0,1,0,0,0
+"Ammodramus caudacutus",0,0,0,0,0
+"Ammodramus maritimus",0,0,0,0,0
+"Ammodytes",0,0,0,0,1
+"Ammodytes sp.",0,0,0,0,1
+"Ampelisca",0,0,1,0,0
+"Ampelisca sp.",0,0,1,0,0
+"Amphiura sp.",0,1,0,0,0
+"Anarhichas denticulatus",0,0,0,0,1
+"Anarhichas lupus",0,0,0,0,1
+"Anarhichas minor",0,0,0,0,1
+"Anas acuta",0,0,0,0,0
+"Anas americana",0,0,0,0,0
+"Anas clypeata",0,0,0,0,0
+"Anas crecca",0,0,0,0,0
+"Anas crecca carolinensis",0,0,0,0,0
+"Anas discors",0,0,0,0,0
+"Anas penelope",0,0,0,0,0
+"Anas platyrhynchos",0,0,0,0,0
+"Anas querquedula",0,0,0,0,0
+"Anas rubripes",0,0,0,0,0
+"Anas strepera",0,0,0,0,0
+"Anguilla rostrata",0,0,0,0,1
+"Anisarchus medius",0,0,0,0,1
+"Anomia",1,0,0,0,0
+"Anomia sp.",1,0,0,0,0
+"Anonyx",0,0,1,0,0
+"Anonyx sp.",0,0,1,0,0
+"Anoplogaster cornuta",0,0,0,0,1
+"Anotopterus pharao",0,0,0,0,1
+"Anser albifrons",0,0,0,0,0
+"Antalis sp.",0,0,0,1,0
+"Anthias nicholsi",0,0,0,0,1
+"Anthomastus grandiflorus",1,0,0,0,0
+"Anthoptilum grandiflorum",1,0,0,0,0
+"Antigonia capros",0,0,0,0,1
+"Antimora rostrata",0,0,0,0,1
+"Aphanopus carbo",0,0,0,0,1
+"Aphrodita hastata",0,0,0,1,0
+"Aphroditella hastata",0,1,0,0,0
+"Apristurus",0,0,0,0,1
+"Aquila chrysaetos",0,0,0,0,0
+"Arbacia punctulata",0,1,0,0,0
+"Arcoscalpellum michelottianum",1,0,0,0,0
+"Arctica islandica",0,0,0,1,0
+"Arctozenus risso",0,0,0,0,1
+"Ardea alba",0,0,0,0,0
+"Ardea herodias",0,0,0,0,0
+"Arenaria interpres",0,0,0,0,0
+"Arenicola marina",0,0,0,1,0
+"Argentina silus",0,0,0,0,1
+"Argis dentata",0,0,0,0,1
+"Argyropelecus aculeatus",0,0,0,0,1
+"Argyropelecus gigas",0,0,0,0,1
+"Ariomma bondi",0,0,0,0,1
+"Aristaeopsis edwardsiana",0,0,0,0,1
+"Aristostomias",0,0,0,0,1
+"Arrhis phyllonyx",0,0,1,0,0
+"Arrhoges occidentalis",0,0,0,1,0
+"Artediellus",0,0,0,0,1
+"Artediellus sp.",0,0,0,0,1
+"Ascidiacea",1,0,0,0,0
+"Ascophyllum nodosum",1,0,0,0,0
+"Aspidophoroides monopterygius",0,0,0,0,1
+"Aspidophoroides olriki",0,0,0,0,1
+"Aspidophoroides olrikii",0,0,0,0,1
+"Astarte",1,0,0,0,0
+"Astarte sp.",0,0,1,1,0
+"Asterias",0,1,0,0,0
+"Asterias sp.",0,1,0,0,0
+"Astropecten americanus",0,1,0,0,0
+"Astropecten duplicatus",0,1,0,0,0
+"Atlantopandalus propinqvus",0,0,0,0,1
+"Atolla wyvillei",0,0,1,0,0
+"Aulacofusus brevicauda",0,1,0,1,0
+"Aurelia aurita",1,0,1,0,0
+"Axius serratus",0,0,1,0,0
+"Aythya affinis",0,0,0,0,0
+"Aythya americana",0,0,0,0,0
+"Aythya collaris",0,0,0,0,0
+"Aythya fuligula",0,0,0,0,0
+"Aythya marila",0,0,0,0,0
+"Aythya valisineria",0,0,0,0,0
+"Bajacalifornia megalops",0,0,0,0,1
+"Balaena mysticetus",0,0,0,0,1
+"Balaenoptera acutorostrata",0,0,0,0,1
+"Balaenoptera borealis",0,0,0,0,1
+"Balaenoptera edeni",0,0,0,0,0
+"Balaenoptera musculus",0,0,0,0,1
+"Balaenoptera physalus",0,0,0,0,1
+"Balanidae",1,0,0,0,0
+"Balistes capriscus",0,0,0,0,1
+"Balistes vetula",0,0,0,0,1
+"Bartramia longicauda",0,0,0,0,0
+"Bassogigas gilli",0,0,0,0,1
+"Bathyarca sp.",0,0,1,0,0
+"Bathygadus melanobranchus",0,0,0,0,1
+"Bathylagus bericoides",0,0,0,0,1
+"Bathylagus euryops",0,0,0,0,1
+"Bathynectes longispina",0,1,0,0,0
+"Bathynectes maravigna",0,1,0,0,0
+"Bathypolypus",0,0,0,0,1
+"Bathypolypus sp.",0,0,0,0,1
+"Bathypterois",0,0,0,0,1
+"Bathyraja spinicauda",0,0,0,0,1
+"Bathysaurus ferox",0,0,0,0,1
+"Bathytroctes microlepis",0,0,0,0,1
+"Benthodesmus elongatus",0,0,0,0,1
+"Benthodesmus simonyi",0,0,0,0,1
+"Beringius turtoni",0,1,0,1,0
+"Beryx decadactylus",0,0,0,0,1
+"Bolocera",1,0,0,0,0
+"Bolocera sp.",1,0,0,0,0
+"Boltenia ovifera",0,0,1,0,0
+"Boreogadus saida",0,0,0,0,1
+"Boreomysis sp.",0,0,0,0,1
+"Boreotrophon sp.",0,1,0,0,0
+"Borostomias antarcticus",0,0,0,0,1
+"Botaurus lentiginosus",0,0,0,0,0
+"Bothus",0,0,0,0,1
+"Bothus ocellatus",0,0,0,0,1
+"Branta bernicla",0,0,0,0,0
+"Branta canadensis",0,0,0,0,0
+"Branta leucopsis",0,0,0,0,0
+"Brevoortia tyrannus",0,0,0,0,1
+"Brisaster fragilis",0,1,0,0,0
+"Brosme brosme",0,0,0,0,1
+"Bryozoa",1,0,0,0,0
+"Bubulcus ibis",0,0,0,0,0
+"Buccinum",0,1,0,0,0
+"Buccinum sp.",0,1,0,1,0
+"Bucephala albeola",0,0,0,0,0
+"Bucephala clangula",0,0,0,0,0
+"Bucephala islandica",0,0,0,0,0
+"Bulweria bulwerii",0,0,0,0,0
+"Buteo jamaicensis",0,0,0,0,0
+"Buteo lagopus",0,0,0,0,0
+"Buteo lineatus",0,0,0,0,0
+"Buteo platypterus",0,0,0,0,0
+"Butorides virescens",0,0,0,0,0
+"Caberea ellisii",1,0,0,0,0
+"Caelorinchus caelorinchus",0,0,0,0,1
+"Calathura brachiata",0,0,1,0,0
+"Calidris alba",0,0,0,0,0
+"Calidris alpina",0,0,0,0,0
+"Calidris bairdii",0,0,0,0,0
+"Calidris canutus",0,0,0,0,0
+"Calidris ferruginea",0,0,0,0,0
+"Calidris fuscicollis",0,0,0,0,0
+"Calidris himantopus",0,0,0,0,0
+"Calidris maritima",0,0,0,0,0
+"Calidris melanotos",0,0,0,0,0
+"Calidris minutilla",0,0,0,0,0
+"Calidris pusilla",0,0,0,0,0
+"Callionymus",0,0,0,0,1
+"Calliostoma occidentale",0,1,0,0,0
+"Calocaris templemani",0,0,0,1,0
+"Calonectris diomedea",0,0,0,0,0
+"Camptorhynchus labradorius",0,0,0,0,0
+"Cancer borealis",0,0,0,0,1
+"Cancer irroratus",0,0,0,0,1
+"Carcharias taurus",0,0,0,0,1
+"Cardium sp.",0,0,1,0,0
+"Careproctus longipinnis",0,0,0,0,1
+"Careproctus ranula",0,0,0,0,1
+"Careproctus reinhardti",0,0,0,0,1
+"Cataetyx laticeps",0,0,0,0,1
+"Catharacta maccormicki",0,0,0,0,0
+"Catharacta skua",0,0,0,0,0
+"Cathartes aura",0,0,0,0,0
+"Catoptrophorus semipalmatus",0,0,0,0,0
+"Caudina arenata",0,1,0,0,0
+"Centropristis striata",0,0,0,0,1
+"Centroscyllium fabricii",0,0,0,0,1
+"Centroscymnus coelolepis",0,0,0,0,1
+"Cepphus grylle",0,0,0,0,0
+"Ceramaster granularis",0,1,0,0,0
+"Cerastoderma pinnulatum",1,0,0,0,0
+"Ceratias holboelli",0,0,0,0,1
+"Ceryle alcyon",0,0,0,0,0
+"Cetorhinus maximus",0,0,0,0,1
+"Chaceon quinquedens",0,1,0,0,0
+"Charadrius melodus",0,0,0,0,0
+"Charadrius semipalmatus",0,0,0,0,0
+"Charadrius vociferus",0,0,0,0,0
+"Chauliodus sloani",0,0,0,0,1
+"Chaunax",0,0,0,0,1
+"Chen caerulescens",0,0,0,0,0
+"Chen rossii",0,0,0,0,0
+"Chiasmodon",0,0,0,0,1
+"Chionoecetes opilio",0,1,0,0,0
+"Chiridota laevis",0,1,0,0,0
+"Chirona hameri",0,0,1,0,0
+"Chlamys islandica",0,0,1,0,0
+"Chlidonias niger",0,0,0,0,0
+"Chlorophthalmus agassizi",0,0,0,0,1
+"Chrysogorgia agassizii",1,0,0,0,0
+"Ciliatocardium ciliatum",0,0,1,0,0
+"Circus cyaneus",0,0,0,0,0
+"Cirroteuthis",0,0,0,0,1
+"Citharichthys arctifrons",0,0,0,0,1
+"Clangula hyemalis",0,0,0,0,0
+"Clupea harengus",0,0,0,0,1
+"Colga villosa",0,1,0,0,0
+"Colossendeis",0,0,0,0,1
+"Colus",0,1,0,0,0
+"Colus sp.",0,1,0,0,0
+"Conger",0,0,0,0,1
+"Conocara salmonea",0,0,0,0,1
+"Cookeolus boops",0,0,0,0,1
+"Coragyps atratus",0,0,0,0,0
+"Coregonus clupeaformis",0,0,0,0,1
+"Corvus brachyrhynchos",0,0,0,0,0
+"Corvus corax",0,0,0,0,0
+"Coryphaena hippurus",0,0,0,0,1
+"Coryphaenoides carapinus",0,0,0,0,1
+"Coryphaenoides rupestris",0,0,0,0,1
+"Cottunculus microps",0,0,0,0,1
+"Cottunculus thompsoni",0,0,0,0,1
+"Cottunculus thomsonii",0,0,0,0,1
+"Coturnicops noveboracensis",0,0,0,0,0
+"Crangon septemspinosa",0,0,0,0,1
+"Crenella faba",0,0,1,0,0
+"Crossaster papposus",0,1,0,0,0
+"Cryptacanthodes maculatus",0,0,0,0,1
+"Cryptopsaras couesii",0,0,0,0,1
+"Ctenodiscus crispatus",0,1,0,0,0
+"Cubiceps gracilis",0,0,0,0,1
+"Cubiceps pauciradiatus",0,0,0,0,1
+"Cucumaria frondosa",0,1,0,0,0
+"Cuspidaria sp.",1,0,0,0,0
+"Cyanea capillata",0,0,1,0,0
+"Cyclocardia borealis",0,0,1,0,0
+"Cyclopterus lumpus",0,0,0,0,1
+"Cygnus columbianus",0,0,0,0,0
+"Cygnus cygnus",0,0,0,0,0
+"Cygnus olor",0,0,0,0,0
+"Cyrtodaria siliqua",0,0,0,1,0
+"Cystophora cristata",0,0,0,0,1
+"Cyttopsis rosea",0,0,0,0,1
+"Delphinapterus leucas",0,0,0,0,1
+"Delphinus capensis",0,0,0,0,0
+"Delphinus delphis",0,0,0,0,1
+"Dendronotus",0,1,0,0,0
+"Dendronotus sp.",0,1,1,0,0
+"Derichthys serpentinus",0,0,0,0,1
+"Desmarestia aculeata",1,0,0,0,0
+"Dibranchus atlanticus",0,0,0,0,1
+"Dichelopandalus leptocerus",0,0,1,0,0
+"Dicrolene introniger",0,0,0,0,1
+"Diplopteraster multipes",0,1,0,0,0
+"Dipturus laevis",0,0,0,0,1
+"Dipturus linteus",0,0,0,0,1
+"Doridoxa ingolfiana",0,1,0,0,0
+"Drifa glomerata",1,0,0,0,0
+"Duva florida",1,0,0,0,0
+"Echinarachnius parma",0,1,0,0,0
+"Echinus",0,1,0,0,0
+"Echiodon dawsoni",0,0,0,0,1
+"Ectreposebastes imus",0,0,0,0,1
+"Egretta caerulea",0,0,0,0,0
+"Egretta garzetta",0,0,0,0,0
+"Egretta thula",0,0,0,0,0
+"Egretta tricolor",0,0,0,0,0
+"Enchelyopus cimbrius",0,0,0,0,1
+"Ensis directus",1,0,0,0,0
+"Ensis leei",0,0,1,0,0
+"Epigonus",0,0,0,0,1
+"Epimeria loricata",0,0,1,0,0
+"Epizoanthus erdmanni",1,0,0,0,0
+"Epizoanthus incrustatus",1,0,0,0,0
+"Erignathus barbatus",0,0,0,0,1
+"Eschrichtius robustus",0,0,0,0,0
+"Etmopterus princeps",0,0,0,0,1
+"Etropus microstomus",0,0,0,0,1
+"Eualus fabricii",0,0,0,0,1
+"Eualus gaimardii",0,0,0,0,1
+"Eualus macilentus",0,0,0,0,1
+"Eubalaena glacialis",0,0,0,0,1
+"Eudistoma vitreum",1,0,0,0,0
+"Eudocimus albus",0,0,0,0,0
+"Eumesogrammus praecisus",0,0,0,0,1
+"Eumicrotremus derjugini",0,0,0,0,1
+"Eumicrotremus spinosus",0,0,0,0,1
+"Euphausia",0,0,1,0,0
+"Eurypharynx pelecanoides",0,0,0,0,1
+"Eusergestes arcticus",0,0,0,0,1
+"Eusirus cuspidatus",0,0,1,0,0
+"Evermannella indica",0,0,0,0,1
+"Falco columbarius",0,0,0,0,0
+"Falco peregrinus",0,0,0,0,0
+"Falco rusticolus",0,0,0,0,0
+"Falco sparverius",0,0,0,0,0
+"Feresa attenuata",0,0,0,0,0
+"Flabellum",1,0,0,0,0
+"Flabellum sp.",1,0,0,0,0
+"Flustra foliacea",1,0,0,0,0
+"Foetorepus agassizi",0,0,0,0,1
+"Fratercula arctica",0,0,0,0,0
+"Fucus distichus",1,0,0,0,0
+"Fucus vesiculosus",1,0,0,0,0
+"Fulica americana",0,0,0,0,0
+"Fulmarus glacialis",0,0,0,0,0
+"Funiculina quadrangularis",1,0,0,0,0
+"Gadus morhua",0,0,0,0,1
+"Gadus ogac",0,0,0,0,1
+"Gaidropsarus",0,0,0,0,1
+"Gaidropsarus sp.",0,0,0,0,1
+"Gallinago gallinago",0,0,0,0,0
+"Gallinula chloropus",0,0,0,0,0
+"Gasterosteus aculeatus aculeatus",0,0,0,0,1
+"Gavia immer",0,0,0,0,0
+"Gavia stellata",0,0,0,0,0
+"Gennadas",0,0,1,0,0
+"Gersemia fruticosa",1,0,0,0,0
+"Gersemia rubiformis",1,0,0,0,0
+"Globicephala macrorhynchus",0,0,0,0,0
+"Globicephala melas",0,0,0,0,1
+"Glycera capitata",0,0,0,1,0
+"Glyptocephalus cynoglossus",0,0,0,0,1
+"Gnathophausia",0,0,1,0,0
+"Gonatus fabricii",0,0,0,0,1
+"Gonatus steenstrupi",0,0,0,0,1
+"Gonostomatidae",0,0,0,0,1
+"Gorgonocephalus",0,1,0,0,0
+"Gorgonocephalus sp.",0,1,0,0,0
+"Grammatostomias dentatus",0,0,0,0,1
+"Grammicolepis brachiusculus",0,0,0,0,1
+"Grampus griseus",0,0,0,0,1
+"Gymnelis viridis",0,0,0,0,1
+"Gymnelus viridis",0,0,0,0,1
+"Gymnocanthus tricuspis",0,0,0,0,1
+"Haematopus palliatus",0,0,0,0,0
+"Halargyreus johnsonii",0,0,0,0,1
+"Haliaeetus leucocephalus",0,0,0,0,0
+"Halichoerus grypus",0,0,0,0,1
+"Halichondria panicea",1,0,0,0,0
+"Halieutichthys aculeatus",0,0,0,0,1
+"Halipteris finmarchica",1,0,0,0,0
+"Halosauropsis macrochir",0,0,0,0,1
+"Halosaurus guentheri",0,0,0,0,1
+"Hamingia arctica",0,1,0,0,0
+"Harriotta raleighana",0,0,0,0,1
+"Helicolenus dactylopterus",0,0,0,0,1
+"Heliometra glacialis",1,0,1,0,0
+"Hemithiris psittacea",0,0,1,0,0
+"Hemitripterus americanus",0,0,0,0,1
+"Henricia",0,1,0,0,0
+"Henricia sp.",0,1,0,0,0
+"Heteropolypus",1,0,0,0,0
+"Hiatella arctica",0,0,1,0,0
+"Himantopus mexicanus",0,0,0,0,0
+"Hippasteria phrygiana",0,1,0,0,0
+"Hippocampus erectus",0,0,0,0,1
+"Hippoglossina oblonga",0,0,0,0,1
+"Hippoglossoides platessoides",0,0,0,0,1
+"Hippoglossus hippoglossus",0,0,0,0,1
+"Histioteuthis reversa",0,0,0,0,1
+"Histrionicus histrionicus",0,0,0,0,0
+"Holtbyrnia anomala",0,0,0,0,1
+"Homarus americanus",0,0,0,0,1
+"Homola minima",0,1,0,0,0
+"Hoplostethus atlanticus",0,0,0,0,1
+"Hormathia nodosa",1,0,0,0,0
+"Howella brodiei",0,0,0,0,1
+"Howella sherborni",0,0,0,0,1
+"Hyalinoecia tubicola",0,1,0,0,0
+"Hyas araneus",0,1,0,0,0
+"Hyas coarctatus",0,1,0,0,0
+"Hydrobates pelagicus",0,0,0,0,0
+"Hydrolagus affinis",0,0,0,0,1
+"Hymenopenaeus debilis",0,0,0,0,1
+"Hyperia galba",0,0,1,0,0
+"Hyperoglyphe perciformis",0,0,0,0,1
+"Hyperoodon (Hyperoodon) ampullatus",0,0,0,0,0
+"Hyperoodon ampullatus",0,0,0,0,1
+"Icelus",0,0,0,0,1
+"Icelus sp.",0,0,0,0,1
+"Ichnopus",0,0,1,0,0
+"Idotea",0,0,1,1,0
+"Illex illecebrosus",0,0,0,0,1
+"Ilyophis brunneus",0,0,0,0,1
+"Isurus oxyrinchus",0,0,0,0,1
+"Ixobrychus exilis",0,0,0,0,0
+"Kajikia albida",0,0,0,0,1
+"Keratoisis ornata",1,0,0,0,0
+"Kogia breviceps",0,0,0,0,1
+"Kogia sima",0,0,0,0,0
+"Laemonema barbatulum",0,0,0,0,1
+"Lagenodelphis hosei",0,0,0,0,0
+"Lagenorhynchus acutus",0,0,0,0,1
+"Lagenorhynchus albirostris",0,0,0,0,1
+"Laminaria digitata",1,0,0,0,0
+"Laminaria longicruris",1,0,0,0,0
+"Lamna nasus",0,0,0,0,1
+"Lampanyctus sp.",0,0,0,0,1
+"Larus argentatus",0,0,0,0,0
+"Larus atricilla",0,0,0,0,0
+"Larus canus",0,0,0,0,0
+"Larus delawarensis",0,0,0,0,0
+"Larus fuscus",0,0,0,0,0
+"Larus glaucoides",0,0,0,0,0
+"Larus glaucoides glaucoides",0,0,0,0,0
+"Larus hyperboreus",0,0,0,0,0
+"Larus marinus",0,0,0,0,0
+"Larus minutus",0,0,0,0,0
+"Larus philadelphia",0,0,0,0,0
+"Larus pipixcan",0,0,0,0,0
+"Larus sp.",0,0,0,0,1
+"Larus tridactyla",0,0,0,0,0
+"Leathesia difformis",1,0,0,0,0
+"Lebbeus groenlandicus",0,0,0,0,1
+"Lebbeus microceros",0,0,0,0,1
+"Lebbeus polaris",0,0,0,0,1
+"Lebbeus zebra",0,0,1,0,0
+"Lepidion schmidti",0,0,0,0,1
+"Lepophidium profundorum",0,0,0,0,1
+"Leptagonus decagonus",0,0,0,0,1
+"Leptasterias",0,1,0,0,0
+"Leptasterias sp.",0,1,0,0,0
+"Leptoclinus maculatus",0,0,0,0,1
+"Leptychaster arcticus",0,1,0,0,0
+"Leucoraja erinacea",0,0,0,0,1
+"Leucoraja ocellata",0,0,0,0,1
+"Limacina",0,0,0,0,1
+"Limanda ferruginea",0,0,0,0,1
+"Limnodromus griseus",0,0,0,0,0
+"Limnodromus scolopaceus",0,0,0,0,0
+"Limosa fedoa",0,0,0,0,0
+"Limosa haemastica",0,0,0,0,0
+"Limosa lapponica",0,0,0,0,0
+"Limosa limosa",0,0,0,0,0
+"Liopsetta putnami",0,0,0,0,1
+"Liparis atlanticus",0,0,0,0,1
+"Liparis coheni",0,0,0,0,1
+"Liparis fabricii",0,0,0,0,1
+"Liparis gibbus",0,0,0,0,1
+"Liparis inquilinus",0,0,0,0,1
+"Liparis liparis liparis",0,0,0,0,1
+"Liparis tunicatus",0,0,0,0,1
+"Lipogenys gillii",0,0,0,0,1
+"Liponema multicorne",1,0,0,1,0
+"Lithodes maja",0,1,0,0,0
+"Loligo pealeii",0,0,0,0,1
+"Lontra canadensis",0,0,0,0,0
+"Lophaster furcifer",0,1,0,0,0
+"Lophelia pertusa",1,0,0,0,0
+"Lophius americanus",0,0,0,0,1
+"Lophodytes cucullatus",0,0,0,0,0
+"Lopholatilus chamaeleonticeps",0,0,0,0,1
+"Lumpenus fabricii",0,0,0,0,1
+"Lumpenus lampretaeformis",0,0,0,0,1
+"Lumpenus lumpretaeformis",0,0,0,0,1
+"Lumpenus maculatus",0,0,0,0,1
+"Lumpenus medius",0,0,0,0,1
+"Lycenchelys paxillus",0,0,0,0,1
+"Lycenchelys verrilli",0,0,0,0,1
+"Lycenchelys verrillii",0,0,0,0,1
+"Lycodes esmarki",0,0,0,0,1
+"Lycodes eudipleurostictus",0,0,0,0,1
+"Lycodes lavalaei",0,0,0,0,1
+"Lycodes pallidus",0,0,0,0,1
+"Lycodes polaris",0,0,0,0,1
+"Lycodes reticulatus",0,0,0,0,1
+"Lycodes terraenova",0,0,0,0,1
+"Lycodes terraenovae",0,0,0,0,1
+"Lycodes turneri",0,0,0,0,1
+"Lycodes vahlii",0,0,0,0,1
+"Macoma sp.",0,0,1,0,0
+"Macrorhamphosus scolopax",0,0,0,0,1
+"Macrostomias longibarbatus",0,0,0,0,1
+"Macrourus berglax",0,0,0,0,1
+"Mactromeris polynyma",0,0,0,1,0
+"Maera loveni",0,0,1,0,0
+"Magnisudis atlantica",0,0,0,0,1
+"Malacocephalus occidentalis",0,0,0,0,1
+"Malacoraja senta",0,0,0,0,1
+"Malacosteus niger",0,0,0,0,1
+"Mallotus villosus",0,0,0,0,1
+"Margarites",0,1,0,0,0
+"Margarites sp.",0,1,0,0,0
+"Mastigoteuthis",0,0,0,0,1
+"Maurolicus muelleri",0,0,0,0,1
+"Mediaster bairdi",0,1,0,0,0
+"Megaceryle alcyon",0,0,0,0,0
+"Megaptera novaeangliae",0,0,0,0,1
+"Megayoldia thraciaeformis",0,0,1,0,0
+"Melamphaes microps",0,0,0,0,1
+"Melamphaes suborbitalis",0,0,0,0,1
+"Melanitta fusca",0,0,0,0,0
+"Melanitta nigra",0,0,0,0,0
+"Melanitta perspicillata",0,0,0,0,0
+"Melanogrammus aeglefinus",0,0,0,0,1
+"Melanostigma atlanticum",0,0,0,0,1
+"Melita dentata",0,0,1,0,0
+"Menidia menidia",0,0,0,0,1
+"Mentodus rostratus",0,0,0,0,1
+"Mercenaria mercenaria",0,0,0,1,0
+"Mergus merganser",0,0,0,0,0
+"Mergus serrator",0,0,0,0,0
+"Merluccius albidus",0,0,0,0,1
+"Merluccius bilinearis",0,0,0,0,1
+"Mesodesma sp.",0,0,0,1,0
+"Mesoplodon bidens",0,0,0,0,0
+"Mesoplodon densirostris",0,0,0,0,0
+"Mesoplodon europaeus",0,0,0,0,0
+"Mesoplodon grayi",0,0,0,0,0
+"Mesoplodon hectori",0,0,0,0,0
+"Mesoplodon mirus",0,0,0,0,0
+"Metridium senile",1,0,0,0,0
+"Microgadus tomcod",0,0,0,0,1
+"Micromesistius poutassou",0,0,0,0,1
+"Modiolus modiolus",0,0,1,0,0
+"Mola mola",0,0,0,0,1
+"Molpadia",0,1,0,0,0
+"Molpadia sp.",0,1,0,0,0
+"Molva dypterygia",0,0,0,0,1
+"Monodon monoceros",0,0,0,0,1
+"Monolene sessilicauda",0,0,0,0,1
+"Monstrilla",0,0,1,0,0
+"Morone saxatilis",0,0,0,0,1
+"Morus bassanus",0,0,0,0,1
+"Mugil cephalus",0,0,0,0,1
+"Munida iris",0,0,1,0,0
+"Munida valida",0,0,0,0,1
+"Munidopsis curvirostra",0,0,1,0,0
+"Musculus",1,0,0,0,0
+"Musculus sp.",0,0,1,0,0
+"Mustelus canis",0,0,0,0,1
+"Mya arenaria",0,0,0,1,0
+"Mya truncata",0,0,0,1,0
+"Mycteria americana",0,0,0,0,0
+"Mycteroperca",0,0,0,0,1
+"Myctophidae",0,0,0,0,1
+"Myoxocephalus",0,0,0,0,1
+"Myoxocephalus sp.",0,0,0,0,1
+"Mytilus",1,0,0,0,0
+"Mytilus sp.",0,0,1,0,0
+"Myxine glutinosa",0,0,0,0,1
+"Naticidae",0,1,0,1,0
+"Naucrates ductor",0,0,0,0,1
+"Nealotus tripes",0,0,0,0,1
+"Nemichthys scolopaceus",0,0,0,0,1
+"Neocyttus helgae",0,0,0,0,1
+"Neohela monstrosa",0,0,1,0,0
+"Neolithodes grimaldii",0,0,0,0,1
+"Neoscopelus macrolepidotus",0,0,0,0,1
+"Neptunea",0,1,0,0,0
+"Neptunea sp.",0,1,0,0,0
+"Nessorhamphus ingolfianus",0,0,0,0,1
+"Nezumia aequalis",0,0,0,0,1
+"Nezumia bairdii",0,0,0,0,1
+"Notacanthus chemnitzii",0,0,0,0,1
+"Notolepis rissoi",0,0,0,0,1
+"Novodinia americana",0,1,0,0,0
+"Nucella lapillus",0,1,0,0,0
+"Nucula",1,0,0,0,0
+"Nuculana sp.",0,0,1,0,0
+"Numenius arquata",0,0,0,0,0
+"Numenius borealis",0,0,0,0,0
+"Numenius phaeopus",0,0,0,0,0
+"Nyctanassa violacea",0,0,0,0,0
+"Nycticorax nycticorax",0,0,0,0,0
+"Nymphon",0,1,0,0,0
+"Nymphon sp.",0,1,0,1,0
+"Oceanites oceanicus",0,0,0,0,0
+"Oceanites sp.",0,0,0,0,1
+"Oceanodroma leucorhoa",0,0,0,0,0
+"Octopoteuthis",0,0,0,0,1
+"Odobenus rosmarus",0,0,0,0,1
+"Oediceros saginatus",0,0,1,0,0
+"Oithona spinirostris",0,0,1,0,0
+"Ommastrephes",0,0,0,0,1
+"Ommastrephes sp.",0,0,0,0,1
+"Omosudis lowii",0,0,0,0,1
+"Oncopagurus",0,0,1,0,0
+"Oneirodes",0,0,0,0,1
+"Ophelia",0,0,0,1,0
+"Ophiacantha abyssicola",0,1,0,0,0
+"Ophiacantha bidentata",0,1,0,0,0
+"Ophichthus cruentifer",0,0,0,0,1
+"Ophiomusa lymani",0,1,0,0,0
+"Ophiopholis aculeata",0,1,0,0,0
+"Ophioscolex glacialis",0,1,0,0,0
+"Ophiura",0,1,0,0,0
+"Ophiura sp.",0,1,1,1,0
+"Oplophorus spinosus",0,0,1,0,0
+"Orcinus orca",0,0,0,0,1
+"Osmerus mordax mordax",0,0,0,0,1
+"Ovalipes ocellatus",0,1,0,0,0
+"Oxyura jamaicensis",0,0,0,0,0
+"Pachycerianthus borealis",1,0,0,0,0
+"Pagophila eburnea",0,0,0,0,0
+"Pagophilus groenlandicus",0,0,0,0,1
+"Pagurus",0,0,1,0,0
+"Pagurus sp.",0,1,0,0,0
+"Palio dubia",0,1,0,0,0
+"Palmaria palmata",1,0,0,0,0
+"Pandalus borealis",0,0,0,0,1
+"Pandalus montagui",0,0,0,0,1
+"Pandion haliaetus",0,0,0,0,0
+"Pandora gouldiana",1,0,0,0,0
+"Panomya norvegica",0,0,0,1,0
+"Parablennius marmoreus",0,0,0,0,1
+"Paragorgia arborea",1,0,0,0,0
+"Paralepis atlantica",0,0,0,0,1
+"Paralepis elongata",0,0,0,0,1
+"Paralichthys dentatus",0,0,0,0,1
+"Paraliparis calidus",0,0,0,0,1
+"Paraliparis copei",0,0,0,0,1
+"Paraliparis copei copei",0,0,0,0,1
+"Paraliparis garmani",0,0,0,0,1
+"Paramphithoe hystrix",0,0,1,0,0
+"Parapasiphae sulcatifrons",0,0,1,0,0
+"Parasudis truculenta",0,0,0,0,1
+"Parathemisto",0,0,1,0,0
+"Parvicardium pinnulatum",0,0,1,0,0
+"Pasiphaea multidentata",0,0,0,0,1
+"Pasiphaea tarda",0,0,0,0,1
+"Pelagia noctiluca",0,0,0,0,1
+"Pelecanus erythrorhynchos",0,0,0,0,0
+"Pennatula aculeata",1,0,0,0,0
+"Pennatula grandis",1,0,0,0,0
+"Pentamera calcigera",1,0,0,0,0
+"Peponocephala electra",0,0,0,0,0
+"Peprilus triacanthus",0,0,0,0,1
+"Periphylla periphylla",0,0,1,0,0
+"Peristedion miniatum",0,0,0,0,1
+"Petromyzon marinus",0,0,0,0,1
+"Phaethon aethereus",0,0,0,0,0
+"Phalacrocorax auritus",0,0,0,0,0
+"Phalacrocorax carbo",0,0,0,0,0
+"Phalaropus fulicaria",0,0,0,0,0
+"Phalaropus fulicarius",0,0,0,0,0
+"Phalaropus lobatus",0,0,0,0,0
+"Phalaropus tricolor",0,0,0,0,0
+"Phascolion strombus strombus",0,0,1,1,0
+"Philomachus pugnax",0,0,0,0,0
+"Phoca vitulina",0,0,0,0,1
+"Phocoena phocoena",0,0,0,0,1
+"Pholis fasciata",0,0,0,0,1
+"Pholis gunnellus",0,0,0,0,1
+"Photostomias guernei",0,0,0,0,1
+"Phronima",0,0,1,0,0
+"Phycis chesteri",0,0,0,0,1
+"Physeter catodon",0,0,0,0,0
+"Physeter macrocephalus",0,0,0,0,1
+"Pinguinus impennis",0,0,0,0,0
+"Plegadis falcinellus",0,0,0,0,0
+"Plesionika martia",0,0,0,0,1
+"Pleurobrachia pileus",0,0,0,0,1
+"Plutonaster agassizi",0,1,0,0,0
+"Pluvialis apricaria",0,0,0,0,0
+"Pluvialis dominica",0,0,0,0,0
+"Pluvialis squatarola",0,0,0,0,0
+"Podiceps auritus",0,0,0,0,0
+"Podiceps cristatus",0,0,0,0,0
+"Podiceps grisegena",0,0,0,0,0
+"Podilymbus podiceps",0,0,0,0,0
+"Pollachius virens",0,0,0,0,1
+"Polyacanthonotus rissoanus",0,0,0,0,1
+"Polycheles sculptus",0,0,0,0,1
+"Polyipnus clarus",0,0,0,0,1
+"Polymetme corythaeola",0,0,0,0,1
+"Polymixia lowei",0,0,0,0,1
+"Polymixia nobilis",0,0,0,0,1
+"Polynoidae",0,1,0,0,0
+"Pomatomus saltatrix",0,0,0,0,1
+"Pontaster",0,1,0,0,0
+"Pontophilus norvegicus",0,0,0,0,1
+"Porania pulvillus",0,1,0,0,0
+"Poraniomorpha",0,1,0,0,0
+"Poraniomorpha sp.",0,1,0,0,0
+"Porifera",1,0,0,0,0
+"Poromitra crassiceps",0,0,0,0,1
+"Porphyrula martinica",0,0,0,0,0
+"Porzana carolina",0,0,0,0,0
+"Potamilla neglecta",1,0,0,0,0
+"Primnoa resedaeformis",1,0,0,0,0
+"Prionace glauca",0,0,0,0,1
+"Prionotus carolinus",0,0,0,0,1
+"Pseudarchaster parelii",0,1,0,0,0
+"Pseudopleuronectes americanus",0,0,0,0,1
+"Pseudorca crassidens",0,0,0,0,0
+"Pseudoscopelus",0,0,0,0,1
+"Psilaster andromeda",0,1,0,0,0
+"Psolus fabricii",1,0,0,0,0
+"Psolus phantapus",0,1,0,0,0
+"Pteraster militaris",0,1,0,0,0
+"Pteraster obscurus",0,1,0,0,0
+"Pteraster pulvillus",0,1,0,0,0
+"Pterodroma arminjoniana",0,0,0,0,0
+"Pterygioteuthis",0,0,0,0,1
+"Ptychogena lactea",1,0,1,0,0
+"Puffinus gravis",0,0,0,0,1
+"Puffinus griseus",0,0,0,0,0
+"Puffinus puffinus",0,0,0,0,0
+"Pusa hispida",0,0,0,0,1
+"Pycnogonum litorale",0,1,0,0,0
+"Pycnogonum littorale",0,1,0,0,0
+"Radicipes gracilis",1,0,0,0,0
+"Raja bathyphila",0,0,0,0,1
+"Raja eglanteria",0,0,0,0,1
+"Raja garmani",0,0,0,0,1
+"Rajella fyllae",0,0,0,0,1
+"Rallus elegans",0,0,0,0,0
+"Rallus limicola",0,0,0,0,0
+"Rallus longirostris",0,0,0,0,0
+"Recurvirostra americana",0,0,0,0,0
+"Reinhardtius hippoglossoides",0,0,0,0,1
+"Remora brachyptera",0,0,0,0,1
+"Remora remora",0,0,0,0,1
+"Reteporella grimaldii",1,0,0,0,0
+"Rhachotropis aculeata",0,0,1,0,0
+"Rhinochimaera atlantica",0,0,0,0,1
+"Rhodostethia rosea",0,0,0,0,0
+"Rissa tridactyla",0,0,0,0,0
+"Rondeletia loricata",0,0,0,0,1
+"Rossia",0,0,0,0,1
+"Rossia sp.",0,0,1,1,0
+"Rouleina attrita",0,0,0,0,1
+"Rouleina maderensis",0,0,0,0,1
+"Rynchops niger",0,0,0,0,0
+"Sabinea sarsii",0,0,0,0,1
+"Sabinea septemcarinata",0,0,0,0,1
+"Saccorhiza dermatodea",1,0,0,0,0
+"Salmo salar",0,0,0,0,1
+"Saurida brasiliensis",0,0,0,0,1
+"Scaphander punctostriatus",0,1,0,1,0
+"Sclerasterias tanneri",0,1,0,0,0
+"Sclerocrangon boreas",0,0,0,0,1
+"Scolopax minor",0,0,0,0,0
+"Scolopax rusticola",0,0,0,0,0
+"Scomber scombrus",0,0,0,0,1
+"Scomberesox saurus saurus",0,0,0,0,1
+"Scopelarchus analis",0,0,0,0,1
+"Scopeloberyx robustus",0,0,0,0,1
+"Scopelogadus beanii",0,0,0,0,1
+"Scopelosaurus lepidus",0,0,0,0,1
+"Scophthalmus aquosus",0,0,0,0,1
+"Scyliorhinus retifer",0,0,0,0,1
+"Sebastes",0,0,0,0,1
+"Sebastes sp.",0,0,0,0,1
+"Securiflustra securifrons",1,0,0,0,0
+"Selar crumenophthalmus",0,0,0,0,1
+"Sepioloidea sp.",0,0,0,0,1
+"Sergia robusta",0,0,0,0,1
+"Seriola dumerili",0,0,0,0,1
+"Serripes groenlandicus",0,0,1,0,0
+"Serrivomer beanii",0,0,0,0,1
+"Sertularia polyzonias",1,0,0,0,0
+"Setarches guentheri",0,0,0,0,1
+"Siliqua",1,0,0,0,0
+"Simenchelys parasitica",0,0,0,0,1
+"Similipecten greenlandicus",1,0,0,0,0
+"Solaster endeca",0,1,0,0,0
+"Solemya borealis",1,0,0,0,0
+"Somateria mollissima",0,0,0,0,0
+"Somateria spectabilis",0,0,0,0,0
+"Somniosus microcephalus",0,0,0,0,1
+"Sphoeroides maculatus",0,0,0,0,1
+"Spinolambrus pourtalesii",0,1,0,0,0
+"Spirontocaris fabricii",0,0,1,0,0
+"Spirontocaris liljeborgii",0,0,0,0,1
+"Spirontocaris phippsii",0,0,0,0,1
+"Spirontocaris spinus",0,0,0,0,1
+"Spisula solidissima",0,0,0,1,0
+"Squalus acanthias",0,0,0,0,1
+"Staurostoma mertensii",1,0,0,0,0
+"Stauroteuthis syrtensis",0,0,1,0,0
+"Stegocephalus inflatus",0,0,1,0,0
+"Stenella attenuata",0,0,0,0,0
+"Stenella clymene",0,0,0,0,0
+"Stenella coeruleoalba",0,0,0,0,1
+"Stenella frontalis",0,0,0,0,1
+"Stenella longirostris",0,0,0,0,0
+"Steno bredanensis",0,0,0,0,0
+"Stenotomus chrysops",0,0,0,0,1
+"Stephanasterias albula",0,1,0,0,0
+"Stephanauge sp.",1,0,0,0,0
+"Stephanolepis hispidus",0,0,0,0,1
+"Stercorarius longicaudus",0,0,0,0,0
+"Stercorarius parasiticus",0,0,0,0,0
+"Stercorarius pomarinus",0,0,0,0,0
+"Stereoderma unisemita",0,1,0,0,0
+"Stereomastis sculpta",0,0,1,0,0
+"Sterna antillarum",0,0,0,0,0
+"Sterna caspia",0,0,0,0,0
+"Sterna dougallii",0,0,0,0,0
+"Sterna forsteri",0,0,0,0,0
+"Sterna fuscata",0,0,0,0,0
+"Sterna hirundo",0,0,0,0,0
+"Sterna nilotica",0,0,0,0,0
+"Sterna paradisaea",0,0,0,0,0
+"Sternoptyx diaphana",0,0,0,0,1
+"Stichaeus punctatus",0,0,0,0,1
+"Stichaeus punctatus punctatus",0,0,0,0,1
+"Stomias boa ferox",0,0,0,0,1
+"Stomphia coccinea",1,0,1,0,0
+"Strongylocentrotus",0,1,0,0,0
+"Strongylocentrotus sp.",0,1,0,0,0
+"Stylocordyla borealis",0,0,1,0,0
+"Symbolophorus veranyi",0,0,0,0,1
+"Symphurus diomedeanus",0,0,0,0,1
+"Synagrops bella",0,0,0,0,1
+"Synaphobranchus kaupi",0,0,0,0,1
+"Synaphobranchus kaupii",0,0,0,0,1
+"Syngnathus fuscus",0,0,0,0,1
+"Syscenus infelix",0,0,0,0,1
+"Tachyrhynchus erosus",0,0,1,0,0
+"Tautogolabrus adspersus",0,0,0,0,1
+"Tealia felina",1,0,0,0,0
+"Tellina sp.",0,0,1,0,0
+"Terebratulina septentrionalis",0,0,1,0,0
+"Teredo navalis",0,0,0,1,0
+"Teuthowenia megalops",0,0,0,0,1
+"Thalassarche chlororhynchos",0,0,0,0,0
+"Thuiaria thuja",1,0,1,0,0
+"Thunnus alalunga",0,0,0,0,1
+"Thunnus obesus",0,0,0,0,1
+"Thunnus thynnus",0,0,0,0,1
+"Thyonella pervicax",0,1,0,0,0
+"Thysanoessa longicaudata",0,0,1,0,0
+"Thysanoessa raschii",0,0,1,0,0
+"Tonicella sp.",0,1,0,0,0
+"Torpedo nobiliana",0,0,0,0,1
+"Trachyrincus murrayi",0,0,0,0,1
+"Tremaster mirabilis",0,1,0,0,0
+"Trichechus manatus",0,0,0,0,0
+"Triglops",0,0,0,0,1
+"Triglops sp.",0,0,0,0,1
+"Trigonolampa miriceps",0,0,0,0,1
+"Tringa erythropus",0,0,0,0,0
+"Tringa flavipes",0,0,0,0,0
+"Tringa melanoleuca",0,0,0,0,0
+"Tringa nebularia",0,0,0,0,0
+"Tringa solitaria",0,0,0,0,0
+"Tringa totanus",0,0,0,0,0
+"Tritia sp.",0,0,1,0,0
+"Tryngites subruficollis",0,0,0,0,0
+"Tursiops truncatus",0,0,0,0,1
+"Ulva",1,0,0,0,0
+"Ulvaria subbifurcata",0,0,0,0,1
+"Urasterias lincki",0,1,0,1,0
+"Uria aalge",0,0,0,0,0
+"Uria lomvia",0,0,0,0,0
+"Urophycis chesteri",0,0,0,0,1
+"Urophycis chuss",0,0,0,0,1
+"Urophycis regia",0,0,0,0,1
+"Urophycis tenuis",0,0,0,0,1
+"Ursus maritimus",0,0,0,0,0
+"Urticina felina",1,0,0,0,0
+"Vanellus vanellus",0,0,0,0,0
+"Vazella pourtalesi",1,0,0,0,0
+"Velutinidae",0,1,0,0,0
+"Venefica procera",0,0,0,0,1
+"Venericardia borealis",1,0,0,0,0
+"Venus mercenaria",0,0,0,1,0
+"Vinciguerria nimbaria",0,0,0,0,1
+"Vomer setapinnis",0,0,0,0,1
+"Wimvadocus torelli",0,0,1,0,0
+"Xema sabini",0,0,0,0,0
+"Xenodermichthys copei",0,0,0,0,1
+"Xenolepidichthys dalgleishi",0,0,0,0,1
+"Xiphias gladius",0,0,0,0,1
+"Xylophaga atlantica",0,0,1,0,0
+"Yoldia",0,0,0,1,0
+"Yoldia sp.",0,0,1,0,0
+"Zenopsis ocellata",0,0,0,0,1
+"Ziphius cavirostris",0,0,0,0,1
+"Zoarces americanus",0,0,0,0,1
+"Zostera marina",1,0,0,0,0

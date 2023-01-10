@@ -218,8 +218,10 @@ mobility <- rbind(mobility, mobility_manual_entry)
 
 
 # Create final mobility dataset 
-mob <- data.frame(species = nm) |>
+mobility <- data.frame(species = nm) |>
        dplyr::left_join(mobility, by = "species")
+rownames(mobility) <- mobility$species
+mobility <- dplyr::select(mobility, -species)
 
 #Verify if the dataset is complete
 # row_sub = apply(mobility, 1, function(row) all(row !=1 ))

@@ -590,6 +590,8 @@ colnames(size_df) <- 'Size'
 #Verify if the dataset is complete
 which(is.na(size_df), arr.ind=TRUE)
 
+size <- size_df
+
 # Export
-save(size_df, file = './Data/SpeciesTraits/Size.RData')
-write.csv(size_df, file = './Data/SpeciesTraits/Size.csv')
+save(size, file = './Data/SpeciesTraits/Size.RData')
+write.csv(size, file = './Data/SpeciesTraits/Size.csv')
