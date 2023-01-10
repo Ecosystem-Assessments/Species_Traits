@@ -1,8 +1,9 @@
 # source('./Code/Traits/Mobility.R')
 # Invertebrate traits DB
-inv <- read.delim('./Data/InvertebratesTraits/BD_traits_20200416.csv', stringsAsFactors = F)
+inv <- read.delim('./Data/InvertebratesTraits/BD_traits_20200416.csv', stringsAsFactors = F) |>
+       dplyr::mutate(Species = stringr::str_replace(Species, " sp\\.", ""))
 invSp <- inv$Species
-head(inv)
+
 # Fish traits DB
 fish <- readRDS('./Data/FishTraits/Data_trait_fb_3OCC_bathyend_TL_CML.RDS')
 fishSp <- paste(fish$Genus, fish$Species)
@@ -62,33 +63,33 @@ tr <- matrix(data = 0, nrow = length(nm), ncol = 6, dimnames = list(nm, colnames
 
 # Entries
 tr['Aega psora', 'mobile'] <- 1 # Fish parasite (swimmer for our purposes)
-tr['Alcyonidium sp.', 'sessile'] <- 1 # Bryozoaire
+tr['Alcyonidium', 'sessile'] <- 1 # Bryozoaire
 tr['Amicula vestita', 'crawler'] <- 1
-tr['Ammodytes sp.', 'mobile'] <- 1
-tr['Ampelisca sp.', 'swimmer'] <- 1
-tr['Antalis sp.', 'burrower'] <- 1
+tr['Ammodytes', 'mobile'] <- 1
+tr['Ampelisca', 'swimmer'] <- 1
+tr['Antalis', 'burrower'] <- 1
 tr['Arctica islandica', 'burrower'] <- 1
 tr['Argis dentata', 'mobile'] <- 1
 tr['Aristaeopsis edwardsiana', 'mobile'] <- 1
-tr['Artediellus sp.', 'mobile'] <- 1
+tr['Artediellus', 'mobile'] <- 1
 tr['Aspidophoroides monopterygius', 'mobile'] <- 1
 tr['Aspidophoroides olrikii', 'mobile'] <- 1
-tr['Asterias sp.', 'crawler'] <- 1
+tr['Asterias', 'crawler'] <- 1
 tr['Astropecten duplicatus', 'crawler'] <- 1
 tr['Atlantopandalus propinqvus', 'mobile'] <- 1
 tr['Aulacofusus brevicauda', c('crawler','burrower')] <- 1
 tr['Balanidae', 'sessile'] <- 1
-tr['Bathyarca sp.', 'swimmer'] <- 1
-tr['Bathypolypus sp.', 'mobile'] <- 1
+tr['Bathyarca', 'swimmer'] <- 1
+tr['Bathypolypus', 'mobile'] <- 1
 tr['Bathyraja spinicauda', 'mobile'] <- 1
 tr['Benthodesmus elongatus', 'mobile'] <- 1
 tr['Beringius turtoni', c('crawler','burrower')] <- 1
-tr['Boreomysis sp.', 'mobile'] <- 1
+tr['Boreomysis', 'mobile'] <- 1
 tr['Bryozoa', 'sessile'] <- 1
 tr['Caberea ellisii', 'sessile'] <- 1
 tr['Cancer borealis', 'mobile'] <- 1
 tr['Cancer irroratus', 'mobile'] <- 1
-tr['Cardium sp.', 'swimmer'] <- 1
+tr['Cardium', 'swimmer'] <- 1
 tr['Chiridota laevis', 'crawler'] <- 1
 tr['Ciliatocardium ciliatum', 'swimmer'] <- 1
 tr['Crangon septemspinosa', 'mobile'] <- 1
@@ -105,7 +106,7 @@ tr['Eualus macilentus', 'mobile'] <- 1
 tr['Eudistoma vitreum', 'sessile'] <- 1
 tr['Eumicrotremus spinosus', 'mobile'] <- 1
 tr['Eusergestes arcticus', 'mobile'] <- 1
-tr['Gaidropsarus sp.', 'mobile'] <- 1
+tr['Gaidropsarus', 'mobile'] <- 1
 tr['Gasterosteus aculeatus aculeatus', 'mobile'] <- 1
 tr['Gonatus fabricii', 'mobile'] <- 1
 tr['Gonostomatidae', 'mobile'] <- 1
@@ -116,37 +117,37 @@ tr['Hemitripterus americanus', 'mobile'] <- 1
 tr['Homarus americanus', 'mobile'] <- 1
 tr['Hymenopenaeus debilis', 'mobile'] <- 1
 tr['Hyperia galba', 'swimmer'] <- 1
-tr['Icelus sp.', 'mobile'] <- 1
+tr['Icelus', 'mobile'] <- 1
 tr['Illex illecebrosus', 'mobile'] <- 1
 tr['Kajikia albida', 'mobile'] <- 1
-tr['Lampanyctus sp.', 'mobile'] <- 1
-tr['Larus sp.', 'mobile'] <- 1
+tr['Lampanyctus', 'mobile'] <- 1
+tr['Larus', 'mobile'] <- 1
 tr['Lebbeus groenlandicus', 'mobile'] <- 1
 tr['Lebbeus microceros', 'mobile'] <- 1
 tr['Lebbeus polaris', 'mobile'] <- 1
 tr['Liparis liparis liparis', 'mobile'] <- 1
-tr['Macoma sp.', 'swimmer'] <- 1
+tr['Macoma', 'swimmer'] <- 1
 tr['Mactromeris polynyma', 'burrower'] <- 1
 tr['Maera loveni', 'swimmer'] <- 1
 tr['Melita dentata', 'swimmer'] <- 1
 tr['Mercenaria mercenaria', 'burrower'] <- 1
-tr['Mesodesma sp.', 'burrower'] <- 1
+tr['Mesodesma', 'burrower'] <- 1
 tr['Metridium senile', 'sessile'] <- 1
 tr['Modiolus modiolus', 'swimmer'] <- 1
-tr['Molpadia sp.', 'crawler'] <- 1
+# tr['Molpadia', 'crawler'] <- 1
 tr['Morus bassanus', 'mobile'] <- 1
 tr['Munida valida', 'mobile'] <- 1
 tr['Mya arenaria', 'burrower'] <- 1
 tr['Mya truncata', 'burrower'] <- 1
 tr['Myctophidae', 'mobile'] <- 1
-tr['Myoxocephalus sp.', 'mobile'] <- 1
+tr['Myoxocephalus', 'mobile'] <- 1
 tr['Myxine glutinosa', 'mobile'] <- 1
 tr['Neolithodes grimaldii', 'mobile'] <- 1
 tr['Novodinia americana', 'crawler'] <- 1
 tr['Nucella lapillus', 'crawler'] <- 1
-tr['Oceanites sp.', 'mobile'] <- 1
+tr['Oceanites', 'mobile'] <- 1
 tr['Oediceros saginatus', 'swimmer'] <- 1
-tr['Ommastrephes sp.', 'mobile'] <- 1
+tr['Ommastrephes', 'mobile'] <- 1
 tr['Osmerus mordax mordax', 'mobile'] <- 1
 tr['Palio dubia', 'crawler'] <- 1
 tr['Pandalus borealis', 'mobile'] <- 1
@@ -169,9 +170,9 @@ tr['Sabinea sarsii', 'mobile'] <- 1
 tr['Sabinea septemcarinata', 'mobile'] <- 1
 tr['Sclerocrangon boreas', 'mobile'] <- 1
 tr['Scomberesox saurus saurus', 'mobile'] <- 1
-tr['Sebastes sp.', 'mobile'] <- 1
+tr['Sebastes', 'mobile'] <- 1
 tr['Securiflustra securifrons', 'sessile'] <- 1
-tr['Sepioloidea sp.', 'mobile'] <- 1
+tr['Sepioloidea', 'mobile'] <- 1
 tr['Sergia robusta', 'mobile'] <- 1
 tr['Serrivomer beanii', 'mobile'] <- 1
 tr['Spirontocaris liljeborgii', 'mobile'] <- 1
@@ -184,19 +185,19 @@ tr['Stomias boa ferox', 'mobile'] <- 1
 tr['Syscenus infelix', 'mobile'] <- 1 # fish parasite
 tr['Tachyrhynchus erosus', 'swimmer'] <- 1
 tr['Tautogolabrus adspersus', 'mobile'] <- 1
-tr['Tellina sp.', 'swimmer'] <- 1
+tr['Tellina', 'swimmer'] <- 1
 tr['Teredo navalis', 'burrower'] <- 1
 tr['Thysanoessa longicaudata', 'swimmer'] <- 1
-tr['Tonicella sp.', 'crawler'] <- 1
+tr['Tonicella', 'crawler'] <- 1
 tr['Tremaster mirabilis', 'crawler'] <- 1
-tr['Triglops sp.', 'mobile'] <- 1
-tr['Tritia sp.', 'swimmer'] <- 1
+tr['Triglops', 'mobile'] <- 1
+tr['Tritia', 'swimmer'] <- 1
 tr['Urasterias lincki', c('crawler','burrower')] <- 1
 tr['Urticina felina', 'sessile'] <- 1
 tr['Wimvadocus torelli', 'swimmer'] <- 1
 tr['Xiphias gladius', 'mobile'] <- 1
 tr['Xylophaga atlantica', 'swimmer'] <- 1
-tr['Yoldia sp.', 'swimmer'] <- 1
+tr['Yoldia', 'swimmer'] <- 1
 
 # Insert to mobility DB
 for(i in nm) mobility[i, ] <- tr[i, ]
@@ -215,7 +216,6 @@ mobility_manual_entry <- read.csv('./Data/ManualEntries/Mobility_ManualEntry.csv
 uid <- mobility$species %in% mobility_manual_entry$species
 mobility <- mobility[!uid, ]
 mobility <- rbind(mobility, mobility_manual_entry)
-
 
 # Create final mobility dataset 
 mobility <- data.frame(species = nm) |>
