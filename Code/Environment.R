@@ -188,6 +188,12 @@ environment_final <- env_dff %>% select('bathydemersal','bathypelagic','benthic'
 # environment_final <- as.matrix(environment_final)
 environment <- environment_final
 
+# Transform to numeric and matrix
+env <- apply(environment, 2, as.numeric) |>
+       as.matrix()
+rownames(env) <- rownames(environment)
+environment <- env
+
 warning("duplicates present in the list (eg. Yoldia and Yoldia sp.)")
 # Export
 save(environment, file = './Data/SpeciesTraits/Environment.RData')

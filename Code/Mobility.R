@@ -222,6 +222,7 @@ mobility <- data.frame(species = nm) |>
        dplyr::left_join(mobility, by = "species")
 rownames(mobility) <- mobility$species
 mobility <- dplyr::select(mobility, -species)
+mobility <- as.matrix(mobility)
 
 #Verify if the dataset is complete
 # row_sub = apply(mobility, 1, function(row) all(row !=1 ))
