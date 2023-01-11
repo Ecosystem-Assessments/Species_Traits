@@ -848,6 +848,7 @@ body$body <- body$body %>%
              gsub('solid_chitinous','chitinous',.) %>%
              gsub('solid_bone','bone',.) %>%
              gsub('solid_biogenic_silica','biogenic_silica',.)
+body$body <- tolower(body$body)
 
 # Spread dataset
 body <- body %>%
