@@ -117,7 +117,7 @@ tr <- matrix(data = '', nrow = length(nm), ncol = 1, dimnames = list(nm, colname
 
 # Entries
 tr["Actiniidae", 1] <- 'benthic'
-tr["Aphrodita hastata", 1] <- 'benthic'
+# tr["Aphrodita hastata", 1] <- 'benthic'
 tr["Arrhoges occidentalis", 1] <- 'benthic'
 tr["Ascidiacea", 1] <- 'benthic'
 #tr["Aulacofusus brevicauda", 1] <- 'benthic'
@@ -128,7 +128,7 @@ tr["Caelorinchus caelorinchus", 1] <- 'benthopelagic'
 #tr["Colga villosa", 1] <- 'benthic'
 #tr["Eusergestes arcticus", 1] <- 'pelagic'
 tr["Gonostomatidae", 1] <- 'bathypelagic'
-tr["Gymnelis viridis", 1] <- 'benthic'
+# tr["Gymnelis viridis", 1] <- 'benthic'
 tr["Heteropolypus", 1] <- 'benthic'
 tr["Lophelia pertusa", 1] <- 'benthic'
 tr["Macrorhamphosus scolopax", 1] <- 'benthopelagic'
@@ -194,7 +194,6 @@ env <- apply(environment, 2, as.numeric) |>
 rownames(env) <- rownames(environment)
 environment <- env
 
-warning("duplicates present in the list (eg. Yoldia and Yoldia sp.)")
 # Export
 save(environment, file = './Data/SpeciesTraits/Environment.RData')
 write.csv(environment, file = './Data/SpeciesTraits/Environment.csv')

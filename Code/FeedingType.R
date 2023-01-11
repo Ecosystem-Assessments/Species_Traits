@@ -203,7 +203,7 @@ tr['Agriopoma morrhuanum', 1] <- 'suspension'
 tr['Alaria esculenta', 1] <- 'NA'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Alcyonidium
-tr['Alcyonidium sp.', 1] <- 'suspension'
+tr['Alcyonidium', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=159928#attributes
 tr['Amicula vestita', 1] <- 'grazer'
@@ -275,7 +275,7 @@ tr['Bathynectes maravigna', 1] <- 'scavenger | deposit | plankton | grazer'
 tr['Bathytroctes microlepis', 1] <- 'predator'
 
 # Bivalvia: https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Bathyarca%20glacialis
-#tr['Bathyarca sp.', 1] <- 'deposit'
+#tr['Bathyarca', 1] <- 'deposit'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=138855#attributes
 tr['Beringius turtoni', 1] <- 'predator | scavenger'
@@ -284,7 +284,7 @@ tr['Beringius turtoni', 1] <- 'predator | scavenger'
 tr['Bolocera', 1] <- 'predator'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Boreomysis
-tr['Boreomysis sp.', 1] <- 'scavenger | deposit | plankton | grazer'
+tr['Boreomysis', 1] <- 'scavenger | deposit | plankton | grazer'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=111230#notes
 tr['Bryozoa', 1] <- 'suspension'
@@ -299,7 +299,7 @@ tr['Caelorinchus caelorinchus', 1] <- 'predator'
 tr['Calathura brachiata', 1] <- 'parasite'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=137734#attributes
-tr['Cardium sp.', 1] <- 'suspension'
+tr['Cardium', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Ceratias%20holboelli
 tr['Ceratias holboelli', 1] <- 'predator'
@@ -326,7 +326,7 @@ tr['Colossendeis', 1] <- 'predator'
 #From: Conocara macropterum: https://eol.org/pages/46562821
 tr['Conocara salmonea', 1] <- 'predator'
 
-# Bivalvia: from Mytilus sp.
+# Bivalvia: from Mytilus
 #tr['Crenella faba', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Cryptopsaras%20couesii
@@ -492,7 +492,7 @@ tr['Melanostigma atlanticum', 1] <- 'plankton | predator'
 tr['Mentodus rostratus', 1] <- 'plankton | predator'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Mesodesma
-#tr['Mesodesma sp.', 1] <- 'suspension'
+#tr['Mesodesma', 1] <- 'suspension'
 
 # http://www.marinespecies.org/aphia.php?p=taxdetails&id=100982#notes
 tr['Metridium senile', 1] <- 'suspension | predator'
@@ -504,7 +504,7 @@ tr['Monolene sessilicauda', 1] <- 'predator'
 tr['Monstrilla', 1] <- 'parasite'
 
 # From Cucumaria frondosa
-tr['Molpadia sp.', 1] <- 'suspension'
+tr['Molpadia', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Morus%20bassanus
 #tr['Morus bassanus', 1] <- 'predator'
@@ -649,7 +649,7 @@ tr['Sclerocrangon boreas', 1] <- 'scavenger | deposit | plankton | grazer'
 tr['Securiflustra securifrons', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Sepiida
-#tr['Sepioloidea sp.', 1] <- 'predator'
+#tr['Sepioloidea', 1] <- 'predator'
 
 # Decapoda
 #tr['Sergia robusta', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -703,7 +703,7 @@ tr['Thyonella pervicax', 1] <- 'suspension'
 tr['Tremaster mirabilis', 1] <- 'predator'
 
 # http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=737284#attributes
-tr['Tritia sp.', 1] <- 'predator | scavenger'
+tr['Tritia', 1] <- 'predator | scavenger'
 
 #algea
 tr['Ulva', 1] <- 'NA'
