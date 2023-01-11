@@ -856,13 +856,13 @@ body <- body %>%
         mutate(value = 1) %>%
         spread(body, value, fill = 0)
 
-# # As matrix with rownames as species
-# if (!all(body$taxa == spList$species)) stop('Species are not the same between body dataset and species list')
-# rownames(body) <- body$taxa
-# body <- body %>%
-#         select(-taxa) %>%
-#         as.matrix()
-# 
-# # Export
-# save(body, file = './Data/SpeciesTraits/BodyComposition.RData')
-# write.csv(body, file = './Data/SpeciesTraits/BodyComposition.csv')
+# As matrix with rownames as species
+if (!all(body$taxa == spList$species)) stop('Species are not the same between body dataset and species list')
+rownames(body) <- body$taxa
+body <- body %>%
+        select(-taxa) %>%
+        as.matrix()
+
+# Export
+save(body, file = './Data/SpeciesTraits/BodyComposition.RData')
+write.csv(body, file = './Data/SpeciesTraits/BodyComposition.csv')
