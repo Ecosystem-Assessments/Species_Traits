@@ -217,14 +217,14 @@ tr['Anthias nicholsi', 1] <- 'predator'
 #cnidarians - to be verified if they are selective filter feeder or passive
 tr['Anthomastus grandiflorus', 1] <- 'suspension'
 
+#https://eol.org/pages/464119
+tr['Aphrodita hastata', 1] <- 'predator'
+
 #omnivore: https://eol.org/pages/598186
 tr['Arbacia punctulata', 1] <- 'predator | grazer'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Arctica%20islandica
 tr['Arctica islandica', 1] <- 'suspension'
-
-#https://eol.org/pages/464119
-tr['Aphrodita hastata', 1] <- 'predator'
 
 #https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Arenicola%20marina
 tr['Arenicola marina', 1] <- 'deposit | grazer'
@@ -400,9 +400,6 @@ tr['Grammatostomias dentatus', 1] <- 'predator'
 #To be verified but likely a predator: https://eol.org/pages/46571187
 tr['Grammicolepis brachiusculus', 1] <- 'predator'
 
-#https://eol.org/pages/46574733
-tr['Gymnelis viridis', 1] <- 'predator'
-
 #https://eol.org/pages/46566160
 tr['Halieutichthys aculeatus', 1] <- 'predator'
 
@@ -504,7 +501,7 @@ tr['Monolene sessilicauda', 1] <- 'predator'
 tr['Monstrilla', 1] <- 'parasite'
 
 # From Cucumaria frondosa
-tr['Molpadia', 1] <- 'suspension'
+# tr['Molpadia', 1] <- 'suspension'
 
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Morus%20bassanus
 #tr['Morus bassanus', 1] <- 'predator'
@@ -738,6 +735,12 @@ tr['Xylophaga atlantica', 1] <- 'xylophagous'
 
 #algea
 tr['Zostera marina', 1] <- 'NA'
+
+# From Cnidaria
+tr["Stephanauge", 1] <- 'predator'
+
+# From Gastropoda
+tr["Boreotrophon", 1] <- 'predator'
 
 # Insert to feed DB
 for(i in nm) feed[i, ] <- tr[i, ]
