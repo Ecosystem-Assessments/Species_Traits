@@ -3,7 +3,6 @@
 "Acanthephyra eximia",0,1,0,0,0
 "Acanthephyra purpurea",0,1,0,0,0
 "Acanthogorgia armata",1,0,0,0,0
-"Acipenser oxyrhynchus",0,0,0,0,1
 "Acipenser oxyrinchus",0,0,0,0,1
 "Actinauge",1,0,0,0,0
 "Actiniidae",1,0,0,0,0
@@ -47,7 +46,6 @@
 "Antimora rostrata",0,0,0,0,1
 "Aphanopus carbo",0,0,0,0,1
 "Aphrodita hastata",0,0,0,1,0
-"Aphroditella hastata",0,1,0,0,0
 "Apristurus",0,0,0,0,1
 "Arbacia punctulata",0,1,0,0,0
 "Arcoscalpellum michelottianum",1,0,0,0,0
@@ -67,7 +65,6 @@
 "Ascidiacea",1,0,0,0,0
 "Ascophyllum nodosum",1,0,0,0,0
 "Aspidophoroides monopterygius",0,0,0,0,1
-"Aspidophoroides olriki",0,0,0,0,1
 "Aspidophoroides olrikii",0,0,0,0,1
 "Astarte",1,0,0,0,0
 "Asterias",0,1,0,0,0
@@ -246,7 +243,6 @@
 "Grammatostomias dentatus",0,0,0,0,1
 "Grammicolepis brachiusculus",0,0,0,0,1
 "Grampus griseus",0,0,0,0,1
-"Gymnelis viridis",0,0,0,0,1
 "Gymnelus viridis",0,0,0,0,1
 "Gymnocanthus tricuspis",0,0,0,0,1
 "Halargyreus johnsonii",0,0,0,0,1
@@ -336,7 +332,6 @@
 "Lopholatilus chamaeleonticeps",0,0,0,0,1
 "Lumpenus fabricii",0,0,0,0,1
 "Lumpenus lampretaeformis",0,0,0,0,1
-"Lumpenus lumpretaeformis",0,0,0,0,1
 "Lumpenus maculatus",0,0,0,0,1
 "Lumpenus medius",0,0,0,0,1
 "Lycenchelys paxillus",0,0,0,0,1
@@ -523,7 +518,6 @@
 "Puffinus gravis",0,0,0,0,1
 "Pusa hispida",0,0,0,0,1
 "Pycnogonum litorale",0,1,0,0,0
-"Pycnogonum littorale",0,1,0,0,0
 "Radicipes gracilis",1,0,0,0,0
 "Raja bathyphila",0,0,0,0,1
 "Raja eglanteria",0,0,0,0,1
@@ -600,7 +594,6 @@
 "Symbolophorus veranyi",0,0,0,0,1
 "Symphurus diomedeanus",0,0,0,0,1
 "Synagrops bella",0,0,0,0,1
-"Synaphobranchus kaupi",0,0,0,0,1
 "Synaphobranchus kaupii",0,0,0,0,1
 "Syngnathus fuscus",0,0,0,0,1
 "Syscenus infelix",0,0,0,0,1
