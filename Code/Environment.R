@@ -117,7 +117,7 @@ tr <- matrix(data = '', nrow = length(nm), ncol = 1, dimnames = list(nm, colname
 
 # Entries
 tr["Actiniidae", 1] <- 'benthic'
-tr["Aphroditella hastata", 1] <- 'benthic'
+tr["Aphrodita hastata", 1] <- 'benthic'
 tr["Arrhoges occidentalis", 1] <- 'benthic'
 tr["Ascidiacea", 1] <- 'benthic'
 #tr["Aulacofusus brevicauda", 1] <- 'benthic'

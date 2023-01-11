@@ -145,9 +145,6 @@ tr['Anthoptilum grandiflorum','Length'] <- 46
 # From image:https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=157181#images
 tr['Aphrodita hastata','Length'] <- 7
 
-# From image: https://eol.org/pages/464119
-tr['Aphroditella hastata','Length'] <- 8
-
 #From attributes: c(2.8,2.3,3.3,5,10) https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=158058#attributes
 tr['Arbacia punctulata','Length'] <- 4.7
 

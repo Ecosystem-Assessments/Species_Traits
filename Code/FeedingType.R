@@ -588,7 +588,7 @@ tr['Plutonaster agassizi', 1] <- 'predator'
 #https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Polymetme%20corythaeola
 tr['Polymetme corythaeola', 1] <- 'predator'
 
-# From: Aphroditella hastata
+# From: Aphrodita hastata
 tr['Polynoidae', 1] <- 'predator'
 
 #https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Pontaster
