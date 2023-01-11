@@ -1,74 +1,23 @@
 library(magrittr)
 library(tidyverse)
-load('./Data/SpeciesList/SpeciesStLawrence.RData')
-nSp <- nrow(sp)
-# =-=-=-=-=-=-=-=-=-=- Species aphia ID from worms -=-=-=-=-=-=-=-=-=-= #
-library(worrms)
-# Get AphiaIDs
-aphiaid <- vector('list', nSp)
-names(aphiaid) <- sp$species
-for(i in 1:nSp) aphiaid[[i]] <- try(wm_records_taxamatch(sp$species[i]))
-
-# # Identify missing taxa ids
-# id0 <- logical(nSp)
-# for(i in 1:nSp) id0[i] <- class(aphiaid[[i]]) == 'try-error'
-# nm <- sp$species[id0]
-# 
-# # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Not reproducible
-# # Staurostoma mertensii: 346
-# aphiaid[["Staurostoma mertensii"]] <- list(data.frame(AphiaID = 594013))
-# # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# 
-# Vector of ids
-# aid <- numeric(nSp)
-# for(i in 1:nSp) aid[i] <- aphiaid[[i]][[1]]$AphiaID[1]
-
-# # Get attributes from worms
-# spAttr <- vector('list', nSp)
-# for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
-# names(spAttr) <- sp$species
-# For now, export aphiaid & attributes, just to avoid loading querying averything again
-# save(aphiaid, file = './Data/SpAttributes/aphiaid.RData')
-# save(spAttr, file = './Data/SpAttributes/spAttr.RData')
-load('./Data/SpAttributes/aphiaid.RData')
-
-# Vector of ids
-aid <- numeric(nSp)
-for(i in 1:nSp) aid[i] <- aphiaid[[i]][[1]]$AphiaID[1]
-sp$aphiaID <- aid
-sp <- dplyr::select(sp, species, aphiaID)
-# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
-spList <- read.csv(
-  './Data/SpeciesList/species_list_nw_atlantic-893b37e8.csv', 
-  sep=",", 
-  row.names = NULL
-) |>
-dplyr::select(species=SPEC, aphiaID)
-
-# ---Combine
-sp <- dplyr::bind_rows(sp, spList) |>
-      unique()
-
-# Add to species list 
-load("Data/SpeciesList/SpeciesList.RData")
-spList <- dplyr::left_join(spList, sp, by = "species")
+load('./Data/SpeciesList/SpeciesList.RData')
 nSp <- nrow(spList)
 
-# # Get attributes from worms
-# aid <- spList$aphiaID
-# library(worrms)
-# spAttr <- vector('list', nSp)
-# for(i in 1:nSp) spAttr[[i]] <- try(wm_attr_data(id = aid[i], include_inherited = T))
-# names(spAttr) <- spList$species
-
-# For now, export aphiaid & attributes, just to avoid loading querying averything again
-# save(spAttr, file = './Data/SpAttributes/spAttr2.RData')
-# nm <- names(spAttr)
-# nm <- stringr::str_replace(nm, " sp\\.", "")
-# names(spAttr) <- nm
-# save(spAttr, file='./Data/SpAttributes/spAttr2.RData')
-load('./Data/SpAttributes/spAttr2.RData')
-
+# Get attributes from worms
+library(worrms)
+spAttr <- vector('list', nSp)
+for(i in 1:nSp) {
+  spAttr[[i]] <- try(
+    wm_attr_data(
+      id = spList$aphiaID[i], 
+      include_inherited = T
+    )
+  )
+}
+names(spAttr) <- spList$species
+# Export attributes, just to avoid loading querying averything again
+save(spAttr, file = './Data/SpAttributes/spAttr.RData')
+# load('./Data/SpAttributes/spAttr.RData')
 
 # =-=-=-=-=-=-=-=-=-=- Check all for body composition -=-=-=-=-=-=-=-=-=-= #
 # Empty list
@@ -90,7 +39,7 @@ for(i in names(comp)) {
         uid <- which(uid)
 
         # Data.frame to store composition
-        comp[[i]] <- data.frame(taxa = spList$species[i],
+        comp[[i]] <- data.frame(taxa = i,
                                 structure = character(length(uid)),
                                 composition = character(length(uid)),
                                 stringsAsFactors = F)
@@ -110,7 +59,7 @@ for(i in names(comp)) {
         if (any(uid)) {
           uid <- which(uid)[1]
           # Data.frame to store composition
-          comp[[i]] <- data.frame(taxa = spList$species[i],
+          comp[[i]] <- data.frame(taxa = i,
                                   structure = character(1),
                                   composition = character(1),
                                   stringsAsFactors = F)
@@ -139,10 +88,6 @@ for(i in mmSp$species) {
 # =-=-=-=-=-=-=-=-=-=- Missing species -=-=-=-=-=-=-=-=-=-= #
 nm <- spList$species[unlist(lapply(comp, is.null))]
 options(stringsAsFactors = FALSE)
-
-#https://eol.org/pages/46561171
-comp[['Acipenser oxyrhynchus']] <- data.frame(taxa = 'Acipenser oxyrhynchus',
-structure = 'skeleton', composition = 'Bone')
 
 # https://eol.org/pages/420985
 comp[['Actinauge']] <- data.frame(taxa = 'Actinauge',
@@ -173,7 +118,7 @@ comp[['Antalis']] <- data.frame(taxa = 'Antalis',
 structure = 'skeleton', composition = 'aragonite')
 
 #
-comp[['Aphroditella hastata']] <- data.frame(taxa = 'Aphroditella hastata',
+comp[['Aphrodita hastata']] <- data.frame(taxa = 'Aphrodita hastata',
 structure = 'hydroskeleton', composition = 'non-calcifying')
 
 #TBD
@@ -188,10 +133,6 @@ structure = 'skeleton', composition = 'calcium carbonate')
 # https://eol.org/pages/46583985
 comp[['Ascidiacea']] <- data.frame(taxa = 'Ascidiacea',
 structure = 'tissue', composition = 'non-calcifying')
-
-#https://eol.org/pages/46568876
-comp[['Aspidophoroides olriki']] <- data.frame(taxa = 'Aspidophoroides olriki',
-structure = 'skeleton', composition = 'Bone')
 
 # meduse: https://eol.org/pages/46554120
 comp[['Atolla wyvillei']] <- data.frame(taxa = 'Atolla wyvillei',
@@ -338,10 +279,6 @@ structure = 'tissue', composition = 'aragonite')
 comp[['Gonatus steenstrupi']] <- data.frame(taxa = 'Gonatus steenstrupi',
 structure = 'tissue', composition = 'aragonite')
 
-#https://eol.org/pages/46574735
-comp[['Gymnelis viridis']] <- data.frame(taxa = 'Gymnelis viridis',
-structure = 'skeleton', composition = 'Bone')
-
 # https://eol.org/pages/1163432
 comp[['Halichondria panicea']] <- data.frame(taxa = 'Halichondria panicea',
 structure = 'skeleton', composition = 'biogenic silica')
@@ -394,10 +331,6 @@ structure = 'solid', composition = 'calcium carbonate')
 comp[['Limacina']] <- data.frame(taxa = 'Limacina',
 structure = 'solid', composition = 'calcium carbonate')
 
-#https://eol.org/pages/46570120
-comp[['Liopsetta putnami']] <- data.frame(taxa = 'Liopsetta putnami',
-structure = 'skeleton', composition = 'bone')
-
 # https://eol.org/pages/2550449
 comp[['Liponema multicorne']] <- data.frame(taxa = 'Liponema multicorne',
 structure = 'tissue', composition = 'non-calcifying')
@@ -409,10 +342,6 @@ structure = 'tissue', composition = 'aragonite')
 #https://eol.org/pages/45275204
 comp[['Lophelia pertusa']] <- data.frame(taxa = 'Lophelia pertusa',
 structure = 'solid', composition = 'aragonite')
-
-#https://eol.org/pages/46574696
-comp[['Lumpenus lumpretaeformis']] <- data.frame(taxa = 'Lumpenus lumpretaeformis',
-structure = 'skeleton', composition = 'bone')
 
 #https://eol.org/pages/46574693
 comp[['Lumpenus maculatus']] <- data.frame(taxa = 'Lumpenus maculatus',
@@ -569,7 +498,7 @@ comp[['Puffinus gravis']] <- data.frame(taxa = 'Puffinus gravis',
 structure = 'skeleton', composition = 'bone')
 
 # https://eol.org/pages/46543649
-comp[['Pycnogonum littorale']] <- data.frame(taxa = 'Pycnogonum litorale',
+comp[['Pycnogonum litorale']] <- data.frame(taxa = 'Pycnogonum litorale',
 structure = 'tissue', composition = 'non-calcifying')
 
 #fish
@@ -642,10 +571,6 @@ structure = 'skeleton', composition = 'biogenic silica')
 
 #fish
 comp[['Synagrops bella']] <- data.frame(taxa = 'Synagrops bella',
-structure = 'skeleton', composition = 'bone')
-
-#fish
-comp[['Synaphobranchus kaupi']] <- data.frame(taxa = 'Synaphobranchus kaupi',
 structure = 'skeleton', composition = 'bone')
 
 # https://eol.org/pages/51510532
@@ -834,6 +759,44 @@ structure = 'soft', composition = 'calcite')
 # https://eol.org/pages/46549372
 comp[["Pennatula aculeata"]] <- data.frame(taxa = "Pennatula aculeata",
 structure = 'soft', composition = 'calcite')
+
+# =-=-=-=-=-=-=-=-=-=- Additional species missing -=-=-=-=-=-=-=-=-=-= #
+# Fish / vertebrates
+tax <- c(
+  "Dipturus linteus",
+  "Gasterosteus aculeatus aculeatus",
+  "Leucoraja erinacea",
+  "Limanda ferruginea",
+  "Liparis liparis liparis",
+  "Osmerus mordax mordax",
+  "Paraliparis copei copei",
+  "Scomberesox saurus saurus",
+  "Stichaeus punctatus punctatus",
+  "Stomias boa ferox"
+)
+for(i in tax) {
+  comp[[i]] <- data.frame(
+    taxa = i, 
+    structure = 'solid', 
+    composition = 'cartilaginous'
+  )
+}
+
+#https://eol.org/pages/46503340
+comp[['Munida iris']] <- data.frame(taxa = 'Munida iris',
+structure = 'solid', composition = 'calcium carbonate')
+
+# https://eol.org/pages/46549372
+comp[["Rossia"]] <- data.frame(taxa = "Rossia",
+structure = 'soft', composition = 'aragonite')
+
+# https://eol.org/pages/46466689
+comp[["Crenella faba"]] <- data.frame(taxa = "Crenella faba",
+structure = 'solid', composition = 'calcite')
+
+# 
+comp[["Potamilla neglecta"]] <- data.frame(taxa = "Potamilla neglecta",
+structure = 'hydroskeleton', composition = 'non-calcifying')
 
 
 # =-=-=-=-=-=-=-=-=-=- All data in single data.frame and format categories -=-=-=-=-=-=-=-=-=-= #
