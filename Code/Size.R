@@ -88,7 +88,7 @@ for(i in rownames(sizegn)) size[i, ] <- sizegn[i, ]
 # Missing taxa
 uid <- rowSums(size, na.rm = TRUE) > 0
 nm <- rownames(size)[!uid]
-nm <- append(nm, "Cardium sp.")
+nm <- append(nm, "Cardium")
 
 # Manual entries
 tr <- matrix(NA, nrow = length(nm), ncol = 1, dimnames = list(nm, 'Length'))
@@ -103,13 +103,12 @@ tr['Acanthogorgia armata','Length'] <- 25
 
 # http://www.marinespecies.org/carms/aphia.php?p=checklist&action=search&gu_id=10178&tRank=220&inc_sub=1&status=pv
 # Teleost picture, Actinauge cristata, http://www.marinespecies.org/aphia.php?p=image&pic=44491
-tr['Actinauge sp.','Length'] <- 8
+tr['Actinauge','Length'] <- 8
 
 #From 0.2-20cm - https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=100653#attributes
 tr['Actiniidae','Length'] <- 9.9
 
 # From image: './Data/TaxaImages/Actinostola_callosa.jpg'
-tr["Actinostola sp.", 'Length'] <- 10
 tr["Actinostola", 'Length'] <- 10
 
 # From images if the genus Agarum: https://onlinelibrary.wiley.com/doi/10.1002/tax.603015
@@ -119,21 +118,19 @@ tr["Agarum cribrosum", 'Length'] <- 50
 tr['Alaria esculenta','Length'] <- 150
 
 # From image: './Data/TaxaImages/Alcyonidium.jpg'
-tr['Alcyonidium sp.','Length'] <- 30
+tr['Alcyonidium','Length'] <- 30
 
 #https://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=125333#attributes
 tr['Alcyonium digitatum','Length'] <- 20
 
 # Ampelisca eschrichtii: 25mm; https://eol.org/pages/46521913
 # Ampelisca macrocephala; 14mm; https://eol.org/pages/46521922
-tr['Ampelisca sp.','Length'] <- 1.95
 tr['Ampelisca','Length'] <- 1.95
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=125100&pic=49609
-tr['Amphiura sp.','Length'] <- 5
+tr['Amphiura','Length'] <- 5
 
 # Anonyx sarsi: 30mm; https://eol.org/pages/46525653
-tr['Anonyx sp.','Length'] <- 3
 tr['Anonyx','Length'] <- 3
 
 # Anthomastus grandiflorus 10cm From image: https://www.marinespecies.org/carms/aphia.php?p=image&tid=125335&pic=41873
@@ -193,11 +190,10 @@ tr['Bathynectes maravigna','Length'] <- 7
 
 # Diameter to radius: https://eol.org/pages/49109568
 tr['Bolocera','Length'] <- 12.5
-tr['Bolocera sp.','Length'] <- 12.5
 
 # Boreomysis arctica: 28mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119962#attributes
 # Boreomysis tridens: c(26,30)mm; http://www.marinespecies.org/carms/aphia.php?p=taxdetails&id=119974#attributes
-tr['Boreomysis sp.','Length'] <- 2.8
+tr['Boreomysis','Length'] <- 2.8
 
 # Size for this taxa is not really relevant because they are colonial species
 # The way size is used, however, it should not overly influence their
@@ -220,7 +216,7 @@ tr['Calathura brachiata','Length'] <- 1.5
 tr['Calocaris templemani','Length'] <- 1.7
 
 # From image, Cardium costatum: https://www.marinespecies.org/carms/aphia.php?p=image&tid=224543&pic=65649
-tr['Cardium sp.','Length'] <- 8
+tr['Cardium','Length'] <- 8
 
 
 # From the genus and from images: https://www.gbif.org/fr/species/8174/treatments
@@ -288,9 +284,6 @@ tr['Gnathophausia','Length'] <- 7
 
 # Cyclothone microdon: 7.6; https://eol.org/pages/46563201
 tr['Gonostomatidae','Length'] <- 7.6
-
-#From attributes:https://www.marinespecies.org/aphia.php?p=taxdetails&id=127096#attributes
-tr['Gymnelis viridis','Length'] <- 56
 
 # From image: ~40cm; http://www.marinespecies.org/carms/aphia.php?p=image&tid=128509&pic=41899
 tr['Halipteris finmarchica','Length'] <- 40
@@ -436,7 +429,7 @@ tr['Polynoidae','Length'] <- 9
 #tr['Pontophilus norvegicus','Length'] <- 7.5
 
 # From image description: http://www.marinespecies.org/aphia.php?p=image&tid=125170&pic=78863
-tr['Poraniomorpha sp.','Length'] <- 8
+tr['Poraniomorpha','Length'] <- 8
 
 # Size for this taxa is not really relevant because they are colonial species
 # The way size is used, however, it should not overly influence their
@@ -533,7 +526,7 @@ tr['Stegocephalus inflatus','Length'] <- 3.5
 tr['Stephanasterias albula','Length'] <- 3
 
 # Stephanauge nexilis: http://www.marinespecies.org/carms/aphia.php?p=image&tid=158258&pic=31828
-tr['Stephanauge sp.','Length'] <- 5
+tr['Stephanauge','Length'] <- 5
 
 # https://www.researchgate.net/publication/225495067_Do_bipolar_distributions_exist_in_marine_sponges_Stylocordyla_chupachups_sp_nv_Porifera_Hadromerida_from_the_Weddell_Sea_Antarctic_previously_reported_as_S_borealis_Lovn_1868/figures?lo=1
 tr['Stylocordyla borealis','Length'] <- 7
@@ -554,7 +547,7 @@ tr['Thyonella pervicax','Length'] <- 8
 tr['Tremaster mirabilis','Length'] <- 15
 
 # From image: http://www.marinespecies.org/aphia.php?p=image&tid=467490&pic=51169
-tr['Tritia sp.','Length'] <- 2
+tr['Tritia','Length'] <- 2
 
 # From image: http://www.marinespecies.org/carms/aphia.php?p=image&tid=123815&pic=30204
 tr['Urasterias lincki','Length'] <- 25
@@ -585,7 +578,7 @@ size_df <- as.matrix(size[, 1])
 colnames(size_df) <- 'Size'
 
 #Verify if the dataset is complete
-which(is.na(size_df), arr.ind=TRUE)
+# which(is.na(size_df), arr.ind=TRUE)
 
 size <- size_df
 

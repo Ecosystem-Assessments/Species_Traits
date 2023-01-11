@@ -3,17 +3,15 @@
 "Acanthephyra eximia",7.225
 "Acanthephyra purpurea",7.225
 "Acanthogorgia armata",25
-"Acipenser oxyrhynchus",271
 "Acipenser oxyrinchus",403
-"Actinauge sp.",8
+"Actinauge",8
 "Actiniidae",9.9
 "Actinostola",10
-"Actinostola sp.",10
 "Aega psora",3.47777777777778
 "Agarum cribrosum",50
 "Agriopoma morrhuanum",6.7
 "Alaria esculenta",150
-"Alcyonidium sp.",30
+"Alcyonidium",30
 "Alcyonium digitatum",20
 "Aldrovandia",50.9666665395101
 "Alepisaurus brevirostris",96
@@ -29,22 +27,18 @@
 "Amblyraja radiata",105
 "Amicula vestita",6
 "Ammodytes",23.0833333333333
-"Ammodytes sp.",23.0833333333333
 "Ampelisca",1.95
-"Ampelisca sp.",1.95
-"Amphiura sp.",5
+"Amphiura",5
 "Anarhichas denticulatus",180
 "Anarhichas lupus",150
 "Anarhichas minor",180
 "Anguilla rostrata",152
 "Anisarchus medius",30
 "Anomia",4.273
-"Anomia sp.",4.273
 "Anonyx",3
-"Anonyx sp.",3
 "Anoplogaster cornuta",18
 "Anotopterus pharao",96
-"Antalis sp.",3.34285714285714
+"Antalis",3.34285714285714
 "Anthias nicholsi",25
 "Anthomastus grandiflorus",10
 "Anthoptilum grandiflorum",46
@@ -52,7 +46,6 @@
 "Antimora rostrata",75
 "Aphanopus carbo",151
 "Aphrodita hastata",7
-"Aphroditella hastata",8
 "Apristurus",69.8666667360248
 "Arbacia punctulata",4.7
 "Arcoscalpellum michelottianum",10
@@ -69,16 +62,12 @@
 "Arrhis phyllonyx",1.75
 "Arrhoges occidentalis",4.5
 "Artediellus",9.1699999332428
-"Artediellus sp.",9.1699999332428
 "Ascidiacea",7
 "Ascophyllum nodosum",150
 "Aspidophoroides monopterygius",22
-"Aspidophoroides olriki",15.3000001907349
 "Aspidophoroides olrikii",8.60000038146973
 "Astarte",2.52454545454545
-"Astarte sp.",2.52454545454545
 "Asterias",51
-"Asterias sp.",51
 "Astropecten americanus",29
 "Astropecten duplicatus",29
 "Atlantopandalus propinqvus",12.5
@@ -96,14 +85,13 @@
 "Balistes capriscus",60
 "Balistes vetula",60
 "Bassogigas gilli",67.75
-"Bathyarca sp.",0.841666666666667
+"Bathyarca",0.841666666666667
 "Bathygadus melanobranchus",50
 "Bathylagus bericoides",18.4716668128967
 "Bathylagus euryops",20
 "Bathynectes longispina",23
 "Bathynectes maravigna",7
 "Bathypolypus",12.1666666666667
-"Bathypolypus sp.",12.1666666666667
 "Bathypterois",22.3357144083296
 "Bathyraja spinicauda",170
 "Bathysaurus ferox",64
@@ -113,11 +101,10 @@
 "Beringius turtoni",10
 "Beryx decadactylus",100
 "Bolocera",12.5
-"Bolocera sp.",12.5
 "Boltenia ovifera",8
 "Boreogadus saida",40
-"Boreomysis sp.",2.8
-"Boreotrophon sp.",3.1
+"Boreomysis",2.8
+"Boreotrophon",3.1
 "Borostomias antarcticus",30
 "Bothus",29.3153845713689
 "Bothus ocellatus",18
@@ -126,7 +113,6 @@
 "Brosme brosme",120
 "Bryozoa",20
 "Buccinum",5.49588235294118
-"Buccinum sp.",5.49588235294118
 "Caberea ellisii",2.5
 "Caelorinchus caelorinchus",39
 "Calathura brachiata",1.5
@@ -136,7 +122,7 @@
 "Cancer borealis",16
 "Cancer irroratus",14.4222222222222
 "Carcharias taurus",330
-"Cardium sp.",8
+"Cardium",8
 "Careproctus longipinnis",27
 "Careproctus ranula",8.10000038146973
 "Careproctus reinhardti",30
@@ -166,7 +152,6 @@
 "Colga villosa",3.95
 "Colossendeis",22.225
 "Colus",5.49416666666667
-"Colus sp.",5.49416666666667
 "Conger",153.958333333333
 "Conocara salmonea",39.5625
 "Cookeolus boops",69
@@ -186,7 +171,7 @@
 "Cubiceps gracilis",107
 "Cubiceps pauciradiatus",20
 "Cucumaria frondosa",50
-"Cuspidaria sp.",1.23
+"Cuspidaria",1.23
 "Cyanea capillata",228.6
 "Cyclocardia borealis",1.43333333333333
 "Cyclopterus lumpus",61
@@ -196,7 +181,6 @@
 "Delphinapterus leucas",550
 "Delphinus delphis",260
 "Dendronotus",9.47777781486511
-"Dendronotus sp.",9.47777781486511
 "Derichthys serpentinus",40
 "Desmarestia aculeata",266.666666666667
 "Dibranchus atlanticus",39.4000015258789
@@ -236,7 +220,6 @@
 "Eusirus cuspidatus",2.5
 "Evermannella indica",11.8999996185303
 "Flabellum",2
-"Flabellum sp.",2
 "Flustra foliacea",12
 "Foetorepus agassizi",20.7166665395101
 "Fucus distichus",70
@@ -245,7 +228,6 @@
 "Gadus morhua",200
 "Gadus ogac",115
 "Gaidropsarus",35.5916665395101
-"Gaidropsarus sp.",35.5916665395101
 "Gasterosteus aculeatus aculeatus",7.22166665395101
 "Gennadas",4
 "Gersemia fruticosa",10
@@ -258,11 +240,9 @@
 "Gonatus steenstrupi",15
 "Gonostomatidae",7.6
 "Gorgonocephalus",76
-"Gorgonocephalus sp.",76
 "Grammatostomias dentatus",15.8999996185303
 "Grammicolepis brachiusculus",64
 "Grampus griseus",380
-"Gymnelis viridis",56
 "Gymnelus viridis",56
 "Gymnocanthus tricuspis",30
 "Halargyreus johnsonii",56
@@ -279,7 +259,6 @@
 "Hemithiris psittacea",22.3
 "Hemitripterus americanus",64
 "Henricia",17.5
-"Henricia sp.",17.5
 "Heteropolypus",2
 "Hiatella arctica",5
 "Hippasteria phrygiana",34
@@ -304,7 +283,6 @@
 "Hyperoglyphe perciformis",91
 "Hyperoodon ampullatus",980
 "Icelus",15.8085714748928
-"Icelus sp.",15.8085714748928
 "Ichnopus",1.7
 "Idotea",0.4
 "Illex illecebrosus",27
@@ -319,8 +297,8 @@
 "Laminaria digitata",150
 "Laminaria longicruris",150
 "Lamna nasus",350
-"Lampanyctus sp.",11.751621723175
-"Larus sp.",52.2
+"Lampanyctus",11.751621723175
+"Larus",52.2
 "Leathesia difformis",5
 "Lebbeus groenlandicus",5
 "Lebbeus microceros",5
@@ -330,7 +308,6 @@
 "Lepophidium profundorum",27
 "Leptagonus decagonus",21
 "Leptasterias",7.5
-"Leptasterias sp.",7.5
 "Leptoclinus maculatus",20
 "Leptychaster arcticus",10
 "Leucoraja erinacea",54
@@ -355,7 +332,6 @@
 "Lopholatilus chamaeleonticeps",125
 "Lumpenus fabricii",36.5
 "Lumpenus lampretaeformis",50
-"Lumpenus lumpretaeformis",45.8333333333333
 "Lumpenus maculatus",45.8333333333333
 "Lumpenus medius",45.8333333333333
 "Lycenchelys paxillus",17.5
@@ -371,7 +347,7 @@
 "Lycodes terraenovae",45.2000007629395
 "Lycodes turneri",25
 "Lycodes vahlii",52
-"Macoma sp.",3.95814814814815
+"Macoma",3.95814814814815
 "Macrorhamphosus scolopax",20
 "Macrostomias longibarbatus",43
 "Macrourus berglax",110
@@ -383,7 +359,6 @@
 "Malacosteus niger",25.6000003814697
 "Mallotus villosus",20
 "Margarites",0.924782608695652
-"Margarites sp.",0.924782608695652
 "Mastigoteuthis",12.04
 "Maurolicus muelleri",8
 "Mediaster bairdi",20
@@ -399,14 +374,13 @@
 "Mercenaria mercenaria",13
 "Merluccius albidus",40.5999984741211
 "Merluccius bilinearis",76
-"Mesodesma sp.",8.35
+"Mesodesma",8.35
 "Metridium senile",5
 "Microgadus tomcod",38.0999984741211
 "Micromesistius poutassou",55.5
 "Modiolus modiolus",18
 "Mola mola",333
 "Molpadia",9.48749995231628
-"Molpadia sp.",9.48749995231628
 "Molva dypterygia",155
 "Monodon monoceros",470
 "Monolene sessilicauda",18
@@ -418,16 +392,13 @@
 "Munida valida",9.276
 "Munidopsis curvirostra",1.795
 "Musculus",3
-"Musculus sp.",3
 "Mustelus canis",150
 "Mya arenaria",10
 "Mya truncata",8
 "Mycteroperca",117.6
 "Myctophidae",12.7
 "Myoxocephalus",44.8333333333333
-"Myoxocephalus sp.",44.8333333333333
 "Mytilus",12.9375
-"Mytilus sp.",12.9375
 "Myxine glutinosa",95
 "Naticidae",3.6
 "Naucrates ductor",70
@@ -438,7 +409,6 @@
 "Neolithodes grimaldii",13.7
 "Neoscopelus macrolepidotus",25
 "Neptunea",11.747
-"Neptunea sp.",11.747
 "Nessorhamphus ingolfianus",60
 "Nezumia aequalis",36
 "Nezumia bairdii",40
@@ -447,16 +417,14 @@
 "Novodinia americana",15
 "Nucella lapillus",4
 "Nucula",0.81
-"Nuculana sp.",1.06875
+"Nuculana",1.06875
 "Nymphon",4.29
-"Nymphon sp.",4.29
-"Oceanites sp.",17.5
+"Oceanites",17.5
 "Octopoteuthis",25.0666666666667
 "Odobenus rosmarus",380
 "Oediceros saginatus",2
 "Oithona spinirostris",0.2
 "Ommastrephes",45
-"Ommastrephes sp.",45
 "Omosudis lowii",23
 "Oncopagurus",2.5
 "Oneirodes",10.3368420412666
@@ -468,7 +436,6 @@
 "Ophiopholis aculeata",3.8
 "Ophioscolex glacialis",8
 "Ophiura",0.3
-"Ophiura sp.",0.3
 "Oplophorus spinosus",3
 "Orcinus orca",980
 "Osmerus mordax mordax",32.8999996185303
@@ -476,7 +443,6 @@
 "Pachycerianthus borealis",30
 "Pagophilus groenlandicus",190
 "Pagurus",1.35333333333333
-"Pagurus sp.",1.35333333333333
 "Palio dubia",1.20000004768372
 "Palmaria palmata",40
 "Pandalus borealis",12
@@ -532,7 +498,6 @@
 "Pontophilus norvegicus",5.2
 "Porania pulvillus",10
 "Poraniomorpha",7
-"Poraniomorpha sp.",8
 "Porifera",20
 "Poromitra crassiceps",14.8000001907349
 "Potamilla neglecta",4.5
@@ -553,7 +518,6 @@
 "Puffinus gravis",53
 "Pusa hispida",165
 "Pycnogonum litorale",1.09
-"Pycnogonum littorale",1.09
 "Radicipes gracilis",11
 "Raja bathyphila",68.7999999306419
 "Raja eglanteria",68.7999999306419
@@ -567,7 +531,6 @@
 "Rhinochimaera atlantica",140
 "Rondeletia loricata",11
 "Rossia",7.0125
-"Rossia sp.",7.0125
 "Rouleina attrita",48
 "Rouleina maderensis",32
 "Sabinea sarsii",8
@@ -587,10 +550,9 @@
 "Scophthalmus aquosus",45.7000007629395
 "Scyliorhinus retifer",48
 "Sebastes",46.9774000358582
-"Sebastes sp.",46.9774000358582
 "Securiflustra securifrons",10
 "Selar crumenophthalmus",70
-"Sepioloidea sp.",4.5
+"Sepioloidea",4.5
 "Sergia robusta",7
 "Seriola dumerili",190
 "Serripes groenlandicus",11
@@ -618,7 +580,7 @@
 "Stenella frontalis",230
 "Stenotomus chrysops",46
 "Stephanasterias albula",3
-"Stephanauge sp.",5
+"Stephanauge",5
 "Stephanolepis hispidus",26.1
 "Stereoderma unisemita",1.10000002384186
 "Stereomastis sculpta",3.1875
@@ -628,19 +590,17 @@
 "Stomias boa ferox",28.6200000762939
 "Stomphia coccinea",12.5
 "Strongylocentrotus",9.25
-"Strongylocentrotus sp.",9.25
 "Stylocordyla borealis",7
 "Symbolophorus veranyi",12
 "Symphurus diomedeanus",22
 "Synagrops bella",29
-"Synaphobranchus kaupi",110.1
 "Synaphobranchus kaupii",100
 "Syngnathus fuscus",33
 "Syscenus infelix",3
 "Tachyrhynchus erosus",2.5
 "Tautogolabrus adspersus",38
 "Tealia felina",10
-"Tellina sp.",6.37857142857143
+"Tellina",6.37857142857143
 "Terebratulina septentrionalis",5
 "Teredo navalis",50
 "Teuthowenia megalops",40
@@ -651,14 +611,13 @@
 "Thyonella pervicax",8
 "Thysanoessa longicaudata",2.27833333333333
 "Thysanoessa raschii",2.5
-"Tonicella sp.",3.17249995470047
+"Tonicella",3.17249995470047
 "Torpedo nobiliana",56.4400000572205
 "Trachyrincus murrayi",37
 "Tremaster mirabilis",15
 "Triglops",21.4666666984558
-"Triglops sp.",21.4666666984558
 "Trigonolampa miriceps",32
-"Tritia sp.",2
+"Tritia",2
 "Tursiops truncatus",380
 "Ulva",40
 "Ulvaria subbifurcata",18
@@ -681,7 +640,6 @@
 "Xiphias gladius",455
 "Xylophaga atlantica",1.2
 "Yoldia",2.55
-"Yoldia sp.",2.55
 "Zenopsis ocellata",63.6699994405111
 "Ziphius cavirostris",750
 "Zoarces americanus",110
