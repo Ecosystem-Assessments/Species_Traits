@@ -27,36 +27,48 @@ load('./Data/SpeciesList/MarineMammalsAtlantic.RData')
 # save(sp_atl, file = './Data/SpeciesList/SpeciesAtlantic.RData')
 load('./Data/SpeciesList/SpeciesAtlantic.RData')
 # ------------------------------------------------------------------------------------------------
+#library("dplyr")
+#library("eaMethods")
 
 # ------------------------------------------------------------------------------------------------
-# Single list 
+# Single list
 sp_atl <- dplyr::select(sp_atl, species = SPEC, Count = Freq, aphiaID)
 mmSp <- dplyr::rename(mmSp, Count = CountRec)
 mm_atl <- dplyr::rename(mm_atl, species = ScientificName)
-# spList <- dplyr::bind_rows(sp_atl, sp, mmSp, mm_atl) |>
-spList <- dplyr::bind_rows(sp_atl, sp, mmSp) |>
+spList <- dplyr::bind_rows(sp_atl, sp, mmSp, mm_atl) |>
+#spList <- dplyr::bind_rows(sp_atl, sp, mmSp) |>
           dplyr::group_by(species) |>
           dplyr::summarize(Count = sum(Count)) |>
           dplyr::arrange(species) |>
           dplyr::left_join(sp_atl[,c("species", "aphiaID")], by = "species")
-          
+
 # Get aphiaIDs
 uid <- is.na(spList$aphiaID)
 dat <- spList[uid, ] |> dplyr::select(-aphiaID)
-dat <- eaMethods::get_aphia(dat, field = "species") 
+dat <- eaMethods::get_aphia(dat, field = "species")
 
-# Manual entries 
+# Manual entries
+dat$aphiaID[dat$species == "Actitis macularius"] <- 159081
 dat$aphiaID[dat$species == "Alcyonidium"] <- 110993
 dat$aphiaID[dat$species == "Balaenoptera musculus"] <- 137090
+dat$aphiaID[dat$species == "Delphinus capensis"] <-137093
+dat$aphiaID[dat$species == "Larus tridactyla"] <- 137152
 dat$aphiaID[dat$species == "Melita dentata"] <- 102837
+dat$aphiaID[dat$species == "Mesoplodon bidens"] <- 137121
+dat$aphiaID[dat$species == "Mesoplodon densirostris"] <- 137122
+dat$aphiaID[dat$species == "Mesoplodon hectori"] <- 137125
+dat$aphiaID[dat$species == "Phalaropus lobatus"] <- 137169
+dat$aphiaID[dat$species == "Recurvirostra americana"] <- 159140
 dat$aphiaID[dat$species == "Sepioloidea"] <- 341459
 dat$aphiaID[dat$species == "Thunnus alalunga"] <- 127026
+dat$aphiaID[dat$species == "Tringa solitaria"] <- 110993
 
-# Add to list 
+
+# Add to list
 spList <- dplyr::bind_rows(spList[!uid, ], dat) |>
           dplyr::arrange(species) |>
           as.data.frame()
-
+spList
 # Export
 save(spList, file = './Data/SpeciesList/SpeciesList.RData')
 write.csv(spList, file = './Data/SpeciesList/SpeciesList.csv')
