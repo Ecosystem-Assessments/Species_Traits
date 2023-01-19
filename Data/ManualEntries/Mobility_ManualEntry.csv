@@ -1,187 +1,408 @@
-species,sessile,crawler,swimmer,burrower,mobile
-Acanella arbuscula,1,0,0,0,0
-Acanthephyra eximia,0,1,0,0,0
-Acanthephyra purpurea,0,1,0,0,0
-Acanthogorgia armata,1,0,0,0,0
-Acipenser oxyrhynchus,0,0,0,0,1
-Actiniidae,1,0,0,0,0
-Actinostola,1,0,0,0,0
-Agarum cribrosum,1,0,0,0,0
-Agriopoma morrhuanum,1,0,0,0,0
-Alaria esculenta,1,0,0,0,0
-Alcyonium digitatum,1,0,0,0,0
-Aldrovandia,0,0,0,0,1
-Ammodytes,0,0,0,0,1
-Ampelisca,0,0,1,0,0
-Anomia,1,0,0,0,0
-Anonyx,0,0,1,0,0
-Anthomastus grandiflorus,1,0,0,0,0
-Aphrodita hastata,0,0,0,1,0
-Apristurus,0,0,0,0,1
-Arbacia punctulata,0,1,0,0,0
-Arenicola marina,0,0,0,1,0
-Aristostomias,0,0,0,0,1
-Arrhis phyllonyx,0,0,1,0,0
-Artediellus,0,0,0,0,1
-Ascophyllum nodosum,1,0,0,0,0
-Aspidophoroides olriki,0,0,0,0,1
-Astarte,1,0,0,0,0
-Asterias,0,1,0,0,0
-Astropecten americanus,0,1,0,0,0
-Axius serratus,0,0,1,0,0
-Bassogigas gilli,0,0,0,0,1
-Bathylagus bericoides,0,0,0,0,1
-Bathynectes longispina,0,1,0,0,0
-Bathynectes maravigna,0,1,0,0,0
-Bathypolypus,0,0,0,0,1
-Bathypterois,0,0,0,0,1
-Bolocera,1,0,0,0,0
-Bothus,0,0,0,0,1
-Buccinum,0,1,0,0,0
-Caelorinchus caelorinchus,0,0,0,0,1
-Calathura brachiata,0,0,1,0,0
-Callionymus,0,0,0,0,1
-Calliostoma occidentale,0,1,0,0,0
-Caudina arenata,0,1,0,0,0
-Centropristis striata,0,0,0,0,1
-Cerastoderma pinnulatum,1,0,0,0,0
-Chaceon quinquedens,0,1,0,0,0
-Chaunax,0,0,0,0,1
-Chiasmodon,0,0,0,0,1
-Chrysogorgia agassizii,1,0,0,0,0
-Cirroteuthis,0,0,0,0,1
-Colossendeis,0,0,0,0,1
-Colus,0,1,0,0,0
-Conger,0,0,0,0,1
-Conocara salmonea,0,0,0,0,1
-Cookeolus boops,0,0,0,0,1
-Cottunculus thompsoni,0,0,0,0,1
-Dendronotus,0,1,0,0,0
-Desmarestia aculeata,1,0,0,0,0
-Dichelopandalus leptocerus,0,0,1,0,0
-Echinus,0,1,0,0,0
-Ensis directus,1,0,0,0,0
-Epigonus,0,0,0,0,1
-Euphausia,0,0,1,0,0
-Flabellum,1,0,0,0,0
-Flustra foliacea,1,0,0,0,0
-Foetorepus agassizi,0,0,0,0,1
-Fucus distichus,1,0,0,0,0
-Fucus vesiculosus,1,0,0,0,0
-Funiculina quadrangularis,1,0,0,0,0
-Gaidropsarus,0,0,0,0,1
-Gennadas,0,0,1,0,0
-Gersemia fruticosa,1,0,0,0,0
-Glycera capitata,0,0,0,1,0
-Gnathophausia,0,0,1,0,0
-Gonatus steenstrupi,0,0,0,0,1
-Gorgonocephalus,0,1,0,0,0
-Gymnelis viridis,0,0,0,0,1
-Henricia,0,1,0,0,0
-Heteropolypus,1,0,0,0,0
-Histioteuthis reversa,0,0,0,0,1
-Homola minima,0,1,0,0,0
-Hyalinoecia tubicola,0,1,0,0,0
-Icelus,0,0,0,0,1
-Ichnopus,0,0,1,0,0
-Idotea,0,0,1,1,0
-Keratoisis ornata,1,0,0,0,0
-Laminaria digitata,1,0,0,0,0
-Laminaria longicruris,1,0,0,0,0
-Leathesia difformis,1,0,0,0,0
-Lebbeus zebra,0,0,1,0,0
-Leptasterias,0,1,0,0,0
-Limacina,0,0,0,0,1
-Liopsetta putnami,0,0,0,0,1
-Loligo pealeii,0,0,0,0,1
-Lophaster furcifer,0,1,0,0,0
-Lophelia pertusa,1,0,0,0,0
-Lumpenus lumpretaeformis,0,0,0,0,1
-Lumpenus maculatus,0,0,0,0,1
-Lumpenus medius,0,0,0,0,1
-Lycenchelys verrilli,0,0,0,0,1
-Lycodes esmarki,0,0,0,0,1
-Lycodes terraenova,0,0,0,0,1
-Macrorhamphosus scolopax,0,0,0,0,1
-Macrostomias longibarbatus,0,0,0,0,1
-Margarites,0,1,0,0,0
-Mastigoteuthis,0,0,0,0,1
-Mediaster bairdi,0,1,0,0,0
-Monstrilla,0,0,1,0,0
-Munida iris,0,0,1,0,0
-Musculus,1,0,0,0,0
-Mycteroperca,0,0,0,0,1
-Myoxocephalus,0,0,0,0,1
-Mytilus,1,0,0,0,0
-Neptunea,0,1,0,0,0
-Notolepis rissoi,0,0,0,0,1
-Nucula,1,0,0,0,0
-Nymphon,0,1,0,0,0
-Octopoteuthis,0,0,0,0,1
-Oithona spinirostris,0,0,1,0,0
-Ommastrephes,0,0,0,0,1
-Oncopagurus,0,0,1,0,0
-Oneirodes,0,0,0,0,1
-Ophelia,0,0,0,1,0
-Ophiacantha abyssicola,0,1,0,0,0
-Ophiomusa lymani,0,1,0,0,0
-Ophiura,0,1,0,0,0
-Oplophorus spinosus,0,0,1,0,0
-Ovalipes ocellatus,0,1,0,0,0
-Pachycerianthus borealis,1,0,0,0,0
-Pagurus,0,0,1,0,0
-Palmaria palmata,1,0,0,0,0
-Pandora gouldiana,1,0,0,0,0
-Paragorgia arborea,1,0,0,0,0
-Paralepis atlantica,0,0,0,0,1
-Paraliparis copei,0,0,0,0,1
-Parapasiphae sulcatifrons,0,0,1,0,0
-Parathemisto,0,0,1,0,0
-Pelagia noctiluca,0,0,0,0,1
-Pentamera calcigera,1,0,0,0,0
-Phronima,0,0,1,0,0
-Plutonaster agassizi,0,1,0,0,0
-Polycheles sculptus,0,0,0,0,1
-Pontaster,0,1,0,0,0
-Porania pulvillus,0,1,0,0,0
-Poraniomorpha,0,1,0,0,0
-Potamilla neglecta,1,0,0,0,0
-Primnoa resedaeformis,1,0,0,0,0
-Pseudoscopelus,0,0,0,0,1
-Pterygioteuthis,0,0,0,0,1
-Puffinus gravis,0,0,0,0,1
-Pycnogonum littorale,0,1,0,0,0
-Radicipes gracilis,1,0,0,0,0
-Raja bathyphila,0,0,0,0,1
-Raja garmani,0,0,0,0,1
-Rossia,0,0,0,0,1
-Saccorhiza dermatodea,1,0,0,0,0
-Sclerasterias tanneri,0,1,0,0,0
-Sebastes,0,0,0,0,1
-Sertularia polyzonias,1,0,0,0,0
-Siliqua,1,0,0,0,0
-Simenchelys parasitica,0,0,0,0,1
-Solemya borealis,1,0,0,0,0
-Spinolambrus pourtalesii,0,1,0,0,0
-Spirontocaris fabricii,0,0,1,0,0
-Stephanolepis hispidus,0,0,0,0,1
-Stereoderma unisemita,0,1,0,0,0
-Stereomastis sculpta,0,0,1,0,0
-Stichaeus punctatus,0,0,0,0,1
-Strongylocentrotus,0,1,0,0,0
-Synagrops bella,0,0,0,0,1
-Synaphobranchus kaupi,0,0,0,0,1
-Tealia felina,1,0,0,0,0
-Teuthowenia megalops,0,0,0,0,1
-Thyonella pervicax,0,1,0,0,0
-Thysanoessa raschii,0,0,1,0,0
-Triglops,0,0,0,0,1
-Ulva,1,0,0,0,0
-Urophycis chesteri,0,0,0,0,1
-Vazella pourtalesi,1,0,0,0,0
-Venericardia borealis,1,0,0,0,0
-Venus mercenaria,0,0,0,1,0
-Vomer setapinnis,0,0,0,0,1
-Yoldia,0,0,0,1,0
-Zenopsis ocellata,0,0,0,0,1
-Zostera marina,1,0,0,0,0
+species,sessile,crawler,swimmer,burrower,mobile,flying
+Acanella arbuscula,1,0,0,0,0,0
+Acanthephyra eximia,0,1,0,0,0,0
+Acanthephyra purpurea,0,1,0,0,0,0
+Acanthogorgia armata,1,0,0,0,0,0
+Acipenser oxyrhynchus,0,0,0,0,1,0
+Actiniidae,1,0,0,0,0,0
+Actinostola,1,0,0,0,0,0
+Agarum cribrosum,1,0,0,0,0,0
+Agriopoma morrhuanum,1,0,0,0,0,0
+Alaria esculenta,1,0,0,0,0,0
+Alcyonium digitatum,1,0,0,0,0,0
+Aldrovandia,0,0,0,0,1,0
+Ammodytes,0,0,0,0,1,0
+Ampelisca,0,0,1,0,0,0
+Anomia,1,0,0,0,0,0
+Anonyx,0,0,1,0,0,0
+Anthomastus grandiflorus,1,0,0,0,0,0
+Aphrodita hastata,0,0,0,1,0,0
+Apristurus,0,0,0,0,1,0
+Arbacia punctulata,0,1,0,0,0,0
+Arenicola marina,0,0,0,1,0,0
+Aristostomias,0,0,0,0,1,0
+Arrhis phyllonyx,0,0,1,0,0,0
+Artediellus,0,0,0,0,1,0
+Ascophyllum nodosum,1,0,0,0,0,0
+Aspidophoroides olriki,0,0,0,0,1,0
+Astarte,1,0,0,0,0,0
+Asterias,0,1,0,0,0,0
+Astropecten americanus,0,1,0,0,0,0
+Axius serratus,0,0,1,0,0,0
+Bassogigas gilli,0,0,0,0,1,0
+Bathylagus bericoides,0,0,0,0,1,0
+Bathynectes longispina,0,1,0,0,0,0
+Bathynectes maravigna,0,1,0,0,0,0
+Bathypolypus,0,0,0,0,1,0
+Bathypterois,0,0,0,0,1,0
+Bolocera,1,0,0,0,0,0
+Bothus,0,0,0,0,1,0
+Buccinum,0,1,0,0,0,0
+Caelorinchus caelorinchus,0,0,0,0,1,0
+Calathura brachiata,0,0,1,0,0,0
+Callionymus,0,0,0,0,1,0
+Calliostoma occidentale,0,1,0,0,0,0
+Caudina arenata,0,1,0,0,0,0
+Centropristis striata,0,0,0,0,1,0
+Cerastoderma pinnulatum,1,0,0,0,0,0
+Chaceon quinquedens,0,1,0,0,0,0
+Chaunax,0,0,0,0,1,0
+Chiasmodon,0,0,0,0,1,0
+Chrysogorgia agassizii,1,0,0,0,0,0
+Cirroteuthis,0,0,0,0,1,0
+Colossendeis,0,0,0,0,1,0
+Colus,0,1,0,0,0,0
+Conger,0,0,0,0,1,0
+Conocara salmonea,0,0,0,0,1,0
+Cookeolus boops,0,0,0,0,1,0
+Cottunculus thompsoni,0,0,0,0,1,0
+Dendronotus,0,1,0,0,0,0
+Desmarestia aculeata,1,0,0,0,0,0
+Dichelopandalus leptocerus,0,0,1,0,0,0
+Echinus,0,1,0,0,0,0
+Ensis directus,1,0,0,0,0,0
+Epigonus,0,0,0,0,1,0
+Euphausia,0,0,1,0,0,0
+Flabellum,1,0,0,0,0,0
+Flustra foliacea,1,0,0,0,0,0
+Foetorepus agassizi,0,0,0,0,1,0
+Fucus distichus,1,0,0,0,0,0
+Fucus vesiculosus,1,0,0,0,0,0
+Funiculina quadrangularis,1,0,0,0,0,0
+Gaidropsarus,0,0,0,0,1,0
+Gennadas,0,0,1,0,0,0
+Gersemia fruticosa,1,0,0,0,0,0
+Glycera capitata,0,0,0,1,0,0
+Gnathophausia,0,0,1,0,0,0
+Gonatus steenstrupi,0,0,0,0,1,0
+Gorgonocephalus,0,1,0,0,0,0
+Gymnelis viridis,0,0,0,0,1,0
+Henricia,0,1,0,0,0,0
+Heteropolypus,1,0,0,0,0,0
+Histioteuthis reversa,0,0,0,0,1,0
+Homola minima,0,1,0,0,0,0
+Hyalinoecia tubicola,0,1,0,0,0,0
+Icelus,0,0,0,0,1,0
+Ichnopus,0,0,1,0,0,0
+Idotea,0,0,1,1,0,0
+Keratoisis ornata,1,0,0,0,0,0
+Laminaria digitata,1,0,0,0,0,0
+Laminaria longicruris,1,0,0,0,0,0
+Leathesia difformis,1,0,0,0,0,0
+Lebbeus zebra,0,0,1,0,0,0
+Leptasterias,0,1,0,0,0,0
+Limacina,0,0,0,0,1,0
+Liopsetta putnami,0,0,0,0,1,0
+Loligo pealeii,0,0,0,0,1,0
+Lophaster furcifer,0,1,0,0,0,0
+Lophelia pertusa,1,0,0,0,0,0
+Lumpenus lumpretaeformis,0,0,0,0,1,0
+Lumpenus maculatus,0,0,0,0,1,0
+Lumpenus medius,0,0,0,0,1,0
+Lycenchelys verrilli,0,0,0,0,1,0
+Lycodes esmarki,0,0,0,0,1,0
+Lycodes terraenova,0,0,0,0,1,0
+Macrorhamphosus scolopax,0,0,0,0,1,0
+Macrostomias longibarbatus,0,0,0,0,1,0
+Margarites,0,1,0,0,0,0
+Mastigoteuthis,0,0,0,0,1,0
+Mediaster bairdi,0,1,0,0,0,0
+Monstrilla,0,0,1,0,0,0
+Munida iris,0,0,1,0,0,0
+Musculus,1,0,0,0,0,0
+Mycteroperca,0,0,0,0,1,0
+Myoxocephalus,0,0,0,0,1,0
+Mytilus,1,0,0,0,0,0
+Neptunea,0,1,0,0,0,0
+Notolepis rissoi,0,0,0,0,1,0
+Nucula,1,0,0,0,0,0
+Nymphon,0,1,0,0,0,0
+Octopoteuthis,0,0,0,0,1,0
+Oithona spinirostris,0,0,1,0,0,0
+Ommastrephes,0,0,0,0,1,0
+Oncopagurus,0,0,1,0,0,0
+Oneirodes,0,0,0,0,1,0
+Ophelia,0,0,0,1,0,0
+Ophiacantha abyssicola,0,1,0,0,0,0
+Ophiomusa lymani,0,1,0,0,0,0
+Ophiura,0,1,0,0,0,0
+Oplophorus spinosus,0,0,1,0,0,0
+Ovalipes ocellatus,0,1,0,0,0,0
+Pachycerianthus borealis,1,0,0,0,0,0
+Pagurus,0,0,1,0,0,0
+Palmaria palmata,1,0,0,0,0,0
+Pandora gouldiana,1,0,0,0,0,0
+Paragorgia arborea,1,0,0,0,0,0
+Paralepis atlantica,0,0,0,0,1,0
+Paraliparis copei,0,0,0,0,1,0
+Parapasiphae sulcatifrons,0,0,1,0,0,0
+Parathemisto,0,0,1,0,0,0
+Pelagia noctiluca,0,0,0,0,1,0
+Pentamera calcigera,1,0,0,0,0,0
+Phronima,0,0,1,0,0,0
+Plutonaster agassizi,0,1,0,0,0,0
+Polycheles sculptus,0,0,0,0,1,0
+Pontaster,0,1,0,0,0,0
+Porania pulvillus,0,1,0,0,0,0
+Poraniomorpha,0,1,0,0,0,0
+Potamilla neglecta,1,0,0,0,0,0
+Primnoa resedaeformis,1,0,0,0,0,0
+Pseudoscopelus,0,0,0,0,1,0
+Pterygioteuthis,0,0,0,0,1,0
+Puffinus gravis,0,0,0,0,1,0
+Pycnogonum littorale,0,1,0,0,0,0
+Radicipes gracilis,1,0,0,0,0,0
+Raja bathyphila,0,0,0,0,1,0
+Raja garmani,0,0,0,0,1,0
+Rossia,0,0,0,0,1,0
+Saccorhiza dermatodea,1,0,0,0,0,0
+Sclerasterias tanneri,0,1,0,0,0,0
+Sebastes,0,0,0,0,1,0
+Sertularia polyzonias,1,0,0,0,0,0
+Siliqua,1,0,0,0,0,0
+Simenchelys parasitica,0,0,0,0,1,0
+Solemya borealis,1,0,0,0,0,0
+Spinolambrus pourtalesii,0,1,0,0,0,0
+Spirontocaris fabricii,0,0,1,0,0,0
+Stephanolepis hispidus,0,0,0,0,1,0
+Stereoderma unisemita,0,1,0,0,0,0
+Stereomastis sculpta,0,0,1,0,0,0
+Stichaeus punctatus,0,0,0,0,1,0
+Strongylocentrotus,0,1,0,0,0,0
+Synagrops bella,0,0,0,0,1,0
+Synaphobranchus kaupi,0,0,0,0,1,0
+Tealia felina,1,0,0,0,0,0
+Teuthowenia megalops,0,0,0,0,1,0
+Thyonella pervicax,0,1,0,0,0,0
+Thysanoessa raschii,0,0,1,0,0,0
+Triglops,0,0,0,0,1,0
+Ulva,1,0,0,0,0,0
+Urophycis chesteri,0,0,0,0,1,0
+Vazella pourtalesi,1,0,0,0,0,0
+Venericardia borealis,1,0,0,0,0,0
+Venus mercenaria,1,0,0,0,0,0
+Vomer setapinnis,0,0,0,0,1,0
+Yoldia,1,0,0,0,0,0
+Zenopsis ocellata,0,0,0,0,1,0
+Zostera marina,1,0,0,0,0,0
+Accipiter cooperii,0,0,0,0,0,1
+Accipiter gentilis,0,0,0,0,0,1
+Accipiter striatus,0,0,0,0,0,1
+Actitis macularius,0,0,0,0,0,1
+Agelaius phoeniceus,0,0,0,0,0,1
+Aix sponsa,0,0,0,0,0,1
+Alca torda,0,0,0,0,0,1
+Alle alle,0,0,0,0,0,1
+Ammodramus caudacutus,0,0,0,0,0,1
+Ammodramus maritimus,0,0,0,0,0,1
+Anas acuta,0,0,0,0,0,1
+Anas americana,0,0,0,0,0,1
+Anas clypeata,0,0,0,0,0,1
+Anas crecca,0,0,0,0,0,1
+Anas crecca carolinensis,0,0,0,0,0,1
+Anas discors,0,0,0,0,0,1
+Anas penelope,0,0,0,0,0,1
+Anas platyrhynchos,0,0,0,0,0,1
+Anas querquedula,0,0,0,0,0,1
+Anas rubripes,0,0,0,0,0,1
+Anas strepera,0,0,0,0,0,1
+Anser albifrons,0,0,0,0,0,1
+Aquila chrysaetos,0,0,0,0,0,1
+Ardea alba,0,0,0,0,0,1
+Ardea herodias,0,0,0,0,0,1
+Arenaria interpres,0,0,0,0,0,1
+Aythya affinis,0,0,0,0,0,1
+Aythya americana,0,0,0,0,0,1
+Aythya collaris,0,0,0,0,0,1
+Aythya fuligula,0,0,0,0,0,1
+Aythya marila,0,0,0,0,0,1
+Aythya valisineria,0,0,0,0,0,1
+Balaenoptera edeni,0,0,0,0,1,0
+Bartramia longicauda,0,0,0,0,0,1
+Botaurus lentiginosus,0,0,0,0,0,1
+Branta bernicla,0,0,0,0,0,1
+Branta canadensis,0,0,0,0,0,1
+Branta leucopsis,0,0,0,0,0,1
+Bubulcus ibis,0,0,0,0,0,1
+Bucephala albeola,0,0,0,0,0,1
+Bucephala clangula,0,0,0,0,0,1
+Bucephala islandica,0,0,0,0,0,1
+Bulweria bulwerii,0,0,0,0,0,1
+Buteo jamaicensis,0,0,0,0,0,1
+Buteo lagopus,0,0,0,0,0,1
+Buteo lineatus,0,0,0,0,0,1
+Buteo platypterus,0,0,0,0,0,1
+Butorides virescens,0,0,0,0,0,1
+Calidris alba,0,0,0,0,0,1
+Calidris alpina,0,0,0,0,0,1
+Calidris bairdii,0,0,0,0,0,1
+Calidris canutus,0,0,0,0,0,1
+Calidris ferruginea,0,0,0,0,0,1
+Calidris fuscicollis,0,0,0,0,0,1
+Calidris himantopus,0,0,0,0,0,1
+Calidris maritima,0,0,0,0,0,1
+Calidris melanotos,0,0,0,0,0,1
+Calidris minutilla,0,0,0,0,0,1
+Calidris pusilla,0,0,0,0,0,1
+Calonectris diomedea,0,0,0,0,0,1
+Camptorhynchus labradorius,0,0,0,0,0,1
+Catharacta maccormicki,0,0,0,0,0,1
+Catharacta skua,0,0,0,0,0,1
+Cathartes aura,0,0,0,0,0,1
+Catoptrophorus semipalmatus,0,0,0,0,0,1
+Cepphus grylle,0,0,0,0,0,1
+Ceryle alcyon,0,0,0,0,0,1
+Charadrius melodus,0,0,0,0,0,1
+Charadrius semipalmatus,0,0,0,0,0,1
+Charadrius vociferus,0,0,0,0,0,1
+Chen caerulescens,0,0,0,0,0,1
+Chen rossii,0,0,0,0,0,1
+Chlidonias niger,0,0,0,0,0,1
+Circus cyaneus,0,0,0,0,0,1
+Clangula hyemalis,0,0,0,0,0,1
+Coragyps atratus,0,0,0,0,0,1
+Corvus brachyrhynchos,0,0,0,0,0,1
+Corvus corax,0,0,0,0,0,1
+Coturnicops noveboracensis,0,0,0,0,0,1
+Cygnus columbianus,0,0,0,0,0,1
+Cygnus cygnus,0,0,0,0,0,1
+Cygnus olor,0,0,0,0,0,1
+Delphinus capensis,0,0,0,0,1,0
+Egretta caerulea,0,0,0,0,0,1
+Egretta garzetta,0,0,0,0,0,1
+Egretta thula,0,0,0,0,0,1
+Egretta tricolor,0,0,0,0,0,1
+Eschrichtius robustus,0,0,0,0,1,0
+Eudocimus albus,0,0,0,0,0,1
+Falco columbarius,0,0,0,0,0,1
+Falco peregrinus,0,0,0,0,0,1
+Falco rusticolus,0,0,0,0,0,1
+Falco sparverius,0,0,0,0,0,1
+Feresa attenuata,0,0,0,0,1,0
+Fratercula arctica,0,0,0,0,0,1
+Fulica americana,0,0,0,0,0,1
+Fulmarus glacialis,0,0,0,0,0,1
+Gallinago gallinago,0,0,0,0,0,1
+Gallinula chloropus,0,0,0,0,0,1
+Gavia immer,0,0,0,0,0,1
+Gavia stellata,0,0,0,0,0,1
+Globicephala macrorhynchus,0,0,0,0,1,0
+Haematopus palliatus,0,0,0,0,0,1
+Haliaeetus leucocephalus,0,0,0,0,0,1
+Himantopus mexicanus,0,0,0,0,0,1
+Histrionicus histrionicus,0,0,0,0,0,1
+Hydrobates pelagicus,0,0,0,0,0,1
+Hyperoodon (Hyperoodon) ampullatus,0,0,0,0,1,0
+Ixobrychus exilis,0,0,0,0,0,1
+Kogia sima,0,0,0,0,1,0
+Lagenodelphis hosei,0,0,0,0,1,0
+Larus argentatus,0,0,0,0,0,1
+Larus atricilla,0,0,0,0,0,1
+Larus canus,0,0,0,0,0,1
+Larus delawarensis,0,0,0,0,0,1
+Larus fuscus,0,0,0,0,0,1
+Larus glaucoides,0,0,0,0,0,1
+Larus glaucoides glaucoides,0,0,0,0,0,1
+Larus hyperboreus,0,0,0,0,0,1
+Larus marinus,0,0,0,0,0,1
+Larus minutus,0,0,0,0,0,1
+Larus philadelphia,0,0,0,0,0,1
+Larus pipixcan,0,0,0,0,0,1
+Larus tridactyla,0,0,0,0,0,1
+Limnodromus griseus,0,0,0,0,0,1
+Limnodromus scolopaceus,0,0,0,0,0,1
+Limosa fedoa,0,0,0,0,0,1
+Limosa haemastica,0,0,0,0,0,1
+Limosa lapponica,0,0,0,0,0,1
+Limosa limosa,0,0,0,0,0,1
+Lontra canadensis,0,0,0,0,1,0
+Lophodytes cucullatus,0,0,0,0,0,1
+Megaceryle alcyon,0,0,0,0,0,1
+Melanitta fusca,0,0,0,0,0,1
+Melanitta nigra,0,0,0,0,0,1
+Melanitta perspicillata,0,0,0,0,0,1
+Mergus merganser,0,0,0,0,0,1
+Mergus serrator,0,0,0,0,0,1
+Mesoplodon bidens,0,0,0,0,1,0
+Mesoplodon densirostris,0,0,0,0,1,0
+Mesoplodon europaeus,0,0,0,0,1,0
+Mesoplodon grayi,0,0,0,0,1,0
+Mesoplodon hectori,0,0,0,0,1,0
+Mesoplodon mirus,0,0,0,0,1,0
+Mycteria americana,0,0,0,0,0,1
+Numenius arquata,0,0,0,0,0,1
+Numenius borealis,0,0,0,0,0,1
+Numenius phaeopus,0,0,0,0,0,1
+Nyctanassa violacea,0,0,0,0,0,1
+Nycticorax nycticorax,0,0,0,0,0,1
+Oceanites oceanicus,0,0,0,0,0,1
+Oceanodroma leucorhoa,0,0,0,0,0,1
+Oxyura jamaicensis,0,0,0,0,0,1
+Pagophila eburnea,0,0,0,0,0,1
+Pandion haliaetus,0,0,0,0,0,1
+Pelecanus erythrorhynchos,0,0,0,0,0,1
+Peponocephala electra,0,0,0,0,1,0
+Phaethon aethereus,0,0,0,0,0,1
+Phalacrocorax auritus,0,0,0,0,0,1
+Phalacrocorax carbo,0,0,0,0,0,1
+Phalaropus fulicaria,0,0,0,0,0,1
+Phalaropus fulicarius,0,0,0,0,0,1
+Phalaropus lobatus,0,0,0,0,0,1
+Phalaropus tricolor,0,0,0,0,0,1
+Philomachus pugnax,0,0,0,0,0,1
+Physeter catodon,0,0,0,0,1,0
+Pinguinus impennis,NA,NA,NA,NA,NA,NA
+Plegadis falcinellus,0,0,0,0,0,1
+Pluvialis apricaria,0,0,0,0,0,1
+Pluvialis dominica,0,0,0,0,0,1
+Pluvialis squatarola,0,0,0,0,0,1
+Podiceps auritus,0,0,0,0,0,1
+Podiceps cristatus,0,0,0,0,0,1
+Podiceps grisegena,0,0,0,0,0,1
+Podilymbus podiceps,0,0,0,0,0,1
+Porphyrula martinica,0,0,0,0,0,1
+Porzana carolina,0,0,0,0,0,1
+Pseudorca crassidens,0,0,0,0,1,0
+Pterodroma arminjoniana,0,0,0,0,0,1
+Puffinus griseus,0,0,0,0,0,1
+Puffinus puffinus,0,0,0,0,0,1
+Rallus elegans,0,0,0,0,0,1
+Rallus limicola,0,0,0,0,0,1
+Rallus longirostris,0,0,0,0,0,1
+Recurvirostra americana,0,0,0,0,0,1
+Rhodostethia rosea,0,0,0,0,0,1
+Rissa tridactyla,0,0,0,0,0,1
+Rynchops niger,0,0,0,0,0,1
+Scolopax minor,0,0,0,0,0,1
+Scolopax rusticola,0,0,0,0,0,1
+Somateria mollissima,0,0,0,0,0,1
+Somateria spectabilis,0,0,0,0,0,1
+Stenella attenuata,0,0,0,0,1,0
+Stenella clymene,0,0,0,0,1,0
+Stenella longirostris,0,0,0,0,1,0
+Steno bredanensis,0,0,0,0,1,0
+Stercorarius longicaudus,0,0,0,0,0,1
+Stercorarius parasiticus,0,0,0,0,0,1
+Stercorarius pomarinus,0,0,0,0,0,1
+Sterna antillarum,0,0,0,0,0,1
+Sterna caspia,0,0,0,0,0,1
+Sterna dougallii,0,0,0,0,0,1
+Sterna forsteri,0,0,0,0,0,1
+Sterna fuscata,0,0,0,0,0,1
+Sterna hirundo,0,0,0,0,0,1
+Sterna nilotica,0,0,0,0,0,1
+Sterna paradisaea,0,0,0,0,0,1
+Thalassarche chlororhynchos,0,0,0,0,0,1
+Trichechus manatus,0,0,0,0,1,0
+Tringa erythropus,0,0,0,0,0,1
+Tringa flavipes,0,0,0,0,0,1
+Tringa melanoleuca,0,0,0,0,0,1
+Tringa nebularia,0,0,0,0,0,1
+Tringa solitaria,0,0,0,0,0,1
+Tringa totanus,0,0,0,0,0,1
+Tryngites subruficollis,0,0,0,0,0,1
+Uria aalge,0,0,0,0,0,1
+Uria lomvia,0,0,0,0,0,1
+Ursus maritimus,0,0,0,0,1,0
+Vanellus vanellus,0,0,0,0,0,1
+Xema sabini,0,0,0,0,0,1

@@ -210,14 +210,16 @@ nm <- rownames(mobility)
 mobility <- data.frame(mobility) |>
             dplyr::mutate(species = nm) |>
             tibble::remove_rownames()
+#Add the column flying for birds
+mobility$flying <- 0
 mobility_manual_entry <- read.csv('./Data/ManualEntries/Mobility_ManualEntry.csv', sep=",")
 
-# Remove species in manual entry from mobility 
+# Remove species in manual entry from mobility
 uid <- mobility$species %in% mobility_manual_entry$species
 mobility <- mobility[!uid, ]
 mobility <- rbind(mobility, mobility_manual_entry)
 
-# Create final mobility dataset 
+# Create final mobility dataset
 mobility <- data.frame(species = nm) |>
        dplyr::left_join(mobility, by = "species")
 rownames(mobility) <- mobility$species
@@ -225,8 +227,10 @@ mobility <- dplyr::select(mobility, -species)
 mobility <- as.matrix(mobility)
 
 #Verify if the dataset is complete
-# row_sub = apply(mobility, 1, function(row) all(row !=1 ))
-# see_missingsp=mobility[row_sub,]
+row_sub = apply(mobility, 1, function(row) all(row !=1 ))
+see_missingsp=mobility[row_sub,]
+see_missingsp
+write.csv(see_missingsp,file="mobility_birds_mammals.csv")
 #write.csv(see_missingsp,file="Mobility_ManualEntry.csv")
 
 # Export
