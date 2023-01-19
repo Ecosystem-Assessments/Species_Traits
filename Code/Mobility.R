@@ -227,10 +227,9 @@ mobility <- dplyr::select(mobility, -species)
 mobility <- as.matrix(mobility)
 
 #Verify if the dataset is complete
-row_sub = apply(mobility, 1, function(row) all(row !=1 ))
-see_missingsp=mobility[row_sub,]
-see_missingsp
-write.csv(see_missingsp,file="mobility_birds_mammals.csv")
+#row_sub = apply(mobility, 1, function(row) all(row !=1 ))
+#see_missingsp=mobility[row_sub,]
+#write.csv(see_missingsp,file="mobility_birds_mammals.csv")
 #write.csv(see_missingsp,file="Mobility_ManualEntry.csv")
 
 # Export
