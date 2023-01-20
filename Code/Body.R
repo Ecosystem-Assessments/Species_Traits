@@ -9,7 +9,7 @@ spAttr <- vector('list', nSp)
 for(i in 1:nSp) {
   spAttr[[i]] <- try(
     wm_attr_data(
-      id = spList$aphiaID[i], 
+      id = spList$aphiaID[i],
       include_inherited = T
     )
   )
@@ -68,7 +68,7 @@ for(i in names(comp)) {
           comp[[i]]$composition <- 'Cartilaginous'
         }
       }
-    }  
+    }
   }
 }
 
@@ -776,11 +776,143 @@ tax <- c(
 )
 for(i in tax) {
   comp[[i]] <- data.frame(
-    taxa = i, 
-    structure = 'solid', 
+    taxa = i,
+    structure = 'solid',
     composition = 'cartilaginous'
   )
 }
+
+# =-=-=-=-=-=-=-=-=-=- Additional species missing -=-=-=-=-=-=-=-=-=-= #
+# Birds and marine mammals
+tax2<- c("Accipiter cooperii","Accipiter gentilis","Accipiter striatus",
+"Actitis macularius",
+"Agelaius phoeniceus",
+"Aix sponsa",
+"Alca torda",
+"Alle alle",
+"Ammodramus caudacutus","Ammodramus maritimus",
+"Anas acuta","Anas americana","Anas clypeata","Anas crecca","Anas crecca carolinensis","Anas discors","Anas penelope","Anas platyrhynchos","Anas querquedula","Anas rubripes","Anas strepera",
+"Anser albifrons",
+"Aquila chrysaetos",
+"Ardea alba","Ardea herodias",
+"Arenaria interpres",
+"Aythya affinis","Aythya americana","Aythya collaris","Aythya fuligula","Aythya marila","Aythya valisineria",
+"Balaenoptera edeni",
+"Bartramia longicauda",
+"Botaurus lentiginosus",
+"Branta bernicla","Branta canadensis","Branta leucopsis",
+"Bubulcus ibis",
+"Bucephala albeola","Bucephala clangula","Bucephala islandica",
+"Bulweria bulwerii",
+"Buteo jamaicensis","Buteo lagopus","Buteo lineatus","Buteo platypterus","Butorides virescens",
+"Calidris alba","Calidris alpina","Calidris bairdii","Calidris canutus","Calidris ferruginea","Calidris fuscicollis","Calidris himantopus","Calidris maritima","Calidris melanotos","Calidris minutilla","Calidris pusilla",
+"Calonectris diomedea",
+"Camptorhynchus labradorius",
+"Catharacta maccormicki",
+"Catharacta skua",
+"Cathartes aura",
+"Catoptrophorus semipalmatus",
+"Cepphus grylle",
+"Ceryle alcyon",
+"Charadrius melodus","Charadrius semipalmatus","Charadrius vociferus",
+"Chen caerulescens","Chen rossii",
+"Chlidonias niger",
+"Circus cyaneus",
+"Clangula hyemalis",
+"Coragyps atratus",
+"Corvus brachyrhynchos","Corvus corax",
+"Coturnicops noveboracensis",
+"Cygnus columbianus","Cygnus cygnus","Cygnus olor",
+"Delphinus capensis",
+"Egretta caerulea","Egretta garzetta","Egretta thula","Egretta tricolor",
+"Eschrichtius robustus",
+"Eudocimus albus",
+"Falco columbarius","Falco peregrinus","Falco rusticolus","Falco sparverius",
+"Feresa attenuata",
+"Fratercula arctica",
+"Fulica americana",
+"Fulmarus glacialis",
+"Gallinago gallinago",
+"Gallinula chloropus",
+"Gavia immer","Gavia stellata",
+"Globicephala macrorhynchus",
+"Haematopus palliatus",
+"Haliaeetus leucocephalus",
+"Himantopus mexicanus",
+"Histrionicus histrionicus",
+"Hydrobates pelagicus",
+"Hyperoodon (Hyperoodon) ampullatus",
+"Ixobrychus exilis",
+"Kogia sima",
+"Lagenodelphis hosei",
+"Larus argentatus","Larus atricilla","Larus canus","Larus delawarensis","Larus fuscus","Larus glaucoides","Larus glaucoides glaucoides","Larus hyperboreus","Larus marinus","Larus minutus","Larus philadelphia","Larus pipixcan","Larus tridactyla",
+"Limnodromus griseus",
+"Limnodromus scolopaceus",
+"Limosa fedoa","Limosa haemastica","Limosa lapponica","Limosa limosa",
+"Lontra canadensis",
+"Lophodytes cucullatus",
+"Megaceryle alcyon",
+"Melanitta fusca",
+"Melanitta nigra",
+"Melanitta perspicillata",
+"Mergus merganser","Mergus serrator",
+"Mesoplodon bidens","Mesoplodon densirostris","Mesoplodon europaeus","Mesoplodon grayi","Mesoplodon hectori","Mesoplodon mirus",
+"Mycteria americana",
+"Numenius arquata","Numenius borealis","Numenius phaeopus",
+"Nyctanassa violacea",
+"Nycticorax nycticorax",
+"Oceanites oceanicus",
+"Oceanodroma leucorhoa",
+"Oxyura jamaicensis",
+"Pagophila eburnea",
+"Pandion haliaetus",
+"Pelecanus erythrorhynchos",
+"Peponocephala electra",
+"Phaethon aethereus",
+"Phalacrocorax auritus","Phalacrocorax carbo",
+"Phalaropus fulicaria","Phalaropus fulicarius","Phalaropus lobatus","Phalaropus tricolor",
+"Philomachus pugnax",
+"Physeter catodon",
+"Pinguinus impennis",
+"Plegadis falcinellus",
+"Pluvialis apricaria","Pluvialis dominica","Pluvialis squatarola",
+"Podiceps auritus",
+"Podiceps cristatus",
+"Podiceps grisegena",
+"Podilymbus podiceps",
+"Porphyrula martinica",
+"Porzana carolina",
+"Pseudorca crassidens",
+"Pterodroma arminjoniana",
+"Puffinus griseus","Puffinus puffinus",
+"Rallus elegans","Rallus limicola","Rallus longirostris",
+"Recurvirostra americana",
+"Rhodostethia rosea",
+"Rissa tridactyla",
+"Rynchops niger",
+"Scolopax minor","Scolopax rusticola",
+"Somateria mollissima","Somateria spectabilis",
+"Stenella attenuata","Stenella clymene","Stenella longirostris",
+"Steno bredanensis",
+"Stercorarius longicaudus","Stercorarius parasiticus","Stercorarius pomarinus",
+"Sterna antillarum","Sterna caspia","Sterna dougallii","Sterna forsteri","Sterna fuscata","Sterna hirundo","Sterna nilotica","Sterna paradisaea",
+"Thalassarche chlororhynchos",
+"Trichechus manatus",
+"Tringa erythropus","Tringa flavipes","Tringa melanoleuca","Tringa nebularia","Tringa solitaria","Tringa totanus",
+"Tryngites subruficollis",
+"Uria aalge","Uria lomvia",
+"Ursus maritimus",
+"Vanellus vanellus",
+"Xema sabini"
+)
+for(i in tax2) {
+  comp[[i]] <- data.frame(
+    taxa = i,
+    structure = 'skeleton',
+    composition = 'bone'
+  )
+}
+
 
 #https://eol.org/pages/46503340
 comp[['Munida iris']] <- data.frame(taxa = 'Munida iris',
@@ -794,7 +926,7 @@ structure = 'soft', composition = 'aragonite')
 comp[["Crenella faba"]] <- data.frame(taxa = "Crenella faba",
 structure = 'solid', composition = 'calcite')
 
-# 
+#
 comp[["Potamilla neglecta"]] <- data.frame(taxa = "Potamilla neglecta",
 structure = 'hydroskeleton', composition = 'non-calcifying')
 
@@ -863,7 +995,7 @@ rownames(body) <- body$taxa
 body <- body %>%
         select(-taxa) %>%
         as.matrix()
-
+body
 # Export
 save(body, file = './Data/SpeciesTraits/BodyComposition.RData')
 write.csv(body, file = './Data/SpeciesTraits/BodyComposition.csv')
