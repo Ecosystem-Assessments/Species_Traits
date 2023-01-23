@@ -577,10 +577,26 @@ for(i in rownames(tr)) size[i, "Length"] <- tr[i, "Length"]
 size_df <- as.matrix(size[, 1])
 colnames(size_df) <- 'Size'
 
-#Verify if the dataset is complete
-# which(is.na(size_df), arr.ind=TRUE)
+nm <- rownames(size_df)
+size_dff <- data.frame(size_df) |>
+            dplyr::mutate(species = nm) |>
+            tibble::remove_rownames()
 
-size <- size_df
+# Adding manual entries of birds and marine mammals in the dataset
+body_manual_entry <- read.csv('./Data/ManualEntries/Body_Size_ManualEntrY_BirdsMammals.csv', sep=",")
+body_manual_entry= cbind(body_manual_entry$Species,body_manual_entry$Size)
+body_manual_entry = as.data.frame(body_manual_entry)
+colnames(body_manual_entry) = c("species","Size")
+
+uid <- size_dff$species %in% body_manual_entry$species
+size_dff <- size_dff[!uid, ]
+size_dff <- rbind(size_dff, body_manual_entry)
+
+#Verify if the dataset is complete
+#size_todo = which(is.na(size_df), arr.ind=TRUE)
+#write.csv(size_todo, file = 'Manual_entry_Bodysize.csv')
+
+size <- size_dff
 
 # Export
 save(size, file = './Data/SpeciesTraits/Size.RData')
