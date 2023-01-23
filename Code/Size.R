@@ -593,7 +593,7 @@ size_dff <- size_dff[!uid, ]
 size_dff <- rbind(size_dff, body_manual_entry)
 
 #Verify if the dataset is complete
-#size_todo = which(is.na(size_df), arr.ind=TRUE)
+#size_todo = which(is.na(size_dff), arr.ind=TRUE)
 #write.csv(size_todo, file = 'Manual_entry_Bodysize.csv')
 
 size <- size_dff
