@@ -25,7 +25,6 @@ for(i in 1:nSp) {
   } else {
     fb[i,] <- unlist(as.data.frame(dat))
   }
-
   # Sealifebase
   dat <- species(spList$species[i], server = 'sealifebase', fields = cl)
   if (nrow(dat) > 1) {
