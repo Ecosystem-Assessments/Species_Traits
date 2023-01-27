@@ -16,7 +16,7 @@ load('./Data/SpeciesList/MarineMammalsSP.RData')
 
 # ------------------------------------------------------------------------------------------------
 # Marine mammals Atlantic
-# mm_atl <- read.csv("Data/SpeciesList/species_list_marine_mammals_birds-7c150fc3.csv")
+ #mm_atl <- read.csv("Data/SpeciesList/species_list_marine_mammals_birds-7c150fc3.csv")
 # save(mm_atl, file = './Data/SpeciesList/MarineMammalsAtlantic.RData')
 load('./Data/SpeciesList/MarineMammalsAtlantic.RData')
 # ------------------------------------------------------------------------------------------------
@@ -27,8 +27,8 @@ load('./Data/SpeciesList/MarineMammalsAtlantic.RData')
 # save(sp_atl, file = './Data/SpeciesList/SpeciesAtlantic.RData')
 load('./Data/SpeciesList/SpeciesAtlantic.RData')
 # ------------------------------------------------------------------------------------------------
-#library("dplyr")
-#library("eaMethods")
+library("dplyr")
+library("eaMethods")
 
 # ------------------------------------------------------------------------------------------------
 # Single list

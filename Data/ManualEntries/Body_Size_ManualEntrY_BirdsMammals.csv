@@ -3,6 +3,7 @@ Accipiter cooperii,42,"Guide Sibley Des oiseaux de l’Est de l’Amérique du N
 Accipiter gentilis,53,"Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord, 2006"
 Accipiter striatus,28,"Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord, 2006"
 Agelaius phoeniceus,22,"Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord, 2006"
+Alcidae,30,
 Aix sponsa,47,"Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord, 2006"
 Ammodramus caudacutus,13,"Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord, 2006"
 Ammodramus maritimus,15,"Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord, 2006"
@@ -27,7 +28,6 @@ Buteo lagopus,53,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2
 Buteo lineatus,43,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Buteo platypterus,38,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Butorides virescens,46,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
-Camptorhynchus labradorius,NA,extinct species
 Catharacta maccormicki,53,https://www.marinespecies.org/aphia.php?p=taxdetails&id=159073#notes
 Catharacta skua,58,https://www.marinespecies.org/aphia.php?p=taxdetails&id=137170#notes
 Cathartes aura,66,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
@@ -60,8 +60,10 @@ Gallinago gallinago,27,https://www.marinespecies.org/aphia.php?p=taxdetails&id=1
 Gallinula chloropus,36,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Gavia immer,81,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Gavia stellata,64,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
+Gaviidae,64,from Gavia stellata
 Haematopus palliatus,44,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Himantopus mexicanus,36,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
+Hydrobatidae,46,From Fulmarus glacialis
 Ixobrychus exilis,33,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Limnodromus griseus,28,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Limnodromus scolopaceus,29,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
@@ -88,7 +90,6 @@ Phalaropus fulicarius,22,Guide Sibley Des oiseaux de l’Est de l’Amérique du
 Phalaropus lobatus,20,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Phalaropus tricolor,23,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Philomachus pugnax,28,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
-Pinguinus impennis,NA,extinct species
 Plegadis falcinellus,58,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Podilymbus podiceps,33,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Porphyrula martinica,33,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
@@ -102,6 +103,7 @@ Scolopax minor,28,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (
 Scolopax rusticola,35,https://www.oiseaux.net/oiseaux/becasse.des.bois.html
 Somateria mollissima,61,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Somateria spectabilis,56,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
+Sternidae,30,From Arctic tern
 Tringa erythropus,32,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Tringa flavipes,27,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
 Tringa melanoleuca,36,Guide Sibley Des oiseaux de l’Est de l’Amérique du Nord (2006)
