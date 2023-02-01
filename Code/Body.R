@@ -16,8 +16,8 @@ for(i in 1:nSp) {
 }
 names(spAttr) <- spList$species
 # Export attributes, just to avoid loading querying averything again
-save(spAttr, file = './Data/SpAttributes/spAttr.RData')
-# load('./Data/SpAttributes/spAttr.RData')
+#save(spAttr, file = './Data/SpAttributes/spAttr.RData')
+ load('./Data/SpAttributes/spAttr.RData')
 
 # =-=-=-=-=-=-=-=-=-=- Check all for body composition -=-=-=-=-=-=-=-=-=-= #
 # Empty list
@@ -789,6 +789,7 @@ tax2<- c("Accipiter cooperii","Accipiter gentilis","Accipiter striatus",
 "Agelaius phoeniceus",
 "Aix sponsa",
 "Alca torda",
+"Alcidae",
 "Alle alle",
 "Ammodramus caudacutus","Ammodramus maritimus",
 "Anas acuta","Anas americana","Anas clypeata","Anas crecca","Anas crecca carolinensis","Anas discors","Anas penelope","Anas platyrhynchos","Anas querquedula","Anas rubripes","Anas strepera",
@@ -835,12 +836,14 @@ tax2<- c("Accipiter cooperii","Accipiter gentilis","Accipiter striatus",
 "Gallinago gallinago",
 "Gallinula chloropus",
 "Gavia immer","Gavia stellata",
+"Gaviidae",
 "Globicephala macrorhynchus",
 "Haematopus palliatus",
 "Haliaeetus leucocephalus",
 "Himantopus mexicanus",
 "Histrionicus histrionicus",
 "Hydrobates pelagicus",
+"Hydrobatidae",
 "Hyperoodon (Hyperoodon) ampullatus",
 "Ixobrychus exilis",
 "Kogia sima",
@@ -896,10 +899,12 @@ tax2<- c("Accipiter cooperii","Accipiter gentilis","Accipiter striatus",
 "Steno bredanensis",
 "Stercorarius longicaudus","Stercorarius parasiticus","Stercorarius pomarinus",
 "Sterna antillarum","Sterna caspia","Sterna dougallii","Sterna forsteri","Sterna fuscata","Sterna hirundo","Sterna nilotica","Sterna paradisaea",
+"Sternidae",
 "Thalassarche chlororhynchos",
 "Trichechus manatus",
 "Tringa erythropus","Tringa flavipes","Tringa melanoleuca","Tringa nebularia","Tringa solitaria","Tringa totanus",
 "Tryngites subruficollis",
+"Uria",
 "Uria aalge","Uria lomvia",
 "Ursus maritimus",
 "Vanellus vanellus",
@@ -995,7 +1000,7 @@ rownames(body) <- body$taxa
 body <- body %>%
         select(-taxa) %>%
         as.matrix()
-body
+
 # Export
 save(body, file = './Data/SpeciesTraits/BodyComposition.RData')
 write.csv(body, file = './Data/SpeciesTraits/BodyComposition.csv')

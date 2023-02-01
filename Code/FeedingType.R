@@ -212,6 +212,8 @@ tr['Aix sponsa', 1] <- 'grazer'
 #photosynthetic
 tr['Alaria esculenta', 1] <- 'NA'
 
+tr['Alcidae', 1] <- 'predator'
+
 # https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Alcyonidium
 tr['Alcyonidium', 1] <- 'suspension'
 
@@ -514,6 +516,8 @@ tr['Funiculina quadrangularis', 1] <- 'suspension'
 tr['Gallinago gallinago', 1] <- 'predator'
 tr['Gallinula chloropus', 1] <- 'predator'
 
+tr['Gaviidae', 1] <- 'predator'
+
 #cnidarians - to be verified if they are selective filter feeder or passive
 tr['Gersemia fruticosa', 1] <- 'suspension'
 
@@ -558,6 +562,8 @@ tr['Howella sherborni', 1] <- 'predator'
 
 #https://www.globalbioticinteractions.org/?interactionType=eats&sourceTaxon=Hydrobates%20pelagicus
 tr['Hydrobates pelagicus', 1] <- 'predator'
+
+tr['Hydrobatidae', 1] <- 'predator'
 
 # Decapoda
 tr['Hymenopenaeus debilis', 1] <- 'scavenger | deposit | plankton | grazer'
@@ -892,6 +898,9 @@ tr['Staurostoma mertensii', 1] <- 'predator'
 
 # Decapoda
 tr['Stereomastis sculpta', 1] <- 'scavenger | deposit | plankton | grazer'
+
+tr['Sternidae', 1] <- 'predator'
+
 #
 tr['Syscenus infelix', 1] <- 'parasite'
 
