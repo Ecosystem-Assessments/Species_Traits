@@ -25,7 +25,6 @@ for(i in 1:nSp) {
   } else {
     fb[i,] <- unlist(as.data.frame(dat))
   }
-
   # Sealifebase
   dat <- species(spList$species[i], server = 'sealifebase', fields = cl)
   if (nrow(dat) > 1) {
@@ -148,6 +147,10 @@ tr["Wimvadocus torelli", 1] <- 'benthic'
 
 # Insert to environment DB
 for(i in nm) env[i, ] <- tr[i, ]
+
+#Manual entries Birds and some mammals - Source of information for birds species is https://www.allaboutbirds.org/news/
+tr2 = read.csv('./Data/ManualEntries/Environment_ManualEntry.csv', sep=",")
+
 # Environment types
 envType <- paste(env[,1], collapse = ' | ') %>%
            stringr::str_split(pattern = ' \\| ') %>%
@@ -156,12 +159,12 @@ envType <- paste(env[,1], collapse = ' | ') %>%
            sort()
 environment <- matrix(data = 0, nrow = nSp, ncol = length(envType),
                       dimnames = list(spList$species, envType))
+
 for(i in envType) environment[, i] <- stringr::str_detect(env[,1], i)
 
 env_df <- as.data.frame(environment)
 cnames=c(colnames(env_df))
 env_df[cnames] <- sapply(env_df[cnames],as.character) #columns as character
-
 # Resolve taxa environments
 # "host" are fish parasites, will put them as "demersal" and "pelagic"
 env_df2 <-  env_df %>% mutate(benthic = ifelse(grepl("1",host),"1",benthic))
@@ -178,12 +181,12 @@ env_dff <- env_df7 %>% mutate(pelagic = ifelse(grepl("1",`pelagic-oceanic`),"1",
 
 #select relevant columns
 environment_final <- env_dff %>% select('bathydemersal','bathypelagic','benthic','benthopelagic','demersal','pelagic')
-
+environment_final
 #Verify if the dataset is complete
-# table(environment_final$'NA')
-# row_sub = apply(environment_final, 1, function(row) all(row !=1 ))
-# see_missingsp=environment_final[row_sub,]
-#write.csv(env_manual_entry,file="Environment_ManualEntry.csv")
+#table(environment_final$'NA')
+#row_sub = apply(environment_final, 1, function(row) all(row !=1 ))
+#see_missingsp=environment_final[row_sub,]
+#write.csv(see_missingsp,file="Environment_ManualEntry.csv")
 
 # environment_final <- as.matrix(environment_final)
 environment <- environment_final

@@ -6,8 +6,9 @@ load('./Data/SpeciesList/SpeciesList.RData')
 nSp <- nrow(spList)
 
 classif <- taxize::classification(spList$aphiaID, db = "worms")
+
 dat <- lapply(
-  classif, 
+  classif,
   function(x) {
     ifelse(
       "Phylum" %in% x$rank,
