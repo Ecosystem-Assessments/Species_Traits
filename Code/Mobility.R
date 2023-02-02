@@ -210,7 +210,7 @@ nm <- rownames(mobility)
 mobility <- data.frame(mobility) |>
             dplyr::mutate(species = nm) |>
             tibble::remove_rownames()
-#Add the column flying for birds
+# Add the column flying for birds
 mobility$flying <- 0
 mobility_manual_entry <- read.csv('./Data/ManualEntries/Mobility_ManualEntry.csv', sep=",")
 

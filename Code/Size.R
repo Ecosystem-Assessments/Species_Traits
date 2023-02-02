@@ -596,7 +596,19 @@ size_dff <- rbind(size_dff, body_manual_entry)
 #size_todo = which(is.na(size_dff), arr.ind=TRUE)
 #write.csv(size_todo, file = 'Manual_entry_Bodysize.csv')
 
-size <- size_dff
+size <- dplyr::left_join(spList, size_dff, by = "species") |>
+        dplyr::select(-Count, -aphiaID) |>
+        dplyr::mutate(Size = gsub(" ", "", Size)) |>
+        dplyr::mutate(Size = as.numeric(Size)) |>
+        dplyr::select(-species) |>
+        as.matrix()
+rownames(size) <- spList$species
+
+# Last manual modif
+# WARNING god this code is awful...
+size['Phalaropus','Size'] <- mean(c(22,22,20,23))
+size['Somateria','Size'] <- mean(c(61,56))
+
 
 # Export
 save(size, file = './Data/SpeciesTraits/Size.RData')

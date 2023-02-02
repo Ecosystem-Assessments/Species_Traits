@@ -149,18 +149,30 @@ tr["Wimvadocus torelli", 1] <- 'benthic'
 for(i in nm) env[i, ] <- tr[i, ]
 
 #Manual entries Birds and some mammals - Source of information for birds species is https://www.allaboutbirds.org/news/
-tr2 = read.csv('./Data/ManualEntries/Environment_ManualEntry.csv', sep=",")
+tr2 = read.csv('./Data/ManualEntries/Environment_ManualEntry.csv', sep=",") |>
+      dplyr::rename(species = X)
 
 # Environment types
-envType <- paste(env[,1], collapse = ' | ') %>%
+iid <- env[,"DemersPelag"] == ""
+env <- env[!iid, ] |> as.matrix()
+envDat <- data.frame(species = rownames(env), DemersPelag = env[,1]) |>
+          rbind(tr2) 
+del <- data.frame(species = sort(unique(envDat$species)), DemersPelag = NA)
+for(i in 1:nrow(del)) {
+  iid <- envDat$species %in% del$species[i]
+  temp <- envDat[iid, ]
+  del$DemersPelag[i] <- paste(temp$DemersPelag, collapse = " | ")
+}
+          
+envType <- paste(del$DemersPelag, collapse = ' | ') %>%
            stringr::str_split(pattern = ' \\| ') %>%
            unlist() %>%
            unique() %>%
            sort()
 environment <- matrix(data = 0, nrow = nSp, ncol = length(envType),
-                      dimnames = list(spList$species, envType))
+                      dimnames = list(del$species, envType))
 
-for(i in envType) environment[, i] <- stringr::str_detect(env[,1], i)
+for(i in envType) environment[, i] <- stringr::str_detect(del$DemersPelag, i)
 
 env_df <- as.data.frame(environment)
 cnames=c(colnames(env_df))
@@ -173,15 +185,33 @@ env_df3 <-  env_df2 %>% mutate(pelagic = ifelse(grepl("1",host),"1",pelagic))
 env_df4 <-  env_df3 %>% mutate(benthic = ifelse(grepl("1",sessile),"1",benthic))
 # 'others' are seabirds, so will categorize them as pelagic
 env_df5 <- env_df4 %>% mutate(pelagic = ifelse(grepl("1",others),"1",pelagic))
-# 'reef-associated' fish will be categorized as demersal for the St. Lawrence
-env_df6 <- env_df5 %>% mutate(demersal = ifelse(grepl("1",`reef-associated`),"1",demersal))
+# 'reef-associated' fish will be categorized as demersal for the St. Lawrence # TODO review this
+# env_df6 <- env_df5 %>% mutate(demersal = ifelse(grepl("1",`reef-associated`),"1",demersal))
+env_df6 <- env_df5 %>% mutate(pelagic = ifelse(grepl("1",`reef-associated`),"1",pelagic))
 # 'pelagic-neretic' and 'pelagic-oceanic' will be categorized as 'pelagic'
 env_df7 <- env_df6 %>% mutate(pelagic = ifelse(grepl("1",`pelagic-neritic`),"1",pelagic))
 env_dff <- env_df7 %>% mutate(pelagic = ifelse(grepl("1",`pelagic-oceanic`),"1",pelagic))
+# 'marshes' classified as coastal
+env_dff <- env_dff %>% mutate(coastal = ifelse(grepl("1",`marshes`),"1",coastal))
+# 'freshwater' classified as pelagic
+env_dff <- env_dff %>% mutate(pelagic = ifelse(grepl("1",`freshwater`),"1",pelagic))
 
 #select relevant columns
-environment_final <- env_dff %>% select('bathydemersal','bathypelagic','benthic','benthopelagic','demersal','pelagic')
-environment_final
+environment_final <- env_dff %>% 
+  select(
+    'bathydemersal',
+    'bathypelagic',
+    'benthic',
+    'benthopelagic',
+    'coastal',
+    'demersal',
+    'pelagic',
+    'terrestrial'
+  ) |>
+  mutate(species = rownames(env_dff))
+environment <- dplyr::left_join(spList, environment_final, by = "species") |>
+               dplyr::select(-Count, -aphiaID)
+
 #Verify if the dataset is complete
 #table(environment_final$'NA')
 #row_sub = apply(environment_final, 1, function(row) all(row !=1 ))
@@ -189,12 +219,11 @@ environment_final
 #write.csv(see_missingsp,file="Environment_ManualEntry.csv")
 
 # environment_final <- as.matrix(environment_final)
-environment <- environment_final
 
 # Transform to numeric and matrix
-env <- apply(environment, 2, as.numeric) |>
+env <- apply(environment[,-1], 2, as.numeric) |>
        as.matrix()
-rownames(env) <- rownames(environment)
+rownames(env) <- spList$species
 environment <- env
 
 # Export

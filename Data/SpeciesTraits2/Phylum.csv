@@ -18,7 +18,6 @@
 "Aix sponsa",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Alaria esculenta",0,0,0,0,0,0,0,0,0,0,1,0,0,0
 "Alca torda",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Alcidae",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Alcyonidium",0,0,0,1,0,0,0,0,0,0,0,0,0,0
 "Alcyonium digitatum",0,0,0,0,0,0,1,0,0,0,0,0,0,0
 "Aldrovandia",0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -180,6 +179,7 @@
 "Calliostoma occidentale",0,0,0,0,0,0,0,0,0,1,0,0,0,0
 "Calocaris templemani",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Calonectris diomedea",0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Camptorhynchus labradorius",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Cancer borealis",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Cancer irroratus",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Carcharias taurus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -330,7 +330,6 @@
 "Gasterosteus aculeatus aculeatus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Gavia immer",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Gavia stellata",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Gaviidae",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Gennadas",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Gersemia fruticosa",0,0,0,0,0,0,1,0,0,0,0,0,0,0
 "Gersemia rubiformis",0,0,0,0,0,0,1,0,0,0,0,0,0,0
@@ -385,7 +384,6 @@
 "Hyas araneus",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Hyas coarctatus",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Hydrobates pelagicus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Hydrobatidae",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Hydrolagus affinis",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Hymenopenaeus debilis",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Hyperia galba",0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -501,7 +499,6 @@
 "Megayoldia thraciaeformis",0,0,0,0,0,0,0,0,0,1,0,0,0,0
 "Melamphaes microps",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Melamphaes suborbitalis",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Melanitta",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Melanitta fusca",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Melanitta nigra",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Melanitta perspicillata",0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -634,10 +631,8 @@
 "Peristedion miniatum",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Petromyzon marinus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Phaethon aethereus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Phalacrocorax",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Phalacrocorax auritus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Phalacrocorax carbo",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Phalaropus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Phalaropus fulicaria",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Phalaropus fulicarius",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Phalaropus lobatus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -653,6 +648,7 @@
 "Phycis chesteri",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Physeter catodon",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Physeter macrocephalus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Pinguinus impennis",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Plegadis falcinellus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Plesionika martia",0,1,0,0,0,0,0,0,0,0,0,0,0,0
 "Pleurobrachia pileus",0,0,0,0,0,0,0,1,0,0,0,0,0,0
@@ -758,7 +754,6 @@
 "Similipecten greenlandicus",0,0,0,0,0,0,0,0,0,1,0,0,0,0
 "Solaster endeca",0,0,0,0,0,0,0,0,1,0,0,0,0,0
 "Solemya borealis",0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"Somateria",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Somateria mollissima",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Somateria spectabilis",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Somniosus microcephalus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -796,7 +791,6 @@
 "Sterna hirundo",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Sterna nilotica",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Sterna paradisaea",0,0,0,0,0,1,0,0,0,0,0,0,0,0
-"Sternidae",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Sternoptyx diaphana",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Stichaeus punctatus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Stichaeus punctatus punctatus",0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -844,7 +838,6 @@
 "Ulva",0,0,0,0,1,0,0,0,0,0,0,0,0,0
 "Ulvaria subbifurcata",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Urasterias lincki",0,0,0,0,0,0,0,0,1,0,0,0,0,0
-"Uria",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Uria aalge",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Uria lomvia",0,0,0,0,0,1,0,0,0,0,0,0,0,0
 "Urophycis chesteri",0,0,0,0,0,1,0,0,0,0,0,0,0,0

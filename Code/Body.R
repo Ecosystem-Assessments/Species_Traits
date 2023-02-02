@@ -808,7 +808,7 @@ tax2<- c("Accipiter cooperii","Accipiter gentilis","Accipiter striatus",
 "Buteo jamaicensis","Buteo lagopus","Buteo lineatus","Buteo platypterus","Butorides virescens",
 "Calidris alba","Calidris alpina","Calidris bairdii","Calidris canutus","Calidris ferruginea","Calidris fuscicollis","Calidris himantopus","Calidris maritima","Calidris melanotos","Calidris minutilla","Calidris pusilla",
 "Calonectris diomedea",
-"Camptorhynchus labradorius",
+#"Camptorhynchus labradorius",
 "Catharacta maccormicki",
 "Catharacta skua",
 "Cathartes aura",
@@ -876,7 +876,7 @@ tax2<- c("Accipiter cooperii","Accipiter gentilis","Accipiter striatus",
 "Phalaropus fulicaria","Phalaropus fulicarius","Phalaropus lobatus","Phalaropus tricolor",
 "Philomachus pugnax",
 "Physeter catodon",
-"Pinguinus impennis",
+#"Pinguinus impennis",
 "Plegadis falcinellus",
 "Pluvialis apricaria","Pluvialis dominica","Pluvialis squatarola",
 "Podiceps auritus",
@@ -995,7 +995,9 @@ body <- body %>%
         spread(body, value, fill = 0)
 
 # As matrix with rownames as species
-if (!all(body$taxa == spList$species)) stop('Species are not the same between body dataset and species list')
+x <- body$taxa
+y <- 
+if (!all(body$taxa %in% spList$species)) stop('Species are not the same between body dataset and species list')
 rownames(body) <- body$taxa
 body <- body %>%
         select(-taxa) %>%
