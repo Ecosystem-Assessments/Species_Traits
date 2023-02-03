@@ -58,17 +58,21 @@ dat$aphiaID[dat$species == "Mesoplodon bidens"] <- 137121
 dat$aphiaID[dat$species == "Mesoplodon densirostris"] <- 137122
 dat$aphiaID[dat$species == "Mesoplodon hectori"] <- 137125
 dat$aphiaID[dat$species == "Phalaropus lobatus"] <- 137169
+dat$aphiaID[dat$species == "Phalaropus"] <- 137049
 dat$aphiaID[dat$species == "Recurvirostra americana"] <- 159140
 dat$aphiaID[dat$species == "Sepioloidea"] <- 341459
 dat$aphiaID[dat$species == "Thunnus alalunga"] <- 127026
 dat$aphiaID[dat$species == "Tringa solitaria"] <- 110993
 
+# Remove extinct species 
+rem <- c("Camptorhynchus labradorius","Pinguinus impennis")
+dat <- dat[!dat$species %in% rem, ]
 
 # Add to list
 spList <- dplyr::bind_rows(spList[!uid, ], dat) |>
           dplyr::arrange(species) |>
           as.data.frame()
-spList
+# spList
 # Export
 save(spList, file = './Data/SpeciesList/SpeciesList.RData')
 write.csv(spList, file = './Data/SpeciesList/SpeciesList.csv')

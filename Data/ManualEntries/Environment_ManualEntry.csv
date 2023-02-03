@@ -112,6 +112,7 @@ Calidris maritima,coastal
 Calidris melanotos,coastal
 Calidris minutilla,coastal
 Calidris pusilla,coastal
+Calonectris borealis,pelagic
 Calonectris diomedea,pelagic
 Cepphus grylle,pelagic
 Charadrius melodus,coastal
@@ -161,6 +162,7 @@ Oceanodroma leucorhoa,pelagic
 Pagophila eburnea,pelagic
 Pelecanus erythrorhynchos,freshwater
 Phaethon aethereus,pelagic
+Phalacrocorax,coastal
 Phalacrocorax auritus,coastal
 Phalacrocorax carbo,coastal
 Phalaropus,pelagic
@@ -184,6 +186,7 @@ Rynchops niger,coastal
 Somateria,pelagic
 Somateria mollissima,pelagic
 Somateria spectabilis,pelagic
+Stercorarius,pelagic
 Stercorarius parasiticus,pelagic
 Stercorarius pomarinus,pelagic
 Sterna dougallii,coastal
