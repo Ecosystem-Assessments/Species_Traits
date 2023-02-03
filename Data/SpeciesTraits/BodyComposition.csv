@@ -180,7 +180,7 @@
 "Calliostoma occidentale",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 "Calocaris templemani",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
 "Calonectris borealis",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Calonectris diomedea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Calonectris diomedea",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 "Cancer borealis",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
 "Cancer irroratus",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
 "Carcharias taurus",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -786,7 +786,7 @@
 "Stephanolepis hispidus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 "Stercorarius",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 "Stercorarius longicaudus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Stercorarius parasiticus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Stercorarius parasiticus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 "Stercorarius pomarinus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 "Stereoderma unisemita",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 "Stereomastis sculpta",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
